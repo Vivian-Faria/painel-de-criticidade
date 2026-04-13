@@ -688,7 +688,7 @@ def gerar_html():
     return HTML_TEMPLATE
 
 
-def coletar_dados(output_dir=DEFAULT_OUTPUT_DIR, publish_dir=DEFAULT_PUBLISH_DIR):
+def coletar_dados(output_dir=DEFAULT_OUTPUT_DIR, publish_dir=DEFAULT_PUBLISH_DIR, allow_empty=False):
     from playwright.sync_api import sync_playwright
     email = get_required_env("ORION_EMAIL")
     senha = get_required_env("ORION_SENHA")
@@ -827,6 +827,11 @@ def coletar_dados(output_dir=DEFAULT_OUTPUT_DIR, publish_dir=DEFAULT_PUBLISH_DIR
         "total":len(pedidos),"pedidos":pedidos,
     }
 
+    if not pedidos and not allow_empty:
+        raise RuntimeError(
+            "Coleta retornou zero pedidos. O JSON anterior foi preservado para evitar publicar painel vazio."
+        )
+
     # Sempre atualiza o JSON
     with open(saida_json,"w",encoding="utf-8") as f:
         json.dump(saida,f,ensure_ascii=False,indent=2)
@@ -864,16 +869,25 @@ def main():
     parser.add_argument("--loop",action="store_true")
     parser.add_argument("--output-dir",default=DEFAULT_OUTPUT_DIR)
     parser.add_argument("--publish-dir",default=DEFAULT_PUBLISH_DIR)
+    parser.add_argument("--allow-empty", action="store_true")
     args=parser.parse_args()
     if args.loop:
         print(f"Modo continuo - a cada {INTERVALO//60} min.")
         while True:
-            try: coletar_dados(output_dir=args.output_dir, publish_dir=args.publish_dir)
+            try: coletar_dados(
+                output_dir=args.output_dir,
+                publish_dir=args.publish_dir,
+                allow_empty=args.allow_empty,
+            )
             except Exception as e: print(f"  ERRO: {e}")
             print(f"  -> Proxima em {INTERVALO//60} min...")
             time.sleep(INTERVALO)
     else:
-        coletar_dados(output_dir=args.output_dir, publish_dir=args.publish_dir)
+        coletar_dados(
+            output_dir=args.output_dir,
+            publish_dir=args.publish_dir,
+            allow_empty=args.allow_empty,
+        )
 
 if __name__=="__main__":
     main()

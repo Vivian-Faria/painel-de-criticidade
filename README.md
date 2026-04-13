@@ -45,6 +45,10 @@ Se o HTML precisar ser regenerado, ele tambem sincroniza:
 - `index.html`
 - `deploy-netlify/index.html`
 
+Protecao importante:
+
+- se a coleta remota retornar `0` pedidos por falha de login, seletor ou bloqueio do ambiente do GitHub Actions, o scraper interrompe a execucao e preserva o ultimo JSON valido, evitando publicar um painel zerado por engano.
+
 ## Deploy
 
 Se o deploy estiver no Netlify, use `deploy-netlify/` como pasta publicada.
