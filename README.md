@@ -53,7 +53,7 @@ Protecao importante:
 
 O fluxo recomendado e local:
 
-1. o Windows roda `publicar_painel.bat` por agendamento
+1. o Windows roda `publicar_painel.bat` por agendamento, por padrao a cada 1 minuto
 2. o script coleta dados novos via `orion_scraper_1.py`
 3. valida se o JSON nao veio vazio
 4. faz `git pull --rebase`
@@ -65,6 +65,8 @@ Arquivos da automacao:
 - `publicar_painel.bat`: ponto de entrada para execucao manual ou agendada
 - `scripts/publicar_painel.ps1`: coleta, valida, commit e push
 - `scripts/instalar_tarefa_publicacao.ps1`: cria/atualiza a tarefa agendada do Windows
+
+Na instalacao da tarefa, o script cria launchers curtos em `C:\Users\Public\` para evitar falhas do Agendador do Windows com caminhos longos ou com espacos do OneDrive.
 
 Para instalar a tarefa agendada:
 
