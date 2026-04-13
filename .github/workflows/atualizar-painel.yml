@@ -1,0 +1,46 @@
+name: Atualizar painel Orion
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/15 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Atualizar dados do painel
+        env:
+          ORION_EMAIL: ${{ secrets.ORION_EMAIL }}
+          ORION_SENHA: ${{ secrets.ORION_SENHA }}
+        run: python orion_scraper_1.py --output-dir . --publish-dir deploy-netlify
+
+      - name: Commit e push se houver mudancas
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dados_orion.json index.html deploy-netlify/dados_orion.json deploy-netlify/index.html
+          if git diff --cached --quiet; then
+            echo "Sem mudancas para publicar."
+            exit 0
+          fi
+          git commit -m "chore: atualiza dados do painel"
+          git push

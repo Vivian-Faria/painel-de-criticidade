@@ -1,0 +1,879 @@
+"""
+Orion Cloud Kitchen - Monitor de Expedicao v4
+- HTML gerado apenas uma vez (nunca sobrescrito)
+- Dados atualizados via fetch do JSON a cada 60s
+- Layout clean, anti-falha humana
+"""
+
+import json, time, argparse, os, shutil
+from datetime import datetime, date
+from pathlib import Path
+
+URL_LOGIN       = "https://admin.orion.awfood.com.br"
+URL_RELAT       = "https://admin.orion.awfood.com.br/admin/reports/orders"
+URL_CANCEL      = "https://admin.orion.awfood.com.br/admin/reports/cancellations"
+ARQUIVO_JSON    = "dados_orion.json"
+ARQUIVO_HTML    = "index.html"
+INTERVALO       = 1 * 60
+SLA_CAD_PRONTO  = 4.0
+SLA_PRONTO_COL  = 1.5
+SLA_COL_CONC    = 13.0
+ALERTA_RETIRADA = 15.0
+INATIVO_HORAS   = 5.0
+VERIFICAR_MIN   = 30.0
+DEFAULT_OUTPUT_DIR = "."
+DEFAULT_PUBLISH_DIR = "deploy-netlify"
+
+
+def load_dotenv(path=".env"):
+    if not os.path.exists(path):
+        return
+    with open(path, "r", encoding="utf-8") as f:
+        for raw_line in f:
+            line = raw_line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            key, value = line.split("=", 1)
+            key = key.strip()
+            value = value.strip().strip('"').strip("'")
+            if key and key not in os.environ:
+                os.environ[key] = value
+
+
+def get_required_env(name):
+    value = os.getenv(name, "").strip()
+    if value:
+        return value
+    raise RuntimeError(
+        f"Variavel de ambiente obrigatoria ausente: {name}. "
+        f"Defina em um arquivo .env local ou em Secrets do GitHub."
+    )
+
+
+def resolve_output_paths(output_dir):
+    base_dir = Path(output_dir).resolve()
+    base_dir.mkdir(parents=True, exist_ok=True)
+    return base_dir, base_dir / ARQUIVO_JSON, base_dir / ARQUIVO_HTML
+
+
+def sync_publish_dir(source_files, publish_dir, output_dir):
+    if not publish_dir:
+        return []
+
+    publish_path = Path(publish_dir).resolve()
+    output_path = Path(output_dir).resolve()
+    if publish_path == output_path:
+        return []
+
+    publish_path.mkdir(parents=True, exist_ok=True)
+    copied = []
+    for src in source_files:
+        dest = publish_path / src.name
+        shutil.copy2(src, dest)
+        copied.append(dest)
+    return copied
+
+
+def parse_dt(v):
+    if not v or v.strip() in ("-", "", "--"): return None
+    for f in ("%d/%m/%Y %H:%M", "%d/%m/%Y %H:%M:%S"):
+        try: return datetime.strptime(v.strip(), f)
+        except: pass
+    return None
+
+def diff_min(a, b):
+    if a is None or b is None: return None
+    return (b - a).total_seconds() / 60
+
+def sla_status(v, sla):
+    if v is None: return "pendente"
+    p = v / sla
+    return "ok" if p < 0.75 else "alerta" if p < 1.0 else "critico"
+
+def fmt_h(dt): return dt.strftime("%H:%M:%S") if dt else None
+def r2(v): return round(v, 2) if v is not None else None
+
+
+HTML_TEMPLATE = """<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Monitor Expedicao - Orion</title>
+<!-- v4.1 -->
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#0f0f0f;color:#fff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:13px;min-height:100vh}
+header{background:#080808;padding:8px 16px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(255,255,255,0.06)}
+.logo{font-size:18px;font-weight:700;color:#fff}.logo span{color:#8aff5a}
+.hright{display:flex;align-items:center;gap:10px}
+#clock{font-size:20px;font-weight:600;color:#fff;font-variant-numeric:tabular-nums}
+.atualizado{font-size:9px;color:rgba(255,255,255,0.3);text-align:right;margin-top:1px}
+.hbtn{border:1px solid;border-radius:6px;padding:5px 12px;font-size:10px;font-weight:700;cursor:pointer;white-space:nowrap;transition:all .2s;background:transparent}
+.hbtn-ret{border-color:rgba(255,102,0,.4);color:#ff9944}.hbtn-ret:hover{background:rgba(255,102,0,.2)}
+.hbtn-ver{border-color:rgba(255,210,0,.35);color:#ffdd44}.hbtn-ver:hover{background:rgba(255,210,0,.15)}
+.hbtn-ver.ativo{background:rgba(255,210,0,.15)}
+.hbtn-foco{border-color:rgba(255,80,80,.35);color:#ff9999}.hbtn-foco:hover{background:rgba(180,0,0,.2)}
+.hbtn-foco.ativo{background:rgba(80,30,180,.2);border-color:rgba(160,100,255,.4);color:#cc99ff}
+.bcnt{background:rgba(255,255,255,.12);border-radius:10px;padding:1px 6px;margin-left:4px;font-size:9px}
+
+/* MEDIAS */
+.medias{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;padding:8px 14px 0}
+.card-med{background:#141a14;border:1px solid rgba(138,255,90,0.1);border-radius:8px;padding:8px 12px}
+.cm-lbl{font-size:8px;color:rgba(255,255,255,0.35);text-transform:uppercase;letter-spacing:.04em;margin-bottom:3px}
+.cm-val{font-size:18px;font-weight:700}
+.cm-sub{font-size:8px;color:rgba(138,255,90,0.35);margin-top:1px}
+
+/* TOP BAR */
+.topbar{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;padding:7px 14px}
+.card-top{background:#161616;border:1px solid rgba(255,255,255,0.06);border-radius:8px;padding:8px 12px}
+.ct-lbl{font-size:8px;color:rgba(255,255,255,0.3);text-transform:uppercase;letter-spacing:.05em;margin-bottom:3px}
+.ct-val{font-size:22px;font-weight:700;line-height:1}
+.ct-sub{font-size:8px;margin-top:2px;opacity:.4}
+.cb{color:#fff}.cok{color:#8aff5a}.cal{color:#ffcc44}.ccr{color:#ff5555}.cgr{color:#444}
+
+/* 3 COLUNAS */
+.main-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;padding:0 14px 14px}
+.col-coz{background:rgba(186,117,23,.12);border:1px solid rgba(186,117,23,.3);border-radius:10px;padding:10px}
+.col-loja{background:rgba(24,95,165,.12);border:1px solid rgba(24,95,165,.3);border-radius:10px;padding:10px}
+.col-prior{background:rgba(12,3,3,.9);border:1px solid rgba(180,50,50,.25);border-radius:10px;padding:10px}
+.col-head{display:flex;align-items:center;gap:8px;margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.08);flex-wrap:wrap}
+.col-badge{font-size:13px;padding:4px 12px;border-radius:5px;font-weight:700;flex-shrink:0}
+.bdg-coz{background:rgba(186,117,23,.45);color:#ffd966}
+.bdg-loja{background:rgba(24,95,165,.45);color:#7ec8ff}
+.bdg-prior{background:rgba(160,0,0,.45);color:#ff9999}
+.col-cnt{font-size:10px;color:rgba(255,255,255,0.3);flex-shrink:0}
+.col-leg{display:flex;gap:8px;margin-left:auto}
+.li{display:flex;align-items:center;gap:3px;font-size:9px;color:rgba(255,255,255,0.35)}
+.dot{width:6px;height:6px;border-radius:50%}
+.dot-ok{background:#8aff5a}.dot-al{background:#ffcc44}.dot-cr{background:#ff5555}
+
+/* LISTAS */
+.lista{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.lista-p{display:flex;flex-direction:column;gap:6px;width:100%}
+.lista-p>.cp{width:100%;box-sizing:border-box}
+
+/* PRIORIDADES */
+.prior-wrap{display:grid;grid-template-columns:1fr 1fr;gap:8px;width:100%}
+.prior-sec{border-radius:8px;padding:8px;min-width:0}
+.ps-saida{background:rgba(140,0,0,.25);border:1px solid rgba(255,60,60,.2)}
+.ps-prep{background:rgba(60,20,160,.25);border:1px solid rgba(140,80,255,.2)}
+.prior-head{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;padding:4px 8px;border-radius:5px;margin-bottom:8px;text-align:center}
+.ph-saida{background:rgba(160,0,0,.2);color:#ff8888}
+.ph-prep{background:rgba(80,40,180,.2);color:#bb88ff}
+
+/* CARD PRINCIPAL */
+.cp{background:#1e1e1e;border:1px solid rgba(255,255,255,.06);border-radius:10px;padding:10px 12px;border-left:3px solid rgba(255,255,255,.06)}
+.cp.ok{border-left-color:#8aff5a}
+.cp.alerta{border-left-color:#ffcc44;background:#1e1c10}
+.cp.critico{border-left-color:#ff5555;background:#1e1010}
+.cp.urgente{border-left-color:#ff3333;background:#220808;animation:puls 1.4s infinite}
+@keyframes puls{0%,100%{box-shadow:0 0 0 1px rgba(255,40,40,.2)}50%{box-shadow:0 0 0 3px rgba(255,40,40,.45)}}
+.cp-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:5px}
+.cp-num{font-size:13px;font-weight:700;color:#fff}
+.cp-cat{font-size:8px;padding:1px 6px;border-radius:3px;font-weight:700;white-space:nowrap}
+.cc-coz{background:rgba(186,117,23,.3);color:#ffd966}
+.cc-loja{background:rgba(24,95,165,.3);color:#7ec8ff}
+.cp-estab{font-size:12px;font-weight:600;color:rgba(255,255,255,.8);margin-bottom:8px;line-height:1.3}
+.cp-tempo-row{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:4px}
+.cp-tempo-info{font-size:8px;color:rgba(255,255,255,.3);line-height:1.5}
+.cp-tempo-info span{color:rgba(255,255,255,.5)}
+.cp-tempo-val{font-size:24px;font-weight:700;line-height:1}
+.cp-etapa{margin-top:6px;background:rgba(255,255,255,.04);border-radius:5px;padding:3px 8px;font-size:9px;color:rgba(255,255,255,.45);text-align:center}
+
+/* CARD MINI PRIORIDADE */
+.cp-mini{background:#1e1e1e;border:1px solid rgba(255,255,255,.06);border-radius:8px;padding:10px 12px;border-left:3px solid rgba(255,255,255,.06);width:100%;box-sizing:border-box}
+.cp-mini.ok{border-left-color:#8aff5a}
+.cp-mini.alerta{border-left-color:#ffcc44}
+.cp-mini.critico{border-left-color:#ff5555}
+.cp-mini.urgente{border-left-color:#ff3333;animation:puls 1.4s infinite}
+.mini-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:2px}
+.mini-num{font-size:11px;font-weight:700;color:#fff}
+.mini-estab{font-size:11px;font-weight:600;color:rgba(255,255,255,.75);margin-bottom:8px;line-height:1.3}
+.mini-row{display:flex;justify-content:space-between;align-items:center}
+.mini-lbl{font-size:8px;color:rgba(255,255,255,.3)}
+.mini-val{font-size:22px;font-weight:700}
+
+/* SECAO VERIFICAR */
+.verif-sec{padding:0 14px 14px;display:none}
+.verif-hdr{display:flex;align-items:center;gap:10px;margin-bottom:8px;padding:10px 0 8px;border-top:1px solid rgba(255,210,0,.15)}
+.verif-titulo{font-size:11px;font-weight:700;color:#ffdd44;text-transform:uppercase;letter-spacing:.06em}
+.verif-sub{font-size:10px;color:rgba(255,255,255,.3)}
+.verif-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:8px}
+.card-v{background:#1c1a08;border:1px solid rgba(255,210,0,.2);border-left:3px solid #ffdd00;border-radius:10px;padding:12px 14px;display:flex;flex-direction:column;gap:4px}
+.cv-top{display:flex;justify-content:space-between;align-items:flex-start}
+.cv-num{font-size:14px;font-weight:700;color:#fff}
+.cv-tempo{font-size:22px;font-weight:700;color:#ffdd44}
+.cv-estab{font-size:12px;font-weight:600;color:rgba(255,255,255,.75)}
+.cv-etapa{font-size:9px;color:rgba(255,255,255,.4)}
+.cv-btn{margin-top:6px;width:100%;background:rgba(138,255,90,.08);border:1px solid rgba(138,255,90,.2);border-radius:6px;padding:7px;font-size:10px;font-weight:700;color:#8aff5a;cursor:pointer;transition:all .2s;text-align:center}
+.cv-btn:hover{background:rgba(138,255,90,.2)}
+
+/* MODAIS */
+.modal-ov{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.8);z-index:1000;align-items:center;justify-content:center}
+.modal-ov.open{display:flex}
+.modal-box{background:#181818;border:1px solid rgba(255,255,255,.1);border-radius:12px;padding:20px;width:90%;max-width:860px;max-height:82vh;overflow-y:auto}
+.modal-hdr{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;padding-bottom:12px;border-bottom:1px solid rgba(255,255,255,.07)}
+.modal-titulo{font-size:14px;font-weight:700;color:#ff9944}
+.modal-close{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);color:rgba(255,255,255,.6);border-radius:6px;padding:4px 12px;cursor:pointer;font-size:11px}
+.modal-close:hover{color:#fff;background:rgba(255,255,255,.15)}
+.modal-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:8px}
+.card-mr{background:#222;border:1px solid rgba(255,102,0,.18);border-left:3px solid #ff6600;border-radius:8px;padding:10px 12px}
+.mr-num{font-size:13px;font-weight:700;color:#fff}
+.mr-estab{font-size:10px;color:rgba(255,255,255,.5);margin:2px 0 8px}
+.mr-info{font-size:9px;color:rgba(255,255,255,.35);margin-bottom:1px}
+.mr-info span{color:rgba(255,255,255,.6);font-weight:600}
+
+/* FOOTER */
+.footer{display:grid;grid-template-columns:1fr 1fr;gap:6px;padding:0 14px 14px}
+.card-ft{background:#161616;border:1px solid rgba(255,255,255,.06);border-radius:8px;padding:8px 14px}
+.ft-num{font-size:22px;font-weight:700;color:#444}
+.ft-lbl{font-size:9px;color:rgba(255,255,255,.3)}
+.ft-sub{font-size:8px;color:rgba(255,255,255,.18);margin-top:2px}
+
+/* MODO FOCO */
+.main-grid.foco .col-coz,.main-grid.foco .col-loja{display:none}
+.main-grid.foco{display:block;padding:0 14px 14px}
+.main-grid.foco .col-prior{width:100%}
+.main-grid.foco .prior-wrap{grid-template-columns:1fr 1fr;gap:14px}
+.main-grid.foco .lista-p{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+
+.vazio{padding:20px 8px;text-align:center;color:rgba(255,255,255,.12);font-size:11px}
+.cp-tempo-lbl{font-size:8px;color:rgba(255,255,255,.3);text-transform:uppercase;letter-spacing:.04em}
+.hbtn-info{border-color:rgba(100,180,255,.35);color:#88ccff}.hbtn-info:hover{background:rgba(100,180,255,.15)}
+.modal-info .modal-titulo{color:#88ccff}
+.info-sec{margin-bottom:16px}
+.info-sec-titulo{font-size:11px;font-weight:700;color:rgba(255,255,255,.7);text-transform:uppercase;letter-spacing:.06em;margin-bottom:8px;padding-bottom:6px;border-bottom:1px solid rgba(255,255,255,.08)}
+.info-row-i{display:flex;align-items:flex-start;gap:10px;margin-bottom:8px}
+.info-badge{flex-shrink:0;font-size:9px;font-weight:700;padding:2px 8px;border-radius:4px;margin-top:1px}
+.ib-ok{background:rgba(138,255,90,.15);color:#8aff5a}
+.ib-al{background:rgba(255,204,68,.15);color:#ffcc44}
+.ib-cr{background:rgba(255,85,85,.15);color:#ff5555}
+.ib-prior{background:rgba(160,100,255,.15);color:#cc99ff}
+.ib-verif{background:rgba(255,210,0,.15);color:#ffdd44}
+.ib-neu{background:rgba(255,255,255,.08);color:rgba(255,255,255,.5)}
+.info-txt{font-size:11px;color:rgba(255,255,255,.55);line-height:1.6}
+.info-txt strong{color:rgba(255,255,255,.8);font-weight:600}
+</style>
+</head>
+<body>
+<header>
+  <div><div class="logo">o<span>rion</span> <span style="font-size:10px;font-weight:400;color:rgba(255,255,255,.25)">expedicao</span></div></div>
+  <div class="hright">
+    <button class="hbtn hbtn-info" onclick="abrirInfo()">Regras</button>
+    <button class="hbtn hbtn-ret" onclick="abrirModal()">Retornados<span class="bcnt" id="cnt-ret">0</span></button>
+    <button class="hbtn hbtn-ver" id="btn-ver" onclick="toggleVerif()">Verificar<span class="bcnt" id="cnt-ver">0</span></button>
+    <button class="hbtn hbtn-foco" id="btn-foco" onclick="toggleFoco()">Modo foco</button>
+    <div><div id="clock">--:--:--</div><div class="atualizado" id="atualizado"></div></div>
+  </div>
+</header>
+
+<div class="medias">
+  <div class="card-med"><div class="cm-lbl">Preparo Loja (chegada-pronto)</div><div class="cm-val" id="med-prep">--</div><div class="cm-sub">meta &lt; 4min</div></div>
+  <div class="card-med"><div class="cm-lbl">Coleta Cozinha (pronto-coletado)</div><div class="cm-val" id="med-col">--</div><div class="cm-sub">meta &lt; 1min 30s</div></div>
+  <div class="card-med"><div class="cm-lbl">Saida Geral (coletado-conclusao)</div><div class="cm-val" id="med-said">--</div><div class="cm-sub">meta &lt; 13min</div></div>
+</div>
+
+<div class="topbar">
+  <div class="card-top"><div class="ct-lbl">Ativos</div><div class="ct-val cb" id="r-total">0</div><div class="ct-sub" style="color:rgba(255,255,255,.2)">em aberto</div></div>
+  <div class="card-top"><div class="ct-lbl">No SLA</div><div class="ct-val cok" id="r-ok">0</div><div class="ct-sub cok">no prazo</div></div>
+  <div class="card-top"><div class="ct-lbl">Alerta</div><div class="ct-val cal" id="r-al">0</div><div class="ct-sub cal">proximos</div></div>
+  <div class="card-top"><div class="ct-lbl">Critico</div><div class="ct-val ccr" id="r-cr">0</div><div class="ct-sub ccr">fora do SLA</div></div>
+  <div class="card-top"><div class="ct-lbl">Finalizados</div><div class="ct-val cgr" id="r-fin">0</div><div class="ct-sub cgr">no dia</div></div>
+</div>
+
+<div class="main-grid" id="main-grid">
+  <div class="col-coz">
+    <div class="col-head">
+      <span class="col-badge bdg-coz">Cozinha</span>
+      <span class="col-cnt" id="cnt-coz"></span>
+      <div class="col-leg"><span class="li"><span class="dot dot-ok"></span>OK</span><span class="li"><span class="dot dot-al"></span>Alerta</span><span class="li"><span class="dot dot-cr"></span>Critico</span></div>
+    </div>
+    <div class="lista" id="grid-coz"><div class="vazio">Nenhum ativo</div></div>
+  </div>
+  <div class="col-loja">
+    <div class="col-head">
+      <span class="col-badge bdg-loja">Loja</span>
+      <span class="col-cnt" id="cnt-loja"></span>
+      <div class="col-leg"><span class="li"><span class="dot dot-ok"></span>OK</span><span class="li"><span class="dot dot-al"></span>Alerta</span><span class="li"><span class="dot dot-cr"></span>Critico</span></div>
+    </div>
+    <div class="lista" id="grid-loja"><div class="vazio">Nenhum ativo</div></div>
+  </div>
+  <div class="col-prior">
+    <div class="col-head">
+      <span class="col-badge bdg-prior">Prioridades</span>
+    </div>
+    <div class="prior-wrap">
+      <div class="prior-sec ps-saida">
+        <div class="prior-head ph-saida">Aguardando saida</div>
+        <div class="lista-p" id="prior-saida"><div class="vazio">Nenhum</div></div>
+      </div>
+      <div class="prior-sec ps-prep">
+        <div class="prior-head ph-prep">Preparo urgente</div>
+        <div class="lista-p" id="prior-prep"><div class="vazio">Nenhum</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- VERIFICAR -->
+<div class="verif-sec" id="verif-sec">
+  <div class="verif-hdr">
+    <span class="verif-titulo">Verificar</span>
+    <span class="verif-sub">Sem movimentacao ha mais de 30min — despachado ou cancelado?</span>
+  </div>
+  <div class="verif-grid" id="grid-verif"></div>
+</div>
+
+<div class="footer">
+  <div class="card-ft">
+    <div class="ft-lbl">FINALIZADOS NO DIA</div>
+    <div style="display:flex;align-items:baseline;gap:8px;margin-top:3px">
+      <div class="ft-num" id="fin-num">0</div>
+      <div class="ft-sub" id="fin-sub"></div>
+    </div>
+  </div>
+  <div class="card-ft" id="card-inat" style="display:none">
+    <div class="ft-lbl">ENCERRADOS SEM RETIRADA</div>
+    <div style="display:flex;align-items:baseline;gap:8px;margin-top:3px">
+      <div class="ft-num" id="inat-num">0</div>
+      <div class="ft-sub">removidos automaticamente</div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL INFO/REGRAS -->
+<div class="modal-ov" id="modal-info" onclick="if(event.target===this)fecharInfo()">
+  <div class="modal-box modal-info" style="max-width:700px">
+    <div class="modal-hdr">
+      <span class="modal-titulo" style="color:#88ccff">Regras do Monitor</span>
+      <button class="modal-close" onclick="fecharInfo()">Fechar</button>
+    </div>
+
+    <div class="info-sec">
+      <div class="info-sec-titulo">Lojas (DS Sion)</div>
+      <div class="info-row-i"><span class="info-badge ib-ok">OK</span><div class="info-txt">Pedido dentro do prazo. <strong>Preparo</strong> (chegada ate ficar pronto): abaixo de <strong>3min</strong>. <strong>Saida</strong> (pronto ate conclusao): abaixo de <strong>10min</strong>.</div></div>
+      <div class="info-row-i"><span class="info-badge ib-al">Alerta</span><div class="info-txt"><strong>Preparo</strong> entre <strong>3min e 4min</strong> sem carimbo de pronto. <strong>Saida</strong> entre <strong>10min e 13min</strong> sem conclusao.</div></div>
+      <div class="info-row-i"><span class="info-badge ib-cr">Critico</span><div class="info-txt"><strong>Preparo</strong> acima de <strong>4min</strong> sem carimbo de pronto. <strong>Saida</strong> acima de <strong>13min</strong> sem conclusao.</div></div>
+      <div class="info-row-i"><span class="info-badge ib-prior">Preparo urgente</span><div class="info-txt">Pedido de loja sem carimbo de pronto ha mais de <strong>2min</strong> apos a chegada.</div></div>
+      <div class="info-row-i"><span class="info-badge ib-prior">Aguardando saida</span><div class="info-txt">Pedido de loja com carimbo de pronto ha mais de <strong>10min</strong> sem conclusao.</div></div>
+    </div>
+
+    <div class="info-sec">
+      <div class="info-sec-titulo">Cozinhas</div>
+      <div class="info-row-i"><span class="info-badge ib-ok">OK</span><div class="info-txt"><strong>Coleta</strong> (pronto ate coletado): abaixo de <strong>1min 30s</strong>.</div></div>
+      <div class="info-row-i"><span class="info-badge ib-al">Alerta</span><div class="info-txt"><strong>Coleta</strong> entre <strong>1min 30s e... </strong>limite sem ser coletado.</div></div>
+      <div class="info-row-i"><span class="info-badge ib-cr">Critico</span><div class="info-txt">Coleta acima de <strong>1min 30s</strong>. Saida acima de <strong>13min</strong> apos coletado.</div></div>
+      <div class="info-row-i"><span class="info-badge ib-prior">Aguardando saida</span><div class="info-txt">Pedido de cozinha coletado ha mais de <strong>10min</strong> sem conclusao.</div></div>
+    </div>
+
+    <div class="info-sec">
+      <div class="info-sec-titulo">Etapas dos pedidos</div>
+      <div class="info-row-i"><span class="info-badge ib-neu">Aguardando montagem</span><div class="info-txt">Pedido chegou mas ainda <strong>nao tem carimbo de pronto</strong>.</div></div>
+      <div class="info-row-i"><span class="info-badge ib-neu">Aguardando retirada</span><div class="info-txt">Pedido tem carimbo de pronto mas <strong>ainda nao foi coletado</strong>.</div></div>
+      <div class="info-row-i"><span class="info-badge ib-neu">Aguardando saida</span><div class="info-txt">Pedido foi coletado mas <strong>ainda nao teve conclusao</strong>.</div></div>
+      <div class="info-row-i"><span class="info-badge ib-neu">Retornado</span><div class="info-txt">Pedido recebeu <strong>carimbo de retorno</strong> para cozinha. Sai das listas e vai para o historico de retornados.</div></div>
+    </div>
+
+    <div class="info-sec">
+      <div class="info-sec-titulo">Verificar e anti-falha</div>
+      <div class="info-row-i"><span class="info-badge ib-verif">Verificar</span><div class="info-txt">Pedido sem movimentacao ha mais de <strong>30 minutos</strong> sem carimbo de conclusao ou retorno. Pode ter saido sem carimbo ou sido cancelado.</div></div>
+      <div class="info-row-i"><span class="info-badge ib-verif">Despachado</span><div class="info-txt">Botao disponivel nos cards de verificar. O operador clica quando o pedido <strong>saiu sem carimbo</strong>. O pedido e removido da lista de verificacao.</div></div>
+      <div class="info-row-i"><span class="info-badge ib-neu">Cancelados</span><div class="info-txt">A cada hora o sistema cruza os pedidos em verificacao com o <strong>relatorio de cancelamentos</strong>. Se cancelado, o pedido some automaticamente.</div></div>
+      <div class="info-row-i"><span class="info-badge ib-neu">Inativos</span><div class="info-txt">Pedidos com mais de <strong>5 horas</strong> desde a chegada ou cadastrados fora do expediente (01h-09h) sao removidos automaticamente das listas.</div></div>
+    </div>
+
+    <div class="info-sec">
+      <div class="info-sec-titulo">Expediente e horarios</div>
+      <div class="info-row-i"><span class="info-badge ib-neu">Expediente</span><div class="info-txt">Funcionamento das <strong>10h ate 01h</strong> da madrugada. Pedidos cadastrados entre <strong>01h01 e 09h59</strong> sao considerados fora do expediente e removidos automaticamente.</div></div>
+      <div class="info-row-i"><span class="info-badge ib-neu">Virada</span><div class="info-txt">Pedidos entre <strong>00h e 01h</strong> permanecem na lista ate as <strong>02h</strong>. Apos isso, se sem conclusao, sao movidos para finalizados.</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL RETORNADOS -->
+<div class="modal-ov" id="modal-ret" onclick="if(event.target===this)fecharModal()">
+  <div class="modal-box">
+    <div class="modal-hdr">
+      <span class="modal-titulo">Pedidos retornados no dia</span>
+      <button class="modal-close" onclick="fecharModal()">Fechar</button>
+    </div>
+    <div class="modal-grid" id="lista-ret"><div class="vazio">Nenhum retorno hoje</div></div>
+  </div>
+</div>
+
+<script>
+var DADOS = null;
+var DESPACHADOS = {};
+var verifAberta = false;
+var focoAtivo = false;
+
+/* ── HELPERS ── */
+function fmtMin(v){
+  if(v===null||v===undefined)return'--';
+  var m=Math.floor(v),s=Math.round((v-m)*60);
+  return s>0?m+'m '+s+'s':m+'min';
+}
+function fmtHora(v){
+  if(!v)return'--';
+  if(v.length>5)return v.substring(0,5);
+  return v;
+}
+function corT(v,sla){
+  if(v===null||v===undefined)return'rgba(255,255,255,.25)';
+  var p=v/sla;
+  return p>=1?'#ff5555':p>=0.75?'#ffcc44':'#8aff5a';
+}
+function statusKey(v,sla){
+  if(v===null||v===undefined)return'pendente';
+  var p=v/sla;return p<0.75?'ok':p<1?'alerta':'critico';
+}
+function media(arr){
+  var v=arr.filter(function(x){return x!==null&&x!==undefined;});
+  if(!v.length)return null;
+  return v.reduce(function(a,b){return a+b;},0)/v.length;
+}
+function corMedia(v,sla){
+  if(v===null)return'#444';
+  return v/sla<0.75?'#8aff5a':v/sla<1?'#ffcc44':'#ff5555';
+}
+function minDesde(iso){
+  if(!iso)return null;
+  return(Date.now()-new Date(iso).getTime())/60000;
+}
+function minPreparoRT(p){
+  if(p.datas.pronto&&p.datas.pronto!=='-')return p.tempos.cad_pronto;
+  return p.ts&&p.ts.cadastro?minDesde(p.ts.cadastro):p.tempos.desde_cadastro;
+}
+function minSaidaRT(p){
+  if(p.datas.conclusao&&p.datas.conclusao!=='-')return p.tempos.col_conc;
+  if(p.categoria==='loja'){
+    if(!p.datas.pronto||p.datas.pronto==='-')return null;
+    return p.ts&&p.ts.pronto?minDesde(p.ts.pronto):p.tempos.desde_pronto;
+  }
+  if(!p.datas.coleta||p.datas.coleta==='-')return null;
+  return p.ts&&p.ts.coleta?minDesde(p.ts.coleta):p.tempos.aguard_saida;
+}
+function minUltMov(p){
+  var iso=p.ts.coleta||p.ts.pronto||p.ts.cadastro;
+  return iso?minDesde(iso):null;
+}
+
+/* ── URGENCIA ── */
+function urgScore(p){
+  if(p.alerta_retorno)return 300;
+  if(p.datas.conclusao&&p.datas.conclusao!=='-')return 0;
+  if(p.categoria==='loja'&&p.datas.pronto&&p.datas.pronto!=='-'){
+    var ts=minSaidaRT(p)||0;
+    if(ts>=13)return 190;if(ts>=10)return 150;if(ts>=7)return 100;return 40;
+  }
+  if(p.categoria==='loja'&&(!p.datas.pronto||p.datas.pronto==='-')){
+    var tc=minPreparoRT(p)||0;
+    if(tc>=4)return 170;if(tc>=2)return 130;return 20;
+  }
+  if(p.categoria==='cozinha'&&p.datas.coleta&&p.datas.coleta!=='-'){
+    var tk=minSaidaRT(p)||0;
+    if(tk>=13)return 180;if(tk>=10)return 140;if(tk>=7)return 90;return 35;
+  }
+  if(p.categoria==='cozinha'&&p.datas.pronto&&p.datas.pronto!=='-'){
+    var sk=p.status.pronto_col;
+    if(sk==='critico')return 110;if(sk==='alerta')return 75;return 20;
+  }
+  return 10;
+}
+function urgClass(sc){return sc>=150?'urgente':sc>=90?'critico':sc>=50?'alerta':'ok';}
+function etapaLabel(p){
+  if(p.dt_retorno&&(!p.datas.coleta||p.datas.coleta==='-'))return'Retornado';
+  if(p.datas.conclusao&&p.datas.conclusao!=='-')return'Concluido';
+  if(p.datas.coleta&&p.datas.coleta!=='-')return'Aguardando saida';
+  if(p.datas.pronto&&p.datas.pronto!=='-')return'Aguardando retirada';
+  return'Aguardando montagem';
+}
+
+/* ── CARDS ── */
+function renderCard(p){
+  var sc=urgScore(p),cls=urgClass(sc);
+  var isCoz=p.categoria==='cozinha';
+  var cat=isCoz?'<span class="cp-cat cc-coz">Coz</span>':'<span class="cp-cat cc-loja">Loja</span>';
+  var tSaida=minSaidaRT(p),tPrep=minPreparoRT(p);
+  var tPrinc=tSaida!==null?tSaida:(tPrep!==null?tPrep:null);
+  var slaRef=tSaida!==null?13:4;
+  var cor=corT(tPrinc,slaRef);
+  return'<div class="cp '+cls+'">'
+    +'<div class="cp-top"><span class="cp-num">'+p.cod+'</span>'+cat+'</div>'
+    +'<div class="cp-estab">'+p.estabelec+'</div>'
+    +'<div class="cp-tempo-row">'
+    +'<div class="cp-tempo-lbl">Aguardando</div>'
+    +'<div class="cp-tempo-val" style="color:'+cor+'">'+fmtMin(tPrinc)+'</div>'
+    +'</div>'
+    +'<div class="cp-etapa">'+etapaLabel(p)+'</div>'
+    +'</div>';
+}
+
+function renderMini(p){
+  var sc=urgScore(p),cls=urgClass(sc);
+  var isCoz=p.categoria==='cozinha';
+  var cat=isCoz?'<span class="cp-cat cc-coz">Coz</span>':'<span class="cp-cat cc-loja">Loja</span>';
+  var tSaida=minSaidaRT(p),tPrep=minPreparoRT(p);
+  var tShow=tSaida!==null?tSaida:(tPrep!==null?tPrep:null);
+  var slaRef=tSaida!==null?13:4;
+  var cor=corT(tShow,slaRef);
+  return'<div class="cp-mini '+cls+'">'
+    +'<div class="mini-top"><span class="mini-num">'+p.cod+'</span>'+cat+'</div>'
+    +'<div class="mini-estab">'+p.estabelec+'</div>'
+    +'<div class="mini-row"><span class="mini-lbl">Esperando</span><span class="mini-val" style="color:'+cor+'">'+fmtMin(tShow)+'</span></div>'
+    +'</div>';
+}
+
+function renderVerif(p){
+  var t=minUltMov(p)||0;
+  var h=Math.floor(t/60),m=Math.round(t%60);
+  var ts=h>0?h+'h '+(m<10?'0':'')+m+'min':m+'min';
+  var id='cv-'+p.cod.replace(/\\W/g,'_');
+  return'<div class="card-v" id="'+id+'">'
+    +'<div class="cv-top"><span class="cv-num">'+p.cod+'</span><span class="cv-tempo">'+ts+'</span></div>'
+    +'<div class="cv-estab">'+p.estabelec+'</div>'
+    +'<div class="cv-etapa">'+etapaLabel(p)+'</div>'
+    +'<div class="cv-btn" onclick="despachado(\\''+p.cod+'\\')">Despachado ✓</div>'
+    +'</div>';
+}
+
+function despachado(cod){
+  DESPACHADOS[cod]=Date.now();
+  var el=document.getElementById('cv-'+cod.replace(/\\W/g,'_'));
+  if(el){el.style.opacity='0';el.style.transition='opacity .3s';setTimeout(function(){el.remove();renderContadores();},300);}
+}
+
+/* ── RENDER ── */
+function renderContadores(){
+  var cnt=document.getElementById('cnt-ver');
+  var gv=document.getElementById('grid-verif');
+  if(cnt&&gv) cnt.textContent=gv.querySelectorAll('.card-v').length;
+}
+
+function render(){
+  if(!DADOS)return;
+  var todos=DADOS.pedidos;
+  var ativos=todos.filter(function(p){
+    return p.etapa_atual!=='concluido'&&p.etapa_atual!=='retornado'&&!p.inativo&&!DESPACHADOS[p.cod];
+  });
+  var verificar=ativos.filter(function(p){var t=minUltMov(p);return t!==null&&t>=30;});
+  var vcods={};verificar.forEach(function(p){vcods[p.cod]=true;});
+  var ativosR=ativos.filter(function(p){return!vcods[p.cod];});
+  var inativos=todos.filter(function(p){return p.inativo;});
+  var finalizados=todos.filter(function(p){return p.etapa_atual==='concluido';});
+  var retornados=todos.filter(function(p){return p.etapa_atual==='retornado';});
+  var lojas=ativosR.filter(function(p){return p.categoria==='loja';});
+  var cozs=ativosR.filter(function(p){return p.categoria==='cozinha';});
+  function sortU(a){return a.sort(function(x,y){return urgScore(y)-urgScore(x);});}
+  lojas=sortU(lojas);cozs=sortU(cozs);
+
+  var priorSaida=sortU(ativosR.filter(function(p){
+    if(p.datas.conclusao&&p.datas.conclusao!=='-')return false;
+    var t=minSaidaRT(p);if(t===null)return false;
+    if(p.categoria==='loja')return(p.datas.pronto&&p.datas.pronto!=='-')&&t>=10;
+    return(p.datas.coleta&&p.datas.coleta!=='-')&&t>=10;
+  }));
+  var priorPrep=sortU(ativosR.filter(function(p){
+    if(p.categoria!=='loja')return false;
+    if(p.datas.pronto&&p.datas.pronto!=='-')return false;
+    if(p.datas.conclusao&&p.datas.conclusao!=='-')return false;
+    var t=minPreparoRT(p);return t!==null&&t>=2;
+  }));
+
+  /* medias */
+  var lm=todos.filter(function(p){return p.categoria==='loja'&&!p.inativo&&p.etapa_atual!=='retornado';});
+  var cm=todos.filter(function(p){return p.categoria==='cozinha'&&!p.inativo&&p.etapa_atual!=='retornado';});
+  var am=todos.filter(function(p){return!p.inativo&&p.etapa_atual!=='retornado';});
+  var mP=media(lm.map(function(p){return p.tempos.cad_pronto;}));
+  var mC=media(cm.map(function(p){return p.tempos.pronto_col;}));
+  var mS=media(am.map(function(p){return p.tempos.col_conc;}));
+  document.getElementById('med-prep').textContent=mP!==null?fmtMin(mP):'--';
+  document.getElementById('med-col').textContent=mC!==null?fmtMin(mC):'--';
+  document.getElementById('med-said').textContent=mS!==null?fmtMin(mS):'--';
+  document.getElementById('med-prep').style.color=corMedia(mP,4);
+  document.getElementById('med-col').style.color=corMedia(mC,1.5);
+  document.getElementById('med-said').style.color=corMedia(mS,13);
+
+  /* contadores */
+  document.getElementById('r-total').textContent=ativosR.length;
+  document.getElementById('r-ok').textContent=ativosR.filter(function(p){return p.status_geral==='ok';}).length;
+  document.getElementById('r-al').textContent=ativosR.filter(function(p){return p.status_geral==='alerta';}).length;
+  document.getElementById('r-cr').textContent=ativosR.filter(function(p){return p.status_geral==='critico';}).length;
+  document.getElementById('r-fin').textContent=finalizados.length+inativos.length;
+  document.getElementById('fin-num').textContent=finalizados.length+inativos.length;
+  document.getElementById('fin-sub').textContent=finalizados.length+' concluidos + '+inativos.length+' encerrados';
+  document.getElementById('cnt-ret').textContent=retornados.length;
+
+  /* grids */
+  document.getElementById('cnt-coz').textContent=cozs.length+' pedido(s)';
+  document.getElementById('cnt-loja').textContent=lojas.length+' pedido(s)';
+  document.getElementById('grid-coz').innerHTML=cozs.length?cozs.map(renderCard).join(''):'<div class="vazio">Nenhum ativo</div>';
+  document.getElementById('grid-loja').innerHTML=lojas.length?lojas.map(renderCard).join(''):'<div class="vazio">Nenhum ativo</div>';
+  document.getElementById('prior-saida').innerHTML=priorSaida.length?priorSaida.map(renderMini).join(''):'<div class="vazio">Nenhum</div>';
+  document.getElementById('prior-prep').innerHTML=priorPrep.length?priorPrep.map(renderMini).join(''):'<div class="vazio">Nenhum</div>';
+
+  /* verificar — adiciona novos sem remover existentes (preserva despachados) */
+  var gv=document.getElementById('grid-verif');
+  var exist={};
+  gv.querySelectorAll('.card-v').forEach(function(el){exist[el.id]=true;});
+  verificar.forEach(function(p){
+    if(DESPACHADOS[p.cod])return;
+    var id='cv-'+p.cod.replace(/\\W/g,'_');
+    if(!exist[id]){var d=document.createElement('div');d.innerHTML=renderVerif(p);gv.appendChild(d.firstChild);}
+  });
+  if(!gv.querySelector('.card-v'))gv.innerHTML='<div class="vazio">Nenhum pedido para verificar</div>';
+  document.getElementById('cnt-ver').textContent=gv.querySelectorAll('.card-v').length;
+
+  /* retornados modal */
+  var lr=document.getElementById('lista-ret');
+  lr.innerHTML=retornados.length?retornados.map(function(p){
+    return'<div class="card-mr"><div class="mr-num">'+p.cod+'</div><div class="mr-estab">'+p.estabelec+'</div>'
+      +'<div class="mr-info">Chegou: <span>'+(p.horas.cadastro||'--')+'</span></div>'
+      +'<div class="mr-info">Coletado: <span>'+(p.horas.coleta||'--')+'</span></div>'
+      +'<div class="mr-info">Retornado: <span>'+(p.horas.retorno||'--')+'</span></div></div>';
+  }).join(''):'<div class="vazio">Nenhum retorno hoje</div>';
+
+  /* inativos */
+  var ci=document.getElementById('card-inat');
+  if(inativos.length>0){ci.style.display='block';document.getElementById('inat-num').textContent=inativos.length;}
+  else ci.style.display='none';
+
+  document.getElementById('atualizado').textContent='Atualizado: '+DADOS.atualizado_em;
+}
+
+/* ── CONTROLES UI (estado persiste entre renders) ── */
+function toggleVerif(){
+  verifAberta=!verifAberta;
+  var sec=document.getElementById('verif-sec');
+  sec.style.display=verifAberta?'block':'none';
+  document.getElementById('btn-ver').classList.toggle('ativo',verifAberta);
+  if(verifAberta){
+    setTimeout(function(){sec.scrollIntoView({behavior:'smooth',block:'start'});},50);
+  }
+}
+function toggleFoco(){
+  focoAtivo=!focoAtivo;
+  document.getElementById('main-grid').classList.toggle('foco',focoAtivo);
+  var btn=document.getElementById('btn-foco');
+  btn.classList.toggle('ativo',focoAtivo);
+  btn.textContent=focoAtivo?'Ver tudo':'Modo foco';
+}
+function abrirInfo(){document.getElementById('modal-info').classList.add('open');}
+function fecharInfo(){document.getElementById('modal-info').classList.remove('open');}
+function abrirModal(){document.getElementById('modal-ret').classList.add('open');}
+function fecharModal(){document.getElementById('modal-ret').classList.remove('open');}
+
+/* ── TICK E FETCH ── */
+function tick(){document.getElementById('clock').textContent=new Date().toLocaleTimeString('pt-BR');}
+
+async function fetchDados(){
+  try{
+    var r=await fetch('dados_orion.json?_='+Date.now());
+    if(r.ok){DADOS=await r.json();render();}
+  }catch(e){console.warn('Erro ao buscar dados:',e);}
+}
+
+tick();
+setInterval(tick,1000);
+setInterval(render,15000);      // re-renderiza timers a cada 15s
+setInterval(fetchDados,60000);  // busca JSON novo a cada 60s
+fetchDados();                   // carrega imediatamente
+</script>
+</body>
+</html>"""
+
+
+def gerar_html():
+    """Gera o HTML estatico (sem dados embutidos - dados vem via fetch do JSON)"""
+    return HTML_TEMPLATE
+
+
+def coletar_dados(output_dir=DEFAULT_OUTPUT_DIR, publish_dir=DEFAULT_PUBLISH_DIR):
+    from playwright.sync_api import sync_playwright
+    email = get_required_env("ORION_EMAIL")
+    senha = get_required_env("ORION_SENHA")
+    _, saida_json, saida_html = resolve_output_paths(output_dir)
+    print("["+datetime.now().strftime("%H:%M:%S")+"] Iniciando coleta...")
+
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_context().new_page()
+
+        page.goto(URL_LOGIN, wait_until="domcontentloaded", timeout=60000)
+        time.sleep(2)
+
+        try: page.fill('input[type="email"]', email)
+        except:
+            try: page.fill('input[name="email"]', email)
+            except:
+                ins=page.query_selector_all('input')
+                if ins: ins[0].fill(email)
+
+        try: page.fill('input[type="password"]', senha)
+        except:
+            try: page.fill('input[name="password"]', senha)
+            except:
+                ins=page.query_selector_all('input')
+                if len(ins)>=2: ins[1].fill(senha)
+
+        try: page.click('button[type="submit"]')
+        except: page.click('button')
+        time.sleep(4)
+        print("  OK Login realizado")
+
+        try: page.goto(URL_RELAT, wait_until="domcontentloaded", timeout=60000)
+        except: pass
+        time.sleep(3)
+        try: page.click('button:has-text("Buscar")',timeout=5000); time.sleep(3)
+        except: pass
+        print("  OK Relatorio carregado")
+
+        try: page.wait_for_selector("table tbody tr",timeout=10000)
+        except: pass
+        time.sleep(1)
+
+        linhas = page.query_selector_all("table tbody tr")
+        pedidos = []
+        agora = datetime.now()
+
+        for linha in linhas:
+            try: cels=linha.query_selector_all("td")
+            except: continue
+            if len(cels)<10: continue
+            tx=[c.inner_text().strip() for c in cels]
+            try:
+                cod=tx[0];hub=tx[1];est=tx[2];cli=tx[3]
+                dt_c=parse_dt(tx[9])  if len(tx)>9  else None
+                dt_p=parse_dt(tx[10]) if len(tx)>10 else None
+                dt_k=parse_dt(tx[11]) if len(tx)>11 else None
+                raw_r=tx[12].strip()  if len(tx)>12 else ""
+                dt_r=parse_dt(raw_r)  if raw_r not in ("","-","--") else None
+                dt_x=parse_dt(tx[13]) if len(tx)>13 else None
+            except IndexError: continue
+
+            hl=hub.lower().strip()
+            cat="loja" if "sion" in hl else "cozinha" if hl in ("-","","none") else "outro"
+
+            t_cp=diff_min(dt_c,dt_p)
+            t_pk=diff_min(dt_p,dt_k)
+            t_kx=diff_min(dt_k,dt_x)
+
+            s_cp=sla_status(t_cp,SLA_CAD_PRONTO) if cat=="loja"    else "na"
+            s_pk=sla_status(t_pk,SLA_PRONTO_COL) if cat=="cozinha" else "na"
+            s_kx=sla_status(t_kx,SLA_COL_CONC)
+
+            todos_s=[s for s in [s_cp,s_pk,s_kx] if s not in ("pendente","na")]
+            sg="critico" if "critico" in todos_s else "alerta" if "alerta" in todos_s else "ok"
+
+            if dt_x:    etapa="concluido"
+            elif dt_r:  etapa="retornado"
+            elif dt_k:  etapa="aguardando_saida"
+            elif dt_p:  etapa="aguardando_coleta"
+            else:       etapa="em_preparo"
+
+            gap_h=diff_min(dt_c,agora)/60 if dt_c else None
+            hc=dt_c.hour if dt_c else 10; ha=agora.hour
+            fora=1<hc<10
+            virada=hc<1 and ha>=2 and ha<10
+            pos=1<=ha<10
+            ult=dt_r or dt_x or dt_k or dt_p or dt_c
+            msm=diff_min(ult,agora) if ult else None
+            inativo=bool(etapa not in ("concluido","retornado") and (
+                (gap_h and gap_h>INATIVO_HORAS) or fora or virada or
+                (pos and msm and msm>60)
+            ))
+
+            mak=diff_min(dt_k,agora) if dt_k and etapa=="aguardando_saida" and cat=="cozinha" else None
+            alerta_r=bool(mak and mak>ALERTA_RETIRADA)
+
+            aguard_saida =r2(diff_min(dt_k,agora)) if dt_k and not dt_x else None
+            desde_cad    =r2(diff_min(dt_c,agora)) if dt_c and not dt_p and not dt_x else None
+            desde_pronto =r2(diff_min(dt_p,agora)) if dt_p and not dt_x else None
+
+            pedidos.append({
+                "cod":cod,"hub":hub,"estabelec":est,"cliente":cli,
+                "categoria":cat,"etapa_atual":etapa,"status_geral":sg,
+                "inativo":inativo,"alerta_retorno":alerta_r,
+                "tempos":{
+                    "cad_pronto":r2(t_cp),"pronto_col":r2(t_pk),"col_conc":r2(t_kx),
+                    "aguard_saida":aguard_saida,"desde_cadastro":desde_cad,"desde_pronto":desde_pronto,
+                },
+                "status":{"cad_pronto":s_cp,"pronto_col":s_pk,"col_conc":s_kx},
+                "datas":{
+                    "cadastro":tx[9]  if len(tx)>9  else "-",
+                    "pronto":  tx[10] if len(tx)>10 else "-",
+                    "coleta":  tx[11] if len(tx)>11 else "-",
+                    "retorno": tx[12] if len(tx)>12 else "-",
+                    "conclusao":tx[13] if len(tx)>13 else "-",
+                },
+                "horas":{
+                    "cadastro":fmt_h(dt_c),"pronto":fmt_h(dt_p),"coleta":fmt_h(dt_k),
+                    "conclusao":fmt_h(dt_x),"retorno":fmt_h(dt_r),
+                },
+                "ts":{
+                    "cadastro": dt_c.isoformat() if dt_c else None,
+                    "pronto":   dt_p.isoformat() if dt_p else None,
+                    "coleta":   dt_k.isoformat() if dt_k else None,
+                    "conclusao":dt_x.isoformat() if dt_x else None,
+                },
+                "dt_retorno":fmt_h(dt_r),
+            })
+
+        browser.close()
+
+    saida={
+        "atualizado_em":agora.strftime("%d/%m/%Y %H:%M:%S"),
+        "data_ref":date.today().strftime("%d/%m/%Y"),
+        "total":len(pedidos),"pedidos":pedidos,
+    }
+
+    # Sempre atualiza o JSON
+    with open(saida_json,"w",encoding="utf-8") as f:
+        json.dump(saida,f,ensure_ascii=False,indent=2)
+
+    # HTML: verifica versao. Se diferente, regenera automaticamente
+    HTML_VERSION = "v4.1"
+    html_novo = gerar_html()
+    precisa_gerar = True
+    if os.path.exists(saida_html):
+        with open(saida_html,"r",encoding="utf-8") as f:
+            conteudo = f.read()
+        if HTML_VERSION in conteudo:
+            precisa_gerar = False
+    if precisa_gerar:
+        with open(saida_html,"w",encoding="utf-8") as f:
+            f.write(html_novo)
+        print("  OK HTML atualizado: "+str(saida_html))
+
+    synced_files = sync_publish_dir([saida_json, saida_html], publish_dir, output_dir)
+
+    ok=sum(1 for p in pedidos if p["status_geral"]=="ok" and not p["inativo"])
+    al=sum(1 for p in pedidos if p["status_geral"]=="alerta" and not p["inativo"])
+    cr=sum(1 for p in pedidos if p["status_geral"]=="critico" and not p["inativo"])
+    fn=sum(1 for p in pedidos if p["etapa_atual"]=="concluido")
+    rt=sum(1 for p in pedidos if p["etapa_atual"]=="retornado")
+    print(f"  OK {len(pedidos)} pedidos -> OK:{ok} Al:{al} Cr:{cr} Fin:{fn} Ret:{rt}")
+    print("  OK JSON: "+str(saida_json))
+    for synced in synced_files:
+        print("  OK Sync publish: "+str(synced))
+
+
+def main():
+    load_dotenv()
+    parser=argparse.ArgumentParser()
+    parser.add_argument("--loop",action="store_true")
+    parser.add_argument("--output-dir",default=DEFAULT_OUTPUT_DIR)
+    parser.add_argument("--publish-dir",default=DEFAULT_PUBLISH_DIR)
+    args=parser.parse_args()
+    if args.loop:
+        print(f"Modo continuo - a cada {INTERVALO//60} min.")
+        while True:
+            try: coletar_dados(output_dir=args.output_dir, publish_dir=args.publish_dir)
+            except Exception as e: print(f"  ERRO: {e}")
+            print(f"  -> Proxima em {INTERVALO//60} min...")
+            time.sleep(INTERVALO)
+    else:
+        coletar_dados(output_dir=args.output_dir, publish_dir=args.publish_dir)
+
+if __name__=="__main__":
+    main()
