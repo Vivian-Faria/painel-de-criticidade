@@ -49,6 +49,31 @@ Protecao importante:
 
 - se a coleta remota retornar `0` pedidos por falha de login, seletor ou bloqueio do ambiente do GitHub Actions, o scraper interrompe a execucao e preserva o ultimo JSON valido, evitando publicar um painel zerado por engano.
 
+## Automacao local definitiva
+
+O fluxo recomendado e local:
+
+1. o Windows roda `publicar_painel.bat` por agendamento
+2. o script coleta dados novos via `orion_scraper_1.py`
+3. valida se o JSON nao veio vazio
+4. faz `git pull --rebase`
+5. publica no GitHub so quando houver mudanca
+6. o Netlify redeploya automaticamente a branch `main`
+
+Arquivos da automacao:
+
+- `publicar_painel.bat`: ponto de entrada para execucao manual ou agendada
+- `scripts/publicar_painel.ps1`: coleta, valida, commit e push
+- `scripts/instalar_tarefa_publicacao.ps1`: cria/atualiza a tarefa agendada do Windows
+
+Para instalar a tarefa agendada:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\instalar_tarefa_publicacao.ps1
+```
+
+Logs locais ficam em `logs/publicacao-painel.log`.
+
 ## Deploy
 
 Se o deploy estiver no Netlify, use `deploy-netlify/` como pasta publicada.
