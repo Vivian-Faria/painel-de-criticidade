@@ -9,11 +9,11 @@ $ErrorActionPreference = "Stop"
 $RepoDir = (Resolve-Path $RepoDir).Path
 $BatchPath = Join-Path $RepoDir "publicar_painel.bat"
 
-$action = New-ScheduledTaskAction -Execute $BatchPath
-$trigger = New-ScheduledTaskTrigger -Once -At (Get-Date).Date -RepetitionInterval (New-TimeSpan -Minutes $IntervalMinutes) -RepetitionDuration ([TimeSpan]::MaxValue)
-$settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries
+$escapedTaskName = '"' + $TaskName + '"'
+$escapedBatchPath = '"' + $BatchPath + '"'
+$startTime = (Get-Date).AddMinutes(1).ToString("HH:mm")
 
-Register-ScheduledTask -TaskName $TaskName -Action $action -Trigger $trigger -Settings $settings -Description "Coleta dados do Orion e publica atualizacoes do painel no GitHub." -Force | Out-Null
+schtasks /Create /F /SC MINUTE /MO $IntervalMinutes /TN $escapedTaskName /TR $escapedBatchPath /ST $startTime | Out-Null
 
 Write-Output "Tarefa instalada/atualizada: $TaskName"
 Write-Output "Intervalo: $IntervalMinutes minuto(s)"
