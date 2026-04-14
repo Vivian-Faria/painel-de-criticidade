@@ -66,7 +66,7 @@ Arquivos da automacao:
 - `scripts/publicar_painel.ps1`: coleta, valida, commit e push
 - `scripts/instalar_tarefa_publicacao.ps1`: cria/atualiza a tarefa agendada do Windows
 
-Na instalacao da tarefa, o script cria launchers curtos em `C:\Users\Public\` para evitar falhas do Agendador do Windows com caminhos longos ou com espacos do OneDrive.
+Na instalacao da tarefa, o script cria launchers curtos em `C:\Users\Public\` e usa um launcher `VBS` invisivel para evitar falhas do Agendador do Windows com caminhos longos e impedir que janelas de `cmd` aparecam na tela.
 
 Para instalar a tarefa agendada:
 
