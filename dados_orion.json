@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "20/04/2026 11:19:16",
+  "atualizado_em": "20/04/2026 11:20:08",
   "data_ref": "20/04/2026",
-  "total": 31,
+  "total": 32,
   "pedidos": [
     {
       "cod": "#286347 (#3157)",
@@ -1233,7 +1233,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 11.28,
+        "desde_cadastro": 12.15,
         "desde_pronto": null
       },
       "status": {
@@ -1279,7 +1279,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.28
+        "desde_pronto": 4.15
       },
       "status": {
         "cad_pronto": "critico",
@@ -1368,7 +1368,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.28,
+        "desde_cadastro": 3.15,
         "desde_pronto": null
       },
       "status": {
@@ -1392,6 +1392,51 @@
       },
       "ts": {
         "cadastro": "2026-04-20T11:17:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#286367 (#9164)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Entrega (Beatriz Chiericatti)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.15,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "20/04/2026 11:19",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:19:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-20T11:19:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
