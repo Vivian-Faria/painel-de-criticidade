@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "20/04/2026 11:03:21",
+  "atualizado_em": "20/04/2026 11:04:02",
   "data_ref": "20/04/2026",
-  "total": 25,
+  "total": 26,
   "pedidos": [
     {
       "cod": "#286347 (#3157)",
@@ -324,9 +324,9 @@
       "estabelec": "Mr Duck Cookies - Belo Horizonte",
       "cliente": "Retirada (Ana Paula Alves Fonseca)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
-      "inativo": true,
+      "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 10.0,
@@ -334,7 +334,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 639.35
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -346,20 +346,20 @@
         "pronto": "20/04/2026 00:24",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "20/04/2026 11:03"
       },
       "horas": {
         "cadastro": "00:14:00",
         "pronto": "00:24:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "11:03:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-20T00:14:00",
         "pronto": "2026-04-20T00:24:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-04-20T11:03:00"
       },
       "dt_retorno": null
     },
@@ -1125,6 +1125,51 @@
         "pronto": "2026-04-20T11:00:00",
         "coleta": null,
         "conclusao": "2026-04-20T11:02:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#147 (#3065)",
+      "hub": "DS Sion",
+      "estabelec": "Cenôra Bolos",
+      "cliente": "Retirada (Fernanda Tavares)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.03,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "20/04/2026 11:03",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:03:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-20T11:03:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
       },
       "dt_retorno": null
     }
