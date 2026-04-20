@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "20/04/2026 10:56:12",
+  "atualizado_em": "20/04/2026 10:57:01",
   "data_ref": "20/04/2026",
-  "total": 22,
+  "total": 23,
   "pedidos": [
     {
       "cod": "#286347 (#3157)",
@@ -334,7 +334,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 632.21
+        "desde_pronto": 633.03
       },
       "status": {
         "cad_pronto": "critico",
@@ -379,7 +379,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 631.21
+        "desde_pronto": 632.03
       },
       "status": {
         "cad_pronto": "critico",
@@ -964,7 +964,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.21
+        "desde_pronto": 2.03
       },
       "status": {
         "cad_pronto": "critico",
@@ -988,6 +988,51 @@
       "ts": {
         "cadastro": "2026-04-20T10:46:00",
         "pronto": "2026-04-20T10:55:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#10309 (#9688)",
+      "hub": "DS Sion",
+      "estabelec": "Eu Que Fiz (Sion) - Extra Expediente",
+      "cliente": "Retirada (Cleverson Rocha)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.03,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "20/04/2026 10:56",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "10:56:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-20T10:56:00",
+        "pronto": null,
         "coleta": null,
         "conclusao": null
       },
