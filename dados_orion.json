@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "20/04/2026 13:14:04",
+  "atualizado_em": "20/04/2026 13:15:20",
   "data_ref": "20/04/2026",
-  "total": 117,
+  "total": 118,
   "pedidos": [
     {
       "cod": "#286347 (#3157)",
@@ -2359,7 +2359,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 82.08
+        "desde_pronto": 83.34
       },
       "status": {
         "cad_pronto": "na",
@@ -2807,8 +2807,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 60.08,
-        "desde_cadastro": 75.08,
+        "aguard_saida": 61.34,
+        "desde_cadastro": 76.34,
         "desde_pronto": null
       },
       "status": {
@@ -2844,42 +2844,42 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Fabiana)",
       "categoria": "cozinha",
-      "etapa_atual": "retornado",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": null,
         "pronto_col": null,
-        "col_conc": null,
-        "aguard_saida": 61.08,
-        "desde_cadastro": 74.08,
+        "col_conc": 61.0,
+        "aguard_saida": null,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "pendente",
-        "col_conc": "pendente"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "20/04/2026 12:00",
         "pronto": "-",
         "coleta": "20/04/2026 12:13",
         "retorno": "20/04/2026 12:29",
-        "conclusao": "-"
+        "conclusao": "20/04/2026 13:14"
       },
       "horas": {
         "cadastro": "12:00:00",
         "pronto": null,
         "coleta": "12:13:00",
-        "conclusao": null,
+        "conclusao": "13:14:00",
         "retorno": "12:29:00"
       },
       "ts": {
         "cadastro": "2026-04-20T12:00:00",
         "pronto": null,
         "coleta": "2026-04-20T12:13:00",
-        "conclusao": null
+        "conclusao": "2026-04-20T13:14:00"
       },
       "dt_retorno": "12:29:00"
     },
@@ -4563,7 +4563,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 24.08,
+        "desde_cadastro": 25.34,
         "desde_pronto": null
       },
       "status": {
@@ -4644,17 +4644,17 @@
       "estabelec": "Burger X",
       "cliente": "Entrega (Jozi Alves)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_saida",
+      "etapa_atual": "retornado",
       "status_geral": "ok",
       "inativo": false,
-      "alerta_retorno": true,
+      "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 4.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 16.08,
+        "aguard_saida": 17.34,
         "desde_cadastro": null,
-        "desde_pronto": 17.08
+        "desde_pronto": 18.34
       },
       "status": {
         "cad_pronto": "na",
@@ -4665,7 +4665,7 @@
         "cadastro": "20/04/2026 12:53",
         "pronto": "20/04/2026 12:57",
         "coleta": "20/04/2026 12:58",
-        "retorno": "-",
+        "retorno": "20/04/2026 13:14",
         "conclusao": "-"
       },
       "horas": {
@@ -4673,7 +4673,7 @@
         "pronto": "12:57:00",
         "coleta": "12:58:00",
         "conclusao": null,
-        "retorno": null
+        "retorno": "13:14:00"
       },
       "ts": {
         "cadastro": "2026-04-20T12:53:00",
@@ -4681,7 +4681,7 @@
         "coleta": "2026-04-20T12:58:00",
         "conclusao": null
       },
-      "dt_retorno": null
+      "dt_retorno": "13:14:00"
     },
     {
       "cod": "#10753 (#1530)",
@@ -4744,7 +4744,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 14.08
+        "desde_pronto": 15.34
       },
       "status": {
         "cad_pronto": "critico",
@@ -4834,7 +4834,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 12.08
+        "desde_pronto": 13.34
       },
       "status": {
         "cad_pronto": "alerta",
@@ -4924,7 +4924,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 10.08
+        "desde_pronto": 11.34
       },
       "status": {
         "cad_pronto": "alerta",
@@ -5014,7 +5014,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 7.08
+        "desde_pronto": 8.34
       },
       "status": {
         "cad_pronto": "alerta",
@@ -5059,7 +5059,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 4.08
+        "desde_pronto": 5.34
       },
       "status": {
         "cad_pronto": "na",
@@ -5104,7 +5104,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.08
+        "desde_pronto": 4.34
       },
       "status": {
         "cad_pronto": "ok",
@@ -5149,7 +5149,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.08
+        "desde_pronto": 2.34
       },
       "status": {
         "cad_pronto": "alerta",
@@ -5193,7 +5193,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.08,
+        "desde_cadastro": 3.34,
         "desde_pronto": null
       },
       "status": {
@@ -5238,7 +5238,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.08,
+        "desde_cadastro": 2.34,
         "desde_pronto": null
       },
       "status": {
@@ -5262,6 +5262,51 @@
       },
       "ts": {
         "cadastro": "2026-04-20T13:13:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#5349 (#617002)",
+      "hub": "DS Sion",
+      "estabelec": "Apicela Gourmet Confeitaria - Brownie , Bolos e Sobremesas",
+      "cliente": "Retirada (Lari)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.34,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "20/04/2026 13:14",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "13:14:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-20T13:14:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
