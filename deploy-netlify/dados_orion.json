@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "20/04/2026 11:16:07",
+  "atualizado_em": "20/04/2026 11:17:09",
   "data_ref": "20/04/2026",
   "total": 30,
   "pedidos": [
@@ -1134,7 +1134,7 @@
       "estabelec": "Cenôra Bolos",
       "cliente": "Retirada (Fernanda Tavares)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
@@ -1144,7 +1144,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 11.12
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "ok",
@@ -1156,20 +1156,20 @@
         "pronto": "20/04/2026 11:05",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "20/04/2026 11:17"
       },
       "horas": {
         "cadastro": "11:03:00",
         "pronto": "11:05:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "11:17:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-20T11:03:00",
         "pronto": "2026-04-20T11:05:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-04-20T11:17:00"
       },
       "dt_retorno": null
     },
@@ -1179,7 +1179,7 @@
       "estabelec": "Cacau Arte Bolos e Doces - Cidade Nova",
       "cliente": "Retirada (Marina Marques Campolina)",
       "categoria": "outro",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
@@ -1189,7 +1189,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 5.12
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
@@ -1201,20 +1201,20 @@
         "pronto": "20/04/2026 11:11",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "20/04/2026 11:16"
       },
       "horas": {
         "cadastro": "11:08:00",
         "pronto": "11:11:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "11:16:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-20T11:08:00",
         "pronto": "2026-04-20T11:11:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-04-20T11:16:00"
       },
       "dt_retorno": null
     },
@@ -1233,7 +1233,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.12,
+        "desde_cadastro": 9.15,
         "desde_pronto": null
       },
       "status": {
@@ -1269,40 +1269,40 @@
       "estabelec": "3f - Fast Fitness Food - Savassi",
       "cliente": "Retirada (Monica Alves Leite Pinheiro)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 7.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.12,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 1.15
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "20/04/2026 11:09",
-        "pronto": "-",
+        "pronto": "20/04/2026 11:16",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "11:09:00",
-        "pronto": null,
+        "pronto": "11:16:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-20T11:09:00",
-        "pronto": null,
+        "pronto": "2026-04-20T11:16:00",
         "coleta": null,
         "conclusao": null
       },
@@ -1323,7 +1323,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.12,
+        "desde_cadastro": 3.15,
         "desde_pronto": null
       },
       "status": {
