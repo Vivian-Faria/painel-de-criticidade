@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "20/04/2026 13:30:08",
+  "atualizado_em": "20/04/2026 13:31:35",
   "data_ref": "20/04/2026",
-  "total": 125,
+  "total": 126,
   "pedidos": [
     {
       "cod": "#286347 (#3157)",
@@ -2359,7 +2359,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 98.13
+        "desde_pronto": 99.59
       },
       "status": {
         "cad_pronto": "na",
@@ -4563,7 +4563,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 40.13,
+        "desde_cadastro": 41.59,
         "desde_pronto": null
       },
       "status": {
@@ -4652,9 +4652,9 @@
         "cad_pronto": 4.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 32.13,
+        "aguard_saida": 33.59,
         "desde_cadastro": null,
-        "desde_pronto": 33.13
+        "desde_pronto": 34.59
       },
       "status": {
         "cad_pronto": "na",
@@ -4834,7 +4834,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 28.13
+        "desde_pronto": 29.59
       },
       "status": {
         "cad_pronto": "alerta",
@@ -5014,7 +5014,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 23.13
+        "desde_pronto": 24.59
       },
       "status": {
         "cad_pronto": "alerta",
@@ -5104,7 +5104,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 19.13
+        "desde_pronto": 20.59
       },
       "status": {
         "cad_pronto": "ok",
@@ -5139,7 +5139,7 @@
       "estabelec": "Pudim da Nilda - Sion",
       "cliente": "Retirada (Indira Soier De Oliveira )",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "alerta",
       "inativo": false,
       "alerta_retorno": false,
@@ -5149,7 +5149,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 17.13
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "alerta",
@@ -5161,20 +5161,20 @@
         "pronto": "20/04/2026 13:13",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "20/04/2026 13:30"
       },
       "horas": {
         "cadastro": "13:10:00",
         "pronto": "13:13:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "13:30:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-20T13:10:00",
         "pronto": "2026-04-20T13:13:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-04-20T13:30:00"
       },
       "dt_retorno": null
     },
@@ -5284,7 +5284,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 6.13
+        "desde_pronto": 7.59
       },
       "status": {
         "cad_pronto": "critico",
@@ -5327,9 +5327,9 @@
         "cad_pronto": 6.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 8.13,
+        "aguard_saida": 9.59,
         "desde_cadastro": null,
-        "desde_pronto": 9.13
+        "desde_pronto": 10.59
       },
       "status": {
         "cad_pronto": "na",
@@ -5374,7 +5374,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 10.13
+        "desde_pronto": 11.59
       },
       "status": {
         "cad_pronto": "critico",
@@ -5599,7 +5599,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 5.13
+        "desde_pronto": 6.59
       },
       "status": {
         "cad_pronto": "na",
@@ -5623,6 +5623,51 @@
       "ts": {
         "cadastro": "2026-04-20T13:25:00",
         "pronto": "2026-04-20T13:25:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#286403 (#915006)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Maíra)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 0.59,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "20/04/2026 13:31",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "13:31:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-20T13:31:00",
+        "pronto": null,
         "coleta": null,
         "conclusao": null
       },
