@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "20/04/2026 10:14:02",
+  "atualizado_em": "20/04/2026 10:15:05",
   "data_ref": "20/04/2026",
-  "total": 19,
+  "total": 20,
   "pedidos": [
     {
       "cod": "#286347 (#3157)",
@@ -334,7 +334,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 590.04
+        "desde_pronto": 591.1
       },
       "status": {
         "cad_pronto": "critico",
@@ -379,7 +379,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 589.04
+        "desde_pronto": 590.1
       },
       "status": {
         "cad_pronto": "critico",
@@ -783,7 +783,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 61.04,
+        "desde_cadastro": 62.1,
         "desde_pronto": null
       },
       "status": {
@@ -829,7 +829,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.04
+        "desde_pronto": 4.1
       },
       "status": {
         "cad_pronto": "ok",
@@ -853,6 +853,51 @@
       "ts": {
         "cadastro": "2026-04-20T10:09:00",
         "pronto": "2026-04-20T10:11:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#254 (#0659)",
+      "hub": "DS Sion",
+      "estabelec": "Calma, Tem Pudim! Sion",
+      "cliente": "Retirada (Isabella Lima Viana)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.1,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "20/04/2026 10:13",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "10:13:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-20T10:13:00",
+        "pronto": null,
         "coleta": null,
         "conclusao": null
       },
