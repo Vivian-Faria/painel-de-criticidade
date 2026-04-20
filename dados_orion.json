@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "20/04/2026 11:18:06",
+  "atualizado_em": "20/04/2026 11:19:16",
   "data_ref": "20/04/2026",
-  "total": 30,
+  "total": 31,
   "pedidos": [
     {
       "cod": "#286347 (#3157)",
@@ -1233,7 +1233,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 10.12,
+        "desde_cadastro": 11.28,
         "desde_pronto": null
       },
       "status": {
@@ -1279,7 +1279,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.12
+        "desde_pronto": 3.28
       },
       "status": {
         "cad_pronto": "critico",
@@ -1314,6 +1314,51 @@
       "estabelec": "Burger X",
       "cliente": "Entrega (Joyce Bragança)",
       "categoria": "cozinha",
+      "etapa_atual": "concluido",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 4.0,
+        "pronto_col": 1.0,
+        "col_conc": 0.0,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "ok",
+        "col_conc": "ok"
+      },
+      "datas": {
+        "cadastro": "20/04/2026 11:14",
+        "pronto": "20/04/2026 11:18",
+        "coleta": "20/04/2026 11:19",
+        "retorno": "-",
+        "conclusao": "20/04/2026 11:19"
+      },
+      "horas": {
+        "cadastro": "11:14:00",
+        "pronto": "11:18:00",
+        "coleta": "11:19:00",
+        "conclusao": "11:19:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-20T11:14:00",
+        "pronto": "2026-04-20T11:18:00",
+        "coleta": "2026-04-20T11:19:00",
+        "conclusao": "2026-04-20T11:19:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#286366 (#9528)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Entrega (Gabrielle Luíza)",
+      "categoria": "cozinha",
       "etapa_atual": "em_preparo",
       "status_geral": "ok",
       "inativo": false,
@@ -1323,7 +1368,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.12,
+        "desde_cadastro": 2.28,
         "desde_pronto": null
       },
       "status": {
@@ -1332,21 +1377,21 @@
         "col_conc": "pendente"
       },
       "datas": {
-        "cadastro": "20/04/2026 11:14",
+        "cadastro": "20/04/2026 11:17",
         "pronto": "-",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
-        "cadastro": "11:14:00",
+        "cadastro": "11:17:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
-        "cadastro": "2026-04-20T11:14:00",
+        "cadastro": "2026-04-20T11:17:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
