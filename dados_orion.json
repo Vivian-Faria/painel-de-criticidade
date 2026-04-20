@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "20/04/2026 17:22:01",
+  "atualizado_em": "20/04/2026 17:23:20",
   "data_ref": "20/04/2026",
-  "total": 284,
+  "total": 289,
   "pedidos": [
     {
       "cod": "#286347 (#3157)",
@@ -2359,7 +2359,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 330.02
+        "desde_pronto": 331.35
       },
       "status": {
         "cad_pronto": "na",
@@ -5509,7 +5509,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 237.02
+        "desde_pronto": 238.35
       },
       "status": {
         "cad_pronto": "na",
@@ -5733,7 +5733,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 227.02,
+        "desde_cadastro": 228.35,
         "desde_pronto": null
       },
       "status": {
@@ -5823,7 +5823,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 226.02,
+        "desde_cadastro": 227.35,
         "desde_pronto": null
       },
       "status": {
@@ -6139,7 +6139,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 210.02
+        "desde_pronto": 211.35
       },
       "status": {
         "cad_pronto": "na",
@@ -6319,7 +6319,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 199.02
+        "desde_pronto": 200.35
       },
       "status": {
         "cad_pronto": "na",
@@ -6814,7 +6814,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 187.02
+        "desde_pronto": 188.35
       },
       "status": {
         "cad_pronto": "na",
@@ -7444,7 +7444,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 162.02
+        "desde_pronto": 163.35
       },
       "status": {
         "cad_pronto": "na",
@@ -10404,42 +10404,42 @@
       "estabelec": "Burger X",
       "cliente": "Entrega (Priscila Gabriely)",
       "categoria": "cozinha",
-      "etapa_atual": "retornado",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": null,
         "pronto_col": null,
-        "col_conc": null,
-        "aguard_saida": 51.02,
-        "desde_cadastro": 69.02,
+        "col_conc": 51.0,
+        "aguard_saida": null,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "pendente",
-        "col_conc": "pendente"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "20/04/2026 16:13",
         "pronto": "-",
         "coleta": "20/04/2026 16:31",
         "retorno": "20/04/2026 16:53",
-        "conclusao": "-"
+        "conclusao": "20/04/2026 17:22"
       },
       "horas": {
         "cadastro": "16:13:00",
         "pronto": null,
         "coleta": "16:31:00",
-        "conclusao": null,
+        "conclusao": "17:22:00",
         "retorno": "16:53:00"
       },
       "ts": {
         "cadastro": "2026-04-20T16:13:00",
         "pronto": null,
         "coleta": "2026-04-20T16:31:00",
-        "conclusao": null
+        "conclusao": "2026-04-20T17:22:00"
       },
       "dt_retorno": "16:53:00"
     },
@@ -10954,7 +10954,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 49.02
+        "desde_pronto": 50.35
       },
       "status": {
         "cad_pronto": "na",
@@ -11043,7 +11043,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 56.02,
+        "desde_cadastro": 57.35,
         "desde_pronto": null
       },
       "status": {
@@ -11124,42 +11124,42 @@
       "estabelec": "Burger X",
       "cliente": "Entrega (Yuri Calino Hipolito Pereira)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_coleta",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 53.0,
-        "pronto_col": null,
-        "col_conc": null,
+        "pronto_col": 2.0,
+        "col_conc": 0.0,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.02
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
-        "col_conc": "pendente"
+        "pronto_col": "critico",
+        "col_conc": "ok"
       },
       "datas": {
         "cadastro": "20/04/2026 16:27",
         "pronto": "20/04/2026 17:20",
-        "coleta": "-",
+        "coleta": "20/04/2026 17:22",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "20/04/2026 17:22"
       },
       "horas": {
         "cadastro": "16:27:00",
         "pronto": "17:20:00",
-        "coleta": null,
-        "conclusao": null,
+        "coleta": "17:22:00",
+        "conclusao": "17:22:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-20T16:27:00",
         "pronto": "2026-04-20T17:20:00",
-        "coleta": null,
-        "conclusao": null
+        "coleta": "2026-04-20T17:22:00",
+        "conclusao": "2026-04-20T17:22:00"
       },
       "dt_retorno": null
     },
@@ -11854,7 +11854,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 19.02
+        "desde_pronto": 20.35
       },
       "status": {
         "cad_pronto": "critico",
@@ -12033,7 +12033,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 19.02,
+        "desde_cadastro": 20.35,
         "desde_pronto": null
       },
       "status": {
@@ -12079,7 +12079,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 11.02
+        "desde_pronto": 12.35
       },
       "status": {
         "cad_pronto": "critico",
@@ -12123,7 +12123,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 16.02,
+        "desde_cadastro": 17.35,
         "desde_pronto": null
       },
       "status": {
@@ -12168,7 +12168,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 15.02,
+        "desde_cadastro": 16.35,
         "desde_pronto": null
       },
       "status": {
@@ -12214,7 +12214,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 7.02
+        "desde_pronto": 8.35
       },
       "status": {
         "cad_pronto": "na",
@@ -12249,40 +12249,40 @@
       "estabelec": "Viviane Sales Cake's - Bolos & Doces",
       "cliente": "Retirada (Thais Ruas De Araújo)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 9.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 10.02,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 2.35
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "20/04/2026 17:12",
-        "pronto": "-",
+        "pronto": "20/04/2026 17:21",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "17:12:00",
-        "pronto": null,
+        "pronto": "17:21:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-20T17:12:00",
-        "pronto": null,
+        "pronto": "2026-04-20T17:21:00",
         "coleta": null,
         "conclusao": null
       },
@@ -12303,7 +12303,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 9.02,
+        "desde_cadastro": 10.35,
         "desde_pronto": null
       },
       "status": {
@@ -12339,7 +12339,7 @@
       "estabelec": "Padaria Pão Fermentação Natural",
       "cliente": "Retirada (Dalton/henrique)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
@@ -12349,7 +12349,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.02
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
@@ -12361,20 +12361,20 @@
         "pronto": "20/04/2026 17:21",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "20/04/2026 17:23"
       },
       "horas": {
         "cadastro": "17:14:00",
         "pronto": "17:21:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "17:23:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-20T17:14:00",
         "pronto": "2026-04-20T17:21:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-04-20T17:23:00"
       },
       "dt_retorno": null
     },
@@ -12393,7 +12393,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.02,
+        "desde_cadastro": 9.35,
         "desde_pronto": null
       },
       "status": {
@@ -12438,7 +12438,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.02,
+        "desde_cadastro": 8.35,
         "desde_pronto": null
       },
       "status": {
@@ -12483,7 +12483,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.02,
+        "desde_cadastro": 8.35,
         "desde_pronto": null
       },
       "status": {
@@ -12528,7 +12528,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.02,
+        "desde_cadastro": 8.35,
         "desde_pronto": null
       },
       "status": {
@@ -12573,7 +12573,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.02,
+        "desde_cadastro": 6.35,
         "desde_pronto": null
       },
       "status": {
@@ -12618,7 +12618,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.02,
+        "desde_cadastro": 5.35,
         "desde_pronto": null
       },
       "status": {
@@ -12663,7 +12663,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.02,
+        "desde_cadastro": 5.35,
         "desde_pronto": null
       },
       "status": {
@@ -12708,7 +12708,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.02,
+        "desde_cadastro": 5.35,
         "desde_pronto": null
       },
       "status": {
@@ -12753,7 +12753,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 3.02,
+        "desde_cadastro": 4.35,
         "desde_pronto": null
       },
       "status": {
@@ -12777,6 +12777,231 @@
       },
       "ts": {
         "cadastro": "2026-04-20T17:19:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#2378 (#4372)",
+      "hub": "DS Sion",
+      "estabelec": "Petit Brigadier Savassi - Bolos & Doces",
+      "cliente": "Retirada (Ana Ribeiro)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 3.35,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "20/04/2026 17:20",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "17:20:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-20T17:20:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#7891 (#5115)",
+      "hub": "DS Sion",
+      "estabelec": "Império do Açaí Savassi",
+      "cliente": "Retirada (Lucas Carvalho)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.35,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "20/04/2026 17:21",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "17:21:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-20T17:21:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#9094 (#7615)",
+      "hub": "DS Sion",
+      "estabelec": "Bolos e Doces - Arelice Sion",
+      "cliente": "Retirada (Rafaella Silva)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.35,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "20/04/2026 17:21",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "17:21:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-20T17:21:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#12 (#12)",
+      "hub": "-",
+      "estabelec": "Padaria Pão Fermentação Natural",
+      "cliente": "Retirada (érica Rodrigues)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.35,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "20/04/2026 17:22",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "17:22:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-20T17:22:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#13 (#13)",
+      "hub": "-",
+      "estabelec": "Padaria Pão Fermentação Natural",
+      "cliente": "Retirada (Fátima Regina)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.35,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "20/04/2026 17:22",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "17:22:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-20T17:22:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
