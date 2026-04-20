@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "20/04/2026 11:10:19",
+  "atualizado_em": "20/04/2026 11:12:00",
   "data_ref": "20/04/2026",
-  "total": 28,
+  "total": 29,
   "pedidos": [
     {
       "cod": "#286347 (#3157)",
@@ -1144,7 +1144,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 5.32
+        "desde_pronto": 7.0
       },
       "status": {
         "cad_pronto": "ok",
@@ -1179,6 +1179,51 @@
       "estabelec": "Cacau Arte Bolos e Doces - Cidade Nova",
       "cliente": "Retirada (Marina Marques Campolina)",
       "categoria": "outro",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 3.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 1.0
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "20/04/2026 11:08",
+        "pronto": "20/04/2026 11:11",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:08:00",
+        "pronto": "11:11:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-20T11:08:00",
+        "pronto": "2026-04-20T11:11:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#59980 (#4778)",
+      "hub": "-",
+      "estabelec": "Mayu",
+      "cliente": "Retirada (Cristana Mazzini)",
+      "categoria": "cozinha",
       "etapa_atual": "em_preparo",
       "status_geral": "ok",
       "inativo": false,
@@ -1188,12 +1233,12 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.32,
+        "desde_cadastro": 4.0,
         "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "na",
+        "pronto_col": "pendente",
         "col_conc": "pendente"
       },
       "datas": {
@@ -1219,11 +1264,11 @@
       "dt_retorno": null
     },
     {
-      "cod": "#59980 (#4778)",
-      "hub": "-",
-      "estabelec": "Mayu",
-      "cliente": "Retirada (Cristana Mazzini)",
-      "categoria": "cozinha",
+      "cod": "#33647 (#3403)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Monica Alves Leite Pinheiro)",
+      "categoria": "loja",
       "etapa_atual": "em_preparo",
       "status_geral": "ok",
       "inativo": false,
@@ -1233,30 +1278,30 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.32,
+        "desde_cadastro": 3.0,
         "desde_pronto": null
       },
       "status": {
-        "cad_pronto": "na",
-        "pronto_col": "pendente",
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
-        "cadastro": "20/04/2026 11:08",
+        "cadastro": "20/04/2026 11:09",
         "pronto": "-",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
-        "cadastro": "11:08:00",
+        "cadastro": "11:09:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
-        "cadastro": "2026-04-20T11:08:00",
+        "cadastro": "2026-04-20T11:09:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
