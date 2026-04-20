@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "20/04/2026 11:14:08",
+  "atualizado_em": "20/04/2026 11:15:07",
   "data_ref": "20/04/2026",
-  "total": 29,
+  "total": 30,
   "pedidos": [
     {
       "cod": "#286347 (#3157)",
@@ -1144,7 +1144,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 9.15
+        "desde_pronto": 10.13
       },
       "status": {
         "cad_pronto": "ok",
@@ -1189,7 +1189,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.15
+        "desde_pronto": 4.13
       },
       "status": {
         "cad_pronto": "na",
@@ -1233,7 +1233,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 6.15,
+        "desde_cadastro": 7.13,
         "desde_pronto": null
       },
       "status": {
@@ -1278,7 +1278,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.15,
+        "desde_cadastro": 6.13,
         "desde_pronto": null
       },
       "status": {
@@ -1302,6 +1302,51 @@
       },
       "ts": {
         "cadastro": "2026-04-20T11:09:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#286365 (#6295)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Entrega (Joyce Bragança)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.13,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "20/04/2026 11:14",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:14:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-20T11:14:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
