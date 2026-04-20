@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "20/04/2026 16:41:33",
+  "atualizado_em": "20/04/2026 16:43:29",
   "data_ref": "20/04/2026",
-  "total": 258,
+  "total": 259,
   "pedidos": [
     {
       "cod": "#286347 (#3157)",
@@ -2351,7 +2351,7 @@
       "categoria": "outro",
       "etapa_atual": "aguardando_coleta",
       "status_geral": "ok",
-      "inativo": false,
+      "inativo": true,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 10.0,
@@ -2359,7 +2359,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 289.56
+        "desde_pronto": 291.5
       },
       "status": {
         "cad_pronto": "na",
@@ -5509,7 +5509,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 196.56
+        "desde_pronto": 198.5
       },
       "status": {
         "cad_pronto": "na",
@@ -5733,7 +5733,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 186.56,
+        "desde_cadastro": 188.5,
         "desde_pronto": null
       },
       "status": {
@@ -5823,7 +5823,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 185.56,
+        "desde_cadastro": 187.5,
         "desde_pronto": null
       },
       "status": {
@@ -6139,7 +6139,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 169.56
+        "desde_pronto": 171.5
       },
       "status": {
         "cad_pronto": "na",
@@ -6319,7 +6319,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 158.56
+        "desde_pronto": 160.5
       },
       "status": {
         "cad_pronto": "na",
@@ -6814,7 +6814,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 146.56
+        "desde_pronto": 148.5
       },
       "status": {
         "cad_pronto": "na",
@@ -7444,7 +7444,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 121.56
+        "desde_pronto": 123.5
       },
       "status": {
         "cad_pronto": "na",
@@ -10412,8 +10412,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 10.56,
-        "desde_cadastro": 28.56,
+        "aguard_saida": 12.5,
+        "desde_cadastro": 30.5,
         "desde_pronto": null
       },
       "status": {
@@ -10449,7 +10449,7 @@
       "estabelec": "Cookies Sonhos de Louisa - Sion",
       "cliente": "Retirada (Yuri Rocha)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -10459,7 +10459,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 18.56
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -10471,20 +10471,20 @@
         "pronto": "20/04/2026 16:23",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "20/04/2026 16:42"
       },
       "horas": {
         "cadastro": "16:14:00",
         "pronto": "16:23:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "16:42:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-20T16:14:00",
         "pronto": "2026-04-20T16:23:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-04-20T16:42:00"
       },
       "dt_retorno": null
     },
@@ -10539,42 +10539,42 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Luiz)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_saida",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "alerta",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": null,
         "pronto_col": null,
-        "col_conc": null,
-        "aguard_saida": 10.56,
-        "desde_cadastro": 24.56,
+        "col_conc": 12.0,
+        "aguard_saida": null,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "pendente",
-        "col_conc": "pendente"
+        "col_conc": "alerta"
       },
       "datas": {
         "cadastro": "20/04/2026 16:17",
         "pronto": "-",
         "coleta": "20/04/2026 16:31",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "20/04/2026 16:43"
       },
       "horas": {
         "cadastro": "16:17:00",
         "pronto": null,
         "coleta": "16:31:00",
-        "conclusao": null,
+        "conclusao": "16:43:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-20T16:17:00",
         "pronto": null,
         "coleta": "2026-04-20T16:31:00",
-        "conclusao": null
+        "conclusao": "2026-04-20T16:43:00"
       },
       "dt_retorno": null
     },
@@ -10638,7 +10638,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 21.56,
+        "desde_cadastro": 23.5,
         "desde_pronto": null
       },
       "status": {
@@ -10774,7 +10774,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 11.56
+        "desde_pronto": 13.5
       },
       "status": {
         "cad_pronto": "critico",
@@ -10863,7 +10863,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 19.56,
+        "desde_cadastro": 21.5,
         "desde_pronto": null
       },
       "status": {
@@ -10909,7 +10909,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 11.56
+        "desde_pronto": 13.5
       },
       "status": {
         "cad_pronto": "critico",
@@ -10954,7 +10954,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 8.56
+        "desde_pronto": 10.5
       },
       "status": {
         "cad_pronto": "na",
@@ -11043,7 +11043,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 15.56,
+        "desde_cadastro": 17.5,
         "desde_pronto": null
       },
       "status": {
@@ -11089,7 +11089,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 11.56
+        "desde_pronto": 13.5
       },
       "status": {
         "cad_pronto": "critico",
@@ -11133,7 +11133,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 14.56,
+        "desde_cadastro": 16.5,
         "desde_pronto": null
       },
       "status": {
@@ -11224,7 +11224,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 4.56
+        "desde_pronto": 6.5
       },
       "status": {
         "cad_pronto": "critico",
@@ -11268,7 +11268,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 10.56,
+        "desde_cadastro": 12.5,
         "desde_pronto": null
       },
       "status": {
@@ -11304,40 +11304,40 @@
       "estabelec": "Cremella Confeitaria - Cookies, Doces & Bolos",
       "cliente": "Retirada (Sofia De ávila)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 9.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.56,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 1.5
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "20/04/2026 16:33",
-        "pronto": "-",
+        "pronto": "20/04/2026 16:42",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "16:33:00",
-        "pronto": null,
+        "pronto": "16:42:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-20T16:33:00",
-        "pronto": null,
+        "pronto": "2026-04-20T16:42:00",
         "coleta": null,
         "conclusao": null
       },
@@ -11358,7 +11358,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.56,
+        "desde_cadastro": 6.5,
         "desde_pronto": null
       },
       "status": {
@@ -11403,7 +11403,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.56,
+        "desde_cadastro": 6.5,
         "desde_pronto": null
       },
       "status": {
@@ -11448,7 +11448,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.56,
+        "desde_cadastro": 6.5,
         "desde_pronto": null
       },
       "status": {
@@ -11493,7 +11493,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.56,
+        "desde_cadastro": 6.5,
         "desde_pronto": null
       },
       "status": {
@@ -11538,7 +11538,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 3.56,
+        "desde_cadastro": 5.5,
         "desde_pronto": null
       },
       "status": {
@@ -11583,7 +11583,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.56,
+        "desde_cadastro": 3.5,
         "desde_pronto": null
       },
       "status": {
@@ -11607,6 +11607,51 @@
       },
       "ts": {
         "cadastro": "2026-04-20T16:40:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#2369 (#8972)",
+      "hub": "DS Sion",
+      "estabelec": "Tortas dos Silva - Itens Congelados",
+      "cliente": "Retirada (Dayane Zielke)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.5,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "20/04/2026 16:42",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:42:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-20T16:42:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
