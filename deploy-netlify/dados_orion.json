@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "20/04/2026 14:06:29",
+  "atualizado_em": "20/04/2026 14:07:26",
   "data_ref": "20/04/2026",
-  "total": 149,
+  "total": 152,
   "pedidos": [
     {
       "cod": "#286347 (#3157)",
@@ -2359,7 +2359,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 134.49
+        "desde_pronto": 135.45
       },
       "status": {
         "cad_pronto": "na",
@@ -4518,7 +4518,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 76.49,
+        "desde_cadastro": 77.45,
         "desde_pronto": null
       },
       "status": {
@@ -5509,7 +5509,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 41.49
+        "desde_pronto": 42.45
       },
       "status": {
         "cad_pronto": "na",
@@ -5733,7 +5733,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 31.49,
+        "desde_cadastro": 32.45,
         "desde_pronto": null
       },
       "status": {
@@ -5823,7 +5823,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 30.49,
+        "desde_cadastro": 31.45,
         "desde_pronto": null
       },
       "status": {
@@ -5949,7 +5949,7 @@
       "estabelec": "Eu Que Fiz (Sion) - Extra Expediente",
       "cliente": "Retirada (Laura Malheiros)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -5959,7 +5959,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 20.49
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -5971,20 +5971,20 @@
         "pronto": "20/04/2026 13:46",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "20/04/2026 14:06"
       },
       "horas": {
         "cadastro": "13:39:00",
         "pronto": "13:46:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "14:06:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-20T13:39:00",
         "pronto": "2026-04-20T13:46:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-04-20T14:06:00"
       },
       "dt_retorno": null
     },
@@ -6139,7 +6139,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 14.49
+        "desde_pronto": 15.45
       },
       "status": {
         "cad_pronto": "na",
@@ -6272,9 +6272,9 @@
         "cad_pronto": 10.0,
         "pronto_col": 3.0,
         "col_conc": null,
-        "aguard_saida": 8.49,
+        "aguard_saida": 9.45,
         "desde_cadastro": null,
-        "desde_pronto": 11.49
+        "desde_pronto": 12.45
       },
       "status": {
         "cad_pronto": "na",
@@ -6319,7 +6319,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.49
+        "desde_pronto": 4.45
       },
       "status": {
         "cad_pronto": "na",
@@ -6499,7 +6499,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 9.49
+        "desde_pronto": 10.45
       },
       "status": {
         "cad_pronto": "critico",
@@ -6589,7 +6589,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 5.49
+        "desde_pronto": 6.45
       },
       "status": {
         "cad_pronto": "critico",
@@ -6632,9 +6632,9 @@
         "cad_pronto": 4.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 3.49,
+        "aguard_saida": 4.45,
         "desde_cadastro": null,
-        "desde_pronto": 4.49
+        "desde_pronto": 5.45
       },
       "status": {
         "cad_pronto": "na",
@@ -6679,7 +6679,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 6.49
+        "desde_pronto": 7.45
       },
       "status": {
         "cad_pronto": "ok",
@@ -6703,6 +6703,141 @@
       "ts": {
         "cadastro": "2026-04-20T13:58:00",
         "pronto": "2026-04-20T14:00:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#1649 (#1966)",
+      "hub": "DS Sion",
+      "estabelec": "Pudim da Nilda - Sion",
+      "cliente": "Retirada (Raquel Do Carmo)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.45,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "20/04/2026 14:06",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "14:06:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-20T14:06:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#286409 (#915007)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Vicktor)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.45,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "20/04/2026 14:06",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "14:06:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-20T14:06:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#71 (#4450)",
+      "hub": "DS Delivery Mall",
+      "estabelec": "Marché Sucré - Sobremesas Especiais",
+      "cliente": "Entrega (Paula Lima)",
+      "categoria": "outro",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.45,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "20/04/2026 14:06",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "14:06:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-20T14:06:00",
+        "pronto": null,
         "coleta": null,
         "conclusao": null
       },
