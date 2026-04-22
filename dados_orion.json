@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "22/04/2026 11:22:55",
+  "atualizado_em": "22/04/2026 11:23:55",
   "data_ref": "22/04/2026",
-  "total": 26,
+  "total": 27,
   "pedidos": [
     {
       "cod": "#8644 (#1172)",
@@ -108,7 +108,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 669.93,
+        "desde_cadastro": 670.92,
         "desde_pronto": null
       },
       "status": {
@@ -738,7 +738,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 17.93,
+        "desde_cadastro": 18.92,
         "desde_pronto": null
       },
       "status": {
@@ -784,7 +784,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 9.93
+        "desde_pronto": 10.92
       },
       "status": {
         "cad_pronto": "critico",
@@ -828,7 +828,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 14.93,
+        "desde_cadastro": 15.92,
         "desde_pronto": null
       },
       "status": {
@@ -864,7 +864,7 @@
       "estabelec": "Cremella Confeitaria - Cookies, Doces & Bolos",
       "cliente": "Retirada (Laura Firmino Azevedo)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -874,7 +874,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.93
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -886,20 +886,20 @@
         "pronto": "22/04/2026 11:20",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "22/04/2026 11:23"
       },
       "horas": {
         "cadastro": "11:10:00",
         "pronto": "11:20:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "11:23:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-22T11:10:00",
         "pronto": "2026-04-22T11:20:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-04-22T11:23:00"
       },
       "dt_retorno": null
     },
@@ -918,7 +918,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 11.93,
+        "desde_cadastro": 12.92,
         "desde_pronto": null
       },
       "status": {
@@ -964,7 +964,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.93
+        "desde_pronto": 2.92
       },
       "status": {
         "cad_pronto": "critico",
@@ -1008,7 +1008,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 10.93,
+        "desde_cadastro": 11.92,
         "desde_pronto": null
       },
       "status": {
@@ -1044,40 +1044,40 @@
       "estabelec": "Cremella Confeitaria - Cookies, Doces & Bolos",
       "cliente": "Retirada (Walter)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 9.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.93,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 0.92
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "22/04/2026 11:14",
-        "pronto": "-",
+        "pronto": "22/04/2026 11:23",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "11:14:00",
-        "pronto": null,
+        "pronto": "11:23:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-22T11:14:00",
-        "pronto": null,
+        "pronto": "2026-04-22T11:23:00",
         "coleta": null,
         "conclusao": null
       },
@@ -1098,7 +1098,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.93,
+        "desde_cadastro": 5.92,
         "desde_pronto": null
       },
       "status": {
@@ -1143,7 +1143,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.93,
+        "desde_cadastro": 5.92,
         "desde_pronto": null
       },
       "status": {
@@ -1167,6 +1167,51 @@
       },
       "ts": {
         "cadastro": "2026-04-22T11:18:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#286864 (#229002)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Andyara)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 0.92,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 11:23",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:23:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T11:23:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
