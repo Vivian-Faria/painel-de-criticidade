@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "22/04/2026 11:04:56",
+  "atualizado_em": "22/04/2026 11:05:57",
   "data_ref": "22/04/2026",
-  "total": 16,
+  "total": 17,
   "pedidos": [
     {
       "cod": "#8644 (#1172)",
@@ -108,7 +108,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 651.93,
+        "desde_cadastro": 652.97,
         "desde_pronto": null
       },
       "status": {
@@ -514,7 +514,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 6.93
+        "desde_pronto": 7.97
       },
       "status": {
         "cad_pronto": "critico",
@@ -549,42 +549,42 @@
       "estabelec": "Estela Damasceno Confeitaria",
       "cliente": "Retirada (Julia Dias)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 6.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.93,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "22/04/2026 10:59",
-        "pronto": "-",
+        "pronto": "22/04/2026 11:05",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "22/04/2026 11:05"
       },
       "horas": {
         "cadastro": "10:59:00",
-        "pronto": null,
+        "pronto": "11:05:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "11:05:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-22T10:59:00",
-        "pronto": null,
+        "pronto": "2026-04-22T11:05:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-04-22T11:05:00"
       },
       "dt_retorno": null
     },
@@ -603,7 +603,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 3.93,
+        "desde_cadastro": 4.97,
         "desde_pronto": null
       },
       "status": {
@@ -648,7 +648,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.93,
+        "desde_cadastro": 3.97,
         "desde_pronto": null
       },
       "status": {
@@ -693,7 +693,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.93,
+        "desde_cadastro": 2.97,
         "desde_pronto": null
       },
       "status": {
@@ -717,6 +717,51 @@
       },
       "ts": {
         "cadastro": "2026-04-22T11:03:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#286862 (#765002)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Gustavo)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 0.97,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 11:05",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:05:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T11:05:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
