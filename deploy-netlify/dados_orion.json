@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "22/04/2026 11:24:55",
+  "atualizado_em": "22/04/2026 09:42:08",
   "data_ref": "22/04/2026",
-  "total": 28,
+  "total": 86,
   "pedidos": [
     {
       "cod": "#8644 (#1172)",
@@ -108,7 +108,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 671.93,
+        "desde_cadastro": 569.15,
         "desde_pronto": null
       },
       "status": {
@@ -724,51 +724,6 @@
       "dt_retorno": null
     },
     {
-      "cod": "#286862 (#765002)",
-      "hub": "-",
-      "estabelec": "Burger X",
-      "cliente": "Retirada (Gustavo)",
-      "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
-      "inativo": false,
-      "alerta_retorno": false,
-      "tempos": {
-        "cad_pronto": null,
-        "pronto_col": null,
-        "col_conc": null,
-        "aguard_saida": null,
-        "desde_cadastro": 19.93,
-        "desde_pronto": null
-      },
-      "status": {
-        "cad_pronto": "na",
-        "pronto_col": "pendente",
-        "col_conc": "pendente"
-      },
-      "datas": {
-        "cadastro": "22/04/2026 11:05",
-        "pronto": "-",
-        "coleta": "-",
-        "retorno": "-",
-        "conclusao": "-"
-      },
-      "horas": {
-        "cadastro": "11:05:00",
-        "pronto": null,
-        "coleta": null,
-        "conclusao": null,
-        "retorno": null
-      },
-      "ts": {
-        "cadastro": "2026-04-22T11:05:00",
-        "pronto": null,
-        "coleta": null,
-        "conclusao": null
-      },
-      "dt_retorno": null
-    },
-    {
       "cod": "#9120 (#111001)",
       "hub": "DS Sion",
       "estabelec": "Bolos e Doces - Arelice Sion",
@@ -828,7 +783,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 16.93,
+        "desde_cadastro": -85.85,
         "desde_pronto": null
       },
       "status": {
@@ -909,42 +864,42 @@
       "estabelec": "Mayu",
       "cliente": "Retirada (Bruno Milagres Mesquita)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
-        "pronto_col": null,
-        "col_conc": null,
+        "cad_pronto": 27.0,
+        "pronto_col": 2.0,
+        "col_conc": 86.0,
         "aguard_saida": null,
-        "desde_cadastro": 13.93,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
-        "col_conc": "pendente"
+        "pronto_col": "critico",
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "22/04/2026 11:11",
-        "pronto": "-",
-        "coleta": "-",
+        "pronto": "22/04/2026 11:38",
+        "coleta": "22/04/2026 11:40",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "22/04/2026 13:06"
       },
       "horas": {
         "cadastro": "11:11:00",
-        "pronto": null,
-        "coleta": null,
-        "conclusao": null,
+        "pronto": "11:38:00",
+        "coleta": "11:40:00",
+        "conclusao": "13:06:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-22T11:11:00",
-        "pronto": null,
-        "coleta": null,
-        "conclusao": null
+        "pronto": "2026-04-22T11:38:00",
+        "coleta": "2026-04-22T11:40:00",
+        "conclusao": "2026-04-22T13:06:00"
       },
       "dt_retorno": null
     },
@@ -954,7 +909,7 @@
       "estabelec": "3f - Fast Fitness Food - Savassi",
       "cliente": "Retirada (Caroline Rocha De Melo)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -964,7 +919,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.93
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -976,20 +931,20 @@
         "pronto": "22/04/2026 11:21",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "22/04/2026 11:57"
       },
       "horas": {
         "cadastro": "11:12:00",
         "pronto": "11:21:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "11:57:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-22T11:12:00",
         "pronto": "2026-04-22T11:21:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-04-22T11:57:00"
       },
       "dt_retorno": null
     },
@@ -999,42 +954,42 @@
       "estabelec": "Mayu",
       "cliente": "Retirada (Ana Carolina Castro)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
-        "pronto_col": null,
-        "col_conc": null,
+        "cad_pronto": 26.0,
+        "pronto_col": 2.0,
+        "col_conc": 30.0,
         "aguard_saida": null,
-        "desde_cadastro": 12.93,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
-        "col_conc": "pendente"
+        "pronto_col": "critico",
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "22/04/2026 11:12",
-        "pronto": "-",
-        "coleta": "-",
+        "pronto": "22/04/2026 11:38",
+        "coleta": "22/04/2026 11:40",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "22/04/2026 12:10"
       },
       "horas": {
         "cadastro": "11:12:00",
-        "pronto": null,
-        "coleta": null,
-        "conclusao": null,
+        "pronto": "11:38:00",
+        "coleta": "11:40:00",
+        "conclusao": "12:10:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-22T11:12:00",
-        "pronto": null,
-        "coleta": null,
-        "conclusao": null
+        "pronto": "2026-04-22T11:38:00",
+        "coleta": "2026-04-22T11:40:00",
+        "conclusao": "2026-04-22T12:10:00"
       },
       "dt_retorno": null
     },
@@ -1084,92 +1039,47 @@
       "dt_retorno": null
     },
     {
-      "cod": "#286863 (#229001)",
-      "hub": "-",
-      "estabelec": "Burger X",
-      "cliente": "Retirada (Joao)",
-      "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
-      "inativo": false,
-      "alerta_retorno": false,
-      "tempos": {
-        "cad_pronto": null,
-        "pronto_col": null,
-        "col_conc": null,
-        "aguard_saida": null,
-        "desde_cadastro": 6.93,
-        "desde_pronto": null
-      },
-      "status": {
-        "cad_pronto": "na",
-        "pronto_col": "pendente",
-        "col_conc": "pendente"
-      },
-      "datas": {
-        "cadastro": "22/04/2026 11:18",
-        "pronto": "-",
-        "coleta": "-",
-        "retorno": "-",
-        "conclusao": "-"
-      },
-      "horas": {
-        "cadastro": "11:18:00",
-        "pronto": null,
-        "coleta": null,
-        "conclusao": null,
-        "retorno": null
-      },
-      "ts": {
-        "cadastro": "2026-04-22T11:18:00",
-        "pronto": null,
-        "coleta": null,
-        "conclusao": null
-      },
-      "dt_retorno": null
-    },
-    {
       "cod": "#2054 (#9884)",
       "hub": "DS Sion",
       "estabelec": "Trilhas da Amazônia Savassi - Açai, Sorvete & Picolé",
       "cliente": "Retirada (Gabriel Santos)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 10.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 6.93,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "22/04/2026 11:18",
-        "pronto": "-",
+        "pronto": "22/04/2026 11:28",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "22/04/2026 11:37"
       },
       "horas": {
         "cadastro": "11:18:00",
-        "pronto": null,
+        "pronto": "11:28:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "11:37:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-22T11:18:00",
-        "pronto": null,
+        "pronto": "2026-04-22T11:28:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-04-22T11:37:00"
       },
       "dt_retorno": null
     },
@@ -1179,6 +1089,2751 @@
       "estabelec": "Cenôra Bolos",
       "cliente": "Retirada (Renata A Lima)",
       "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 10.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 11:22",
+        "pronto": "22/04/2026 11:32",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 11:42"
+      },
+      "horas": {
+        "cadastro": "11:22:00",
+        "pronto": "11:32:00",
+        "coleta": null,
+        "conclusao": "11:42:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T11:22:00",
+        "pronto": "2026-04-22T11:32:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T11:42:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#5 (#1919)",
+      "hub": "DS Cidade Nova",
+      "estabelec": "Feijoada do Jay Rama",
+      "cliente": "Retirada (Erica Costa)",
+      "categoria": "outro",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 20.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": -123.85
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 11:26",
+        "pronto": "22/04/2026 11:46",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:26:00",
+        "pronto": "11:46:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T11:26:00",
+        "pronto": "2026-04-22T11:46:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#33719 (#7943)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Wellington Júnior)",
+      "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 10.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 11:26",
+        "pronto": "22/04/2026 11:36",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 11:57"
+      },
+      "horas": {
+        "cadastro": "11:26:00",
+        "pronto": "11:36:00",
+        "coleta": null,
+        "conclusao": "11:57:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T11:26:00",
+        "pronto": "2026-04-22T11:36:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T11:57:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#33720 (#5916)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Sophia Rocha)",
+      "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 9.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 11:27",
+        "pronto": "22/04/2026 11:36",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 12:38"
+      },
+      "horas": {
+        "cadastro": "11:27:00",
+        "pronto": "11:36:00",
+        "coleta": null,
+        "conclusao": "12:38:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T11:27:00",
+        "pronto": "2026-04-22T11:36:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T12:38:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#33721 (#1836)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Carol Barros)",
+      "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 9.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 11:27",
+        "pronto": "22/04/2026 11:36",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 12:14"
+      },
+      "horas": {
+        "cadastro": "11:27:00",
+        "pronto": "11:36:00",
+        "coleta": null,
+        "conclusao": "12:14:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T11:27:00",
+        "pronto": "2026-04-22T11:36:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T12:14:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#844 (#4721)",
+      "hub": "DS Cidade Nova",
+      "estabelec": "3f - Fast Fitness Food - Cidade Nova",
+      "cliente": "Retirada (Guilherme Pessoa)",
+      "categoria": "outro",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 18.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": -123.85
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 11:28",
+        "pronto": "22/04/2026 11:46",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:28:00",
+        "pronto": "11:46:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T11:28:00",
+        "pronto": "2026-04-22T11:46:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#33722 (#7589)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Solange Lima)",
+      "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 9.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 11:30",
+        "pronto": "22/04/2026 11:39",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 12:27"
+      },
+      "horas": {
+        "cadastro": "11:30:00",
+        "pronto": "11:39:00",
+        "coleta": null,
+        "conclusao": "12:27:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T11:30:00",
+        "pronto": "2026-04-22T11:39:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T12:27:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#845 (#0161)",
+      "hub": "DS Cidade Nova",
+      "estabelec": "3f - Fast Fitness Food - Cidade Nova",
+      "cliente": "Retirada (Leonardo Viana Amorim)",
+      "categoria": "outro",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 15.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": -123.85
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 11:31",
+        "pronto": "22/04/2026 11:46",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:31:00",
+        "pronto": "11:46:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T11:31:00",
+        "pronto": "2026-04-22T11:46:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#33723 (#2182)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Miguel ângelo)",
+      "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 10.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 11:34",
+        "pronto": "22/04/2026 11:44",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 12:44"
+      },
+      "horas": {
+        "cadastro": "11:34:00",
+        "pronto": "11:44:00",
+        "coleta": null,
+        "conclusao": "12:44:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T11:34:00",
+        "pronto": "2026-04-22T11:44:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T12:44:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#846 (#5074)",
+      "hub": "DS Cidade Nova",
+      "estabelec": "3f - Fast Fitness Food - Cidade Nova",
+      "cliente": "Retirada (Tatiane Dantas)",
+      "categoria": "outro",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 10.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": -123.85
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 11:36",
+        "pronto": "22/04/2026 11:46",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:36:00",
+        "pronto": "11:46:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T11:36:00",
+        "pronto": "2026-04-22T11:46:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#33724 (#0472)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Alex Mendonça)",
+      "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 9.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 11:37",
+        "pronto": "22/04/2026 11:46",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 12:14"
+      },
+      "horas": {
+        "cadastro": "11:37:00",
+        "pronto": "11:46:00",
+        "coleta": null,
+        "conclusao": "12:14:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T11:37:00",
+        "pronto": "2026-04-22T11:46:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T12:14:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#33725 (#6855)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Lucas Vilela)",
+      "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 10.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 11:37",
+        "pronto": "22/04/2026 11:47",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 12:27"
+      },
+      "horas": {
+        "cadastro": "11:37:00",
+        "pronto": "11:47:00",
+        "coleta": null,
+        "conclusao": "12:27:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T11:37:00",
+        "pronto": "2026-04-22T11:47:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T12:27:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#33726 (#8777)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Maria Clara Louzada)",
+      "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 9.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 11:41",
+        "pronto": "22/04/2026 11:50",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 12:38"
+      },
+      "horas": {
+        "cadastro": "11:41:00",
+        "pronto": "11:50:00",
+        "coleta": null,
+        "conclusao": "12:38:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T11:41:00",
+        "pronto": "2026-04-22T11:50:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T12:38:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#847 (#5649)",
+      "hub": "DS Cidade Nova",
+      "estabelec": "3f - Fast Fitness Food - Cidade Nova",
+      "cliente": "Retirada (Bianca Brumano)",
+      "categoria": "outro",
+      "etapa_atual": "concluido",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 5.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 11:41",
+        "pronto": "22/04/2026 11:46",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 11:53"
+      },
+      "horas": {
+        "cadastro": "11:41:00",
+        "pronto": "11:46:00",
+        "coleta": null,
+        "conclusao": "11:53:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T11:41:00",
+        "pronto": "2026-04-22T11:46:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T11:53:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#33727 (#8998)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Marcos Pressato)",
+      "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 9.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 11:45",
+        "pronto": "22/04/2026 11:54",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 12:13"
+      },
+      "horas": {
+        "cadastro": "11:45:00",
+        "pronto": "11:54:00",
+        "coleta": null,
+        "conclusao": "12:13:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T11:45:00",
+        "pronto": "2026-04-22T11:54:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T12:13:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#33728 (#6987)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Ana Angelica Moreira Da Cunha )",
+      "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 9.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 11:49",
+        "pronto": "22/04/2026 11:58",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 12:07"
+      },
+      "horas": {
+        "cadastro": "11:49:00",
+        "pronto": "11:58:00",
+        "coleta": null,
+        "conclusao": "12:07:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T11:49:00",
+        "pronto": "2026-04-22T11:58:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T12:07:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#60078 (#4038)",
+      "hub": "-",
+      "estabelec": "Mayu",
+      "cliente": "Retirada (Ana Izabela Kazzi)",
+      "categoria": "cozinha",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 50.0,
+        "pronto_col": 2.0,
+        "col_conc": 24.0,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "critico",
+        "col_conc": "critico"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 11:50",
+        "pronto": "22/04/2026 12:40",
+        "coleta": "22/04/2026 12:42",
+        "retorno": "-",
+        "conclusao": "22/04/2026 13:06"
+      },
+      "horas": {
+        "cadastro": "11:50:00",
+        "pronto": "12:40:00",
+        "coleta": "12:42:00",
+        "conclusao": "13:06:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T11:50:00",
+        "pronto": "2026-04-22T12:40:00",
+        "coleta": "2026-04-22T12:42:00",
+        "conclusao": "2026-04-22T13:06:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#60077 (#5929)",
+      "hub": "-",
+      "estabelec": "Mayu",
+      "cliente": "Retirada (Amanda Dias)",
+      "categoria": "cozinha",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 39.0,
+        "pronto_col": 2.0,
+        "col_conc": 19.0,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "critico",
+        "col_conc": "critico"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 11:51",
+        "pronto": "22/04/2026 12:30",
+        "coleta": "22/04/2026 12:32",
+        "retorno": "-",
+        "conclusao": "22/04/2026 12:51"
+      },
+      "horas": {
+        "cadastro": "11:51:00",
+        "pronto": "12:30:00",
+        "coleta": "12:32:00",
+        "conclusao": "12:51:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T11:51:00",
+        "pronto": "2026-04-22T12:30:00",
+        "coleta": "2026-04-22T12:32:00",
+        "conclusao": "2026-04-22T12:51:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#60079 (#1897)",
+      "hub": "-",
+      "estabelec": "Mayu",
+      "cliente": "Retirada (Regina Lemos)",
+      "categoria": "cozinha",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 47.0,
+        "pronto_col": 2.0,
+        "col_conc": 13.0,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "critico",
+        "col_conc": "critico"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 11:53",
+        "pronto": "22/04/2026 12:40",
+        "coleta": "22/04/2026 12:42",
+        "retorno": "-",
+        "conclusao": "22/04/2026 12:55"
+      },
+      "horas": {
+        "cadastro": "11:53:00",
+        "pronto": "12:40:00",
+        "coleta": "12:42:00",
+        "conclusao": "12:55:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T11:53:00",
+        "pronto": "2026-04-22T12:40:00",
+        "coleta": "2026-04-22T12:42:00",
+        "conclusao": "2026-04-22T12:55:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#848 (#8209)",
+      "hub": "DS Cidade Nova",
+      "estabelec": "3f - Fast Fitness Food - Cidade Nova",
+      "cliente": "Retirada (Flávio Andrade Avelar )",
+      "categoria": "outro",
+      "etapa_atual": "concluido",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 7.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 11:53",
+        "pronto": "22/04/2026 12:00",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 12:19"
+      },
+      "horas": {
+        "cadastro": "11:53:00",
+        "pronto": "12:00:00",
+        "coleta": null,
+        "conclusao": "12:19:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T11:53:00",
+        "pronto": "2026-04-22T12:00:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T12:19:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#849 (#8842)",
+      "hub": "DS Cidade Nova",
+      "estabelec": "3f - Fast Fitness Food - Cidade Nova",
+      "cliente": "Retirada (Raíssa Teixeira)",
+      "categoria": "outro",
+      "etapa_atual": "concluido",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 4.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 11:56",
+        "pronto": "22/04/2026 12:00",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 12:19"
+      },
+      "horas": {
+        "cadastro": "11:56:00",
+        "pronto": "12:00:00",
+        "coleta": null,
+        "conclusao": "12:19:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T11:56:00",
+        "pronto": "2026-04-22T12:00:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T12:19:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#850 (#4730)",
+      "hub": "DS Cidade Nova",
+      "estabelec": "3f - Fast Fitness Food - Cidade Nova",
+      "cliente": "Retirada (Juliana Passos)",
+      "categoria": "outro",
+      "etapa_atual": "concluido",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 10.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 11:59",
+        "pronto": "22/04/2026 12:09",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 13:00"
+      },
+      "horas": {
+        "cadastro": "11:59:00",
+        "pronto": "12:09:00",
+        "coleta": null,
+        "conclusao": "13:00:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T11:59:00",
+        "pronto": "2026-04-22T12:09:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T13:00:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#33729 (#6961)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Milena Rios)",
+      "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 9.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 12:05",
+        "pronto": "22/04/2026 12:14",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 12:27"
+      },
+      "horas": {
+        "cadastro": "12:05:00",
+        "pronto": "12:14:00",
+        "coleta": null,
+        "conclusao": "12:27:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T12:05:00",
+        "pronto": "2026-04-22T12:14:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T12:27:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#33730 (#1075)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Helena Providelli)",
+      "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 9.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 12:11",
+        "pronto": "22/04/2026 12:20",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 12:38"
+      },
+      "horas": {
+        "cadastro": "12:11:00",
+        "pronto": "12:20:00",
+        "coleta": null,
+        "conclusao": "12:38:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T12:11:00",
+        "pronto": "2026-04-22T12:20:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T12:38:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#33731 (#5921)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Mayra Lopes)",
+      "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 9.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 12:11",
+        "pronto": "22/04/2026 12:20",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 12:59"
+      },
+      "horas": {
+        "cadastro": "12:11:00",
+        "pronto": "12:20:00",
+        "coleta": null,
+        "conclusao": "12:59:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T12:11:00",
+        "pronto": "2026-04-22T12:20:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T12:59:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#33732 (#1567)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Fabio Paivq)",
+      "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 10.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 12:15",
+        "pronto": "22/04/2026 12:25",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 12:37"
+      },
+      "horas": {
+        "cadastro": "12:15:00",
+        "pronto": "12:25:00",
+        "coleta": null,
+        "conclusao": "12:37:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T12:15:00",
+        "pronto": "2026-04-22T12:25:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T12:37:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#28933 (#8709)",
+      "hub": "DS Sion",
+      "estabelec": "Chocake Sion - Bolos & Doces",
+      "cliente": "Retirada (Camila Emidio)",
+      "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 9.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 12:18",
+        "pronto": "22/04/2026 12:27",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 13:13"
+      },
+      "horas": {
+        "cadastro": "12:18:00",
+        "pronto": "12:27:00",
+        "coleta": null,
+        "conclusao": "13:13:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T12:18:00",
+        "pronto": "2026-04-22T12:27:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T13:13:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#157 (#4030)",
+      "hub": "DS Sion",
+      "estabelec": "Cenôra Bolos",
+      "cliente": "Retirada (Thiago Lopes)",
+      "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 7.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 12:20",
+        "pronto": "22/04/2026 12:27",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 12:47"
+      },
+      "horas": {
+        "cadastro": "12:20:00",
+        "pronto": "12:27:00",
+        "coleta": null,
+        "conclusao": "12:47:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T12:20:00",
+        "pronto": "2026-04-22T12:27:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T12:47:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#28934 (#1731)",
+      "hub": "DS Sion",
+      "estabelec": "Chocake Sion - Bolos & Doces",
+      "cliente": "Retirada (Nátale Cristina)",
+      "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 10.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 12:20",
+        "pronto": "22/04/2026 12:30",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 13:15"
+      },
+      "horas": {
+        "cadastro": "12:20:00",
+        "pronto": "12:30:00",
+        "coleta": null,
+        "conclusao": "13:15:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T12:20:00",
+        "pronto": "2026-04-22T12:30:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T13:15:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#10835 (#5965)",
+      "hub": "DS Sion",
+      "estabelec": "Sorveteria Doce Cascão - Savassi",
+      "cliente": "Retirada (Thaiany )",
+      "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 8.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 12:21",
+        "pronto": "22/04/2026 12:29",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 13:15"
+      },
+      "horas": {
+        "cadastro": "12:21:00",
+        "pronto": "12:29:00",
+        "coleta": null,
+        "conclusao": "13:15:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T12:21:00",
+        "pronto": "2026-04-22T12:29:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T13:15:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#23 (#1351)",
+      "hub": "DS Sion",
+      "estabelec": "Fitfoods Marmitaria Saudável",
+      "cliente": "Retirada (Morgana Lacerda)",
+      "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 10.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 12:23",
+        "pronto": "22/04/2026 12:33",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 12:45"
+      },
+      "horas": {
+        "cadastro": "12:23:00",
+        "pronto": "12:33:00",
+        "coleta": null,
+        "conclusao": "12:45:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T12:23:00",
+        "pronto": "2026-04-22T12:33:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T12:45:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#21569 (#8150)",
+      "hub": "DS Sion",
+      "estabelec": "Estela Damasceno Confeitaria",
+      "cliente": "Retirada (Ana Paula Fonseca Sitya)",
+      "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 9.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 12:24",
+        "pronto": "22/04/2026 12:33",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 13:07"
+      },
+      "horas": {
+        "cadastro": "12:24:00",
+        "pronto": "12:33:00",
+        "coleta": null,
+        "conclusao": "13:07:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T12:24:00",
+        "pronto": "2026-04-22T12:33:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T13:07:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#33733 (#5748)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Pedro Adolf Plotz Freitas Pinto Ribeiro)",
+      "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 9.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 12:24",
+        "pronto": "22/04/2026 12:33",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 12:47"
+      },
+      "horas": {
+        "cadastro": "12:24:00",
+        "pronto": "12:33:00",
+        "coleta": null,
+        "conclusao": "12:47:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T12:24:00",
+        "pronto": "2026-04-22T12:33:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T12:47:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#851 (#0562)",
+      "hub": "DS Cidade Nova",
+      "estabelec": "3f - Fast Fitness Food - Cidade Nova",
+      "cliente": "Retirada (Blenda Viana)",
+      "categoria": "outro",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 35.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": -196.85
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 12:24",
+        "pronto": "22/04/2026 12:59",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "12:24:00",
+        "pronto": "12:59:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T12:24:00",
+        "pronto": "2026-04-22T12:59:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#33734 (#6725)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Maíra Carneiro Andrade)",
+      "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 10.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 12:24",
+        "pronto": "22/04/2026 12:34",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 13:29"
+      },
+      "horas": {
+        "cadastro": "12:24:00",
+        "pronto": "12:34:00",
+        "coleta": null,
+        "conclusao": "13:29:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T12:24:00",
+        "pronto": "2026-04-22T12:34:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T13:29:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#158 (#5629)",
+      "hub": "DS Sion",
+      "estabelec": "Cenôra Bolos",
+      "cliente": "Retirada (Bianca Costa)",
+      "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 9.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 12:27",
+        "pronto": "22/04/2026 12:36",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 12:46"
+      },
+      "horas": {
+        "cadastro": "12:27:00",
+        "pronto": "12:36:00",
+        "coleta": null,
+        "conclusao": "12:46:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T12:27:00",
+        "pronto": "2026-04-22T12:36:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T12:46:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#33735 (#6157)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Ana Paula Carvalho)",
+      "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 9.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": -174.85
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 12:28",
+        "pronto": "22/04/2026 12:37",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "12:28:00",
+        "pronto": "12:37:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T12:28:00",
+        "pronto": "2026-04-22T12:37:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#22 (#1)",
+      "hub": "-",
+      "estabelec": "Padaria Pão Fermentação Natural",
+      "cliente": "Retirada (Ana Cristina Barros)",
+      "categoria": "cozinha",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 9.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": -176.85
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 12:30",
+        "pronto": "22/04/2026 12:39",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "12:30:00",
+        "pronto": "12:39:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T12:30:00",
+        "pronto": "2026-04-22T12:39:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#9121 (#111002)",
+      "hub": "DS Sion",
+      "estabelec": "Bolos e Doces - Arelice Sion",
+      "cliente": "Retirada (Clarissa)",
+      "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 9.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 12:35",
+        "pronto": "22/04/2026 12:44",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 12:47"
+      },
+      "horas": {
+        "cadastro": "12:35:00",
+        "pronto": "12:44:00",
+        "coleta": null,
+        "conclusao": "12:47:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T12:35:00",
+        "pronto": "2026-04-22T12:44:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T12:47:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#33737 (#7045)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Joelma Gonçalves)",
+      "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 10.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 12:38",
+        "pronto": "22/04/2026 12:48",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 12:57"
+      },
+      "horas": {
+        "cadastro": "12:38:00",
+        "pronto": "12:48:00",
+        "coleta": null,
+        "conclusao": "12:57:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T12:38:00",
+        "pronto": "2026-04-22T12:48:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T12:57:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#33736 (#6138)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Fabiana Mesquita Mansur Bueno)",
+      "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 9.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 12:40",
+        "pronto": "22/04/2026 12:49",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 12:59"
+      },
+      "horas": {
+        "cadastro": "12:40:00",
+        "pronto": "12:49:00",
+        "coleta": null,
+        "conclusao": "12:59:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T12:40:00",
+        "pronto": "2026-04-22T12:49:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T12:59:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#155 (#5913)",
+      "hub": "DS Cidade Nova",
+      "estabelec": "Cacau Arte Bolos e Doces - Cidade Nova",
+      "cliente": "Retirada (Carolina Farkasvolgyi)",
+      "categoria": "outro",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 20.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": -197.85
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 12:40",
+        "pronto": "22/04/2026 13:00",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "12:40:00",
+        "pronto": "13:00:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T12:40:00",
+        "pronto": "2026-04-22T13:00:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#9122 (#111003)",
+      "hub": "DS Sion",
+      "estabelec": "Bolos e Doces - Arelice Sion",
+      "cliente": "Retirada (Israel)",
+      "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 9.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 12:41",
+        "pronto": "22/04/2026 12:50",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 12:54"
+      },
+      "horas": {
+        "cadastro": "12:41:00",
+        "pronto": "12:50:00",
+        "coleta": null,
+        "conclusao": "12:54:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T12:41:00",
+        "pronto": "2026-04-22T12:50:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T12:54:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#33738 (#8519)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Mariana Do Nascimento Vilaça)",
+      "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 9.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 12:42",
+        "pronto": "22/04/2026 12:51",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 12:59"
+      },
+      "horas": {
+        "cadastro": "12:42:00",
+        "pronto": "12:51:00",
+        "coleta": null,
+        "conclusao": "12:59:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T12:42:00",
+        "pronto": "2026-04-22T12:51:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T12:59:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#1667 (#5739)",
+      "hub": "DS Sion",
+      "estabelec": "Pudim da Nilda - Sion",
+      "cliente": "Retirada (Lilia Piancastelli)",
+      "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 9.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 12:44",
+        "pronto": "22/04/2026 12:53",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 12:56"
+      },
+      "horas": {
+        "cadastro": "12:44:00",
+        "pronto": "12:53:00",
+        "coleta": null,
+        "conclusao": "12:56:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T12:44:00",
+        "pronto": "2026-04-22T12:53:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T12:56:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#33739 (#7341)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Carolina Silva)",
+      "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 6.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 12:49",
+        "pronto": "22/04/2026 12:55",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 12:58"
+      },
+      "horas": {
+        "cadastro": "12:49:00",
+        "pronto": "12:55:00",
+        "coleta": null,
+        "conclusao": "12:58:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T12:49:00",
+        "pronto": "2026-04-22T12:55:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T12:58:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#33740 (#0856)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Marcela Amaral)",
+      "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 9.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 12:50",
+        "pronto": "22/04/2026 12:59",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 13:20"
+      },
+      "horas": {
+        "cadastro": "12:50:00",
+        "pronto": "12:59:00",
+        "coleta": null,
+        "conclusao": "13:20:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T12:50:00",
+        "pronto": "2026-04-22T12:59:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T13:20:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#2485 (#5568)",
+      "hub": "DS Sion",
+      "estabelec": "Cremella Confeitaria - Cookies, Doces & Bolos",
+      "cliente": "Retirada (Elen Santos)",
+      "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 9.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 12:54",
+        "pronto": "22/04/2026 13:03",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 13:32"
+      },
+      "horas": {
+        "cadastro": "12:54:00",
+        "pronto": "13:03:00",
+        "coleta": null,
+        "conclusao": "13:32:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T12:54:00",
+        "pronto": "2026-04-22T13:03:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T13:32:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#8646 (#4201)",
+      "hub": "DS Sion",
+      "estabelec": "Mr Duck Cookies - Belo Horizonte",
+      "cliente": "Retirada (Nathalia Santos)",
+      "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 6.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 12:57",
+        "pronto": "22/04/2026 13:03",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 13:33"
+      },
+      "horas": {
+        "cadastro": "12:57:00",
+        "pronto": "13:03:00",
+        "coleta": null,
+        "conclusao": "13:33:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T12:57:00",
+        "pronto": "2026-04-22T13:03:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T13:33:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#1544 (#9214)",
+      "hub": "DS Cidade Nova",
+      "estabelec": "E Doces - Cidade Nova, Confeitaria, Copo, Cookie, Brownie & Fatias",
+      "cliente": "Retirada (Isabela Lima)",
+      "categoria": "outro",
+      "etapa_atual": "concluido",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 5.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 13:09",
+        "pronto": "22/04/2026 13:14",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 13:24"
+      },
+      "horas": {
+        "cadastro": "13:09:00",
+        "pronto": "13:14:00",
+        "coleta": null,
+        "conclusao": "13:24:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T13:09:00",
+        "pronto": "2026-04-22T13:14:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T13:24:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#33741 (#2381)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Matheus Felix)",
+      "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 7.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": -215.85
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 13:11",
+        "pronto": "22/04/2026 13:18",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "13:11:00",
+        "pronto": "13:18:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T13:11:00",
+        "pronto": "2026-04-22T13:18:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#5378 (#1855)",
+      "hub": "DS Sion",
+      "estabelec": "Apicela Gourmet Confeitaria - Brownie , Bolos e Sobremesas",
+      "cliente": "Retirada (Keula Marquez)",
+      "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "alerta",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 3.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "alerta",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 13:17",
+        "pronto": "22/04/2026 13:20",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 13:39"
+      },
+      "horas": {
+        "cadastro": "13:17:00",
+        "pronto": "13:20:00",
+        "coleta": null,
+        "conclusao": "13:39:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T13:17:00",
+        "pronto": "2026-04-22T13:20:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T13:39:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#60080 (#5975)",
+      "hub": "-",
+      "estabelec": "Mayu",
+      "cliente": "Retirada (Nayanne Alves)",
+      "categoria": "cozinha",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 22.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": -238.85
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 13:19",
+        "pronto": "22/04/2026 13:41",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "13:19:00",
+        "pronto": "13:41:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T13:19:00",
+        "pronto": "2026-04-22T13:41:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#33742 (#7181)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Mariana Villani)",
+      "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 6.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 13:19",
+        "pronto": "22/04/2026 13:25",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/04/2026 13:36"
+      },
+      "horas": {
+        "cadastro": "13:19:00",
+        "pronto": "13:25:00",
+        "coleta": null,
+        "conclusao": "13:36:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T13:19:00",
+        "pronto": "2026-04-22T13:25:00",
+        "coleta": null,
+        "conclusao": "2026-04-22T13:36:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#9123 (#111004)",
+      "hub": "DS Sion",
+      "estabelec": "Bolos e Doces - Arelice Sion",
+      "cliente": "Retirada (Ronaldo)",
+      "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 9.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": -234.85
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 13:28",
+        "pronto": "22/04/2026 13:37",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "13:28:00",
+        "pronto": "13:37:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T13:28:00",
+        "pronto": "2026-04-22T13:37:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#855 (#0780)",
+      "hub": "DS Cidade Nova",
+      "estabelec": "3f - Fast Fitness Food - Cidade Nova",
+      "cliente": "Retirada (Rodolfo Souza)",
+      "categoria": "outro",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 6.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": -232.85
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 13:29",
+        "pronto": "22/04/2026 13:35",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "13:29:00",
+        "pronto": "13:35:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T13:29:00",
+        "pronto": "2026-04-22T13:35:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#33743 (#8923)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Cadu Guerra)",
+      "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 10.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": -236.85
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 13:29",
+        "pronto": "22/04/2026 13:39",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "13:29:00",
+        "pronto": "13:39:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T13:29:00",
+        "pronto": "2026-04-22T13:39:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#33744 (#5010)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Gabriela Canuto)",
+      "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 9.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": -236.85
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 13:30",
+        "pronto": "22/04/2026 13:39",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "13:30:00",
+        "pronto": "13:39:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T13:30:00",
+        "pronto": "2026-04-22T13:39:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#10836 (#7908)",
+      "hub": "DS Sion",
+      "estabelec": "Sorveteria Doce Cascão - Savassi",
+      "cliente": "Retirada (Saulo Rocha)",
+      "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 9.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": -238.85
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 13:32",
+        "pronto": "22/04/2026 13:41",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "13:32:00",
+        "pronto": "13:41:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T13:32:00",
+        "pronto": "2026-04-22T13:41:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#2055 (#1650)",
+      "hub": "DS Sion",
+      "estabelec": "Trilhas da Amazônia Savassi - Açai, Sorvete & Picolé",
+      "cliente": "Retirada (ítalo Kelvin)",
+      "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 9.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": -238.85
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 13:32",
+        "pronto": "22/04/2026 13:41",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "13:32:00",
+        "pronto": "13:41:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T13:32:00",
+        "pronto": "2026-04-22T13:41:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#856 (#8900)",
+      "hub": "DS Cidade Nova",
+      "estabelec": "3f - Fast Fitness Food - Cidade Nova",
+      "cliente": "Retirada (Marina Marçoni)",
+      "categoria": "outro",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 3.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": -232.85
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/04/2026 13:32",
+        "pronto": "22/04/2026 13:35",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "13:32:00",
+        "pronto": "13:35:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-22T13:32:00",
+        "pronto": "2026-04-22T13:35:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#2372 (#8775)",
+      "hub": "DS Sion",
+      "estabelec": "Tortas dos Silva - Itens Congelados",
+      "cliente": "Retirada (Marina Guedes)",
+      "categoria": "loja",
       "etapa_atual": "em_preparo",
       "status_geral": "ok",
       "inativo": false,
@@ -1188,7 +3843,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.93,
+        "desde_cadastro": -233.85,
         "desde_pronto": null
       },
       "status": {
@@ -1197,66 +3852,21 @@
         "col_conc": "pendente"
       },
       "datas": {
-        "cadastro": "22/04/2026 11:22",
+        "cadastro": "22/04/2026 13:36",
         "pronto": "-",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
-        "cadastro": "11:22:00",
+        "cadastro": "13:36:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
-        "cadastro": "2026-04-22T11:22:00",
-        "pronto": null,
-        "coleta": null,
-        "conclusao": null
-      },
-      "dt_retorno": null
-    },
-    {
-      "cod": "#286864 (#229002)",
-      "hub": "-",
-      "estabelec": "Burger X",
-      "cliente": "Retirada (Andyara)",
-      "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
-      "inativo": false,
-      "alerta_retorno": false,
-      "tempos": {
-        "cad_pronto": null,
-        "pronto_col": null,
-        "col_conc": null,
-        "aguard_saida": null,
-        "desde_cadastro": 1.93,
-        "desde_pronto": null
-      },
-      "status": {
-        "cad_pronto": "na",
-        "pronto_col": "pendente",
-        "col_conc": "pendente"
-      },
-      "datas": {
-        "cadastro": "22/04/2026 11:23",
-        "pronto": "-",
-        "coleta": "-",
-        "retorno": "-",
-        "conclusao": "-"
-      },
-      "horas": {
-        "cadastro": "11:23:00",
-        "pronto": null,
-        "coleta": null,
-        "conclusao": null,
-        "retorno": null
-      },
-      "ts": {
-        "cadastro": "2026-04-22T11:23:00",
+        "cadastro": "2026-04-22T13:36:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
