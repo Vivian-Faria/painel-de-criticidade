@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "23/04/2026 11:39:56",
+  "atualizado_em": "23/04/2026 11:40:57",
   "data_ref": "23/04/2026",
-  "total": 52,
+  "total": 54,
   "pedidos": [
     {
       "cod": "#286991 (#6823)",
@@ -964,7 +964,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 33.95
+        "desde_pronto": 34.96
       },
       "status": {
         "cad_pronto": "na",
@@ -1547,9 +1547,9 @@
         "cad_pronto": 18.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 10.95,
+        "aguard_saida": 11.96,
         "desde_cadastro": null,
-        "desde_pronto": 12.95
+        "desde_pronto": 13.96
       },
       "status": {
         "cad_pronto": "na",
@@ -1592,9 +1592,9 @@
         "cad_pronto": 17.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 10.95,
+        "aguard_saida": 11.96,
         "desde_cadastro": null,
-        "desde_pronto": 12.95
+        "desde_pronto": 13.96
       },
       "status": {
         "cad_pronto": "na",
@@ -1639,7 +1639,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 20.95
+        "desde_pronto": 21.96
       },
       "status": {
         "cad_pronto": "na",
@@ -1663,6 +1663,51 @@
       "ts": {
         "cadastro": "2026-04-23T11:11:00",
         "pronto": "2026-04-23T11:19:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#859 (#9923)",
+      "hub": "DS Cidade Nova",
+      "estabelec": "3f - Fast Fitness Food - Cidade Nova",
+      "cliente": "Retirada (Raíssa Teixeira)",
+      "categoria": "outro",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 17.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 10.96
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "23/04/2026 11:13",
+        "pronto": "23/04/2026 11:30",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:13:00",
+        "pronto": "11:30:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-23T11:13:00",
+        "pronto": "2026-04-23T11:30:00",
         "coleta": null,
         "conclusao": null
       },
@@ -1714,51 +1759,6 @@
       "dt_retorno": null
     },
     {
-      "cod": "#859 (#9923)",
-      "hub": "DS Cidade Nova",
-      "estabelec": "3f - Fast Fitness Food - Cidade Nova",
-      "cliente": "Retirada (Raíssa Teixeira)",
-      "categoria": "outro",
-      "etapa_atual": "aguardando_coleta",
-      "status_geral": "ok",
-      "inativo": false,
-      "alerta_retorno": false,
-      "tempos": {
-        "cad_pronto": 17.0,
-        "pronto_col": null,
-        "col_conc": null,
-        "aguard_saida": null,
-        "desde_cadastro": null,
-        "desde_pronto": 9.95
-      },
-      "status": {
-        "cad_pronto": "na",
-        "pronto_col": "na",
-        "col_conc": "pendente"
-      },
-      "datas": {
-        "cadastro": "23/04/2026 11:13",
-        "pronto": "23/04/2026 11:30",
-        "coleta": "-",
-        "retorno": "-",
-        "conclusao": "-"
-      },
-      "horas": {
-        "cadastro": "11:13:00",
-        "pronto": "11:30:00",
-        "coleta": null,
-        "conclusao": null,
-        "retorno": null
-      },
-      "ts": {
-        "cadastro": "2026-04-23T11:13:00",
-        "pronto": "2026-04-23T11:30:00",
-        "coleta": null,
-        "conclusao": null
-      },
-      "dt_retorno": null
-    },
-    {
       "cod": "#287007 (#5016)",
       "hub": "-",
       "estabelec": "Burger X",
@@ -1772,8 +1772,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 10.95,
-        "desde_cadastro": 25.95,
+        "aguard_saida": 11.96,
+        "desde_cadastro": 26.96,
         "desde_pronto": null
       },
       "status": {
@@ -1863,7 +1863,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 23.95,
+        "desde_cadastro": 24.96,
         "desde_pronto": null
       },
       "status": {
@@ -1999,7 +1999,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 14.95
+        "desde_pronto": 15.96
       },
       "status": {
         "cad_pronto": "critico",
@@ -2034,42 +2034,42 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Cynthia)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_coleta",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 19.0,
-        "pronto_col": null,
-        "col_conc": null,
+        "pronto_col": 3.0,
+        "col_conc": 0.0,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.95
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
-        "col_conc": "pendente"
+        "pronto_col": "critico",
+        "col_conc": "ok"
       },
       "datas": {
         "cadastro": "23/04/2026 11:18",
         "pronto": "23/04/2026 11:37",
-        "coleta": "-",
+        "coleta": "23/04/2026 11:40",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "23/04/2026 11:40"
       },
       "horas": {
         "cadastro": "11:18:00",
         "pronto": "11:37:00",
-        "coleta": null,
-        "conclusao": null,
+        "coleta": "11:40:00",
+        "conclusao": "11:40:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-23T11:18:00",
         "pronto": "2026-04-23T11:37:00",
-        "coleta": null,
-        "conclusao": null
+        "coleta": "2026-04-23T11:40:00",
+        "conclusao": "2026-04-23T11:40:00"
       },
       "dt_retorno": null
     },
@@ -2088,7 +2088,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 13.95,
+        "desde_cadastro": 14.96,
         "desde_pronto": null
       },
       "status": {
@@ -2124,42 +2124,42 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Maria Eduarda)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_coleta",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 9.0,
-        "pronto_col": null,
-        "col_conc": null,
+        "pronto_col": 3.0,
+        "col_conc": 0.0,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.95
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
-        "col_conc": "pendente"
+        "pronto_col": "critico",
+        "col_conc": "ok"
       },
       "datas": {
         "cadastro": "23/04/2026 11:28",
         "pronto": "23/04/2026 11:37",
-        "coleta": "-",
+        "coleta": "23/04/2026 11:40",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "23/04/2026 11:40"
       },
       "horas": {
         "cadastro": "11:28:00",
         "pronto": "11:37:00",
-        "coleta": null,
-        "conclusao": null,
+        "coleta": "11:40:00",
+        "conclusao": "11:40:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-23T11:28:00",
         "pronto": "2026-04-23T11:37:00",
-        "coleta": null,
-        "conclusao": null
+        "coleta": "2026-04-23T11:40:00",
+        "conclusao": "2026-04-23T11:40:00"
       },
       "dt_retorno": null
     },
@@ -2178,7 +2178,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 9.95,
+        "desde_cadastro": 10.96,
         "desde_pronto": null
       },
       "status": {
@@ -2223,7 +2223,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.95,
+        "desde_cadastro": 6.96,
         "desde_pronto": null
       },
       "status": {
@@ -2268,7 +2268,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.95,
+        "desde_cadastro": 3.96,
         "desde_pronto": null
       },
       "status": {
@@ -2313,7 +2313,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.95,
+        "desde_cadastro": 2.96,
         "desde_pronto": null
       },
       "status": {
@@ -2337,6 +2337,96 @@
       },
       "ts": {
         "cadastro": "2026-04-23T11:38:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#33787 (#2661)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Vitória Machado)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.96,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "23/04/2026 11:39",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:39:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-23T11:39:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#287011 (#767004)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Luciano)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.96,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "23/04/2026 11:39",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:39:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-23T11:39:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
