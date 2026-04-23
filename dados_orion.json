@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "23/04/2026 11:42:55",
+  "atualizado_em": "23/04/2026 11:44:53",
   "data_ref": "23/04/2026",
   "total": 53,
   "pedidos": [
@@ -964,7 +964,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 36.93
+        "desde_pronto": 38.9
       },
       "status": {
         "cad_pronto": "na",
@@ -1587,14 +1587,14 @@
       "etapa_atual": "aguardando_saida",
       "status_geral": "critico",
       "inativo": false,
-      "alerta_retorno": false,
+      "alerta_retorno": true,
       "tempos": {
         "cad_pronto": 17.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 13.93,
+        "aguard_saida": 15.9,
         "desde_cadastro": null,
-        "desde_pronto": 15.93
+        "desde_pronto": 17.9
       },
       "status": {
         "cad_pronto": "na",
@@ -1639,7 +1639,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 23.93
+        "desde_pronto": 25.9
       },
       "status": {
         "cad_pronto": "na",
@@ -1684,7 +1684,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 12.93
+        "desde_pronto": 14.9
       },
       "status": {
         "cad_pronto": "na",
@@ -1767,13 +1767,13 @@
       "etapa_atual": "aguardando_saida",
       "status_geral": "ok",
       "inativo": false,
-      "alerta_retorno": false,
+      "alerta_retorno": true,
       "tempos": {
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 13.93,
-        "desde_cadastro": 28.93,
+        "aguard_saida": 15.9,
+        "desde_cadastro": 30.9,
         "desde_pronto": null
       },
       "status": {
@@ -1863,7 +1863,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 26.93,
+        "desde_cadastro": 28.9,
         "desde_pronto": null
       },
       "status": {
@@ -1999,7 +1999,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 17.93
+        "desde_pronto": 19.9
       },
       "status": {
         "cad_pronto": "critico",
@@ -2088,7 +2088,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 16.93,
+        "desde_cadastro": 18.9,
         "desde_pronto": null
       },
       "status": {
@@ -2214,40 +2214,40 @@
       "estabelec": "Cremella Confeitaria - Cookies, Doces & Bolos",
       "cliente": "Retirada (Rayssa Freitas Ribeiro)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 10.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.93,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 0.9
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "23/04/2026 11:34",
-        "pronto": "-",
+        "pronto": "23/04/2026 11:44",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "11:34:00",
-        "pronto": null,
+        "pronto": "11:44:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-23T11:34:00",
-        "pronto": null,
+        "pronto": "2026-04-23T11:44:00",
         "coleta": null,
         "conclusao": null
       },
@@ -2268,7 +2268,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.93,
+        "desde_cadastro": 7.9,
         "desde_pronto": null
       },
       "status": {
@@ -2313,7 +2313,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.93,
+        "desde_cadastro": 6.9,
         "desde_pronto": null
       },
       "status": {
@@ -2349,41 +2349,41 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Luciano)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "aguardando_saida",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
-        "pronto_col": null,
+        "cad_pronto": 4.0,
+        "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": null,
-        "desde_cadastro": 3.93,
-        "desde_pronto": null
+        "aguard_saida": 0.9,
+        "desde_cadastro": null,
+        "desde_pronto": 1.9
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
+        "pronto_col": "ok",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "23/04/2026 11:39",
-        "pronto": "-",
-        "coleta": "-",
+        "pronto": "23/04/2026 11:43",
+        "coleta": "23/04/2026 11:44",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "11:39:00",
-        "pronto": null,
-        "coleta": null,
+        "pronto": "11:43:00",
+        "coleta": "11:44:00",
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-23T11:39:00",
-        "pronto": null,
-        "coleta": null,
+        "pronto": "2026-04-23T11:43:00",
+        "coleta": "2026-04-23T11:44:00",
         "conclusao": null
       },
       "dt_retorno": null
