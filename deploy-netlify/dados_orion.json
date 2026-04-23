@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "23/04/2026 11:49:58",
+  "atualizado_em": "23/04/2026 11:51:20",
   "data_ref": "23/04/2026",
-  "total": 56,
+  "total": 57,
   "pedidos": [
     {
       "cod": "#286991 (#6823)",
@@ -964,7 +964,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 43.97
+        "desde_pronto": 45.35
       },
       "status": {
         "cad_pronto": "na",
@@ -1584,17 +1584,17 @@
       "estabelec": "Burger X",
       "cliente": "Entrega (Camila Vânia)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_saida",
+      "etapa_atual": "retornado",
       "status_geral": "critico",
       "inativo": false,
-      "alerta_retorno": true,
+      "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 17.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 20.97,
+        "aguard_saida": 22.35,
         "desde_cadastro": null,
-        "desde_pronto": 22.97
+        "desde_pronto": 24.35
       },
       "status": {
         "cad_pronto": "na",
@@ -1605,7 +1605,7 @@
         "cadastro": "23/04/2026 11:10",
         "pronto": "23/04/2026 11:27",
         "coleta": "23/04/2026 11:29",
-        "retorno": "-",
+        "retorno": "23/04/2026 11:51",
         "conclusao": "-"
       },
       "horas": {
@@ -1613,7 +1613,7 @@
         "pronto": "11:27:00",
         "coleta": "11:29:00",
         "conclusao": null,
-        "retorno": null
+        "retorno": "11:51:00"
       },
       "ts": {
         "cadastro": "2026-04-23T11:10:00",
@@ -1621,7 +1621,7 @@
         "coleta": "2026-04-23T11:29:00",
         "conclusao": null
       },
-      "dt_retorno": null
+      "dt_retorno": "11:51:00"
     },
     {
       "cod": "#93 (#3389)",
@@ -1639,7 +1639,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 30.97
+        "desde_pronto": 32.35
       },
       "status": {
         "cad_pronto": "na",
@@ -1684,7 +1684,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 19.97
+        "desde_pronto": 21.35
       },
       "status": {
         "cad_pronto": "na",
@@ -1772,8 +1772,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 20.97,
-        "desde_cadastro": 35.97,
+        "aguard_saida": 22.35,
+        "desde_cadastro": 37.35,
         "desde_pronto": null
       },
       "status": {
@@ -1863,7 +1863,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 33.97,
+        "desde_cadastro": 35.35,
         "desde_pronto": null
       },
       "status": {
@@ -1999,7 +1999,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 24.97
+        "desde_pronto": 26.35
       },
       "status": {
         "cad_pronto": "critico",
@@ -2088,7 +2088,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 23.97,
+        "desde_cadastro": 25.35,
         "desde_pronto": null
       },
       "status": {
@@ -2224,7 +2224,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 5.97
+        "desde_pronto": 7.35
       },
       "status": {
         "cad_pronto": "critico",
@@ -2269,7 +2269,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.97
+        "desde_pronto": 4.35
       },
       "status": {
         "cad_pronto": "critico",
@@ -2314,7 +2314,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.97
+        "desde_pronto": 3.35
       },
       "status": {
         "cad_pronto": "critico",
@@ -2349,42 +2349,42 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Luciano)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_saida",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 4.0,
         "pronto_col": 1.0,
-        "col_conc": null,
-        "aguard_saida": 5.97,
+        "col_conc": 7.0,
+        "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 6.97
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "ok",
-        "col_conc": "pendente"
+        "col_conc": "ok"
       },
       "datas": {
         "cadastro": "23/04/2026 11:39",
         "pronto": "23/04/2026 11:43",
         "coleta": "23/04/2026 11:44",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "23/04/2026 11:51"
       },
       "horas": {
         "cadastro": "11:39:00",
         "pronto": "11:43:00",
         "coleta": "11:44:00",
-        "conclusao": null,
+        "conclusao": "11:51:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-23T11:39:00",
         "pronto": "2026-04-23T11:43:00",
         "coleta": "2026-04-23T11:44:00",
-        "conclusao": null
+        "conclusao": "2026-04-23T11:51:00"
       },
       "dt_retorno": null
     },
@@ -2403,7 +2403,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 3.97,
+        "desde_cadastro": 5.35,
         "desde_pronto": null
       },
       "status": {
@@ -2439,6 +2439,51 @@
       "estabelec": "Sorveteria Doce Cascão - Savassi",
       "cliente": "Retirada (Ametista Drumond)",
       "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "alerta",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 3.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 1.35
+      },
+      "status": {
+        "cad_pronto": "alerta",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "23/04/2026 11:47",
+        "pronto": "23/04/2026 11:50",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:47:00",
+        "pronto": "11:50:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-23T11:47:00",
+        "pronto": "2026-04-23T11:50:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#860 (#1876)",
+      "hub": "DS Cidade Nova",
+      "estabelec": "3f - Fast Fitness Food - Cidade Nova",
+      "cliente": "Retirada (Bianca Brumano)",
+      "categoria": "outro",
       "etapa_atual": "em_preparo",
       "status_geral": "ok",
       "inativo": false,
@@ -2448,11 +2493,11 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.97,
+        "desde_cadastro": 4.35,
         "desde_pronto": null
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "na",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
@@ -2479,11 +2524,11 @@
       "dt_retorno": null
     },
     {
-      "cod": "#860 (#1876)",
-      "hub": "DS Cidade Nova",
-      "estabelec": "3f - Fast Fitness Food - Cidade Nova",
-      "cliente": "Retirada (Bianca Brumano)",
-      "categoria": "outro",
+      "cod": "#10846 (#2764)",
+      "hub": "DS Sion",
+      "estabelec": "Sorveteria Doce Cascão - Savassi",
+      "cliente": "Retirada (Barbara Santos)",
+      "categoria": "loja",
       "etapa_atual": "em_preparo",
       "status_geral": "ok",
       "inativo": false,
@@ -2493,30 +2538,30 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.97,
+        "desde_cadastro": 1.35,
         "desde_pronto": null
       },
       "status": {
-        "cad_pronto": "na",
+        "cad_pronto": "pendente",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
-        "cadastro": "23/04/2026 11:47",
+        "cadastro": "23/04/2026 11:50",
         "pronto": "-",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
-        "cadastro": "11:47:00",
+        "cadastro": "11:50:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
-        "cadastro": "2026-04-23T11:47:00",
+        "cadastro": "2026-04-23T11:50:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
