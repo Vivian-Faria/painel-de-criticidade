@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "23/04/2026 12:16:56",
+  "atualizado_em": "23/04/2026 12:18:04",
   "data_ref": "23/04/2026",
-  "total": 85,
+  "total": 86,
   "pedidos": [
     {
       "cod": "#286991 (#6823)",
@@ -964,7 +964,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 70.94
+        "desde_pronto": 72.07
       },
       "status": {
         "cad_pronto": "na",
@@ -1639,7 +1639,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 57.94
+        "desde_pronto": 59.07
       },
       "status": {
         "cad_pronto": "na",
@@ -1663,6 +1663,51 @@
       "ts": {
         "cadastro": "2026-04-23T11:11:00",
         "pronto": "2026-04-23T11:19:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#859 (#9923)",
+      "hub": "DS Cidade Nova",
+      "estabelec": "3f - Fast Fitness Food - Cidade Nova",
+      "cliente": "Retirada (Raíssa Teixeira)",
+      "categoria": "outro",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 17.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 48.07
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "23/04/2026 11:13",
+        "pronto": "23/04/2026 11:30",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:13:00",
+        "pronto": "11:30:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-23T11:13:00",
+        "pronto": "2026-04-23T11:30:00",
         "coleta": null,
         "conclusao": null
       },
@@ -1714,51 +1759,6 @@
       "dt_retorno": null
     },
     {
-      "cod": "#859 (#9923)",
-      "hub": "DS Cidade Nova",
-      "estabelec": "3f - Fast Fitness Food - Cidade Nova",
-      "cliente": "Retirada (Raíssa Teixeira)",
-      "categoria": "outro",
-      "etapa_atual": "aguardando_coleta",
-      "status_geral": "ok",
-      "inativo": false,
-      "alerta_retorno": false,
-      "tempos": {
-        "cad_pronto": 17.0,
-        "pronto_col": null,
-        "col_conc": null,
-        "aguard_saida": null,
-        "desde_cadastro": null,
-        "desde_pronto": 46.94
-      },
-      "status": {
-        "cad_pronto": "na",
-        "pronto_col": "na",
-        "col_conc": "pendente"
-      },
-      "datas": {
-        "cadastro": "23/04/2026 11:13",
-        "pronto": "23/04/2026 11:30",
-        "coleta": "-",
-        "retorno": "-",
-        "conclusao": "-"
-      },
-      "horas": {
-        "cadastro": "11:13:00",
-        "pronto": "11:30:00",
-        "coleta": null,
-        "conclusao": null,
-        "retorno": null
-      },
-      "ts": {
-        "cadastro": "2026-04-23T11:13:00",
-        "pronto": "2026-04-23T11:30:00",
-        "coleta": null,
-        "conclusao": null
-      },
-      "dt_retorno": null
-    },
-    {
       "cod": "#287007 (#5016)",
       "hub": "-",
       "estabelec": "Burger X",
@@ -1772,8 +1772,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 47.94,
-        "desde_cadastro": 62.94,
+        "aguard_saida": 49.07,
+        "desde_cadastro": 64.07,
         "desde_pronto": null
       },
       "status": {
@@ -2403,7 +2403,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 30.94,
+        "desde_cadastro": 32.07,
         "desde_pronto": null
       },
       "status": {
@@ -2449,7 +2449,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 26.94
+        "desde_pronto": 28.07
       },
       "status": {
         "cad_pronto": "alerta",
@@ -2494,7 +2494,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 12.94
+        "desde_pronto": 14.07
       },
       "status": {
         "cad_pronto": "na",
@@ -2539,7 +2539,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 19.94
+        "desde_pronto": 21.07
       },
       "status": {
         "cad_pronto": "critico",
@@ -2794,10 +2794,10 @@
       "dt_retorno": null
     },
     {
-      "cod": "#861 (#0040)",
+      "cod": "#862 (#9926)",
       "hub": "DS Cidade Nova",
       "estabelec": "3f - Fast Fitness Food - Cidade Nova",
-      "cliente": "Retirada (Fernanda Torres)",
+      "cliente": "Retirada (Luna Gomides)",
       "categoria": "outro",
       "etapa_atual": "em_preparo",
       "status_geral": "ok",
@@ -2808,7 +2808,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 18.94,
+        "desde_cadastro": 20.07,
         "desde_pronto": null
       },
       "status": {
@@ -2839,10 +2839,10 @@
       "dt_retorno": null
     },
     {
-      "cod": "#862 (#9926)",
+      "cod": "#861 (#0040)",
       "hub": "DS Cidade Nova",
       "estabelec": "3f - Fast Fitness Food - Cidade Nova",
-      "cliente": "Retirada (Luna Gomides)",
+      "cliente": "Retirada (Fernanda Torres)",
       "categoria": "outro",
       "etapa_atual": "em_preparo",
       "status_geral": "ok",
@@ -2853,7 +2853,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 18.94,
+        "desde_cadastro": 20.07,
         "desde_pronto": null
       },
       "status": {
@@ -2898,7 +2898,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 17.94,
+        "desde_cadastro": 19.07,
         "desde_pronto": null
       },
       "status": {
@@ -2944,7 +2944,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 9.94
+        "desde_pronto": 11.07
       },
       "status": {
         "cad_pronto": "critico",
@@ -3079,7 +3079,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.94
+        "desde_pronto": 5.07
       },
       "status": {
         "cad_pronto": "critico",
@@ -3124,7 +3124,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.94
+        "desde_pronto": 5.07
       },
       "status": {
         "cad_pronto": "critico",
@@ -3168,7 +3168,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 12.94,
+        "desde_cadastro": 14.07,
         "desde_pronto": null
       },
       "status": {
@@ -3213,7 +3213,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 11.94,
+        "desde_cadastro": 13.07,
         "desde_pronto": null
       },
       "status": {
@@ -3304,7 +3304,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.94
+        "desde_pronto": 3.07
       },
       "status": {
         "cad_pronto": "critico",
@@ -3349,7 +3349,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.94
+        "desde_pronto": 4.07
       },
       "status": {
         "cad_pronto": "critico",
@@ -3394,7 +3394,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.94
+        "desde_pronto": 3.07
       },
       "status": {
         "cad_pronto": "critico",
@@ -3437,9 +3437,9 @@
         "cad_pronto": 4.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 3.94,
+        "aguard_saida": 5.07,
         "desde_cadastro": null,
-        "desde_pronto": 4.94
+        "desde_pronto": 6.07
       },
       "status": {
         "cad_pronto": "na",
@@ -3483,7 +3483,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 6.94,
+        "desde_cadastro": 8.07,
         "desde_pronto": null
       },
       "status": {
@@ -3528,7 +3528,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.94,
+        "desde_cadastro": 7.07,
         "desde_pronto": null
       },
       "status": {
@@ -3573,7 +3573,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.94,
+        "desde_cadastro": 4.07,
         "desde_pronto": null
       },
       "status": {
@@ -3618,7 +3618,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.94,
+        "desde_cadastro": 3.07,
         "desde_pronto": null
       },
       "status": {
@@ -3663,7 +3663,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.94,
+        "desde_cadastro": 3.07,
         "desde_pronto": null
       },
       "status": {
@@ -3708,7 +3708,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.94,
+        "desde_cadastro": 3.07,
         "desde_pronto": null
       },
       "status": {
@@ -3753,7 +3753,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 0.94,
+        "desde_cadastro": 2.07,
         "desde_pronto": null
       },
       "status": {
@@ -3798,7 +3798,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 0.94,
+        "desde_cadastro": 2.07,
         "desde_pronto": null
       },
       "status": {
@@ -3822,6 +3822,51 @@
       },
       "ts": {
         "cadastro": "2026-04-23T12:16:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#863 (#8437)",
+      "hub": "DS Cidade Nova",
+      "estabelec": "3f - Fast Fitness Food - Cidade Nova",
+      "cliente": "Retirada (Ferdinando Oliveira)",
+      "categoria": "outro",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.07,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "23/04/2026 12:17",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "12:17:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-23T12:17:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
