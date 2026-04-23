@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "23/04/2026 11:58:57",
+  "atualizado_em": "23/04/2026 11:59:56",
   "data_ref": "23/04/2026",
-  "total": 62,
+  "total": 64,
   "pedidos": [
     {
       "cod": "#286991 (#6823)",
@@ -964,7 +964,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 52.97
+        "desde_pronto": 53.93
       },
       "status": {
         "cad_pronto": "na",
@@ -1639,7 +1639,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 39.97
+        "desde_pronto": 40.93
       },
       "status": {
         "cad_pronto": "na",
@@ -1684,7 +1684,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 28.97
+        "desde_pronto": 29.93
       },
       "status": {
         "cad_pronto": "na",
@@ -1772,8 +1772,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 29.97,
-        "desde_cadastro": 44.97,
+        "aguard_saida": 30.93,
+        "desde_cadastro": 45.93,
         "desde_pronto": null
       },
       "status": {
@@ -1863,7 +1863,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 42.97,
+        "desde_cadastro": 43.93,
         "desde_pronto": null
       },
       "status": {
@@ -2088,7 +2088,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 32.97,
+        "desde_cadastro": 33.93,
         "desde_pronto": null
       },
       "status": {
@@ -2403,7 +2403,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 12.97,
+        "desde_cadastro": 13.93,
         "desde_pronto": null
       },
       "status": {
@@ -2449,7 +2449,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 8.97
+        "desde_pronto": 9.93
       },
       "status": {
         "cad_pronto": "alerta",
@@ -2493,7 +2493,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 11.97,
+        "desde_cadastro": 12.93,
         "desde_pronto": null
       },
       "status": {
@@ -2539,7 +2539,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.97
+        "desde_pronto": 2.93
       },
       "status": {
         "cad_pronto": "critico",
@@ -2584,7 +2584,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.97
+        "desde_pronto": 2.93
       },
       "status": {
         "cad_pronto": "critico",
@@ -2629,7 +2629,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.97
+        "desde_pronto": 2.93
       },
       "status": {
         "cad_pronto": "critico",
@@ -2718,7 +2718,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.97,
+        "desde_cadastro": 5.93,
         "desde_pronto": null
       },
       "status": {
@@ -2754,6 +2754,51 @@
       "estabelec": "Bolos e Doces - Arelice Sion",
       "cliente": "Retirada (Débora Mourão Salles)",
       "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "alerta",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 3.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 0.93
+      },
+      "status": {
+        "cad_pronto": "alerta",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "23/04/2026 11:56",
+        "pronto": "23/04/2026 11:59",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:56:00",
+        "pronto": "11:59:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-23T11:56:00",
+        "pronto": "2026-04-23T11:59:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#861 (#0040)",
+      "hub": "DS Cidade Nova",
+      "estabelec": "3f - Fast Fitness Food - Cidade Nova",
+      "cliente": "Retirada (Fernanda Torres)",
+      "categoria": "outro",
       "etapa_atual": "em_preparo",
       "status_geral": "ok",
       "inativo": false,
@@ -2763,30 +2808,75 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.97,
+        "desde_cadastro": 1.93,
         "desde_pronto": null
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "na",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
-        "cadastro": "23/04/2026 11:56",
+        "cadastro": "23/04/2026 11:58",
         "pronto": "-",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
-        "cadastro": "11:56:00",
+        "cadastro": "11:58:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
-        "cadastro": "2026-04-23T11:56:00",
+        "cadastro": "2026-04-23T11:58:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#862 (#9926)",
+      "hub": "DS Cidade Nova",
+      "estabelec": "3f - Fast Fitness Food - Cidade Nova",
+      "cliente": "Retirada (Luna Gomides)",
+      "categoria": "outro",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.93,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "23/04/2026 11:58",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:58:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-23T11:58:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
