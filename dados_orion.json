@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "24/04/2026 10:48:05",
+  "atualizado_em": "24/04/2026 10:48:57",
   "data_ref": "24/04/2026",
-  "total": 18,
+  "total": 19,
   "pedidos": [
     {
       "cod": "#287175 (#1629)",
@@ -467,9 +467,9 @@
         "cad_pronto": 0.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 43.09,
+        "aguard_saida": 43.96,
         "desde_cadastro": null,
-        "desde_pronto": 45.09
+        "desde_pronto": 45.96
       },
       "status": {
         "cad_pronto": "na",
@@ -604,7 +604,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.09
+        "desde_pronto": 2.96
       },
       "status": {
         "cad_pronto": "critico",
@@ -639,40 +639,40 @@
       "estabelec": "Cremella Confeitaria - Cookies, Doces & Bolos",
       "cliente": "Retirada (Henrique Avila)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 9.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 9.09,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 0.96
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "24/04/2026 10:39",
-        "pronto": "-",
+        "pronto": "24/04/2026 10:48",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "10:39:00",
-        "pronto": null,
+        "pronto": "10:48:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-24T10:39:00",
-        "pronto": null,
+        "pronto": "2026-04-24T10:48:00",
         "coleta": null,
         "conclusao": null
       },
@@ -693,7 +693,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.09,
+        "desde_cadastro": 8.96,
         "desde_pronto": null
       },
       "status": {
@@ -739,7 +739,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.09
+        "desde_pronto": 2.96
       },
       "status": {
         "cad_pronto": "alerta",
@@ -783,7 +783,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.09,
+        "desde_cadastro": 5.96,
         "desde_pronto": null
       },
       "status": {
@@ -807,6 +807,51 @@
       },
       "ts": {
         "cadastro": "2026-04-24T10:43:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#33836 (#7746)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Nayara Carvalho)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.96,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "24/04/2026 10:47",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "10:47:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-24T10:47:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
