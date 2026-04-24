@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "24/04/2026 10:32:57",
+  "atualizado_em": "24/04/2026 10:33:57",
   "data_ref": "24/04/2026",
-  "total": 13,
+  "total": 14,
   "pedidos": [
     {
       "cod": "#287175 (#1629)",
@@ -467,9 +467,9 @@
         "cad_pronto": 0.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 27.96,
+        "aguard_saida": 28.96,
         "desde_cadastro": null,
-        "desde_pronto": 29.96
+        "desde_pronto": 30.96
       },
       "status": {
         "cad_pronto": "na",
@@ -559,7 +559,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.96
+        "desde_pronto": 3.96
       },
       "status": {
         "cad_pronto": "critico",
@@ -583,6 +583,51 @@
       "ts": {
         "cadastro": "2026-04-24T10:25:00",
         "pronto": "2026-04-24T10:30:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#32 (#5630)",
+      "hub": "DS Sion",
+      "estabelec": "Jessy Confeitaria",
+      "cliente": "Retirada (Mariana Freitas Pedrosa)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.96,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "24/04/2026 10:32",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "10:32:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-24T10:32:00",
+        "pronto": null,
         "coleta": null,
         "conclusao": null
       },
