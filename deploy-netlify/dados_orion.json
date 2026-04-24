@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "24/04/2026 11:49:55",
+  "atualizado_em": "24/04/2026 11:52:24",
   "data_ref": "24/04/2026",
-  "total": 53,
+  "total": 54,
   "pedidos": [
     {
       "cod": "#287175 (#1629)",
@@ -918,7 +918,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 43.93,
+        "desde_cadastro": 46.41,
         "desde_pronto": null
       },
       "status": {
@@ -1129,51 +1129,6 @@
       "dt_retorno": null
     },
     {
-      "cod": "#287186 (#3708)",
-      "hub": "-",
-      "estabelec": "Burger X",
-      "cliente": "Entrega (Giovanni Sousa)",
-      "categoria": "cozinha",
-      "etapa_atual": "concluido",
-      "status_geral": "ok",
-      "inativo": false,
-      "alerta_retorno": false,
-      "tempos": {
-        "cad_pronto": 12.0,
-        "pronto_col": 0.0,
-        "col_conc": 1.0,
-        "aguard_saida": null,
-        "desde_cadastro": null,
-        "desde_pronto": null
-      },
-      "status": {
-        "cad_pronto": "na",
-        "pronto_col": "ok",
-        "col_conc": "ok"
-      },
-      "datas": {
-        "cadastro": "24/04/2026 11:19",
-        "pronto": "24/04/2026 11:31",
-        "coleta": "24/04/2026 11:31",
-        "retorno": "-",
-        "conclusao": "24/04/2026 11:32"
-      },
-      "horas": {
-        "cadastro": "11:19:00",
-        "pronto": "11:31:00",
-        "coleta": "11:31:00",
-        "conclusao": "11:32:00",
-        "retorno": null
-      },
-      "ts": {
-        "cadastro": "2026-04-24T11:19:00",
-        "pronto": "2026-04-24T11:31:00",
-        "coleta": "2026-04-24T11:31:00",
-        "conclusao": "2026-04-24T11:32:00"
-      },
-      "dt_retorno": null
-    },
-    {
       "cod": "#287185 (#6251)",
       "hub": "-",
       "estabelec": "Burger X",
@@ -1215,6 +1170,51 @@
         "pronto": "2026-04-24T11:31:00",
         "coleta": "2026-04-24T11:31:00",
         "conclusao": "2026-04-24T11:48:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#287186 (#3708)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Entrega (Giovanni Sousa)",
+      "categoria": "cozinha",
+      "etapa_atual": "concluido",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 12.0,
+        "pronto_col": 0.0,
+        "col_conc": 1.0,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "ok",
+        "col_conc": "ok"
+      },
+      "datas": {
+        "cadastro": "24/04/2026 11:19",
+        "pronto": "24/04/2026 11:31",
+        "coleta": "24/04/2026 11:31",
+        "retorno": "-",
+        "conclusao": "24/04/2026 11:32"
+      },
+      "horas": {
+        "cadastro": "11:19:00",
+        "pronto": "11:31:00",
+        "coleta": "11:31:00",
+        "conclusao": "11:32:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-24T11:19:00",
+        "pronto": "2026-04-24T11:31:00",
+        "coleta": "2026-04-24T11:31:00",
+        "conclusao": "2026-04-24T11:32:00"
       },
       "dt_retorno": null
     },
@@ -1413,7 +1413,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 23.93,
+        "desde_cadastro": 26.41,
         "desde_pronto": null
       },
       "status": {
@@ -1504,7 +1504,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 18.93
+        "desde_pronto": 21.41
       },
       "status": {
         "cad_pronto": "critico",
@@ -1548,7 +1548,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 19.93,
+        "desde_cadastro": 22.41,
         "desde_pronto": null
       },
       "status": {
@@ -1587,14 +1587,14 @@
       "etapa_atual": "aguardando_saida",
       "status_geral": "ok",
       "inativo": false,
-      "alerta_retorno": false,
+      "alerta_retorno": true,
       "tempos": {
         "cad_pronto": 3.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 12.93,
+        "aguard_saida": 15.41,
         "desde_cadastro": null,
-        "desde_pronto": 13.93
+        "desde_pronto": 16.41
       },
       "status": {
         "cad_pronto": "na",
@@ -1637,9 +1637,9 @@
         "cad_pronto": 4.0,
         "pronto_col": 0.0,
         "col_conc": null,
-        "aguard_saida": 11.93,
+        "aguard_saida": 14.41,
         "desde_cadastro": null,
-        "desde_pronto": 11.93
+        "desde_pronto": 14.41
       },
       "status": {
         "cad_pronto": "na",
@@ -1682,9 +1682,9 @@
         "cad_pronto": 11.0,
         "pronto_col": 3.0,
         "col_conc": null,
-        "aguard_saida": 1.93,
+        "aguard_saida": 4.41,
         "desde_cadastro": null,
-        "desde_pronto": 4.93
+        "desde_pronto": 7.41
       },
       "status": {
         "cad_pronto": "na",
@@ -1728,7 +1728,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 15.93,
+        "desde_cadastro": 18.41,
         "desde_pronto": null
       },
       "status": {
@@ -1817,9 +1817,9 @@
         "cad_pronto": 10.0,
         "pronto_col": 3.0,
         "col_conc": null,
-        "aguard_saida": 1.93,
+        "aguard_saida": 4.41,
         "desde_cadastro": null,
-        "desde_pronto": 4.93
+        "desde_pronto": 7.41
       },
       "status": {
         "cad_pronto": "na",
@@ -1899,17 +1899,17 @@
       "estabelec": "Comidaria Guerra",
       "cliente": "Entrega (Michel De Araujo)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "aguardando_coleta",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 12.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 11.93,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 2.41
       },
       "status": {
         "cad_pronto": "na",
@@ -1918,21 +1918,21 @@
       },
       "datas": {
         "cadastro": "24/04/2026 11:38",
-        "pronto": "-",
+        "pronto": "24/04/2026 11:50",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "11:38:00",
-        "pronto": null,
+        "pronto": "11:50:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-24T11:38:00",
-        "pronto": null,
+        "pronto": "2026-04-24T11:50:00",
         "coleta": null,
         "conclusao": null
       },
@@ -1952,8 +1952,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 1.93,
-        "desde_cadastro": 10.93,
+        "aguard_saida": 4.41,
+        "desde_cadastro": 13.41,
         "desde_pronto": null
       },
       "status": {
@@ -1999,7 +1999,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 0.93
+        "desde_pronto": 3.41
       },
       "status": {
         "cad_pronto": "critico",
@@ -2044,7 +2044,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.93
+        "desde_pronto": 4.41
       },
       "status": {
         "cad_pronto": "na",
@@ -2087,8 +2087,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 1.93,
-        "desde_cadastro": 7.93,
+        "aguard_saida": 4.41,
+        "desde_cadastro": 10.41,
         "desde_pronto": null
       },
       "status": {
@@ -2132,8 +2132,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 1.93,
-        "desde_cadastro": 7.93,
+        "aguard_saida": 4.41,
+        "desde_cadastro": 10.41,
         "desde_pronto": null
       },
       "status": {
@@ -2178,7 +2178,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.93,
+        "desde_cadastro": 7.41,
         "desde_pronto": null
       },
       "status": {
@@ -2214,41 +2214,41 @@
       "estabelec": "Burger X",
       "cliente": "Entrega (Isadora Nascimento)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "aguardando_saida",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
-        "pronto_col": null,
+        "cad_pronto": 4.0,
+        "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": null,
-        "desde_cadastro": 4.93,
-        "desde_pronto": null
+        "aguard_saida": 2.41,
+        "desde_cadastro": null,
+        "desde_pronto": 3.41
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
+        "pronto_col": "ok",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "24/04/2026 11:45",
-        "pronto": "-",
-        "coleta": "-",
+        "pronto": "24/04/2026 11:49",
+        "coleta": "24/04/2026 11:50",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "11:45:00",
-        "pronto": null,
-        "coleta": null,
+        "pronto": "11:49:00",
+        "coleta": "11:50:00",
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-24T11:45:00",
-        "pronto": null,
-        "coleta": null,
+        "pronto": "2026-04-24T11:49:00",
+        "coleta": "2026-04-24T11:50:00",
         "conclusao": null
       },
       "dt_retorno": null
@@ -2259,41 +2259,41 @@
       "estabelec": "Burger X",
       "cliente": "Entrega (Vinicius Pacheco)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "aguardando_saida",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
-        "pronto_col": null,
+        "cad_pronto": 4.0,
+        "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": null,
-        "desde_cadastro": 4.93,
-        "desde_pronto": null
+        "aguard_saida": 2.41,
+        "desde_cadastro": null,
+        "desde_pronto": 3.41
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
+        "pronto_col": "ok",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "24/04/2026 11:45",
-        "pronto": "-",
-        "coleta": "-",
+        "pronto": "24/04/2026 11:49",
+        "coleta": "24/04/2026 11:50",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "11:45:00",
-        "pronto": null,
-        "coleta": null,
+        "pronto": "11:49:00",
+        "coleta": "11:50:00",
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-24T11:45:00",
-        "pronto": null,
-        "coleta": null,
+        "pronto": "2026-04-24T11:49:00",
+        "coleta": "2026-04-24T11:50:00",
         "conclusao": null
       },
       "dt_retorno": null
@@ -2313,7 +2313,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 3.93,
+        "desde_cadastro": 6.41,
         "desde_pronto": null
       },
       "status": {
@@ -2358,7 +2358,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.93,
+        "desde_cadastro": 5.41,
         "desde_pronto": null
       },
       "status": {
@@ -2382,6 +2382,51 @@
       },
       "ts": {
         "cadastro": "2026-04-24T11:47:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#287196 (#9228)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Entrega (Lucas Ferreira)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.41,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "24/04/2026 11:50",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:50:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-24T11:50:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
