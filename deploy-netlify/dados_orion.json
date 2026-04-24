@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "24/04/2026 10:44:09",
+  "atualizado_em": "24/04/2026 10:44:57",
   "data_ref": "24/04/2026",
-  "total": 17,
+  "total": 18,
   "pedidos": [
     {
       "cod": "#287175 (#1629)",
@@ -467,9 +467,9 @@
         "cad_pronto": 0.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 39.16,
+        "aguard_saida": 39.96,
         "desde_cadastro": null,
-        "desde_pronto": 41.16
+        "desde_pronto": 41.96
       },
       "status": {
         "cad_pronto": "na",
@@ -604,7 +604,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.16
+        "desde_pronto": 2.96
       },
       "status": {
         "cad_pronto": "critico",
@@ -648,7 +648,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.16,
+        "desde_cadastro": 7.96,
         "desde_pronto": null
       },
       "status": {
@@ -693,7 +693,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.16,
+        "desde_cadastro": 5.96,
         "desde_pronto": null
       },
       "status": {
@@ -738,7 +738,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.16,
+        "desde_cadastro": 4.96,
         "desde_pronto": null
       },
       "status": {
@@ -762,6 +762,51 @@
       },
       "ts": {
         "cadastro": "2026-04-24T10:40:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#21612 (#8730)",
+      "hub": "DS Sion",
+      "estabelec": "Estela Damasceno Confeitaria",
+      "cliente": "Retirada (Julie Portais)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.96,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "24/04/2026 10:43",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "10:43:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-24T10:43:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
