@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "24/04/2026 14:46:25",
+  "atualizado_em": "24/04/2026 14:48:06",
   "data_ref": "24/04/2026",
-  "total": 193,
+  "total": 197,
   "pedidos": [
     {
       "cod": "#287175 (#1629)",
@@ -918,7 +918,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 220.43,
+        "desde_cadastro": 222.11,
         "desde_pronto": null
       },
       "status": {
@@ -4114,7 +4114,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 128.43
+        "desde_pronto": 130.11
       },
       "status": {
         "cad_pronto": "na",
@@ -4429,7 +4429,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 122.43
+        "desde_pronto": 124.11
       },
       "status": {
         "cad_pronto": "na",
@@ -5913,7 +5913,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 92.43,
+        "desde_cadastro": 94.11,
         "desde_pronto": null
       },
       "status": {
@@ -6004,7 +6004,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 80.43
+        "desde_pronto": 82.11
       },
       "status": {
         "cad_pronto": "na",
@@ -7489,7 +7489,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 31.43
+        "desde_pronto": 33.11
       },
       "status": {
         "cad_pronto": "na",
@@ -7578,7 +7578,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 38.43,
+        "desde_cadastro": 40.11,
         "desde_pronto": null
       },
       "status": {
@@ -8209,7 +8209,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 13.43
+        "desde_pronto": 15.11
       },
       "status": {
         "cad_pronto": "critico",
@@ -8334,42 +8334,42 @@
       "estabelec": "Burger X",
       "cliente": "Entrega (Hanna Nascimento)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_saida",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "alerta",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": null,
         "pronto_col": null,
-        "col_conc": null,
-        "aguard_saida": 10.43,
-        "desde_cadastro": 21.43,
+        "col_conc": 10.0,
+        "aguard_saida": null,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "pendente",
-        "col_conc": "pendente"
+        "col_conc": "alerta"
       },
       "datas": {
         "cadastro": "24/04/2026 14:25",
         "pronto": "-",
         "coleta": "24/04/2026 14:36",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "24/04/2026 14:46"
       },
       "horas": {
         "cadastro": "14:25:00",
         "pronto": null,
         "coleta": "14:36:00",
-        "conclusao": null,
+        "conclusao": "14:46:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-24T14:25:00",
         "pronto": null,
         "coleta": "2026-04-24T14:36:00",
-        "conclusao": null
+        "conclusao": "2026-04-24T14:46:00"
       },
       "dt_retorno": null
     },
@@ -8522,8 +8522,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 10.43,
-        "desde_cadastro": 16.43,
+        "aguard_saida": 12.11,
+        "desde_cadastro": 18.11,
         "desde_pronto": null
       },
       "status": {
@@ -8568,7 +8568,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 9.43,
+        "desde_cadastro": 11.11,
         "desde_pronto": null
       },
       "status": {
@@ -8613,7 +8613,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.43,
+        "desde_cadastro": 6.11,
         "desde_pronto": null
       },
       "status": {
@@ -8658,7 +8658,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.43,
+        "desde_cadastro": 6.11,
         "desde_pronto": null
       },
       "status": {
@@ -8682,6 +8682,186 @@
       },
       "ts": {
         "cadastro": "2026-04-24T14:42:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#1364 (#1185)",
+      "hub": "DS Sion",
+      "estabelec": "Nuh Cookies",
+      "cliente": "Retirada (Stephanie Bento)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.11,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "24/04/2026 14:46",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "14:46:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-24T14:46:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#287224 (#229004)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Gabriel)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.11,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "24/04/2026 14:46",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "14:46:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-24T14:46:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#168 (#7226)",
+      "hub": "DS Sion",
+      "estabelec": "Cenôra Bolos",
+      "cliente": "Retirada (Ariane Carvalho)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.11,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "24/04/2026 14:46",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "14:46:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-24T14:46:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#18802 (#527003)",
+      "hub": "DS Sion",
+      "estabelec": "Viviane Sales Cake's - Bolos & Doces",
+      "cliente": "Retirada (Luana)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.11,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "24/04/2026 14:47",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "14:47:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-24T14:47:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
