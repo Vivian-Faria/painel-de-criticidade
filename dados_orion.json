@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "24/04/2026 12:19:58",
+  "atualizado_em": "24/04/2026 12:25:05",
   "data_ref": "24/04/2026",
-  "total": 85,
+  "total": 90,
   "pedidos": [
     {
       "cod": "#287175 (#1629)",
@@ -918,7 +918,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 73.98,
+        "desde_cadastro": 79.1,
         "desde_pronto": null
       },
       "status": {
@@ -1129,51 +1129,6 @@
       "dt_retorno": null
     },
     {
-      "cod": "#287186 (#3708)",
-      "hub": "-",
-      "estabelec": "Burger X",
-      "cliente": "Entrega (Giovanni Sousa)",
-      "categoria": "cozinha",
-      "etapa_atual": "concluido",
-      "status_geral": "ok",
-      "inativo": false,
-      "alerta_retorno": false,
-      "tempos": {
-        "cad_pronto": 12.0,
-        "pronto_col": 0.0,
-        "col_conc": 1.0,
-        "aguard_saida": null,
-        "desde_cadastro": null,
-        "desde_pronto": null
-      },
-      "status": {
-        "cad_pronto": "na",
-        "pronto_col": "ok",
-        "col_conc": "ok"
-      },
-      "datas": {
-        "cadastro": "24/04/2026 11:19",
-        "pronto": "24/04/2026 11:31",
-        "coleta": "24/04/2026 11:31",
-        "retorno": "-",
-        "conclusao": "24/04/2026 11:32"
-      },
-      "horas": {
-        "cadastro": "11:19:00",
-        "pronto": "11:31:00",
-        "coleta": "11:31:00",
-        "conclusao": "11:32:00",
-        "retorno": null
-      },
-      "ts": {
-        "cadastro": "2026-04-24T11:19:00",
-        "pronto": "2026-04-24T11:31:00",
-        "coleta": "2026-04-24T11:31:00",
-        "conclusao": "2026-04-24T11:32:00"
-      },
-      "dt_retorno": null
-    },
-    {
       "cod": "#287185 (#6251)",
       "hub": "-",
       "estabelec": "Burger X",
@@ -1215,6 +1170,51 @@
         "pronto": "2026-04-24T11:31:00",
         "coleta": "2026-04-24T11:31:00",
         "conclusao": "2026-04-24T11:48:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#287186 (#3708)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Entrega (Giovanni Sousa)",
+      "categoria": "cozinha",
+      "etapa_atual": "concluido",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 12.0,
+        "pronto_col": 0.0,
+        "col_conc": 1.0,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "ok",
+        "col_conc": "ok"
+      },
+      "datas": {
+        "cadastro": "24/04/2026 11:19",
+        "pronto": "24/04/2026 11:31",
+        "coleta": "24/04/2026 11:31",
+        "retorno": "-",
+        "conclusao": "24/04/2026 11:32"
+      },
+      "horas": {
+        "cadastro": "11:19:00",
+        "pronto": "11:31:00",
+        "coleta": "11:31:00",
+        "conclusao": "11:32:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-24T11:19:00",
+        "pronto": "2026-04-24T11:31:00",
+        "coleta": "2026-04-24T11:31:00",
+        "conclusao": "2026-04-24T11:32:00"
       },
       "dt_retorno": null
     },
@@ -1539,42 +1539,42 @@
       "estabelec": "Mayu",
       "cliente": "Retirada (Gustavo Campos)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
-        "pronto_col": null,
-        "col_conc": null,
+        "cad_pronto": 51.0,
+        "pronto_col": 2.0,
+        "col_conc": 0.0,
         "aguard_saida": null,
-        "desde_cadastro": 49.98,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
-        "col_conc": "pendente"
+        "pronto_col": "critico",
+        "col_conc": "ok"
       },
       "datas": {
         "cadastro": "24/04/2026 11:30",
-        "pronto": "-",
-        "coleta": "-",
+        "pronto": "24/04/2026 12:21",
+        "coleta": "24/04/2026 12:23",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "24/04/2026 12:23"
       },
       "horas": {
         "cadastro": "11:30:00",
-        "pronto": null,
-        "coleta": null,
-        "conclusao": null,
+        "pronto": "12:21:00",
+        "coleta": "12:23:00",
+        "conclusao": "12:23:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-24T11:30:00",
-        "pronto": null,
-        "coleta": null,
-        "conclusao": null
+        "pronto": "2026-04-24T12:21:00",
+        "coleta": "2026-04-24T12:23:00",
+        "conclusao": "2026-04-24T12:23:00"
       },
       "dt_retorno": null
     },
@@ -1728,7 +1728,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 45.98,
+        "desde_cadastro": 51.1,
         "desde_pronto": null
       },
       "status": {
@@ -2439,7 +2439,7 @@
       "estabelec": "Sorveteria Doce Cascão - Savassi",
       "cliente": "Retirada (Marconi Junior)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -2449,7 +2449,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 19.98
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -2461,20 +2461,20 @@
         "pronto": "24/04/2026 12:00",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "24/04/2026 12:20"
       },
       "horas": {
         "cadastro": "11:51:00",
         "pronto": "12:00:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "12:20:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-24T11:51:00",
         "pronto": "2026-04-24T12:00:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-04-24T12:20:00"
       },
       "dt_retorno": null
     },
@@ -2492,8 +2492,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 20.98,
-        "desde_cadastro": 26.98,
+        "aguard_saida": 26.1,
+        "desde_cadastro": 32.1,
         "desde_pronto": null
       },
       "status": {
@@ -2574,42 +2574,42 @@
       "estabelec": "Comidaria Guerra",
       "cliente": "Entrega (Gabriela)",
       "categoria": "cozinha",
-      "etapa_atual": "retornado",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 5.0,
         "pronto_col": 2.0,
-        "col_conc": null,
-        "aguard_saida": 17.98,
+        "col_conc": 20.0,
+        "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 19.98
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "critico",
-        "col_conc": "pendente"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "24/04/2026 11:55",
         "pronto": "24/04/2026 12:00",
         "coleta": "24/04/2026 12:02",
         "retorno": "24/04/2026 12:17",
-        "conclusao": "-"
+        "conclusao": "24/04/2026 12:22"
       },
       "horas": {
         "cadastro": "11:55:00",
         "pronto": "12:00:00",
         "coleta": "12:02:00",
-        "conclusao": null,
+        "conclusao": "12:22:00",
         "retorno": "12:17:00"
       },
       "ts": {
         "cadastro": "2026-04-24T11:55:00",
         "pronto": "2026-04-24T12:00:00",
         "coleta": "2026-04-24T12:02:00",
-        "conclusao": null
+        "conclusao": "2026-04-24T12:22:00"
       },
       "dt_retorno": "12:17:00"
     },
@@ -2664,7 +2664,7 @@
       "estabelec": "Estela Damasceno Confeitaria",
       "cliente": "Retirada (Guilherme Morelli)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -2674,7 +2674,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 14.98
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -2686,20 +2686,20 @@
         "pronto": "24/04/2026 12:05",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "24/04/2026 12:23"
       },
       "horas": {
         "cadastro": "11:56:00",
         "pronto": "12:05:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "12:23:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-24T11:56:00",
         "pronto": "2026-04-24T12:05:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-04-24T12:23:00"
       },
       "dt_retorno": null
     },
@@ -2799,7 +2799,7 @@
       "estabelec": "3f - Fast Fitness Food - Savassi",
       "cliente": "Retirada (Isadora Duarte Sales)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -2809,7 +2809,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 12.98
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -2821,20 +2821,20 @@
         "pronto": "24/04/2026 12:07",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "24/04/2026 12:23"
       },
       "horas": {
         "cadastro": "11:58:00",
         "pronto": "12:07:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "12:23:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-24T11:58:00",
         "pronto": "2026-04-24T12:07:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-04-24T12:23:00"
       },
       "dt_retorno": null
     },
@@ -2854,7 +2854,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 12.98
+        "desde_pronto": 18.1
       },
       "status": {
         "cad_pronto": "critico",
@@ -2898,7 +2898,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 21.98,
+        "desde_cadastro": 27.1,
         "desde_pronto": null
       },
       "status": {
@@ -2944,7 +2944,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 11.98
+        "desde_pronto": 17.1
       },
       "status": {
         "cad_pronto": "critico",
@@ -3034,7 +3034,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 9.98
+        "desde_pronto": 15.1
       },
       "status": {
         "cad_pronto": "critico",
@@ -3079,7 +3079,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 8.98
+        "desde_pronto": 14.1
       },
       "status": {
         "cad_pronto": "critico",
@@ -3123,7 +3123,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 18.98,
+        "desde_cadastro": 24.1,
         "desde_pronto": null
       },
       "status": {
@@ -3213,7 +3213,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 16.98,
+        "desde_cadastro": 22.1,
         "desde_pronto": null
       },
       "status": {
@@ -3259,7 +3259,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 6.98
+        "desde_pronto": 12.1
       },
       "status": {
         "cad_pronto": "critico",
@@ -3304,7 +3304,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 5.98
+        "desde_pronto": 11.1
       },
       "status": {
         "cad_pronto": "critico",
@@ -3348,7 +3348,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 10.98,
+        "desde_cadastro": 16.1,
         "desde_pronto": null
       },
       "status": {
@@ -3384,40 +3384,40 @@
       "estabelec": "Mr Duck Cookies - Belo Horizonte",
       "cliente": "Retirada (Sofia Emanuele Teixeira De Souza)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 10.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 9.98,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 5.1
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "24/04/2026 12:10",
-        "pronto": "-",
+        "pronto": "24/04/2026 12:20",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "12:10:00",
-        "pronto": null,
+        "pronto": "12:20:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-24T12:10:00",
-        "pronto": null,
+        "pronto": "2026-04-24T12:20:00",
         "coleta": null,
         "conclusao": null
       },
@@ -3429,40 +3429,40 @@
       "estabelec": "Pudim do Bart",
       "cliente": "Retirada (Luciana Siqueira)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 9.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.98,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 5.1
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "24/04/2026 12:11",
-        "pronto": "-",
+        "pronto": "24/04/2026 12:20",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "12:11:00",
-        "pronto": null,
+        "pronto": "12:20:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-24T12:11:00",
-        "pronto": null,
+        "pronto": "2026-04-24T12:20:00",
         "coleta": null,
         "conclusao": null
       },
@@ -3484,7 +3484,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 0.98
+        "desde_pronto": 6.1
       },
       "status": {
         "cad_pronto": "critico",
@@ -3519,42 +3519,42 @@
       "estabelec": "Bolos e Doces - Arelice Sion",
       "cliente": "Retirada (Wagner)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 9.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.98,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "24/04/2026 12:12",
-        "pronto": "-",
+        "pronto": "24/04/2026 12:21",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "24/04/2026 12:22"
       },
       "horas": {
         "cadastro": "12:12:00",
-        "pronto": null,
+        "pronto": "12:21:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "12:22:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-24T12:12:00",
-        "pronto": null,
+        "pronto": "2026-04-24T12:21:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-04-24T12:22:00"
       },
       "dt_retorno": null
     },
@@ -3564,7 +3564,7 @@
       "estabelec": "Burger X",
       "cliente": "Entrega (Miguel Duarte Guerra)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "aguardando_saida",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
@@ -3572,8 +3572,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": null,
-        "desde_cadastro": 6.98,
+        "aguard_saida": 1.1,
+        "desde_cadastro": 12.1,
         "desde_pronto": null
       },
       "status": {
@@ -3584,21 +3584,21 @@
       "datas": {
         "cadastro": "24/04/2026 12:13",
         "pronto": "-",
-        "coleta": "-",
+        "coleta": "24/04/2026 12:24",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "12:13:00",
         "pronto": null,
-        "coleta": null,
+        "coleta": "12:24:00",
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-24T12:13:00",
         "pronto": null,
-        "coleta": null,
+        "coleta": "2026-04-24T12:24:00",
         "conclusao": null
       },
       "dt_retorno": null
@@ -3618,7 +3618,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 3.98,
+        "desde_cadastro": 9.1,
         "desde_pronto": null
       },
       "status": {
@@ -3654,41 +3654,41 @@
       "estabelec": "Burger X",
       "cliente": "Entrega (Roberta Campelo)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_saida",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
-        "pronto_col": null,
+        "cad_pronto": 5.0,
+        "pronto_col": 3.0,
         "col_conc": null,
-        "aguard_saida": null,
-        "desde_cadastro": 3.98,
-        "desde_pronto": null
+        "aguard_saida": 1.1,
+        "desde_cadastro": null,
+        "desde_pronto": 4.1
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
+        "pronto_col": "critico",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "24/04/2026 12:16",
-        "pronto": "-",
-        "coleta": "-",
+        "pronto": "24/04/2026 12:21",
+        "coleta": "24/04/2026 12:24",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "12:16:00",
-        "pronto": null,
-        "coleta": null,
+        "pronto": "12:21:00",
+        "coleta": "12:24:00",
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-24T12:16:00",
-        "pronto": null,
-        "coleta": null,
+        "pronto": "2026-04-24T12:21:00",
+        "coleta": "2026-04-24T12:24:00",
         "conclusao": null
       },
       "dt_retorno": null
@@ -3708,7 +3708,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.98,
+        "desde_cadastro": 8.1,
         "desde_pronto": null
       },
       "status": {
@@ -3753,7 +3753,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.98,
+        "desde_cadastro": 8.1,
         "desde_pronto": null
       },
       "status": {
@@ -3789,7 +3789,7 @@
       "estabelec": "Burger X",
       "cliente": "Entrega (Gabrielly Mendes)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "aguardando_saida",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
@@ -3797,8 +3797,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": null,
-        "desde_cadastro": 1.98,
+        "aguard_saida": 1.1,
+        "desde_cadastro": 7.1,
         "desde_pronto": null
       },
       "status": {
@@ -3809,19 +3809,244 @@
       "datas": {
         "cadastro": "24/04/2026 12:18",
         "pronto": "-",
-        "coleta": "-",
+        "coleta": "24/04/2026 12:24",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "12:18:00",
         "pronto": null,
-        "coleta": null,
+        "coleta": "12:24:00",
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-24T12:18:00",
+        "pronto": null,
+        "coleta": "2026-04-24T12:24:00",
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#33851 (#6447)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Poliana Domingues Silva)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 4.1,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "24/04/2026 12:21",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "12:21:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-24T12:21:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#33852 (#3522)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Raquel Lemes Dias)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 3.1,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "24/04/2026 12:22",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "12:22:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-24T12:22:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#60153 (#4514)",
+      "hub": "-",
+      "estabelec": "Mayu",
+      "cliente": "Retirada (Antonio Andrade Basilio Ghader)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 3.1,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "24/04/2026 12:22",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "12:22:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-24T12:22:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#16360 (#4151)",
+      "hub": "DS Sion",
+      "estabelec": "E! Doces - Sion, Confeitaria, Copo, Cookie, Brownie & Fatias",
+      "cliente": "Retirada (Maria Cecilia Fonseca)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.1,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "24/04/2026 12:23",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "12:23:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-24T12:23:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#9142 (#111002)",
+      "hub": "DS Sion",
+      "estabelec": "Bolos e Doces - Arelice Sion",
+      "cliente": "Retirada (Ana Carolina)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.1,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "24/04/2026 12:23",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "12:23:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-24T12:23:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
