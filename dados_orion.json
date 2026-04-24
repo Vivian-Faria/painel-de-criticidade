@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "24/04/2026 11:33:57",
+  "atualizado_em": "24/04/2026 11:34:58",
   "data_ref": "24/04/2026",
   "total": 36,
   "pedidos": [
@@ -864,42 +864,42 @@
       "estabelec": "Burger X",
       "cliente": "Entrega (Felipe Carvalho)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_saida",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "alerta",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": null,
         "pronto_col": null,
-        "col_conc": null,
-        "aguard_saida": 10.96,
-        "desde_cadastro": 29.96,
+        "col_conc": 10.0,
+        "aguard_saida": null,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "pendente",
-        "col_conc": "pendente"
+        "col_conc": "alerta"
       },
       "datas": {
         "cadastro": "24/04/2026 11:04",
         "pronto": "-",
         "coleta": "24/04/2026 11:23",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "24/04/2026 11:33"
       },
       "horas": {
         "cadastro": "11:04:00",
         "pronto": null,
         "coleta": "11:23:00",
-        "conclusao": null,
+        "conclusao": "11:33:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-24T11:04:00",
         "pronto": null,
         "coleta": "2026-04-24T11:23:00",
-        "conclusao": null
+        "conclusao": "2026-04-24T11:33:00"
       },
       "dt_retorno": null
     },
@@ -918,7 +918,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 27.96,
+        "desde_cadastro": 28.98,
         "desde_pronto": null
       },
       "status": {
@@ -1007,8 +1007,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 10.96,
-        "desde_cadastro": 19.96,
+        "aguard_saida": 11.98,
+        "desde_cadastro": 20.98,
         "desde_pronto": null
       },
       "status": {
@@ -1187,9 +1187,9 @@
         "cad_pronto": 12.0,
         "pronto_col": 0.0,
         "col_conc": null,
-        "aguard_saida": 2.96,
+        "aguard_saida": 3.98,
         "desde_cadastro": null,
-        "desde_pronto": 2.96
+        "desde_pronto": 3.98
       },
       "status": {
         "cad_pronto": "na",
@@ -1279,7 +1279,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.96
+        "desde_pronto": 4.98
       },
       "status": {
         "cad_pronto": "critico",
@@ -1413,7 +1413,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.96,
+        "desde_cadastro": 8.98,
         "desde_pronto": null
       },
       "status": {
@@ -1458,7 +1458,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 6.96,
+        "desde_cadastro": 7.98,
         "desde_pronto": null
       },
       "status": {
@@ -1504,7 +1504,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.96
+        "desde_pronto": 3.98
       },
       "status": {
         "cad_pronto": "critico",
@@ -1548,7 +1548,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 3.96,
+        "desde_cadastro": 4.98,
         "desde_pronto": null
       },
       "status": {
@@ -1593,7 +1593,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 0.96,
+        "desde_cadastro": 1.98,
         "desde_pronto": null
       },
       "status": {
