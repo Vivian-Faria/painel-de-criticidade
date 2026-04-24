@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "24/04/2026 11:23:58",
+  "atualizado_em": "24/04/2026 11:26:06",
   "data_ref": "24/04/2026",
-  "total": 30,
+  "total": 32,
   "pedidos": [
     {
       "cod": "#287175 (#1629)",
@@ -872,8 +872,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 0.97,
-        "desde_cadastro": 19.97,
+        "aguard_saida": 3.1,
+        "desde_cadastro": 22.1,
         "desde_pronto": null
       },
       "status": {
@@ -918,7 +918,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 17.97,
+        "desde_cadastro": 20.1,
         "desde_pronto": null
       },
       "status": {
@@ -1007,8 +1007,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 0.97,
-        "desde_cadastro": 9.97,
+        "aguard_saida": 3.1,
+        "desde_cadastro": 12.1,
         "desde_pronto": null
       },
       "status": {
@@ -1052,9 +1052,9 @@
         "cad_pronto": 6.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 0.97,
+        "aguard_saida": 3.1,
         "desde_cadastro": null,
-        "desde_pronto": 1.97
+        "desde_pronto": 4.1
       },
       "status": {
         "cad_pronto": "na",
@@ -1097,9 +1097,9 @@
         "cad_pronto": 6.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 0.97,
+        "aguard_saida": 3.1,
         "desde_cadastro": null,
-        "desde_pronto": 1.97
+        "desde_pronto": 4.1
       },
       "status": {
         "cad_pronto": "na",
@@ -1143,7 +1143,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.97,
+        "desde_cadastro": 7.1,
         "desde_pronto": null
       },
       "status": {
@@ -1188,7 +1188,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.97,
+        "desde_cadastro": 7.1,
         "desde_pronto": null
       },
       "status": {
@@ -1233,7 +1233,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.97,
+        "desde_cadastro": 7.1,
         "desde_pronto": null
       },
       "status": {
@@ -1278,7 +1278,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.97,
+        "desde_cadastro": 5.1,
         "desde_pronto": null
       },
       "status": {
@@ -1314,6 +1314,51 @@
       "estabelec": "Padaria Pão Fermentação Natural",
       "cliente": "Retirada (Ana Luiza)",
       "categoria": "cozinha",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 2.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 2.1
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "24/04/2026 11:22",
+        "pronto": "24/04/2026 11:24",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:22:00",
+        "pronto": "11:24:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-24T11:22:00",
+        "pronto": "2026-04-24T11:24:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#33838 (#6388)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Livia Avelin)",
+      "categoria": "loja",
       "etapa_atual": "em_preparo",
       "status_geral": "ok",
       "inativo": false,
@@ -1323,30 +1368,75 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.97,
+        "desde_cadastro": 3.1,
         "desde_pronto": null
       },
       "status": {
-        "cad_pronto": "na",
-        "pronto_col": "pendente",
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
-        "cadastro": "24/04/2026 11:22",
+        "cadastro": "24/04/2026 11:23",
         "pronto": "-",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
-        "cadastro": "11:22:00",
+        "cadastro": "11:23:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
-        "cadastro": "2026-04-24T11:22:00",
+        "cadastro": "2026-04-24T11:23:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#33839 (#1440)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Thais Gribel)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.1,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "24/04/2026 11:24",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:24:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-24T11:24:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
