@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "24/04/2026 10:58:59",
+  "atualizado_em": "24/04/2026 11:01:19",
   "data_ref": "24/04/2026",
-  "total": 20,
+  "total": 19,
   "pedidos": [
     {
       "cod": "#287175 (#1629)",
@@ -459,42 +459,42 @@
       "estabelec": "Moink",
       "cliente": "Retirada (Buteco Fiado Ltda)",
       "categoria": "cozinha",
-      "etapa_atual": "retornado",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 0.0,
         "pronto_col": 2.0,
-        "col_conc": null,
-        "aguard_saida": 53.99,
+        "col_conc": 55.0,
+        "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 55.99
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "critico",
-        "col_conc": "pendente"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "24/04/2026 10:03",
         "pronto": "24/04/2026 10:03",
         "coleta": "24/04/2026 10:05",
         "retorno": "24/04/2026 10:37",
-        "conclusao": "-"
+        "conclusao": "24/04/2026 11:00"
       },
       "horas": {
         "cadastro": "10:03:00",
         "pronto": "10:03:00",
         "coleta": "10:05:00",
-        "conclusao": null,
+        "conclusao": "11:00:00",
         "retorno": "10:37:00"
       },
       "ts": {
         "cadastro": "2026-04-24T10:03:00",
         "pronto": "2026-04-24T10:03:00",
         "coleta": "2026-04-24T10:05:00",
-        "conclusao": null
+        "conclusao": "2026-04-24T11:00:00"
       },
       "dt_retorno": "10:37:00"
     },
@@ -585,51 +585,6 @@
         "pronto": "2026-04-24T10:30:00",
         "coleta": null,
         "conclusao": "2026-04-24T10:36:00"
-      },
-      "dt_retorno": null
-    },
-    {
-      "cod": "#33835 (#4075)",
-      "hub": "DS Sion",
-      "estabelec": "3f - Fast Fitness Food - Savassi",
-      "cliente": "Retirada (Carolina)",
-      "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
-      "status_geral": "critico",
-      "inativo": false,
-      "alerta_retorno": false,
-      "tempos": {
-        "cad_pronto": 9.0,
-        "pronto_col": null,
-        "col_conc": null,
-        "aguard_saida": null,
-        "desde_cadastro": null,
-        "desde_pronto": 12.99
-      },
-      "status": {
-        "cad_pronto": "critico",
-        "pronto_col": "na",
-        "col_conc": "pendente"
-      },
-      "datas": {
-        "cadastro": "24/04/2026 10:37",
-        "pronto": "24/04/2026 10:46",
-        "coleta": "-",
-        "retorno": "-",
-        "conclusao": "-"
-      },
-      "horas": {
-        "cadastro": "10:37:00",
-        "pronto": "10:46:00",
-        "coleta": null,
-        "conclusao": null,
-        "retorno": null
-      },
-      "ts": {
-        "cadastro": "2026-04-24T10:37:00",
-        "pronto": "2026-04-24T10:46:00",
-        "coleta": null,
-        "conclusao": null
       },
       "dt_retorno": null
     },
@@ -819,7 +774,7 @@
       "estabelec": "3f - Fast Fitness Food - Savassi",
       "cliente": "Retirada (Nayara Carvalho)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -829,7 +784,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 5.99
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -841,20 +796,20 @@
         "pronto": "24/04/2026 10:53",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "24/04/2026 10:59"
       },
       "horas": {
         "cadastro": "10:47:00",
         "pronto": "10:53:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "10:59:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-24T10:47:00",
         "pronto": "2026-04-24T10:53:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-04-24T10:59:00"
       },
       "dt_retorno": null
     },
