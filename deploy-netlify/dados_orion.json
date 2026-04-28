@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "28/04/2026 16:22:50",
+  "atualizado_em": "28/04/2026 16:23:50",
   "data_ref": "28/04/2026",
   "total": 213,
   "pedidos": [
@@ -694,7 +694,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 5.84
+        "desde_pronto": 6.84
       },
       "status": {
         "cad_pronto": "critico",
@@ -3617,8 +3617,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 233.84,
-        "desde_cadastro": 251.84,
+        "aguard_saida": 234.84,
+        "desde_cadastro": 252.84,
         "desde_pronto": null
       },
       "status": {
@@ -6993,7 +6993,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 135.84,
+        "desde_cadastro": 136.84,
         "desde_pronto": null
       },
       "status": {
@@ -7983,7 +7983,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 79.84,
+        "desde_cadastro": 80.84,
         "desde_pronto": null
       },
       "status": {
@@ -8254,7 +8254,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 62.84
+        "desde_pronto": 63.84
       },
       "status": {
         "cad_pronto": "alerta",
@@ -9199,7 +9199,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 19.84
+        "desde_pronto": 20.84
       },
       "status": {
         "cad_pronto": "critico",
@@ -9459,41 +9459,41 @@
       "estabelec": "Burger X",
       "cliente": "Entrega (Ana Carolina Leite De Oliveira)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_coleta",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_saida",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 3.0,
-        "pronto_col": null,
+        "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": null,
+        "aguard_saida": 1.84,
         "desde_cadastro": null,
-        "desde_pronto": 2.84
+        "desde_pronto": 3.84
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
+        "pronto_col": "critico",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "28/04/2026 16:17",
         "pronto": "28/04/2026 16:20",
-        "coleta": "-",
+        "coleta": "28/04/2026 16:22",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "16:17:00",
         "pronto": "16:20:00",
-        "coleta": null,
+        "coleta": "16:22:00",
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-28T16:17:00",
         "pronto": "2026-04-28T16:20:00",
-        "coleta": null,
+        "coleta": "2026-04-28T16:22:00",
         "conclusao": null
       },
       "dt_retorno": null
@@ -9514,7 +9514,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.84
+        "desde_pronto": 2.84
       },
       "status": {
         "cad_pronto": "ok",
@@ -9549,17 +9549,17 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Marcelo)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "aguardando_coleta",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 3.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.84,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 0.84
       },
       "status": {
         "cad_pronto": "na",
@@ -9568,21 +9568,21 @@
       },
       "datas": {
         "cadastro": "28/04/2026 16:20",
-        "pronto": "-",
+        "pronto": "28/04/2026 16:23",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "16:20:00",
-        "pronto": null,
+        "pronto": "16:23:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-28T16:20:00",
-        "pronto": null,
+        "pronto": "2026-04-28T16:23:00",
         "coleta": null,
         "conclusao": null
       },
