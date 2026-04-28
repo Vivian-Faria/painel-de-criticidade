@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "28/04/2026 15:46:51",
+  "atualizado_em": "28/04/2026 15:47:51",
   "data_ref": "28/04/2026",
-  "total": 195,
+  "total": 196,
   "pedidos": [
     {
       "cod": "#288005 (#6491)",
@@ -693,7 +693,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 383.86,
+        "desde_cadastro": 384.86,
         "desde_pronto": null
       },
       "status": {
@@ -3617,8 +3617,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 197.86,
-        "desde_cadastro": 215.86,
+        "aguard_saida": 198.86,
+        "desde_cadastro": 216.86,
         "desde_pronto": null
       },
       "status": {
@@ -6993,7 +6993,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 99.86,
+        "desde_cadastro": 100.86,
         "desde_pronto": null
       },
       "status": {
@@ -7983,7 +7983,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 43.86,
+        "desde_cadastro": 44.86,
         "desde_pronto": null
       },
       "status": {
@@ -8027,8 +8027,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 13.86,
-        "desde_cadastro": 41.86,
+        "aguard_saida": 14.86,
+        "desde_cadastro": 42.86,
         "desde_pronto": null
       },
       "status": {
@@ -8254,7 +8254,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 26.86
+        "desde_pronto": 27.86
       },
       "status": {
         "cad_pronto": "alerta",
@@ -8344,7 +8344,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 22.86
+        "desde_pronto": 23.86
       },
       "status": {
         "cad_pronto": "critico",
@@ -8477,8 +8477,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 6.86,
-        "desde_cadastro": 17.86,
+        "aguard_saida": 7.86,
+        "desde_cadastro": 18.86,
         "desde_pronto": null
       },
       "status": {
@@ -8559,41 +8559,41 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Amanda)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_coleta",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_saida",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 6.0,
-        "pronto_col": null,
+        "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": null,
+        "aguard_saida": 1.86,
         "desde_cadastro": null,
-        "desde_pronto": 2.86
+        "desde_pronto": 3.86
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
+        "pronto_col": "critico",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "28/04/2026 15:38",
         "pronto": "28/04/2026 15:44",
-        "coleta": "-",
+        "coleta": "28/04/2026 15:46",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "15:38:00",
         "pronto": "15:44:00",
-        "coleta": null,
+        "coleta": "15:46:00",
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-28T15:38:00",
         "pronto": "2026-04-28T15:44:00",
-        "coleta": null,
+        "coleta": "2026-04-28T15:46:00",
         "conclusao": null
       },
       "dt_retorno": null
@@ -8614,7 +8614,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 4.86
+        "desde_pronto": 5.86
       },
       "status": {
         "cad_pronto": "alerta",
@@ -8659,7 +8659,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 0.86
+        "desde_pronto": 1.86
       },
       "status": {
         "cad_pronto": "alerta",
@@ -8689,6 +8689,51 @@
       "dt_retorno": null
     },
     {
+      "cod": "#288063 (#229005)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Pedro)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 3.86,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "28/04/2026 15:44",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "15:44:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-28T15:44:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
       "cod": "#184 (#7939)",
       "hub": "DS Sion",
       "estabelec": "Cenôra Bolos",
@@ -8703,7 +8748,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.86,
+        "desde_cadastro": 3.86,
         "desde_pronto": null
       },
       "status": {
@@ -8748,7 +8793,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.86,
+        "desde_cadastro": 2.86,
         "desde_pronto": null
       },
       "status": {
