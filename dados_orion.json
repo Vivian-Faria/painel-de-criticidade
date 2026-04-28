@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "28/04/2026 10:58:49",
+  "atualizado_em": "28/04/2026 10:59:59",
   "data_ref": "28/04/2026",
-  "total": 26,
+  "total": 27,
   "pedidos": [
     {
       "cod": "#288005 (#6491)",
@@ -693,7 +693,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 95.82,
+        "desde_cadastro": 97.0,
         "desde_pronto": null
       },
       "status": {
@@ -1144,7 +1144,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 6.82
+        "desde_pronto": 8.0
       },
       "status": {
         "cad_pronto": "alerta",
@@ -1168,6 +1168,51 @@
       "ts": {
         "cadastro": "2026-04-28T10:49:00",
         "pronto": "2026-04-28T10:52:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#730 (#1444)",
+      "hub": "DS Sion",
+      "estabelec": "Doce Fit Bella",
+      "cliente": "Retirada (Sabrina Valadão)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.0,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "28/04/2026 10:58",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "10:58:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-28T10:58:00",
+        "pronto": null,
         "coleta": null,
         "conclusao": null
       },
