@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "28/04/2026 14:51:56",
+  "atualizado_em": "28/04/2026 14:53:24",
   "data_ref": "28/04/2026",
-  "total": 171,
+  "total": 173,
   "pedidos": [
     {
       "cod": "#288005 (#6491)",
@@ -693,7 +693,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 328.94,
+        "desde_cadastro": 330.41,
         "desde_pronto": null
       },
       "status": {
@@ -3617,8 +3617,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 142.94,
-        "desde_cadastro": 160.94,
+        "aguard_saida": 144.41,
+        "desde_cadastro": 162.41,
         "desde_pronto": null
       },
       "status": {
@@ -6993,7 +6993,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 44.94,
+        "desde_cadastro": 46.41,
         "desde_pronto": null
       },
       "status": {
@@ -7437,14 +7437,14 @@
       "etapa_atual": "aguardando_saida",
       "status_geral": "ok",
       "inativo": false,
-      "alerta_retorno": false,
+      "alerta_retorno": true,
       "tempos": {
         "cad_pronto": 13.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 14.94,
+        "aguard_saida": 16.41,
         "desde_cadastro": null,
-        "desde_pronto": 15.94
+        "desde_pronto": 17.41
       },
       "status": {
         "cad_pronto": "na",
@@ -7614,7 +7614,7 @@
       "estabelec": "E! Doces - Sion, Confeitaria, Copo, Cookie, Brownie & Fatias",
       "cliente": "Retirada (Carol Zanoti)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
@@ -7624,7 +7624,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.94
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "ok",
@@ -7636,20 +7636,20 @@
         "pronto": "28/04/2026 14:49",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "28/04/2026 14:51"
       },
       "horas": {
         "cadastro": "14:47:00",
         "pronto": "14:49:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "14:51:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-28T14:47:00",
         "pronto": "2026-04-28T14:49:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-04-28T14:51:00"
       },
       "dt_retorno": null
     },
@@ -7668,7 +7668,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 0.94,
+        "desde_cadastro": 2.41,
         "desde_pronto": null
       },
       "status": {
@@ -7692,6 +7692,96 @@
       },
       "ts": {
         "cadastro": "2026-04-28T14:51:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#160 (#3827)",
+      "hub": "DS Cidade Nova",
+      "estabelec": "Cacau Arte Bolos e Doces - Cidade Nova",
+      "cliente": "Retirada (Lívia Santos)",
+      "categoria": "outro",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.41,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "28/04/2026 14:51",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "14:51:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-28T14:51:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#4846 (#9715)",
+      "hub": "DS Sion",
+      "estabelec": "Pudinzin Pudim Cremoso - Sion",
+      "cliente": "Retirada (Julio)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.41,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "28/04/2026 14:52",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "14:52:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-28T14:52:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
