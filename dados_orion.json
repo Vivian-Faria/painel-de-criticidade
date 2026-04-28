@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "28/04/2026 16:08:07",
+  "atualizado_em": "28/04/2026 16:09:08",
   "data_ref": "28/04/2026",
-  "total": 208,
+  "total": 209,
   "pedidos": [
     {
       "cod": "#288005 (#6491)",
@@ -693,7 +693,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 405.12,
+        "desde_cadastro": 406.15,
         "desde_pronto": null
       },
       "status": {
@@ -3617,8 +3617,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 219.12,
-        "desde_cadastro": 237.12,
+        "aguard_saida": 220.15,
+        "desde_cadastro": 238.15,
         "desde_pronto": null
       },
       "status": {
@@ -6993,7 +6993,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 121.12,
+        "desde_cadastro": 122.15,
         "desde_pronto": null
       },
       "status": {
@@ -7983,7 +7983,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 65.12,
+        "desde_cadastro": 66.15,
         "desde_pronto": null
       },
       "status": {
@@ -8254,7 +8254,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 48.12
+        "desde_pronto": 49.15
       },
       "status": {
         "cad_pronto": "alerta",
@@ -9019,7 +9019,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 13.12
+        "desde_pronto": 14.15
       },
       "status": {
         "cad_pronto": "critico",
@@ -9144,7 +9144,7 @@
       "estabelec": "Adocicado Doces",
       "cliente": "Retirada (Carlos Santos)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -9154,7 +9154,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 6.12
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -9166,20 +9166,20 @@
         "pronto": "28/04/2026 16:02",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "28/04/2026 16:08"
       },
       "horas": {
         "cadastro": "15:56:00",
         "pronto": "16:02:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "16:08:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-28T15:56:00",
         "pronto": "2026-04-28T16:02:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-04-28T16:08:00"
       },
       "dt_retorno": null
     },
@@ -9199,7 +9199,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 5.12
+        "desde_pronto": 6.15
       },
       "status": {
         "cad_pronto": "critico",
@@ -9243,7 +9243,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 6.12,
+        "desde_cadastro": 7.15,
         "desde_pronto": null
       },
       "status": {
@@ -9288,7 +9288,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.12,
+        "desde_cadastro": 5.15,
         "desde_pronto": null
       },
       "status": {
@@ -9333,7 +9333,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.12,
+        "desde_cadastro": 5.15,
         "desde_pronto": null
       },
       "status": {
@@ -9357,6 +9357,51 @@
       },
       "ts": {
         "cadastro": "2026-04-28T16:04:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#10994 (#1160)",
+      "hub": "DS Sion",
+      "estabelec": "Sorveteria Doce Cascão - Savassi",
+      "cliente": "Retirada (Thiago Pironi)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.15,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "28/04/2026 16:07",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:07:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-28T16:07:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
