@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "28/04/2026 16:47:50",
+  "atualizado_em": "28/04/2026 16:48:50",
   "data_ref": "28/04/2026",
-  "total": 221,
+  "total": 222,
   "pedidos": [
     {
       "cod": "#288005 (#6491)",
@@ -694,7 +694,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 30.85
+        "desde_pronto": 31.84
       },
       "status": {
         "cad_pronto": "critico",
@@ -3617,8 +3617,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 258.85,
-        "desde_cadastro": 276.85,
+        "aguard_saida": 259.84,
+        "desde_cadastro": 277.84,
         "desde_pronto": null
       },
       "status": {
@@ -6993,7 +6993,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 160.85,
+        "desde_cadastro": 161.84,
         "desde_pronto": null
       },
       "status": {
@@ -7983,7 +7983,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 104.85,
+        "desde_cadastro": 105.84,
         "desde_pronto": null
       },
       "status": {
@@ -9467,9 +9467,9 @@
         "cad_pronto": 3.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 23.85,
+        "aguard_saida": 24.84,
         "desde_cadastro": null,
-        "desde_pronto": 24.85
+        "desde_pronto": 25.84
       },
       "status": {
         "cad_pronto": "na",
@@ -9557,8 +9557,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 7.85,
-        "desde_cadastro": 20.85,
+        "aguard_saida": 8.84,
+        "desde_cadastro": 21.84,
         "desde_pronto": null
       },
       "status": {
@@ -9649,7 +9649,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 13.85
+        "desde_pronto": 14.84
       },
       "status": {
         "cad_pronto": "ok",
@@ -9827,9 +9827,9 @@
         "cad_pronto": 0.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 1.85,
+        "aguard_saida": 2.84,
         "desde_cadastro": null,
-        "desde_pronto": 3.85
+        "desde_pronto": 4.84
       },
       "status": {
         "cad_pronto": "na",
@@ -9864,40 +9864,40 @@
       "estabelec": "Amor e Açaí - Savassi",
       "cliente": "Retirada (Sofia Silva)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "aguardando_coleta",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 2.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.85,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 1.84
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "ok",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "28/04/2026 16:45",
-        "pronto": "-",
+        "pronto": "28/04/2026 16:47",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "16:45:00",
-        "pronto": null,
+        "pronto": "16:47:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-28T16:45:00",
-        "pronto": null,
+        "pronto": "2026-04-28T16:47:00",
         "coleta": null,
         "conclusao": null
       },
@@ -9918,7 +9918,52 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 0.85,
+        "desde_cadastro": 1.84,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "28/04/2026 16:47",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:47:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-28T16:47:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#34002 (#9879)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Sofia Nogueira)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.84,
         "desde_pronto": null
       },
       "status": {
