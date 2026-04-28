@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "28/04/2026 16:45:51",
+  "atualizado_em": "28/04/2026 16:46:50",
   "data_ref": "28/04/2026",
-  "total": 219,
+  "total": 220,
   "pedidos": [
     {
       "cod": "#288005 (#6491)",
@@ -694,7 +694,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 28.86
+        "desde_pronto": 29.85
       },
       "status": {
         "cad_pronto": "critico",
@@ -3617,8 +3617,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 256.86,
-        "desde_cadastro": 274.86,
+        "aguard_saida": 257.85,
+        "desde_cadastro": 275.85,
         "desde_pronto": null
       },
       "status": {
@@ -6993,7 +6993,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 158.86,
+        "desde_cadastro": 159.85,
         "desde_pronto": null
       },
       "status": {
@@ -7983,7 +7983,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 102.86,
+        "desde_cadastro": 103.85,
         "desde_pronto": null
       },
       "status": {
@@ -9467,9 +9467,9 @@
         "cad_pronto": 3.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 21.86,
+        "aguard_saida": 22.85,
         "desde_cadastro": null,
-        "desde_pronto": 22.86
+        "desde_pronto": 23.85
       },
       "status": {
         "cad_pronto": "na",
@@ -9557,8 +9557,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 5.86,
-        "desde_cadastro": 18.86,
+        "aguard_saida": 6.85,
+        "desde_cadastro": 19.85,
         "desde_pronto": null
       },
       "status": {
@@ -9649,7 +9649,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 11.86
+        "desde_pronto": 12.85
       },
       "status": {
         "cad_pronto": "ok",
@@ -9819,40 +9819,85 @@
       "estabelec": "Moink",
       "cliente": "Retirada (Casa Riuga)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_coleta",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_saida",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 0.0,
-        "pronto_col": null,
+        "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": null,
+        "aguard_saida": 0.85,
         "desde_cadastro": null,
-        "desde_pronto": 1.86
+        "desde_pronto": 2.85
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
+        "pronto_col": "critico",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "28/04/2026 16:44",
         "pronto": "28/04/2026 16:44",
-        "coleta": "-",
+        "coleta": "28/04/2026 16:46",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "16:44:00",
         "pronto": "16:44:00",
-        "coleta": null,
+        "coleta": "16:46:00",
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-28T16:44:00",
         "pronto": "2026-04-28T16:44:00",
+        "coleta": "2026-04-28T16:46:00",
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#3699 (#6286)",
+      "hub": "DS Sion",
+      "estabelec": "Amor e Açaí - Savassi",
+      "cliente": "Retirada (Sofia Silva)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.85,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "28/04/2026 16:45",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:45:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-28T16:45:00",
+        "pronto": null,
         "coleta": null,
         "conclusao": null
       },
