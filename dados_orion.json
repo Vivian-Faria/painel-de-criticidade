@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "28/04/2026 11:43:47",
+  "atualizado_em": "28/04/2026 11:44:48",
   "data_ref": "28/04/2026",
-  "total": 56,
+  "total": 57,
   "pedidos": [
     {
       "cod": "#288005 (#6491)",
@@ -693,7 +693,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 140.8,
+        "desde_cadastro": 141.8,
         "desde_pronto": null
       },
       "status": {
@@ -1728,7 +1728,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 25.8,
+        "desde_cadastro": 26.8,
         "desde_pronto": null
       },
       "status": {
@@ -1819,7 +1819,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 16.8
+        "desde_pronto": 17.8
       },
       "status": {
         "cad_pronto": "critico",
@@ -1998,7 +1998,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 19.8,
+        "desde_cadastro": 20.8,
         "desde_pronto": null
       },
       "status": {
@@ -2178,7 +2178,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 14.8,
+        "desde_cadastro": 15.8,
         "desde_pronto": null
       },
       "status": {
@@ -2224,7 +2224,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.8
+        "desde_pronto": 3.8
       },
       "status": {
         "cad_pronto": "critico",
@@ -2269,7 +2269,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 0.8
+        "desde_pronto": 1.8
       },
       "status": {
         "cad_pronto": "critico",
@@ -2304,42 +2304,42 @@
       "estabelec": "3f - Fast Fitness Food - Savassi",
       "cliente": "Retirada (André Pádua)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 6.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 6.8,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "28/04/2026 11:37",
-        "pronto": "-",
+        "pronto": "28/04/2026 11:43",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "28/04/2026 11:44"
       },
       "horas": {
         "cadastro": "11:37:00",
-        "pronto": null,
+        "pronto": "11:43:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "11:44:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-28T11:37:00",
-        "pronto": null,
+        "pronto": "2026-04-28T11:43:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-04-28T11:44:00"
       },
       "dt_retorno": null
     },
@@ -2357,8 +2357,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 3.8,
-        "desde_cadastro": 6.8,
+        "aguard_saida": 4.8,
+        "desde_cadastro": 7.8,
         "desde_pronto": null
       },
       "status": {
@@ -2403,7 +2403,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 6.8,
+        "desde_cadastro": 7.8,
         "desde_pronto": null
       },
       "status": {
@@ -2448,7 +2448,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.8,
+        "desde_cadastro": 3.8,
         "desde_pronto": null
       },
       "status": {
@@ -2493,7 +2493,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.8,
+        "desde_cadastro": 2.8,
         "desde_pronto": null
       },
       "status": {
@@ -2517,6 +2517,51 @@
       },
       "ts": {
         "cadastro": "2026-04-28T11:42:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#399 (#179001)",
+      "hub": "DS Sion",
+      "estabelec": "Cookies Sonhos de Louisa - Sion",
+      "cliente": "Retirada (Ana Paula)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.8,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "28/04/2026 11:43",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:43:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-28T11:43:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
