@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "28/04/2026 15:45:51",
+  "atualizado_em": "28/04/2026 15:46:51",
   "data_ref": "28/04/2026",
-  "total": 194,
+  "total": 195,
   "pedidos": [
     {
       "cod": "#288005 (#6491)",
@@ -693,7 +693,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 382.85,
+        "desde_cadastro": 383.86,
         "desde_pronto": null
       },
       "status": {
@@ -3617,8 +3617,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 196.85,
-        "desde_cadastro": 214.85,
+        "aguard_saida": 197.86,
+        "desde_cadastro": 215.86,
         "desde_pronto": null
       },
       "status": {
@@ -6993,7 +6993,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 98.85,
+        "desde_cadastro": 99.86,
         "desde_pronto": null
       },
       "status": {
@@ -7983,7 +7983,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 42.85,
+        "desde_cadastro": 43.86,
         "desde_pronto": null
       },
       "status": {
@@ -8027,8 +8027,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 12.85,
-        "desde_cadastro": 40.85,
+        "aguard_saida": 13.86,
+        "desde_cadastro": 41.86,
         "desde_pronto": null
       },
       "status": {
@@ -8254,7 +8254,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 25.85
+        "desde_pronto": 26.86
       },
       "status": {
         "cad_pronto": "alerta",
@@ -8344,7 +8344,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 21.85
+        "desde_pronto": 22.86
       },
       "status": {
         "cad_pronto": "critico",
@@ -8477,8 +8477,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 5.85,
-        "desde_cadastro": 16.85,
+        "aguard_saida": 6.86,
+        "desde_cadastro": 17.86,
         "desde_pronto": null
       },
       "status": {
@@ -8569,7 +8569,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.85
+        "desde_pronto": 2.86
       },
       "status": {
         "cad_pronto": "na",
@@ -8614,7 +8614,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.85
+        "desde_pronto": 4.86
       },
       "status": {
         "cad_pronto": "alerta",
@@ -8649,40 +8649,40 @@
       "estabelec": "Pudim do Bart",
       "cliente": "Retirada (Tiago Fonseca)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "alerta",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 3.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.85,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 0.86
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "alerta",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "28/04/2026 15:43",
-        "pronto": "-",
+        "pronto": "28/04/2026 15:46",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "15:43:00",
-        "pronto": null,
+        "pronto": "15:46:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-28T15:43:00",
-        "pronto": null,
+        "pronto": "2026-04-28T15:46:00",
         "coleta": null,
         "conclusao": null
       },
@@ -8703,7 +8703,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.85,
+        "desde_cadastro": 2.86,
         "desde_pronto": null
       },
       "status": {
@@ -8727,6 +8727,51 @@
       },
       "ts": {
         "cadastro": "2026-04-28T15:44:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#8084 (#8691)",
+      "hub": "DS Sion",
+      "estabelec": "Império do Açaí Savassi",
+      "cliente": "Retirada (Ana Heloiza)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.86,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "28/04/2026 15:45",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "15:45:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-28T15:45:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
