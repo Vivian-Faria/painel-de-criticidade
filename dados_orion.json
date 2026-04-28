@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "28/04/2026 14:24:24",
+  "atualizado_em": "28/04/2026 14:25:35",
   "data_ref": "28/04/2026",
-  "total": 165,
+  "total": 167,
   "pedidos": [
     {
       "cod": "#288005 (#6491)",
@@ -693,7 +693,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 301.41,
+        "desde_cadastro": 302.59,
         "desde_pronto": null
       },
       "status": {
@@ -3662,8 +3662,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 115.41,
-        "desde_cadastro": 133.41,
+        "aguard_saida": 116.59,
+        "desde_cadastro": 134.59,
         "desde_pronto": null
       },
       "status": {
@@ -6632,9 +6632,9 @@
         "cad_pronto": 1.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 34.41,
+        "aguard_saida": 35.59,
         "desde_cadastro": null,
-        "desde_pronto": 35.41
+        "desde_pronto": 36.59
       },
       "status": {
         "cad_pronto": "na",
@@ -6722,9 +6722,9 @@
         "cad_pronto": 0.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 33.41,
+        "aguard_saida": 34.59,
         "desde_cadastro": null,
-        "desde_pronto": 35.41
+        "desde_pronto": 36.59
       },
       "status": {
         "cad_pronto": "na",
@@ -7038,7 +7038,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 17.41,
+        "desde_cadastro": 18.59,
         "desde_pronto": null
       },
       "status": {
@@ -7173,7 +7173,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 12.41,
+        "desde_cadastro": 13.59,
         "desde_pronto": null
       },
       "status": {
@@ -7254,7 +7254,7 @@
       "estabelec": "Cenôra Bolos",
       "cliente": "Retirada (Larissa Loures Mendes)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "alerta",
       "inativo": false,
       "alerta_retorno": false,
@@ -7264,7 +7264,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 7.41
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "alerta",
@@ -7276,20 +7276,20 @@
         "pronto": "28/04/2026 14:17",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "28/04/2026 14:24"
       },
       "horas": {
         "cadastro": "14:14:00",
         "pronto": "14:17:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "14:24:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-28T14:14:00",
         "pronto": "2026-04-28T14:17:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-04-28T14:24:00"
       },
       "dt_retorno": null
     },
@@ -7309,7 +7309,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 5.41
+        "desde_pronto": 6.59
       },
       "status": {
         "cad_pronto": "alerta",
@@ -7353,7 +7353,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.41,
+        "desde_cadastro": 5.59,
         "desde_pronto": null
       },
       "status": {
@@ -7384,6 +7384,51 @@
       "dt_retorno": null
     },
     {
+      "cod": "#34000 (#6862)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Luciana Netto)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.59,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "28/04/2026 14:23",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "14:23:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-28T14:23:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
       "cod": "#8671 (#0666)",
       "hub": "DS Sion",
       "estabelec": "La Cake - Doceria, Bolos e Sobremesas",
@@ -7398,12 +7443,57 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.41,
+        "desde_cadastro": 2.59,
         "desde_pronto": null
       },
       "status": {
         "cad_pronto": "pendente",
         "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "28/04/2026 14:23",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "14:23:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-28T14:23:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#288053 (#1210)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Entrega (Ana Carolina)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.59,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
         "col_conc": "pendente"
       },
       "datas": {
