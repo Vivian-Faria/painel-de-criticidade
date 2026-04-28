@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "28/04/2026 11:22:53",
+  "atualizado_em": "28/04/2026 11:23:49",
   "data_ref": "28/04/2026",
-  "total": 40,
+  "total": 42,
   "pedidos": [
     {
       "cod": "#288005 (#6491)",
@@ -693,7 +693,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 119.88,
+        "desde_cadastro": 120.83,
         "desde_pronto": null
       },
       "status": {
@@ -1323,7 +1323,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 19.88,
+        "desde_cadastro": 20.83,
         "desde_pronto": null
       },
       "status": {
@@ -1368,7 +1368,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 19.88,
+        "desde_cadastro": 20.83,
         "desde_pronto": null
       },
       "status": {
@@ -1404,7 +1404,7 @@
       "estabelec": "Tudifruta - Saudável - Bolo, doce e sorvete",
       "cliente": "Retirada (Larissa Assumpção)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
@@ -1414,7 +1414,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 13.88
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "ok",
@@ -1426,20 +1426,20 @@
         "pronto": "28/04/2026 11:09",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "28/04/2026 11:23"
       },
       "horas": {
         "cadastro": "11:07:00",
         "pronto": "11:09:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "11:23:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-28T11:07:00",
         "pronto": "2026-04-28T11:09:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-04-28T11:23:00"
       },
       "dt_retorno": null
     },
@@ -1458,7 +1458,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 9.88,
+        "desde_cadastro": 10.83,
         "desde_pronto": null
       },
       "status": {
@@ -1548,7 +1548,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.88,
+        "desde_cadastro": 9.83,
         "desde_pronto": null
       },
       "status": {
@@ -1638,7 +1638,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.88,
+        "desde_cadastro": 6.83,
         "desde_pronto": null
       },
       "status": {
@@ -1683,7 +1683,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.88,
+        "desde_cadastro": 6.83,
         "desde_pronto": null
       },
       "status": {
@@ -1728,7 +1728,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.88,
+        "desde_cadastro": 5.83,
         "desde_pronto": null
       },
       "status": {
@@ -1773,7 +1773,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.88,
+        "desde_cadastro": 2.83,
         "desde_pronto": null
       },
       "status": {
@@ -1797,6 +1797,96 @@
       },
       "ts": {
         "cadastro": "2026-04-28T11:21:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#731 (#5452)",
+      "hub": "DS Sion",
+      "estabelec": "Doce Fit Bella",
+      "cliente": "Retirada (Kenisson Mello)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.83,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "28/04/2026 11:22",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:22:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-28T11:22:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#8798 (#6922)",
+      "hub": "DS Sion",
+      "estabelec": "Mr Duck Cookies - Belo Horizonte",
+      "cliente": "Retirada (Yasmin Vieira)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.83,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "28/04/2026 11:22",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:22:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-28T11:22:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
