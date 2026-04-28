@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "28/04/2026 15:38:52",
+  "atualizado_em": "28/04/2026 15:39:51",
   "data_ref": "28/04/2026",
-  "total": 190,
+  "total": 191,
   "pedidos": [
     {
       "cod": "#288005 (#6491)",
@@ -693,7 +693,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 375.88,
+        "desde_cadastro": 376.87,
         "desde_pronto": null
       },
       "status": {
@@ -3617,8 +3617,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 189.88,
-        "desde_cadastro": 207.88,
+        "aguard_saida": 190.87,
+        "desde_cadastro": 208.87,
         "desde_pronto": null
       },
       "status": {
@@ -6993,7 +6993,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 91.88,
+        "desde_cadastro": 92.87,
         "desde_pronto": null
       },
       "status": {
@@ -7983,7 +7983,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 35.88,
+        "desde_cadastro": 36.87,
         "desde_pronto": null
       },
       "status": {
@@ -8027,8 +8027,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 5.88,
-        "desde_cadastro": 33.88,
+        "aguard_saida": 6.87,
+        "desde_cadastro": 34.87,
         "desde_pronto": null
       },
       "status": {
@@ -8254,7 +8254,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 18.88
+        "desde_pronto": 19.87
       },
       "status": {
         "cad_pronto": "alerta",
@@ -8344,7 +8344,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 14.88
+        "desde_pronto": 15.87
       },
       "status": {
         "cad_pronto": "critico",
@@ -8424,7 +8424,7 @@
       "estabelec": "Pudim do Bart",
       "cliente": "Retirada (Paulo Sousa)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -8434,7 +8434,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 6.88
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -8446,20 +8446,20 @@
         "pronto": "28/04/2026 15:32",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "28/04/2026 15:39"
       },
       "horas": {
         "cadastro": "15:23:00",
         "pronto": "15:32:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "15:39:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-28T15:23:00",
         "pronto": "2026-04-28T15:32:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-04-28T15:39:00"
       },
       "dt_retorno": null
     },
@@ -8478,7 +8478,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 9.88,
+        "desde_cadastro": 10.87,
         "desde_pronto": null
       },
       "status": {
@@ -8524,7 +8524,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 0.88
+        "desde_pronto": 1.87
       },
       "status": {
         "cad_pronto": "na",
@@ -8548,6 +8548,51 @@
       "ts": {
         "cadastro": "2026-04-28T15:34:00",
         "pronto": "2026-04-28T15:38:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#288062 (#915008)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Amanda)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.87,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "28/04/2026 15:38",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "15:38:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-28T15:38:00",
+        "pronto": null,
         "coleta": null,
         "conclusao": null
       },
