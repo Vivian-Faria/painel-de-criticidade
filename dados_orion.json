@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "28/04/2026 16:36:53",
+  "atualizado_em": "28/04/2026 16:37:52",
   "data_ref": "28/04/2026",
-  "total": 216,
+  "total": 217,
   "pedidos": [
     {
       "cod": "#288005 (#6491)",
@@ -694,7 +694,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 19.89
+        "desde_pronto": 20.88
       },
       "status": {
         "cad_pronto": "critico",
@@ -3617,8 +3617,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 247.89,
-        "desde_cadastro": 265.89,
+        "aguard_saida": 248.88,
+        "desde_cadastro": 266.88,
         "desde_pronto": null
       },
       "status": {
@@ -6993,7 +6993,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 149.89,
+        "desde_cadastro": 150.88,
         "desde_pronto": null
       },
       "status": {
@@ -7983,7 +7983,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 93.89,
+        "desde_cadastro": 94.88,
         "desde_pronto": null
       },
       "status": {
@@ -9372,14 +9372,14 @@
       "etapa_atual": "aguardando_saida",
       "status_geral": "critico",
       "inativo": false,
-      "alerta_retorno": false,
+      "alerta_retorno": true,
       "tempos": {
         "cad_pronto": 3.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 14.89,
+        "aguard_saida": 15.88,
         "desde_cadastro": null,
-        "desde_pronto": 16.89
+        "desde_pronto": 17.88
       },
       "status": {
         "cad_pronto": "na",
@@ -9467,9 +9467,9 @@
         "cad_pronto": 3.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 12.89,
+        "aguard_saida": 13.88,
         "desde_cadastro": null,
-        "desde_pronto": 13.89
+        "desde_pronto": 14.88
       },
       "status": {
         "cad_pronto": "na",
@@ -9513,7 +9513,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 11.89,
+        "desde_cadastro": 12.88,
         "desde_pronto": null
       },
       "status": {
@@ -9558,7 +9558,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 9.89,
+        "desde_cadastro": 10.88,
         "desde_pronto": null
       },
       "status": {
@@ -9603,7 +9603,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.89,
+        "desde_cadastro": 8.88,
         "desde_pronto": null
       },
       "status": {
@@ -9649,7 +9649,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.89
+        "desde_pronto": 3.88
       },
       "status": {
         "cad_pronto": "ok",
@@ -9694,7 +9694,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.89
+        "desde_pronto": 2.88
       },
       "status": {
         "cad_pronto": "ok",
@@ -9718,6 +9718,51 @@
       "ts": {
         "cadastro": "2026-04-28T16:34:00",
         "pronto": "2026-04-28T16:35:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#902 (#4)",
+      "hub": "-",
+      "estabelec": "Moink",
+      "cliente": "Retirada (Eliane Ramos)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 0.88,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "28/04/2026 16:37",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:37:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-28T16:37:00",
+        "pronto": null,
         "coleta": null,
         "conclusao": null
       },
