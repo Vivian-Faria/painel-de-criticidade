@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "28/04/2026 14:32:55",
+  "atualizado_em": "28/04/2026 14:33:59",
   "data_ref": "28/04/2026",
   "total": 168,
   "pedidos": [
@@ -693,7 +693,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 309.93,
+        "desde_cadastro": 310.98,
         "desde_pronto": null
       },
       "status": {
@@ -3617,8 +3617,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 123.93,
-        "desde_cadastro": 141.93,
+        "aguard_saida": 124.98,
+        "desde_cadastro": 142.98,
         "desde_pronto": null
       },
       "status": {
@@ -6587,9 +6587,9 @@
         "cad_pronto": 1.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 42.93,
+        "aguard_saida": 43.98,
         "desde_cadastro": null,
-        "desde_pronto": 43.93
+        "desde_pronto": 44.98
       },
       "status": {
         "cad_pronto": "na",
@@ -6677,9 +6677,9 @@
         "cad_pronto": 0.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 41.93,
+        "aguard_saida": 42.98,
         "desde_cadastro": null,
-        "desde_pronto": 43.93
+        "desde_pronto": 44.98
       },
       "status": {
         "cad_pronto": "na",
@@ -6993,7 +6993,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 25.93,
+        "desde_cadastro": 26.98,
         "desde_pronto": null
       },
       "status": {
@@ -7127,9 +7127,9 @@
         "cad_pronto": 14.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 4.93,
+        "aguard_saida": 5.98,
         "desde_cadastro": null,
-        "desde_pronto": 6.93
+        "desde_pronto": 7.98
       },
       "status": {
         "cad_pronto": "na",
@@ -7264,7 +7264,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 13.93
+        "desde_pronto": 14.98
       },
       "status": {
         "cad_pronto": "alerta",
@@ -7309,7 +7309,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.93
+        "desde_pronto": 4.98
       },
       "status": {
         "cad_pronto": "critico",
@@ -7344,40 +7344,40 @@
       "estabelec": "3f - Fast Fitness Food - Savassi",
       "cliente": "Retirada (Luciana Netto)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 10.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 9.93,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 0.98
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "28/04/2026 14:23",
-        "pronto": "-",
+        "pronto": "28/04/2026 14:33",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "14:23:00",
-        "pronto": null,
+        "pronto": "14:33:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-28T14:23:00",
-        "pronto": null,
+        "pronto": "2026-04-28T14:33:00",
         "coleta": null,
         "conclusao": null
       },
@@ -7389,7 +7389,7 @@
       "estabelec": "La Cake - Doceria, Bolos e Sobremesas",
       "cliente": "Retirada (Marcelo Andrade)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -7399,7 +7399,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 4.93
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -7411,20 +7411,20 @@
         "pronto": "28/04/2026 14:28",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "28/04/2026 14:33"
       },
       "horas": {
         "cadastro": "14:23:00",
         "pronto": "14:28:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "14:33:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-28T14:23:00",
         "pronto": "2026-04-28T14:28:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-04-28T14:33:00"
       },
       "dt_retorno": null
     },
@@ -7443,7 +7443,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 9.93,
+        "desde_cadastro": 10.98,
         "desde_pronto": null
       },
       "status": {
@@ -7488,7 +7488,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 6.93,
+        "desde_cadastro": 7.98,
         "desde_pronto": null
       },
       "status": {
@@ -7534,7 +7534,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.93
+        "desde_pronto": 2.98
       },
       "status": {
         "cad_pronto": "ok",
