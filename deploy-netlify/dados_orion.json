@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "28/04/2026 11:03:50",
+  "atualizado_em": "28/04/2026 11:04:53",
   "data_ref": "28/04/2026",
-  "total": 29,
+  "total": 30,
   "pedidos": [
     {
       "cod": "#288005 (#6491)",
@@ -693,7 +693,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 100.85,
+        "desde_cadastro": 101.9,
         "desde_pronto": null
       },
       "status": {
@@ -1189,7 +1189,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.85
+        "desde_pronto": 2.9
       },
       "status": {
         "cad_pronto": "critico",
@@ -1234,7 +1234,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.85
+        "desde_pronto": 2.9
       },
       "status": {
         "cad_pronto": "critico",
@@ -1278,7 +1278,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 3.85,
+        "desde_cadastro": 4.9,
         "desde_pronto": null
       },
       "status": {
@@ -1302,6 +1302,51 @@
       },
       "ts": {
         "cadastro": "2026-04-28T11:00:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#288012 (#3445)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Entrega (Jessica Botelho)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.9,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "28/04/2026 11:03",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:03:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-28T11:03:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
