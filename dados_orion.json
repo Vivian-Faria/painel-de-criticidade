@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "29/04/2026 17:30:56",
+  "atualizado_em": "29/04/2026 17:31:55",
   "data_ref": "29/04/2026",
-  "total": 239,
+  "total": 240,
   "pedidos": [
     {
       "cod": "#288174 (#4209)",
@@ -10007,8 +10007,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 19.94,
-        "desde_cadastro": 42.94,
+        "aguard_saida": 20.93,
+        "desde_cadastro": 43.93,
         "desde_pronto": null
       },
       "status": {
@@ -10232,9 +10232,9 @@
         "cad_pronto": 4.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 19.94,
+        "aguard_saida": 20.93,
         "desde_cadastro": null,
-        "desde_pronto": 21.94
+        "desde_pronto": 22.93
       },
       "status": {
         "cad_pronto": "na",
@@ -10359,7 +10359,7 @@
       "estabelec": "Burger X",
       "cliente": "Entrega (Daniela Martins Lisboa)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "aguardando_saida",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
@@ -10367,8 +10367,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": null,
-        "desde_cadastro": 21.94,
+        "aguard_saida": 0.93,
+        "desde_cadastro": 22.93,
         "desde_pronto": null
       },
       "status": {
@@ -10379,21 +10379,21 @@
       "datas": {
         "cadastro": "29/04/2026 17:09",
         "pronto": "-",
-        "coleta": "-",
+        "coleta": "29/04/2026 17:31",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "17:09:00",
         "pronto": null,
-        "coleta": null,
+        "coleta": "17:31:00",
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-29T17:09:00",
         "pronto": null,
-        "coleta": null,
+        "coleta": "2026-04-29T17:31:00",
         "conclusao": null
       },
       "dt_retorno": null
@@ -10414,7 +10414,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 7.94
+        "desde_pronto": 8.93
       },
       "status": {
         "cad_pronto": "critico",
@@ -10458,7 +10458,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 15.94,
+        "desde_cadastro": 16.93,
         "desde_pronto": null
       },
       "status": {
@@ -10503,7 +10503,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 13.94,
+        "desde_cadastro": 14.93,
         "desde_pronto": null
       },
       "status": {
@@ -10593,7 +10593,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 12.94,
+        "desde_cadastro": 13.93,
         "desde_pronto": null
       },
       "status": {
@@ -10639,7 +10639,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.94
+        "desde_pronto": 3.93
       },
       "status": {
         "cad_pronto": "critico",
@@ -10683,7 +10683,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.94,
+        "desde_cadastro": 9.93,
         "desde_pronto": null
       },
       "status": {
@@ -10728,7 +10728,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.94,
+        "desde_cadastro": 8.93,
         "desde_pronto": null
       },
       "status": {
@@ -10752,6 +10752,51 @@
       },
       "ts": {
         "cadastro": "2026-04-29T17:23:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#34049 (#4252)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Arnobio)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.93,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "29/04/2026 17:30",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "17:30:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-29T17:30:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
