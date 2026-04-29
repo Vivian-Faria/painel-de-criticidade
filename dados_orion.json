@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "29/04/2026 16:04:51",
+  "atualizado_em": "29/04/2026 16:05:52",
   "data_ref": "29/04/2026",
   "total": 213,
   "pedidos": [
@@ -2582,9 +2582,9 @@
         "cad_pronto": 15.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 228.86,
+        "aguard_saida": 229.87,
         "desde_cadastro": null,
-        "desde_pronto": 230.86
+        "desde_pronto": 231.87
       },
       "status": {
         "cad_pronto": "na",
@@ -7534,7 +7534,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 63.86
+        "desde_pronto": 64.87
       },
       "status": {
         "cad_pronto": "critico",
@@ -8964,42 +8964,42 @@
       "estabelec": "Burger X",
       "cliente": "Entrega (Mariana Maia)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_saida",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
-      "alerta_retorno": true,
+      "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 6.0,
         "pronto_col": 2.0,
-        "col_conc": null,
-        "aguard_saida": 20.86,
+        "col_conc": 21.0,
+        "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 22.86
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "critico",
-        "col_conc": "pendente"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "29/04/2026 15:36",
         "pronto": "29/04/2026 15:42",
         "coleta": "29/04/2026 15:44",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "29/04/2026 16:05"
       },
       "horas": {
         "cadastro": "15:36:00",
         "pronto": "15:42:00",
         "coleta": "15:44:00",
-        "conclusao": null,
+        "conclusao": "16:05:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-29T15:36:00",
         "pronto": "2026-04-29T15:42:00",
         "coleta": "2026-04-29T15:44:00",
-        "conclusao": null
+        "conclusao": "2026-04-29T16:05:00"
       },
       "dt_retorno": null
     },
@@ -9481,20 +9481,20 @@
         "pronto": "29/04/2026 16:03",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "29/04/2026 16:03"
+        "conclusao": "29/04/2026 16:05"
       },
       "horas": {
         "cadastro": "15:53:00",
         "pronto": "16:03:00",
         "coleta": null,
-        "conclusao": "16:03:00",
+        "conclusao": "16:05:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-29T15:53:00",
         "pronto": "2026-04-29T16:03:00",
         "coleta": null,
-        "conclusao": "2026-04-29T16:03:00"
+        "conclusao": "2026-04-29T16:05:00"
       },
       "dt_retorno": null
     },
@@ -9504,7 +9504,7 @@
       "estabelec": "Cremella Confeitaria - Cookies, Doces & Bolos",
       "cliente": "Retirada (Ana Claudia Santos)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -9514,7 +9514,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.86
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -9526,20 +9526,20 @@
         "pronto": "29/04/2026 16:03",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "29/04/2026 16:05"
       },
       "horas": {
         "cadastro": "15:56:00",
         "pronto": "16:03:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "16:05:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-29T15:56:00",
         "pronto": "2026-04-29T16:03:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-04-29T16:05:00"
       },
       "dt_retorno": null
     },
@@ -9549,40 +9549,40 @@
       "estabelec": "Cremella Confeitaria - Cookies, Doces & Bolos",
       "cliente": "Retirada (Michele Assis)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "alerta",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 3.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.86,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 0.87
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "alerta",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "29/04/2026 16:02",
-        "pronto": "-",
+        "pronto": "29/04/2026 16:05",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "16:02:00",
-        "pronto": null,
+        "pronto": "16:05:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-29T16:02:00",
-        "pronto": null,
+        "pronto": "2026-04-29T16:05:00",
         "coleta": null,
         "conclusao": null
       },
