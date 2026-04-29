@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "29/04/2026 17:23:52",
+  "atualizado_em": "29/04/2026 17:24:53",
   "data_ref": "29/04/2026",
-  "total": 241,
+  "total": 242,
   "pedidos": [
     {
       "cod": "#288174 (#4209)",
@@ -7524,7 +7524,7 @@
       "estabelec": "Pudim do Bart",
       "cliente": "Retirada (Edison)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -7534,7 +7534,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 142.87
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -7546,20 +7546,20 @@
         "pronto": "29/04/2026 15:01",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "29/04/2026 17:24"
       },
       "horas": {
         "cadastro": "14:55:00",
         "pronto": "15:01:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "17:24:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-29T14:55:00",
         "pronto": "2026-04-29T15:01:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-04-29T17:24:00"
       },
       "dt_retorno": null
     },
@@ -10142,8 +10142,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 12.87,
-        "desde_cadastro": 35.87,
+        "aguard_saida": 13.89,
+        "desde_cadastro": 36.89,
         "desde_pronto": null
       },
       "status": {
@@ -10367,9 +10367,9 @@
         "cad_pronto": 4.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 12.87,
+        "aguard_saida": 13.89,
         "desde_cadastro": null,
-        "desde_pronto": 14.87
+        "desde_pronto": 15.89
       },
       "status": {
         "cad_pronto": "na",
@@ -10503,7 +10503,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 14.87,
+        "desde_cadastro": 15.89,
         "desde_pronto": null
       },
       "status": {
@@ -10549,7 +10549,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 0.87
+        "desde_pronto": 1.89
       },
       "status": {
         "cad_pronto": "critico",
@@ -10593,7 +10593,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.87,
+        "desde_cadastro": 9.89,
         "desde_pronto": null
       },
       "status": {
@@ -10638,7 +10638,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 6.87,
+        "desde_cadastro": 7.89,
         "desde_pronto": null
       },
       "status": {
@@ -10683,7 +10683,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 6.87,
+        "desde_cadastro": 7.89,
         "desde_pronto": null
       },
       "status": {
@@ -10728,7 +10728,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.87,
+        "desde_cadastro": 6.89,
         "desde_pronto": null
       },
       "status": {
@@ -10773,7 +10773,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.87,
+        "desde_cadastro": 3.89,
         "desde_pronto": null
       },
       "status": {
@@ -10818,7 +10818,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.87,
+        "desde_cadastro": 2.89,
         "desde_pronto": null
       },
       "status": {
@@ -10842,6 +10842,51 @@
       },
       "ts": {
         "cadastro": "2026-04-29T17:22:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#273 (#4896)",
+      "hub": "DS Sion",
+      "estabelec": "Calma, Tem Pudim! Sion",
+      "cliente": "Retirada (Erick Maia)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.89,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "29/04/2026 17:23",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "17:23:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-29T17:23:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
