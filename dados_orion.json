@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "29/04/2026 16:05:52",
+  "atualizado_em": "29/04/2026 16:06:51",
   "data_ref": "29/04/2026",
-  "total": 213,
+  "total": 214,
   "pedidos": [
     {
       "cod": "#288174 (#4209)",
@@ -2582,9 +2582,9 @@
         "cad_pronto": 15.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 229.87,
+        "aguard_saida": 230.87,
         "desde_cadastro": null,
-        "desde_pronto": 231.87
+        "desde_pronto": 232.87
       },
       "status": {
         "cad_pronto": "na",
@@ -7534,7 +7534,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 64.87
+        "desde_pronto": 65.87
       },
       "status": {
         "cad_pronto": "critico",
@@ -9559,7 +9559,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 0.87
+        "desde_pronto": 1.87
       },
       "status": {
         "cad_pronto": "alerta",
@@ -9583,6 +9583,51 @@
       "ts": {
         "cadastro": "2026-04-29T16:02:00",
         "pronto": "2026-04-29T16:05:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#3708 (#1216)",
+      "hub": "DS Sion",
+      "estabelec": "Amor e Açaí - Savassi",
+      "cliente": "Retirada (Aline Madeira)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 0.87,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "29/04/2026 16:06",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:06:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-29T16:06:00",
+        "pronto": null,
         "coleta": null,
         "conclusao": null
       },
