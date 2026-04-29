@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "29/04/2026 17:22:51",
+  "atualizado_em": "29/04/2026 17:23:52",
   "data_ref": "29/04/2026",
-  "total": 240,
+  "total": 241,
   "pedidos": [
     {
       "cod": "#288174 (#4209)",
@@ -7534,7 +7534,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 141.86
+        "desde_pronto": 142.87
       },
       "status": {
         "cad_pronto": "critico",
@@ -10142,8 +10142,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 11.86,
-        "desde_cadastro": 34.86,
+        "aguard_saida": 12.87,
+        "desde_cadastro": 35.87,
         "desde_pronto": null
       },
       "status": {
@@ -10367,9 +10367,9 @@
         "cad_pronto": 4.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 11.86,
+        "aguard_saida": 12.87,
         "desde_cadastro": null,
-        "desde_pronto": 13.86
+        "desde_pronto": 14.87
       },
       "status": {
         "cad_pronto": "na",
@@ -10503,7 +10503,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 13.86,
+        "desde_cadastro": 14.87,
         "desde_pronto": null
       },
       "status": {
@@ -10539,40 +10539,40 @@
       "estabelec": "Vanfall Destilaria - Delivery de Bebidas",
       "cliente": "Retirada (Manuela Maria Vianna Matos)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 10.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 9.86,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 0.87
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "29/04/2026 17:13",
-        "pronto": "-",
+        "pronto": "29/04/2026 17:23",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "17:13:00",
-        "pronto": null,
+        "pronto": "17:23:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-29T17:13:00",
-        "pronto": null,
+        "pronto": "2026-04-29T17:23:00",
         "coleta": null,
         "conclusao": null
       },
@@ -10593,7 +10593,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.86,
+        "desde_cadastro": 8.87,
         "desde_pronto": null
       },
       "status": {
@@ -10638,7 +10638,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.86,
+        "desde_cadastro": 6.87,
         "desde_pronto": null
       },
       "status": {
@@ -10683,7 +10683,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.86,
+        "desde_cadastro": 6.87,
         "desde_pronto": null
       },
       "status": {
@@ -10728,7 +10728,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.86,
+        "desde_cadastro": 5.87,
         "desde_pronto": null
       },
       "status": {
@@ -10773,7 +10773,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.86,
+        "desde_cadastro": 2.87,
         "desde_pronto": null
       },
       "status": {
@@ -10797,6 +10797,51 @@
       },
       "ts": {
         "cadastro": "2026-04-29T17:21:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#288249 (#897008)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Carolina)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.87,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "29/04/2026 17:22",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "17:22:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-29T17:22:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
