@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "29/04/2026 16:02:53",
+  "atualizado_em": "29/04/2026 16:03:51",
   "data_ref": "29/04/2026",
-  "total": 212,
+  "total": 213,
   "pedidos": [
     {
       "cod": "#288174 (#4209)",
@@ -2582,9 +2582,9 @@
         "cad_pronto": 15.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 226.89,
+        "aguard_saida": 227.86,
         "desde_cadastro": null,
-        "desde_pronto": 228.89
+        "desde_pronto": 229.86
       },
       "status": {
         "cad_pronto": "na",
@@ -7534,7 +7534,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 61.89
+        "desde_pronto": 62.86
       },
       "status": {
         "cad_pronto": "critico",
@@ -8972,9 +8972,9 @@
         "cad_pronto": 6.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 18.89,
+        "aguard_saida": 19.86,
         "desde_cadastro": null,
-        "desde_pronto": 20.89
+        "desde_pronto": 21.86
       },
       "status": {
         "cad_pronto": "na",
@@ -9459,40 +9459,40 @@
       "estabelec": "Cremella Confeitaria - Cookies, Doces & Bolos",
       "cliente": "Retirada (Yasmine Leal)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 10.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 9.89,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 0.86
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "29/04/2026 15:53",
-        "pronto": "-",
+        "pronto": "29/04/2026 16:03",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "15:53:00",
-        "pronto": null,
+        "pronto": "16:03:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-29T15:53:00",
-        "pronto": null,
+        "pronto": "2026-04-29T16:03:00",
         "coleta": null,
         "conclusao": null
       },
@@ -9513,7 +9513,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 6.89,
+        "desde_cadastro": 7.86,
         "desde_pronto": null
       },
       "status": {
@@ -9537,6 +9537,51 @@
       },
       "ts": {
         "cadastro": "2026-04-29T15:56:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#2658 (#0733)",
+      "hub": "DS Sion",
+      "estabelec": "Cremella Confeitaria - Cookies, Doces & Bolos",
+      "cliente": "Retirada (Michele Assis)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.86,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "29/04/2026 16:02",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:02:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-29T16:02:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
