@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "29/04/2026 16:36:51",
+  "atualizado_em": "29/04/2026 16:37:55",
   "data_ref": "29/04/2026",
   "total": 223,
   "pedidos": [
@@ -7534,7 +7534,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 95.86
+        "desde_pronto": 96.92
       },
       "status": {
         "cad_pronto": "critico",
@@ -9729,44 +9729,44 @@
       "estabelec": "Burger X",
       "cliente": "Entrega (Sergio Toledo)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_saida",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 13.0,
         "pronto_col": 2.0,
-        "col_conc": null,
-        "aguard_saida": 10.86,
+        "col_conc": 11.0,
+        "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 12.86
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "critico",
-        "col_conc": "pendente"
+        "col_conc": "alerta"
       },
       "datas": {
         "cadastro": "29/04/2026 16:11",
         "pronto": "29/04/2026 16:24",
         "coleta": "29/04/2026 16:26",
-        "retorno": "-",
-        "conclusao": "-"
+        "retorno": "29/04/2026 16:37",
+        "conclusao": "29/04/2026 16:37"
       },
       "horas": {
         "cadastro": "16:11:00",
         "pronto": "16:24:00",
         "coleta": "16:26:00",
-        "conclusao": null,
-        "retorno": null
+        "conclusao": "16:37:00",
+        "retorno": "16:37:00"
       },
       "ts": {
         "cadastro": "2026-04-29T16:11:00",
         "pronto": "2026-04-29T16:24:00",
         "coleta": "2026-04-29T16:26:00",
-        "conclusao": null
+        "conclusao": "2026-04-29T16:37:00"
       },
-      "dt_retorno": null
+      "dt_retorno": "16:37:00"
     },
     {
       "cod": "#2659 (#7158)",
@@ -9784,7 +9784,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 22.86
+        "desde_pronto": 23.92
       },
       "status": {
         "cad_pronto": "alerta",
@@ -9909,44 +9909,44 @@
       "estabelec": "Burger X",
       "cliente": "Entrega (Alexandre Rosalino)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_saida",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "alerta",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": null,
         "pronto_col": null,
-        "col_conc": null,
-        "aguard_saida": 10.86,
-        "desde_cadastro": 21.86,
+        "col_conc": 11.0,
+        "aguard_saida": null,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "pendente",
-        "col_conc": "pendente"
+        "col_conc": "alerta"
       },
       "datas": {
         "cadastro": "29/04/2026 16:15",
         "pronto": "-",
         "coleta": "29/04/2026 16:26",
-        "retorno": "-",
-        "conclusao": "-"
+        "retorno": "29/04/2026 16:37",
+        "conclusao": "29/04/2026 16:37"
       },
       "horas": {
         "cadastro": "16:15:00",
         "pronto": null,
         "coleta": "16:26:00",
-        "conclusao": null,
-        "retorno": null
+        "conclusao": "16:37:00",
+        "retorno": "16:37:00"
       },
       "ts": {
         "cadastro": "2026-04-29T16:15:00",
         "pronto": null,
         "coleta": "2026-04-29T16:26:00",
-        "conclusao": null
+        "conclusao": "2026-04-29T16:37:00"
       },
-      "dt_retorno": null
+      "dt_retorno": "16:37:00"
     },
     {
       "cod": "#11483 (#280003)",
@@ -10008,7 +10008,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.86,
+        "desde_cadastro": 8.92,
         "desde_pronto": null
       },
       "status": {
