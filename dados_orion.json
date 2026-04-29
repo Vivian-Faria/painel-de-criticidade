@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "29/04/2026 17:09:53",
+  "atualizado_em": "29/04/2026 17:10:52",
   "data_ref": "29/04/2026",
-  "total": 233,
+  "total": 234,
   "pedidos": [
     {
       "cod": "#288174 (#4209)",
@@ -7534,7 +7534,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 128.89
+        "desde_pronto": 129.88
       },
       "status": {
         "cad_pronto": "critico",
@@ -10143,7 +10143,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 21.89,
+        "desde_cadastro": 22.88,
         "desde_pronto": null
       },
       "status": {
@@ -10188,7 +10188,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 21.89,
+        "desde_cadastro": 22.88,
         "desde_pronto": null
       },
       "status": {
@@ -10224,7 +10224,7 @@
       "estabelec": "Inclitus - Bolos e Doces",
       "cliente": "Retirada (Mari Pires)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
@@ -10234,7 +10234,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 18.89
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "ok",
@@ -10246,20 +10246,20 @@
         "pronto": "29/04/2026 16:51",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "29/04/2026 17:10"
       },
       "horas": {
         "cadastro": "16:49:00",
         "pronto": "16:51:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "17:10:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-29T16:49:00",
         "pronto": "2026-04-29T16:51:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-04-29T17:10:00"
       },
       "dt_retorno": null
     },
@@ -10369,7 +10369,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 0.89
+        "desde_pronto": 1.88
       },
       "status": {
         "cad_pronto": "na",
@@ -10414,7 +10414,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 0.89
+        "desde_pronto": 1.88
       },
       "status": {
         "cad_pronto": "alerta",
@@ -10459,7 +10459,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 0.89
+        "desde_pronto": 1.88
       },
       "status": {
         "cad_pronto": "ok",
@@ -10483,6 +10483,51 @@
       "ts": {
         "cadastro": "2026-04-29T17:07:00",
         "pronto": "2026-04-29T17:09:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#288246 (#1792)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Entrega (Daniela Martins Lisboa)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.88,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "29/04/2026 17:09",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "17:09:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-29T17:09:00",
+        "pronto": null,
         "coleta": null,
         "conclusao": null
       },
