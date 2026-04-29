@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "29/04/2026 16:39:50",
+  "atualizado_em": "29/04/2026 16:40:51",
   "data_ref": "29/04/2026",
-  "total": 223,
+  "total": 225,
   "pedidos": [
     {
       "cod": "#288174 (#4209)",
@@ -7534,7 +7534,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 98.84
+        "desde_pronto": 99.85
       },
       "status": {
         "cad_pronto": "critico",
@@ -9999,7 +9999,7 @@
       "estabelec": "Cacau Arte - Doces,& Tortas CONGELADOS - SION",
       "cliente": "Retirada (Patrícia Brum)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -10009,7 +10009,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 0.84
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -10021,18 +10021,108 @@
         "pronto": "29/04/2026 16:39",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "29/04/2026 16:40"
       },
       "horas": {
         "cadastro": "16:29:00",
         "pronto": "16:39:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "16:40:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-29T16:29:00",
         "pronto": "2026-04-29T16:39:00",
+        "coleta": null,
+        "conclusao": "2026-04-29T16:40:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#11027 (#6330)",
+      "hub": "DS Sion",
+      "estabelec": "Sorveteria Doce Cascão - Savassi",
+      "cliente": "Retirada (Bruna De Oliveira Bicalho)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.85,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "29/04/2026 16:38",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:38:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-29T16:38:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#8821 (#2417)",
+      "hub": "DS Sion",
+      "estabelec": "Mr Duck Cookies - Belo Horizonte",
+      "cliente": "Retirada (Yasmin Vitoria)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.85,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "29/04/2026 16:39",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:39:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-29T16:39:00",
+        "pronto": null,
         "coleta": null,
         "conclusao": null
       },
