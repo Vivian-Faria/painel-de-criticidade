@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "29/04/2026 17:15:54",
+  "atualizado_em": "29/04/2026 17:16:55",
   "data_ref": "29/04/2026",
-  "total": 235,
+  "total": 236,
   "pedidos": [
     {
       "cod": "#288174 (#4209)",
@@ -7534,7 +7534,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 134.92
+        "desde_pronto": 135.92
       },
       "status": {
         "cad_pronto": "critico",
@@ -10142,8 +10142,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 4.92,
-        "desde_cadastro": 27.92,
+        "aguard_saida": 5.92,
+        "desde_cadastro": 28.92,
         "desde_pronto": null
       },
       "status": {
@@ -10367,9 +10367,9 @@
         "cad_pronto": 4.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 4.92,
+        "aguard_saida": 5.92,
         "desde_cadastro": null,
-        "desde_pronto": 6.92
+        "desde_pronto": 7.92
       },
       "status": {
         "cad_pronto": "na",
@@ -10414,7 +10414,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 6.92
+        "desde_pronto": 7.92
       },
       "status": {
         "cad_pronto": "alerta",
@@ -10449,7 +10449,7 @@
       "estabelec": "Estela Damasceno Confeitaria",
       "cliente": "Retirada (Emilia Leão)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
@@ -10459,7 +10459,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 6.92
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "ok",
@@ -10471,20 +10471,20 @@
         "pronto": "29/04/2026 17:09",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "29/04/2026 17:16"
       },
       "horas": {
         "cadastro": "17:07:00",
         "pronto": "17:09:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "17:16:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-04-29T17:07:00",
         "pronto": "2026-04-29T17:09:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-04-29T17:16:00"
       },
       "dt_retorno": null
     },
@@ -10503,7 +10503,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 6.92,
+        "desde_cadastro": 7.92,
         "desde_pronto": null
       },
       "status": {
@@ -10548,7 +10548,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.92,
+        "desde_cadastro": 3.92,
         "desde_pronto": null
       },
       "status": {
@@ -10572,6 +10572,51 @@
       },
       "ts": {
         "cadastro": "2026-04-29T17:13:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#60350 (#0688)",
+      "hub": "-",
+      "estabelec": "Mayu",
+      "cliente": "Retirada (Igor)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.92,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "29/04/2026 17:15",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "17:15:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-04-29T17:15:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
