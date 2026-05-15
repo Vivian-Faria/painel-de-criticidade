@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "15/05/2026 17:26:02",
+  "atualizado_em": "15/05/2026 17:28:41",
   "data_ref": "15/05/2026",
-  "total": 378,
+  "total": 379,
   "pedidos": [
     {
       "cod": "#29396 (#5570)",
@@ -1189,7 +1189,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 386.04
+        "desde_pronto": 388.69
       },
       "status": {
         "cad_pronto": "na",
@@ -1324,7 +1324,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 19.04
+        "desde_pronto": 21.69
       },
       "status": {
         "cad_pronto": "na",
@@ -2989,7 +2989,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 349.04
+        "desde_pronto": 351.69
       },
       "status": {
         "cad_pronto": "na",
@@ -15814,7 +15814,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 62.04
+        "desde_pronto": 64.69
       },
       "status": {
         "cad_pronto": "na",
@@ -16434,42 +16434,42 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Samantha Stephany)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_saida",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
-      "alerta_retorno": true,
+      "alerta_retorno": false,
       "tempos": {
         "cad_pronto": null,
         "pronto_col": null,
-        "col_conc": null,
-        "aguard_saida": 26.04,
-        "desde_cadastro": 34.04,
+        "col_conc": 26.0,
+        "aguard_saida": null,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "pendente",
-        "col_conc": "pendente"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "15/05/2026 16:52",
         "pronto": "-",
         "coleta": "15/05/2026 17:00",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "15/05/2026 17:26"
       },
       "horas": {
         "cadastro": "16:52:00",
         "pronto": null,
         "coleta": "17:00:00",
-        "conclusao": null,
+        "conclusao": "17:26:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-15T16:52:00",
         "pronto": null,
         "coleta": "2026-05-15T17:00:00",
-        "conclusao": null
+        "conclusao": "2026-05-15T17:26:00"
       },
       "dt_retorno": null
     },
@@ -16578,7 +16578,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 24.04,
+        "desde_cadastro": 26.69,
         "desde_pronto": null
       },
       "status": {
@@ -16712,9 +16712,9 @@
         "cad_pronto": 4.0,
         "pronto_col": 0.0,
         "col_conc": null,
-        "aguard_saida": 10.04,
+        "aguard_saida": 12.69,
         "desde_cadastro": null,
-        "desde_pronto": 10.04
+        "desde_pronto": 12.69
       },
       "status": {
         "cad_pronto": "na",
@@ -16758,7 +16758,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 14.04,
+        "desde_cadastro": 16.69,
         "desde_pronto": null
       },
       "status": {
@@ -16804,7 +16804,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 4.04
+        "desde_pronto": 6.69
       },
       "status": {
         "cad_pronto": "na",
@@ -16849,7 +16849,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 4.04
+        "desde_pronto": 6.69
       },
       "status": {
         "cad_pronto": "alerta",
@@ -16894,7 +16894,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.04
+        "desde_pronto": 4.69
       },
       "status": {
         "cad_pronto": "alerta",
@@ -16938,7 +16938,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.04,
+        "desde_cadastro": 6.69,
         "desde_pronto": null
       },
       "status": {
@@ -16983,7 +16983,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.04,
+        "desde_cadastro": 4.69,
         "desde_pronto": null
       },
       "status": {
@@ -17007,6 +17007,51 @@
       },
       "ts": {
         "cadastro": "2026-05-15T17:24:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#523 (#3015)",
+      "hub": "DS Sion",
+      "estabelec": "Pudim do Bart",
+      "cliente": "Retirada (Maria Paula Navarro)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.69,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "15/05/2026 17:27",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "17:27:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-05-15T17:27:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
