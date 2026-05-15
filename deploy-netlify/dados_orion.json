@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "15/05/2026 17:18:05",
+  "atualizado_em": "15/05/2026 17:20:42",
   "data_ref": "15/05/2026",
-  "total": 373,
+  "total": 375,
   "pedidos": [
     {
       "cod": "#29396 (#5570)",
@@ -1189,7 +1189,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 378.1
+        "desde_pronto": 380.71
       },
       "status": {
         "cad_pronto": "na",
@@ -1324,7 +1324,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 11.1
+        "desde_pronto": 13.71
       },
       "status": {
         "cad_pronto": "na",
@@ -2989,7 +2989,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 341.1
+        "desde_pronto": 343.71
       },
       "status": {
         "cad_pronto": "na",
@@ -15814,7 +15814,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 54.1
+        "desde_pronto": 56.71
       },
       "status": {
         "cad_pronto": "na",
@@ -16442,8 +16442,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 18.1,
-        "desde_cadastro": 26.1,
+        "aguard_saida": 20.71,
+        "desde_cadastro": 28.71,
         "desde_pronto": null
       },
       "status": {
@@ -16578,7 +16578,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 16.1,
+        "desde_cadastro": 18.71,
         "desde_pronto": null
       },
       "status": {
@@ -16614,7 +16614,7 @@
       "estabelec": "Cremella Confeitaria - Cookies, Doces & Bolos",
       "cliente": "Retirada (Dirceu Coutinho)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -16624,7 +16624,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 10.1
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -16636,20 +16636,20 @@
         "pronto": "15/05/2026 17:08",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "15/05/2026 17:18"
       },
       "horas": {
         "cadastro": "17:03:00",
         "pronto": "17:08:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "17:18:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-15T17:03:00",
         "pronto": "2026-05-15T17:08:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-05-15T17:18:00"
       },
       "dt_retorno": null
     },
@@ -16712,9 +16712,9 @@
         "cad_pronto": 4.0,
         "pronto_col": 0.0,
         "col_conc": null,
-        "aguard_saida": 2.1,
+        "aguard_saida": 4.71,
         "desde_cadastro": null,
-        "desde_pronto": 2.1
+        "desde_pronto": 4.71
       },
       "status": {
         "cad_pronto": "na",
@@ -16758,7 +16758,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 6.1,
+        "desde_cadastro": 8.71,
         "desde_pronto": null
       },
       "status": {
@@ -16782,6 +16782,96 @@
       },
       "ts": {
         "cadastro": "2026-05-15T17:12:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#299 (#4409)",
+      "hub": "-",
+      "estabelec": "Savassi Brasileira",
+      "cliente": "Retirada (Rodrigo Duarte)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.71,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "15/05/2026 17:19",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "17:19:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-05-15T17:19:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#19340 (#4263)",
+      "hub": "DS Sion",
+      "estabelec": "Viviane Sales Cake's - Bolos & Doces",
+      "cliente": "Retirada (Fabricio Carlos)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.71,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "15/05/2026 17:19",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "17:19:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-05-15T17:19:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
