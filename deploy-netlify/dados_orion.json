@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "15/05/2026 18:32:19",
+  "atualizado_em": "15/05/2026 18:35:23",
   "data_ref": "15/05/2026",
-  "total": 413,
+  "total": 415,
   "pedidos": [
     {
       "cod": "#29396 (#5570)",
@@ -1189,7 +1189,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 452.33
+        "desde_pronto": 455.39
       },
       "status": {
         "cad_pronto": "na",
@@ -1324,7 +1324,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 85.33
+        "desde_pronto": 88.39
       },
       "status": {
         "cad_pronto": "na",
@@ -2989,7 +2989,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 415.33
+        "desde_pronto": 418.39
       },
       "status": {
         "cad_pronto": "na",
@@ -15814,7 +15814,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 128.33
+        "desde_pronto": 131.39
       },
       "status": {
         "cad_pronto": "na",
@@ -17881,7 +17881,7 @@
       "tempos": {
         "cad_pronto": 22.0,
         "pronto_col": 2.0,
-        "col_conc": 0.0,
+        "col_conc": 12.0,
         "aguard_saida": null,
         "desde_cadastro": null,
         "desde_pronto": null
@@ -17889,27 +17889,27 @@
       "status": {
         "cad_pronto": "na",
         "pronto_col": "critico",
-        "col_conc": "ok"
+        "col_conc": "alerta"
       },
       "datas": {
         "cadastro": "15/05/2026 17:59",
         "pronto": "15/05/2026 18:21",
         "coleta": "15/05/2026 18:23",
         "retorno": "-",
-        "conclusao": "15/05/2026 18:23"
+        "conclusao": "15/05/2026 18:35"
       },
       "horas": {
         "cadastro": "17:59:00",
         "pronto": "18:21:00",
         "coleta": "18:23:00",
-        "conclusao": "18:23:00",
+        "conclusao": "18:35:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-15T17:59:00",
         "pronto": "2026-05-15T18:21:00",
         "coleta": "2026-05-15T18:23:00",
-        "conclusao": "2026-05-15T18:23:00"
+        "conclusao": "2026-05-15T18:35:00"
       },
       "dt_retorno": null
     },
@@ -18054,41 +18054,41 @@
       "estabelec": "Excaliburger",
       "cliente": "Retirada (Camila Eugenia Borges De Carvalho)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_saida",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
-        "pronto_col": null,
+        "cad_pronto": 26.0,
+        "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": null,
-        "desde_cadastro": 25.33,
-        "desde_pronto": null
+        "aguard_saida": 0.39,
+        "desde_cadastro": null,
+        "desde_pronto": 2.39
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
+        "pronto_col": "critico",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "15/05/2026 18:07",
-        "pronto": "-",
-        "coleta": "-",
+        "pronto": "15/05/2026 18:33",
+        "coleta": "15/05/2026 18:35",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "18:07:00",
-        "pronto": null,
-        "coleta": null,
+        "pronto": "18:33:00",
+        "coleta": "18:35:00",
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-15T18:07:00",
-        "pronto": null,
-        "coleta": null,
+        "pronto": "2026-05-15T18:33:00",
+        "coleta": "2026-05-15T18:35:00",
         "conclusao": null
       },
       "dt_retorno": null
@@ -18189,7 +18189,7 @@
       "estabelec": "Império do Açaí Savassi",
       "cliente": "Entrega (Joao Lepore)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -18199,7 +18199,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 13.33
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -18211,20 +18211,20 @@
         "pronto": "15/05/2026 18:19",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "15/05/2026 18:33"
       },
       "horas": {
         "cadastro": "18:10:00",
         "pronto": "18:19:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "18:33:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-15T18:10:00",
         "pronto": "2026-05-15T18:19:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-05-15T18:33:00"
       },
       "dt_retorno": null
     },
@@ -18379,7 +18379,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 13.33
+        "desde_pronto": 16.39
       },
       "status": {
         "cad_pronto": "critico",
@@ -18469,7 +18469,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 4.33
+        "desde_pronto": 7.39
       },
       "status": {
         "cad_pronto": "alerta",
@@ -18513,7 +18513,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 6.33,
+        "desde_cadastro": 9.39,
         "desde_pronto": null
       },
       "status": {
@@ -18558,7 +18558,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.33,
+        "desde_cadastro": 8.39,
         "desde_pronto": null
       },
       "status": {
@@ -18582,6 +18582,96 @@
       },
       "ts": {
         "cadastro": "2026-05-15T18:27:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#5473 (#2924)",
+      "hub": "DS Sion",
+      "estabelec": "Cacau Arte - Doces,& Tortas CONGELADOS - SION",
+      "cliente": "Retirada (Bárbara Castro)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.39,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "15/05/2026 18:33",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "18:33:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-05-15T18:33:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#291433 (#7637)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Yan Alves)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.39,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "15/05/2026 18:34",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "18:34:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-05-15T18:34:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
