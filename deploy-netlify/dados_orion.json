@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "15/05/2026 17:23:22",
+  "atualizado_em": "15/05/2026 17:26:02",
   "data_ref": "15/05/2026",
-  "total": 377,
+  "total": 378,
   "pedidos": [
     {
       "cod": "#29396 (#5570)",
@@ -1189,7 +1189,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 383.37
+        "desde_pronto": 386.04
       },
       "status": {
         "cad_pronto": "na",
@@ -1324,7 +1324,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 16.37
+        "desde_pronto": 19.04
       },
       "status": {
         "cad_pronto": "na",
@@ -2989,7 +2989,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 346.37
+        "desde_pronto": 349.04
       },
       "status": {
         "cad_pronto": "na",
@@ -15814,7 +15814,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 59.37
+        "desde_pronto": 62.04
       },
       "status": {
         "cad_pronto": "na",
@@ -16442,8 +16442,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 23.37,
-        "desde_cadastro": 31.37,
+        "aguard_saida": 26.04,
+        "desde_cadastro": 34.04,
         "desde_pronto": null
       },
       "status": {
@@ -16578,7 +16578,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 21.37,
+        "desde_cadastro": 24.04,
         "desde_pronto": null
       },
       "status": {
@@ -16712,9 +16712,9 @@
         "cad_pronto": 4.0,
         "pronto_col": 0.0,
         "col_conc": null,
-        "aguard_saida": 7.37,
+        "aguard_saida": 10.04,
         "desde_cadastro": null,
-        "desde_pronto": 7.37
+        "desde_pronto": 10.04
       },
       "status": {
         "cad_pronto": "na",
@@ -16758,7 +16758,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 11.37,
+        "desde_cadastro": 14.04,
         "desde_pronto": null
       },
       "status": {
@@ -16804,7 +16804,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.37
+        "desde_pronto": 4.04
       },
       "status": {
         "cad_pronto": "na",
@@ -16849,7 +16849,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.37
+        "desde_pronto": 4.04
       },
       "status": {
         "cad_pronto": "alerta",
@@ -16884,40 +16884,40 @@
       "estabelec": "Império do Açaí Savassi",
       "cliente": "Entrega (Izabella Benjamim)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "alerta",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 3.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.37,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 2.04
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "alerta",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "15/05/2026 17:21",
-        "pronto": "-",
+        "pronto": "15/05/2026 17:24",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "17:21:00",
-        "pronto": null,
+        "pronto": "17:24:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-15T17:21:00",
-        "pronto": null,
+        "pronto": "2026-05-15T17:24:00",
         "coleta": null,
         "conclusao": null
       },
@@ -16938,7 +16938,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.37,
+        "desde_cadastro": 4.04,
         "desde_pronto": null
       },
       "status": {
@@ -16962,6 +16962,51 @@
       },
       "ts": {
         "cadastro": "2026-05-15T17:22:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#244 (#0326)",
+      "hub": "DS Sion",
+      "estabelec": "Cenôra Bolos",
+      "cliente": "Retirada (Ana Flavia Guimarães De Sá)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.04,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "15/05/2026 17:24",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "17:24:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-05-15T17:24:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
