@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "18/05/2026 18:35:38",
+  "atualizado_em": "18/05/2026 18:37:39",
   "data_ref": "18/05/2026",
-  "total": 334,
+  "total": 336,
   "pedidos": [
     {
       "cod": "#292039 (#2017)",
@@ -13609,7 +13609,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 72.65
+        "desde_pronto": 74.66
       },
       "status": {
         "cad_pronto": "na",
@@ -14416,7 +14416,7 @@
       "tempos": {
         "cad_pronto": 17.0,
         "pronto_col": 3.0,
-        "col_conc": 0.0,
+        "col_conc": 15.0,
         "aguard_saida": null,
         "desde_cadastro": null,
         "desde_pronto": null
@@ -14424,27 +14424,27 @@
       "status": {
         "cad_pronto": "na",
         "pronto_col": "critico",
-        "col_conc": "ok"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "18/05/2026 18:02",
         "pronto": "18/05/2026 18:19",
         "coleta": "18/05/2026 18:22",
         "retorno": "-",
-        "conclusao": "18/05/2026 18:22"
+        "conclusao": "18/05/2026 18:37"
       },
       "horas": {
         "cadastro": "18:02:00",
         "pronto": "18:19:00",
         "coleta": "18:22:00",
-        "conclusao": "18:22:00",
+        "conclusao": "18:37:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-18T18:02:00",
         "pronto": "2026-05-18T18:19:00",
         "coleta": "2026-05-18T18:22:00",
-        "conclusao": "2026-05-18T18:22:00"
+        "conclusao": "2026-05-18T18:37:00"
       },
       "dt_retorno": null
     },
@@ -14552,9 +14552,9 @@
         "cad_pronto": 9.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 9.65,
+        "aguard_saida": 11.66,
         "desde_cadastro": null,
-        "desde_pronto": 10.65
+        "desde_pronto": 12.66
       },
       "status": {
         "cad_pronto": "na",
@@ -14778,7 +14778,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 10.65,
+        "desde_cadastro": 12.66,
         "desde_pronto": null
       },
       "status": {
@@ -14823,7 +14823,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.65,
+        "desde_cadastro": 6.66,
         "desde_pronto": null
       },
       "status": {
@@ -14868,7 +14868,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 3.65,
+        "desde_cadastro": 5.66,
         "desde_pronto": null
       },
       "status": {
@@ -14913,7 +14913,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.65,
+        "desde_cadastro": 4.66,
         "desde_pronto": null
       },
       "status": {
@@ -14949,40 +14949,40 @@
       "estabelec": "Cacau Arte - Doces,& Tortas CONGELADOS - SION",
       "cliente": "Retirada (Nathália Pereira)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "aguardando_coleta",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 2.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.65,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 2.66
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "ok",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "18/05/2026 18:33",
-        "pronto": "-",
+        "pronto": "18/05/2026 18:35",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "18:33:00",
-        "pronto": null,
+        "pronto": "18:35:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-18T18:33:00",
-        "pronto": null,
+        "pronto": "2026-05-18T18:35:00",
         "coleta": null,
         "conclusao": null
       },
@@ -14994,6 +14994,51 @@
       "estabelec": "E! Doces - Sion, Confeitaria, Copo, Cookie, Brownie & Fatias",
       "cliente": "Retirada (Haline Assis)",
       "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "alerta",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 3.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 0.66
+      },
+      "status": {
+        "cad_pronto": "alerta",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "18/05/2026 18:34",
+        "pronto": "18/05/2026 18:37",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "18:34:00",
+        "pronto": "18:37:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-05-18T18:34:00",
+        "pronto": "2026-05-18T18:37:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#592 (#1772)",
+      "hub": "-",
+      "estabelec": "Savassi Brasileira",
+      "cliente": "Retirada (Moises Pereira )",
+      "categoria": "cozinha",
       "etapa_atual": "em_preparo",
       "status_geral": "ok",
       "inativo": false,
@@ -15003,30 +15048,75 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.65,
+        "desde_cadastro": 2.66,
         "desde_pronto": null
       },
       "status": {
-        "cad_pronto": "pendente",
-        "pronto_col": "na",
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
         "col_conc": "pendente"
       },
       "datas": {
-        "cadastro": "18/05/2026 18:34",
+        "cadastro": "18/05/2026 18:35",
         "pronto": "-",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
-        "cadastro": "18:34:00",
+        "cadastro": "18:35:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
-        "cadastro": "2026-05-18T18:34:00",
+        "cadastro": "2026-05-18T18:35:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#292119 (#1533)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Renata Lopes)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.66,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "18/05/2026 18:35",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "18:35:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-05-18T18:35:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
