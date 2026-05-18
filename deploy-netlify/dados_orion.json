@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "18/05/2026 16:31:30",
+  "atualizado_em": "18/05/2026 16:34:48",
   "data_ref": "18/05/2026",
-  "total": 282,
+  "total": 283,
   "pedidos": [
     {
       "cod": "#292039 (#2017)",
@@ -684,40 +684,40 @@
       "estabelec": "Cacau Arte - Doces,& Tortas CONGELADOS - SION",
       "cliente": "Retirada (Júlia Cavalcanti Lopes Do Val)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": true,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 389.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 386.51,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 0.81
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "18/05/2026 10:05",
-        "pronto": "-",
+        "pronto": "18/05/2026 16:34",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "10:05:00",
-        "pronto": null,
+        "pronto": "16:34:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-18T10:05:00",
-        "pronto": null,
+        "pronto": "2026-05-18T16:34:00",
         "coleta": null,
         "conclusao": null
       },
@@ -11129,12 +11129,12 @@
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": 64.0,
+        "cad_pronto": 70.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.51
+        "desde_pronto": 0.81
       },
       "status": {
         "cad_pronto": "critico",
@@ -11143,21 +11143,21 @@
       },
       "datas": {
         "cadastro": "18/05/2026 15:24",
-        "pronto": "18/05/2026 16:28",
+        "pronto": "18/05/2026 16:34",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "15:24:00",
-        "pronto": "16:28:00",
+        "pronto": "16:34:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-18T15:24:00",
-        "pronto": "2026-05-18T16:28:00",
+        "pronto": "2026-05-18T16:34:00",
         "coleta": null,
         "conclusao": null
       },
@@ -12339,7 +12339,7 @@
       "estabelec": "Kolac Bolos & Doces - Sion",
       "cliente": "Retirada (Bruna Barros)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -12349,7 +12349,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.51
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -12361,20 +12361,20 @@
         "pronto": "18/05/2026 16:28",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "18/05/2026 16:34"
       },
       "horas": {
         "cadastro": "16:09:00",
         "pronto": "16:28:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "16:34:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-18T16:09:00",
         "pronto": "2026-05-18T16:28:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-05-18T16:34:00"
       },
       "dt_retorno": null
     },
@@ -12519,41 +12519,41 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Renato Dias Ferreira)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_saida",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
-        "pronto_col": null,
+        "cad_pronto": 13.0,
+        "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": null,
-        "desde_cadastro": 13.51,
-        "desde_pronto": null
+        "aguard_saida": 1.81,
+        "desde_cadastro": null,
+        "desde_pronto": 3.81
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
+        "pronto_col": "critico",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "18/05/2026 16:18",
-        "pronto": "-",
-        "coleta": "-",
+        "pronto": "18/05/2026 16:31",
+        "coleta": "18/05/2026 16:33",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "16:18:00",
-        "pronto": null,
-        "coleta": null,
+        "pronto": "16:31:00",
+        "coleta": "16:33:00",
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-18T16:18:00",
-        "pronto": null,
-        "coleta": null,
+        "pronto": "2026-05-18T16:31:00",
+        "coleta": "2026-05-18T16:33:00",
         "conclusao": null
       },
       "dt_retorno": null
@@ -12564,42 +12564,42 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Adriana)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
-        "pronto_col": null,
-        "col_conc": null,
+        "cad_pronto": 12.0,
+        "pronto_col": 2.0,
+        "col_conc": 0.0,
         "aguard_saida": null,
-        "desde_cadastro": 12.51,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
-        "col_conc": "pendente"
+        "pronto_col": "critico",
+        "col_conc": "ok"
       },
       "datas": {
         "cadastro": "18/05/2026 16:19",
-        "pronto": "-",
-        "coleta": "-",
+        "pronto": "18/05/2026 16:31",
+        "coleta": "18/05/2026 16:33",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "18/05/2026 16:33"
       },
       "horas": {
         "cadastro": "16:19:00",
-        "pronto": null,
-        "coleta": null,
-        "conclusao": null,
+        "pronto": "16:31:00",
+        "coleta": "16:33:00",
+        "conclusao": "16:33:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-18T16:19:00",
-        "pronto": null,
-        "coleta": null,
-        "conclusao": null
+        "pronto": "2026-05-18T16:31:00",
+        "coleta": "2026-05-18T16:33:00",
+        "conclusao": "2026-05-18T16:33:00"
       },
       "dt_retorno": null
     },
@@ -12609,41 +12609,41 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Rafael Teixeira)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_saida",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
-        "pronto_col": null,
+        "cad_pronto": 10.0,
+        "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": null,
-        "desde_cadastro": 10.51,
-        "desde_pronto": null
+        "aguard_saida": 1.81,
+        "desde_cadastro": null,
+        "desde_pronto": 3.81
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
+        "pronto_col": "critico",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "18/05/2026 16:21",
-        "pronto": "-",
-        "coleta": "-",
+        "pronto": "18/05/2026 16:31",
+        "coleta": "18/05/2026 16:33",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "16:21:00",
-        "pronto": null,
-        "coleta": null,
+        "pronto": "16:31:00",
+        "coleta": "16:33:00",
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-18T16:21:00",
-        "pronto": null,
-        "coleta": null,
+        "pronto": "2026-05-18T16:31:00",
+        "coleta": "2026-05-18T16:33:00",
         "conclusao": null
       },
       "dt_retorno": null
@@ -12654,40 +12654,85 @@
       "estabelec": "Trilhas da Amazônia Savassi - Açai, Sorvete & Picolé",
       "cliente": "Retirada (Manuela Matos)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 4.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.51,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 0.81
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "18/05/2026 16:30",
-        "pronto": "-",
+        "pronto": "18/05/2026 16:34",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "16:30:00",
-        "pronto": null,
+        "pronto": "16:34:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-18T16:30:00",
-        "pronto": null,
+        "pronto": "2026-05-18T16:34:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#3127 (#2566)",
+      "hub": "DS Sion",
+      "estabelec": "Cremella Confeitaria - Cookies, Doces & Bolos",
+      "cliente": "Retirada (Natalia Pereira Matheus)",
+      "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 2.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 0.81
+      },
+      "status": {
+        "cad_pronto": "ok",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "18/05/2026 16:32",
+        "pronto": "18/05/2026 16:34",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:32:00",
+        "pronto": "16:34:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-05-18T16:32:00",
+        "pronto": "2026-05-18T16:34:00",
         "coleta": null,
         "conclusao": null
       },
