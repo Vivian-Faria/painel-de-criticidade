@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "18/05/2026 15:27:57",
+  "atualizado_em": "18/05/2026 15:29:57",
   "data_ref": "18/05/2026",
-  "total": 248,
+  "total": 249,
   "pedidos": [
     {
       "cod": "#292039 (#2017)",
@@ -693,7 +693,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 322.95,
+        "desde_cadastro": 324.96,
         "desde_pronto": null
       },
       "status": {
@@ -10450,13 +10450,13 @@
       "cliente": "Retirada (Bruna Novais)",
       "categoria": "cozinha",
       "etapa_atual": "concluido",
-      "status_geral": "ok",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 19.0,
         "pronto_col": 1.0,
-        "col_conc": 6.0,
+        "col_conc": 15.0,
         "aguard_saida": null,
         "desde_cadastro": null,
         "desde_pronto": null
@@ -10464,27 +10464,27 @@
       "status": {
         "cad_pronto": "na",
         "pronto_col": "ok",
-        "col_conc": "ok"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "18/05/2026 14:54",
         "pronto": "18/05/2026 15:13",
         "coleta": "18/05/2026 15:14",
         "retorno": "-",
-        "conclusao": "18/05/2026 15:20"
+        "conclusao": "18/05/2026 15:29"
       },
       "horas": {
         "cadastro": "14:54:00",
         "pronto": "15:13:00",
         "coleta": "15:14:00",
-        "conclusao": "15:20:00",
+        "conclusao": "15:29:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-18T14:54:00",
         "pronto": "2026-05-18T15:13:00",
         "coleta": "2026-05-18T15:14:00",
-        "conclusao": "2026-05-18T15:20:00"
+        "conclusao": "2026-05-18T15:29:00"
       },
       "dt_retorno": null
     },
@@ -10817,9 +10817,9 @@
         "cad_pronto": 9.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 3.95,
+        "aguard_saida": 5.96,
         "desde_cadastro": null,
-        "desde_pronto": 5.95
+        "desde_pronto": 7.96
       },
       "status": {
         "cad_pronto": "na",
@@ -10909,7 +10909,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 7.95
+        "desde_pronto": 9.96
       },
       "status": {
         "cad_pronto": "ok",
@@ -10953,7 +10953,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.95,
+        "desde_cadastro": 9.96,
         "desde_pronto": null
       },
       "status": {
@@ -10989,42 +10989,42 @@
       "estabelec": "Savassi Brasileira",
       "cliente": "Retirada (Mucilon Patozin)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_saida",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 6.0,
         "pronto_col": 1.0,
-        "col_conc": null,
-        "aguard_saida": 0.95,
+        "col_conc": 2.0,
+        "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.95
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "ok",
-        "col_conc": "pendente"
+        "col_conc": "ok"
       },
       "datas": {
         "cadastro": "18/05/2026 15:20",
         "pronto": "18/05/2026 15:26",
         "coleta": "18/05/2026 15:27",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "18/05/2026 15:29"
       },
       "horas": {
         "cadastro": "15:20:00",
         "pronto": "15:26:00",
         "coleta": "15:27:00",
-        "conclusao": null,
+        "conclusao": "15:29:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-18T15:20:00",
         "pronto": "2026-05-18T15:26:00",
         "coleta": "2026-05-18T15:27:00",
-        "conclusao": null
+        "conclusao": "2026-05-18T15:29:00"
       },
       "dt_retorno": null
     },
@@ -11044,7 +11044,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 4.95
+        "desde_pronto": 6.96
       },
       "status": {
         "cad_pronto": "alerta",
@@ -11088,7 +11088,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.95,
+        "desde_cadastro": 6.96,
         "desde_pronto": null
       },
       "status": {
@@ -11133,7 +11133,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 3.95,
+        "desde_cadastro": 5.96,
         "desde_pronto": null
       },
       "status": {
@@ -11157,6 +11157,51 @@
       },
       "ts": {
         "cadastro": "2026-05-18T15:24:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#19451 (#527002)",
+      "hub": "DS Sion",
+      "estabelec": "Viviane Sales Cake's - Bolos & Doces",
+      "cliente": "Retirada (Lilia)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 0.96,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "18/05/2026 15:29",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "15:29:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-05-18T15:29:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
