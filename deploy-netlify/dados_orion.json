@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "18/05/2026 10:54:28",
+  "atualizado_em": "18/05/2026 10:56:32",
   "data_ref": "18/05/2026",
-  "total": 25,
+  "total": 26,
   "pedidos": [
     {
       "cod": "#292039 (#2017)",
@@ -693,7 +693,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 49.48,
+        "desde_cadastro": 51.55,
         "desde_pronto": null
       },
       "status": {
@@ -873,7 +873,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 21.48,
+        "desde_cadastro": 23.55,
         "desde_pronto": null
       },
       "status": {
@@ -954,42 +954,42 @@
       "estabelec": "Trilhas da Amazônia Savassi - Açai, Sorvete & Picolé",
       "cliente": "Retirada (Sylvia Costa)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 9.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.48,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "18/05/2026 10:46",
-        "pronto": "-",
+        "pronto": "18/05/2026 10:55",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "18/05/2026 10:56"
       },
       "horas": {
         "cadastro": "10:46:00",
-        "pronto": null,
+        "pronto": "10:55:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "10:56:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-18T10:46:00",
-        "pronto": null,
+        "pronto": "2026-05-18T10:55:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-05-18T10:56:00"
       },
       "dt_retorno": null
     },
@@ -1009,7 +1009,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 4.48
+        "desde_pronto": 6.55
       },
       "status": {
         "cad_pronto": "alerta",
@@ -1044,40 +1044,40 @@
       "estabelec": "Estela Damasceno Confeitaria",
       "cliente": "Retirada (Giulia Staar Ghignone)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 6.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.48,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 1.55
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "18/05/2026 10:49",
-        "pronto": "-",
+        "pronto": "18/05/2026 10:55",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "10:49:00",
-        "pronto": null,
+        "pronto": "10:55:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-18T10:49:00",
-        "pronto": null,
+        "pronto": "2026-05-18T10:55:00",
         "coleta": null,
         "conclusao": null
       },
@@ -1089,6 +1089,51 @@
       "estabelec": "3f - Fast Fitness Food - Savassi",
       "cliente": "Retirada (Fabiana Ribeiro)",
       "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 6.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 1.55
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "18/05/2026 10:49",
+        "pronto": "18/05/2026 10:55",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "10:49:00",
+        "pronto": "10:55:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-05-18T10:49:00",
+        "pronto": "2026-05-18T10:55:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#19448 (#4996)",
+      "hub": "DS Sion",
+      "estabelec": "Viviane Sales Cake's - Bolos & Doces",
+      "cliente": "Retirada (Ana Amaro )",
+      "categoria": "loja",
       "etapa_atual": "em_preparo",
       "status_geral": "ok",
       "inativo": false,
@@ -1098,7 +1143,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.48,
+        "desde_cadastro": 2.55,
         "desde_pronto": null
       },
       "status": {
@@ -1107,21 +1152,21 @@
         "col_conc": "pendente"
       },
       "datas": {
-        "cadastro": "18/05/2026 10:49",
+        "cadastro": "18/05/2026 10:54",
         "pronto": "-",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
-        "cadastro": "10:49:00",
+        "cadastro": "10:54:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
-        "cadastro": "2026-05-18T10:49:00",
+        "cadastro": "2026-05-18T10:54:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
