@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "18/05/2026 14:47:16",
+  "atualizado_em": "18/05/2026 14:50:05",
   "data_ref": "18/05/2026",
-  "total": 230,
+  "total": 231,
   "pedidos": [
     {
       "cod": "#292039 (#2017)",
@@ -693,7 +693,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 282.28,
+        "desde_cadastro": 285.09,
         "desde_pronto": null
       },
       "status": {
@@ -10134,41 +10134,41 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Thiago)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_saida",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
-        "pronto_col": null,
+        "cad_pronto": 9.0,
+        "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": null,
-        "desde_cadastro": 9.28,
-        "desde_pronto": null
+        "aguard_saida": 1.09,
+        "desde_cadastro": null,
+        "desde_pronto": 3.09
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
+        "pronto_col": "critico",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "18/05/2026 14:38",
-        "pronto": "-",
-        "coleta": "-",
+        "pronto": "18/05/2026 14:47",
+        "coleta": "18/05/2026 14:49",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "14:38:00",
-        "pronto": null,
-        "coleta": null,
+        "pronto": "14:47:00",
+        "coleta": "14:49:00",
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-18T14:38:00",
-        "pronto": null,
-        "coleta": null,
+        "pronto": "2026-05-18T14:47:00",
+        "coleta": "2026-05-18T14:49:00",
         "conclusao": null
       },
       "dt_retorno": null
@@ -10233,7 +10233,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.28,
+        "desde_cadastro": 8.09,
         "desde_pronto": null
       },
       "status": {
@@ -10279,7 +10279,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.28
+        "desde_pronto": 6.09
       },
       "status": {
         "cad_pronto": "ok",
@@ -10324,7 +10324,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.28
+        "desde_pronto": 6.09
       },
       "status": {
         "cad_pronto": "ok",
@@ -10348,6 +10348,51 @@
       "ts": {
         "cadastro": "2026-05-18T14:43:00",
         "pronto": "2026-05-18T14:44:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#3124 (#1600)",
+      "hub": "DS Sion",
+      "estabelec": "Cremella Confeitaria - Cookies, Doces & Bolos",
+      "cliente": "Retirada (Manuela Wbs)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 4.09,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "18/05/2026 14:46",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "14:46:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-05-18T14:46:00",
+        "pronto": null,
         "coleta": null,
         "conclusao": null
       },
