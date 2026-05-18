@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "18/05/2026 16:04:29",
+  "atualizado_em": "18/05/2026 16:07:17",
   "data_ref": "18/05/2026",
-  "total": 272,
+  "total": 273,
   "pedidos": [
     {
       "cod": "#292039 (#2017)",
@@ -693,7 +693,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 359.49,
+        "desde_cadastro": 362.3,
         "desde_pronto": null
       },
       "status": {
@@ -11133,7 +11133,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 40.49,
+        "desde_cadastro": 43.3,
         "desde_pronto": null
       },
       "status": {
@@ -11349,7 +11349,7 @@
       "estabelec": "Arcanjos Açai Delivery",
       "cliente": "Retirada (Felipe Augusto Santos Oliveira )",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "alerta",
       "inativo": false,
       "alerta_retorno": false,
@@ -11359,7 +11359,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 29.49
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "alerta",
@@ -11371,20 +11371,20 @@
         "pronto": "18/05/2026 15:35",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "18/05/2026 16:06"
       },
       "horas": {
         "cadastro": "15:32:00",
         "pronto": "15:35:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "16:06:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-18T15:32:00",
         "pronto": "2026-05-18T15:35:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-05-18T16:06:00"
       },
       "dt_retorno": null
     },
@@ -11809,7 +11809,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 19.49
+        "desde_pronto": 22.3
       },
       "status": {
         "cad_pronto": "ok",
@@ -11988,7 +11988,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 17.49,
+        "desde_cadastro": 20.3,
         "desde_pronto": null
       },
       "status": {
@@ -12078,7 +12078,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.49,
+        "desde_cadastro": 10.3,
         "desde_pronto": null
       },
       "status": {
@@ -12123,7 +12123,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.49,
+        "desde_cadastro": 7.3,
         "desde_pronto": null
       },
       "status": {
@@ -12159,6 +12159,51 @@
       "estabelec": "Savassi Brasileira",
       "cliente": "Retirada (Ana Beatriz Rodrigues Ferreira)",
       "categoria": "cozinha",
+      "etapa_atual": "aguardando_saida",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 5.0,
+        "pronto_col": 1.0,
+        "col_conc": null,
+        "aguard_saida": 1.3,
+        "desde_cadastro": null,
+        "desde_pronto": 2.3
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "ok",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "18/05/2026 16:00",
+        "pronto": "18/05/2026 16:05",
+        "coleta": "18/05/2026 16:06",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:00:00",
+        "pronto": "16:05:00",
+        "coleta": "16:06:00",
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-05-18T16:00:00",
+        "pronto": "2026-05-18T16:05:00",
+        "coleta": "2026-05-18T16:06:00",
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#292102 (#425002)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Lorrayny)",
+      "categoria": "cozinha",
       "etapa_atual": "em_preparo",
       "status_geral": "ok",
       "inativo": false,
@@ -12168,7 +12213,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.49,
+        "desde_cadastro": 7.3,
         "desde_pronto": null
       },
       "status": {
@@ -12199,11 +12244,11 @@
       "dt_retorno": null
     },
     {
-      "cod": "#292102 (#425002)",
-      "hub": "-",
-      "estabelec": "Burger X",
-      "cliente": "Retirada (Lorrayny)",
-      "categoria": "cozinha",
+      "cod": "#29554 (#2966)",
+      "hub": "DS Sion",
+      "estabelec": "Chocake Sion - Bolos & Doces",
+      "cliente": "Retirada (Viviane Fernandes Da Silva)",
+      "categoria": "loja",
       "etapa_atual": "em_preparo",
       "status_geral": "ok",
       "inativo": false,
@@ -12213,30 +12258,30 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.49,
+        "desde_cadastro": 2.3,
         "desde_pronto": null
       },
       "status": {
-        "cad_pronto": "na",
-        "pronto_col": "pendente",
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
-        "cadastro": "18/05/2026 16:00",
+        "cadastro": "18/05/2026 16:05",
         "pronto": "-",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
-        "cadastro": "16:00:00",
+        "cadastro": "16:05:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
-        "cadastro": "2026-05-18T16:00:00",
+        "cadastro": "2026-05-18T16:05:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
