@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "18/05/2026 16:34:49",
+  "atualizado_em": "18/05/2026 16:37:37",
   "data_ref": "18/05/2026",
-  "total": 283,
+  "total": 285,
   "pedidos": [
     {
       "cod": "#292039 (#2017)",
@@ -694,7 +694,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 0.82
+        "desde_pronto": 3.62
       },
       "status": {
         "cad_pronto": "critico",
@@ -11134,7 +11134,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 0.82
+        "desde_pronto": 3.62
       },
       "status": {
         "cad_pronto": "critico",
@@ -12527,9 +12527,9 @@
         "cad_pronto": 13.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 1.82,
+        "aguard_saida": 4.62,
         "desde_cadastro": null,
-        "desde_pronto": 3.82
+        "desde_pronto": 6.62
       },
       "status": {
         "cad_pronto": "na",
@@ -12562,7 +12562,7 @@
       "cod": "#292104 (#915005)",
       "hub": "-",
       "estabelec": "Burger X",
-      "cliente": "Retirada (Adriana)",
+      "cliente": "Retirada (adriana)",
       "categoria": "cozinha",
       "etapa_atual": "concluido",
       "status_geral": "critico",
@@ -12617,9 +12617,9 @@
         "cad_pronto": 10.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 1.82,
+        "aguard_saida": 4.62,
         "desde_cadastro": null,
-        "desde_pronto": 3.82
+        "desde_pronto": 6.62
       },
       "status": {
         "cad_pronto": "na",
@@ -12654,7 +12654,7 @@
       "estabelec": "Trilhas da Amazônia Savassi - Açai, Sorvete & Picolé",
       "cliente": "Retirada (Manuela Matos)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -12664,7 +12664,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 0.82
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -12676,20 +12676,20 @@
         "pronto": "18/05/2026 16:34",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "18/05/2026 16:36"
       },
       "horas": {
         "cadastro": "16:30:00",
         "pronto": "16:34:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "16:36:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-18T16:30:00",
         "pronto": "2026-05-18T16:34:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-05-18T16:36:00"
       },
       "dt_retorno": null
     },
@@ -12709,7 +12709,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 0.82
+        "desde_pronto": 3.62
       },
       "status": {
         "cad_pronto": "ok",
@@ -12733,6 +12733,96 @@
       "ts": {
         "cadastro": "2026-05-18T16:32:00",
         "pronto": "2026-05-18T16:34:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#29555 (#1784)",
+      "hub": "DS Sion",
+      "estabelec": "Chocake Sion - Bolos & Doces",
+      "cliente": "Retirada (Thiago Cortes)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.62,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "18/05/2026 16:35",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:35:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-05-18T16:35:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#8888 (#3274)",
+      "hub": "DS Sion",
+      "estabelec": "La Cake - Doceria, Bolos e Sobremesas",
+      "cliente": "Retirada (Cristiano Cortezzi)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 0.62,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "18/05/2026 16:37",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:37:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-05-18T16:37:00",
+        "pronto": null,
         "coleta": null,
         "conclusao": null
       },
