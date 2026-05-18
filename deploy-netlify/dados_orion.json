@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "18/05/2026 18:12:31",
+  "atualizado_em": "18/05/2026 18:15:57",
   "data_ref": "18/05/2026",
   "total": 322,
   "pedidos": [
@@ -13609,7 +13609,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 49.52
+        "desde_pronto": 52.95
       },
       "status": {
         "cad_pronto": "na",
@@ -14049,42 +14049,42 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Beatriz Hosken)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_saida",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
-      "alerta_retorno": true,
+      "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 10.0,
         "pronto_col": 1.0,
-        "col_conc": null,
-        "aguard_saida": 17.52,
+        "col_conc": 20.0,
+        "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 18.52
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "ok",
-        "col_conc": "pendente"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "18/05/2026 17:44",
         "pronto": "18/05/2026 17:54",
         "coleta": "18/05/2026 17:55",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "18/05/2026 18:15"
       },
       "horas": {
         "cadastro": "17:44:00",
         "pronto": "17:54:00",
         "coleta": "17:55:00",
-        "conclusao": null,
+        "conclusao": "18:15:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-18T17:44:00",
         "pronto": "2026-05-18T17:54:00",
         "coleta": "2026-05-18T17:55:00",
-        "conclusao": null
+        "conclusao": "2026-05-18T18:15:00"
       },
       "dt_retorno": null
     },
@@ -14229,7 +14229,7 @@
       "estabelec": "Kolac Bolos & Doces - Sion",
       "cliente": "Retirada (Daniel Bronfen)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -14239,7 +14239,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.52
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -14251,20 +14251,20 @@
         "pronto": "18/05/2026 18:09",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "18/05/2026 18:14"
       },
       "horas": {
         "cadastro": "17:53:00",
         "pronto": "18:09:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "18:14:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-18T17:53:00",
         "pronto": "2026-05-18T18:09:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-05-18T18:14:00"
       },
       "dt_retorno": null
     },
@@ -14418,7 +14418,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 10.52,
+        "desde_cadastro": 13.95,
         "desde_pronto": null
       },
       "status": {
@@ -14464,7 +14464,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.52
+        "desde_pronto": 4.95
       },
       "status": {
         "cad_pronto": "ok",
