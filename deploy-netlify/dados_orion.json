@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "18/05/2026 16:37:38",
+  "atualizado_em": "18/05/2026 16:40:09",
   "data_ref": "18/05/2026",
-  "total": 285,
+  "total": 286,
   "pedidos": [
     {
       "cod": "#292039 (#2017)",
@@ -694,7 +694,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.65
+        "desde_pronto": 6.15
       },
       "status": {
         "cad_pronto": "critico",
@@ -11134,7 +11134,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.65
+        "desde_pronto": 6.15
       },
       "status": {
         "cad_pronto": "critico",
@@ -12527,9 +12527,9 @@
         "cad_pronto": 13.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 4.65,
+        "aguard_saida": 7.15,
         "desde_cadastro": null,
-        "desde_pronto": 6.65
+        "desde_pronto": 9.15
       },
       "status": {
         "cad_pronto": "na",
@@ -12609,42 +12609,42 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Rafael Teixeira)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_saida",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 10.0,
         "pronto_col": 2.0,
-        "col_conc": null,
-        "aguard_saida": 4.65,
+        "col_conc": 6.0,
+        "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 6.65
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "critico",
-        "col_conc": "pendente"
+        "col_conc": "ok"
       },
       "datas": {
         "cadastro": "18/05/2026 16:21",
         "pronto": "18/05/2026 16:31",
         "coleta": "18/05/2026 16:33",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "18/05/2026 16:39"
       },
       "horas": {
         "cadastro": "16:21:00",
         "pronto": "16:31:00",
         "coleta": "16:33:00",
-        "conclusao": null,
+        "conclusao": "16:39:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-18T16:21:00",
         "pronto": "2026-05-18T16:31:00",
         "coleta": "2026-05-18T16:33:00",
-        "conclusao": null
+        "conclusao": "2026-05-18T16:39:00"
       },
       "dt_retorno": null
     },
@@ -12709,7 +12709,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.65
+        "desde_pronto": 6.15
       },
       "status": {
         "cad_pronto": "ok",
@@ -12744,40 +12744,85 @@
       "estabelec": "Chocake Sion - Bolos & Doces",
       "cliente": "Retirada (Thiago Cortes)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "aguardando_coleta",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 2.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.65,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 3.15
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "ok",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "18/05/2026 16:35",
-        "pronto": "-",
+        "pronto": "18/05/2026 16:37",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "16:35:00",
-        "pronto": null,
+        "pronto": "16:37:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-18T16:35:00",
-        "pronto": null,
+        "pronto": "2026-05-18T16:37:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#8889 (#7101)",
+      "hub": "DS Sion",
+      "estabelec": "La Cake - Doceria, Bolos e Sobremesas",
+      "cliente": "Retirada (Ana Luiza Rezende Tavares )",
+      "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "alerta",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 3.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 2.15
+      },
+      "status": {
+        "cad_pronto": "alerta",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "18/05/2026 16:35",
+        "pronto": "18/05/2026 16:38",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:35:00",
+        "pronto": "16:38:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-05-18T16:35:00",
+        "pronto": "2026-05-18T16:38:00",
         "coleta": null,
         "conclusao": null
       },
@@ -12789,40 +12834,40 @@
       "estabelec": "La Cake - Doceria, Bolos e Sobremesas",
       "cliente": "Retirada (Cristiano Cortezzi)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "aguardando_coleta",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 2.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 0.65,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 1.15
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "ok",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "18/05/2026 16:37",
-        "pronto": "-",
+        "pronto": "18/05/2026 16:39",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "16:37:00",
-        "pronto": null,
+        "pronto": "16:39:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-18T16:37:00",
-        "pronto": null,
+        "pronto": "2026-05-18T16:39:00",
         "coleta": null,
         "conclusao": null
       },
