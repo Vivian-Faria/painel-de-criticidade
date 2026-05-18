@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "18/05/2026 14:52:29",
+  "atualizado_em": "18/05/2026 14:55:03",
   "data_ref": "18/05/2026",
-  "total": 231,
+  "total": 232,
   "pedidos": [
     {
       "cod": "#292039 (#2017)",
@@ -693,7 +693,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 287.49,
+        "desde_cadastro": 290.05,
         "desde_pronto": null
       },
       "status": {
@@ -10142,9 +10142,9 @@
         "cad_pronto": 9.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 3.49,
+        "aguard_saida": 6.05,
         "desde_cadastro": null,
-        "desde_pronto": 5.49
+        "desde_pronto": 8.05
       },
       "status": {
         "cad_pronto": "na",
@@ -10224,41 +10224,41 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Lia Bifano)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "aguardando_saida",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 10.0,
-        "pronto_col": null,
+        "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": null,
+        "aguard_saida": 2.05,
         "desde_cadastro": null,
-        "desde_pronto": 0.49
+        "desde_pronto": 3.05
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
+        "pronto_col": "ok",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "18/05/2026 14:42",
         "pronto": "18/05/2026 14:52",
-        "coleta": "-",
+        "coleta": "18/05/2026 14:53",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "14:42:00",
         "pronto": "14:52:00",
-        "coleta": null,
+        "coleta": "14:53:00",
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-18T14:42:00",
         "pronto": "2026-05-18T14:52:00",
-        "coleta": null,
+        "coleta": "2026-05-18T14:53:00",
         "conclusao": null
       },
       "dt_retorno": null
@@ -10279,7 +10279,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 8.49
+        "desde_pronto": 11.05
       },
       "status": {
         "cad_pronto": "ok",
@@ -10324,7 +10324,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 8.49
+        "desde_pronto": 11.05
       },
       "status": {
         "cad_pronto": "ok",
@@ -10395,6 +10395,51 @@
         "pronto": "2026-05-18T14:50:00",
         "coleta": null,
         "conclusao": "2026-05-18T14:51:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#34816 (#6790)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Janine Fernanda Fanucchi De Almeida Melo)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.05,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "18/05/2026 14:53",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "14:53:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-05-18T14:53:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
       },
       "dt_retorno": null
     }
