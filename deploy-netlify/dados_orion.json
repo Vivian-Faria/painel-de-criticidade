@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "18/05/2026 17:46:40",
+  "atualizado_em": "18/05/2026 17:50:01",
   "data_ref": "18/05/2026",
-  "total": 315,
+  "total": 316,
   "pedidos": [
     {
       "cod": "#292039 (#2017)",
@@ -13069,7 +13069,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 31.68
+        "desde_pronto": 35.03
       },
       "status": {
         "cad_pronto": "critico",
@@ -13599,17 +13599,17 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Ester)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_saida",
+      "etapa_atual": "retornado",
       "status_geral": "ok",
       "inativo": false,
-      "alerta_retorno": true,
+      "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 9.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 23.68,
+        "aguard_saida": 27.03,
         "desde_cadastro": null,
-        "desde_pronto": 24.68
+        "desde_pronto": 28.03
       },
       "status": {
         "cad_pronto": "na",
@@ -13620,7 +13620,7 @@
         "cadastro": "18/05/2026 17:13",
         "pronto": "18/05/2026 17:22",
         "coleta": "18/05/2026 17:23",
-        "retorno": "-",
+        "retorno": "18/05/2026 17:47",
         "conclusao": "-"
       },
       "horas": {
@@ -13628,7 +13628,7 @@
         "pronto": "17:22:00",
         "coleta": "17:23:00",
         "conclusao": null,
-        "retorno": null
+        "retorno": "17:47:00"
       },
       "ts": {
         "cadastro": "2026-05-18T17:13:00",
@@ -13636,7 +13636,7 @@
         "coleta": "2026-05-18T17:23:00",
         "conclusao": null
       },
-      "dt_retorno": null
+      "dt_retorno": "17:47:00"
     },
     {
       "cod": "#52 (#7208)",
@@ -13654,7 +13654,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 23.68
+        "desde_pronto": 27.03
       },
       "status": {
         "cad_pronto": "na",
@@ -13692,14 +13692,14 @@
       "etapa_atual": "aguardando_saida",
       "status_geral": "ok",
       "inativo": false,
-      "alerta_retorno": false,
+      "alerta_retorno": true,
       "tempos": {
         "cad_pronto": 14.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 14.68,
+        "aguard_saida": 18.03,
         "desde_cadastro": null,
-        "desde_pronto": 15.68
+        "desde_pronto": 19.03
       },
       "status": {
         "cad_pronto": "na",
@@ -13879,7 +13879,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 10.68
+        "desde_pronto": 14.03
       },
       "status": {
         "cad_pronto": "alerta",
@@ -13924,7 +13924,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 9.68
+        "desde_pronto": 13.03
       },
       "status": {
         "cad_pronto": "ok",
@@ -13967,9 +13967,9 @@
         "cad_pronto": 7.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 1.68,
+        "aguard_saida": 5.03,
         "desde_cadastro": null,
-        "desde_pronto": 2.68
+        "desde_pronto": 6.03
       },
       "status": {
         "cad_pronto": "na",
@@ -14014,7 +14014,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 6.68
+        "desde_pronto": 10.03
       },
       "status": {
         "cad_pronto": "ok",
@@ -14058,7 +14058,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.68,
+        "desde_cadastro": 12.03,
         "desde_pronto": null
       },
       "status": {
@@ -14103,7 +14103,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.68,
+        "desde_cadastro": 6.03,
         "desde_pronto": null
       },
       "status": {
@@ -14148,7 +14148,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.68,
+        "desde_cadastro": 5.03,
         "desde_pronto": null
       },
       "status": {
@@ -14172,6 +14172,51 @@
       },
       "ts": {
         "cadastro": "2026-05-18T17:45:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#60999 (#6202)",
+      "hub": "-",
+      "estabelec": "Mayu",
+      "cliente": "Retirada (Victor Travassos)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 3.03,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "18/05/2026 17:47",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "17:47:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-05-18T17:47:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
