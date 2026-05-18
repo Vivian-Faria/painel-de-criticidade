@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "18/05/2026 16:51:25",
+  "atualizado_em": "18/05/2026 16:54:57",
   "data_ref": "18/05/2026",
-  "total": 286,
+  "total": 288,
   "pedidos": [
     {
       "cod": "#292039 (#2017)",
@@ -694,7 +694,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 17.43
+        "desde_pronto": 20.95
       },
       "status": {
         "cad_pronto": "critico",
@@ -12616,7 +12616,7 @@
       "tempos": {
         "cad_pronto": 10.0,
         "pronto_col": 2.0,
-        "col_conc": 6.0,
+        "col_conc": 19.0,
         "aguard_saida": null,
         "desde_cadastro": null,
         "desde_pronto": null
@@ -12624,27 +12624,27 @@
       "status": {
         "cad_pronto": "na",
         "pronto_col": "critico",
-        "col_conc": "ok"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "18/05/2026 16:21",
         "pronto": "18/05/2026 16:31",
         "coleta": "18/05/2026 16:33",
         "retorno": "-",
-        "conclusao": "18/05/2026 16:39"
+        "conclusao": "18/05/2026 16:52"
       },
       "horas": {
         "cadastro": "16:21:00",
         "pronto": "16:31:00",
         "coleta": "16:33:00",
-        "conclusao": "16:39:00",
+        "conclusao": "16:52:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-18T16:21:00",
         "pronto": "2026-05-18T16:31:00",
         "coleta": "2026-05-18T16:33:00",
-        "conclusao": "2026-05-18T16:39:00"
+        "conclusao": "2026-05-18T16:52:00"
       },
       "dt_retorno": null
     },
@@ -12754,7 +12754,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 14.43
+        "desde_pronto": 17.95
       },
       "status": {
         "cad_pronto": "ok",
@@ -12870,6 +12870,96 @@
         "pronto": "2026-05-18T16:39:00",
         "coleta": null,
         "conclusao": "2026-05-18T16:48:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#9300 (#8952)",
+      "hub": "DS Sion",
+      "estabelec": "Mr Duck Cookies - Belo Horizonte",
+      "cliente": "Retirada (Alexandre Costa)",
+      "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 2.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 0.95
+      },
+      "status": {
+        "cad_pronto": "ok",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "18/05/2026 16:52",
+        "pronto": "18/05/2026 16:54",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:52:00",
+        "pronto": "16:54:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-05-18T16:52:00",
+        "pronto": "2026-05-18T16:54:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#292106 (#8087)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Daniel Ramos Edwards)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 0.95,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "18/05/2026 16:54",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:54:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-05-18T16:54:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
       },
       "dt_retorno": null
     }
