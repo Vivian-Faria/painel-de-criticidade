@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "18/05/2026 11:55:27",
+  "atualizado_em": "18/05/2026 11:57:45",
   "data_ref": "18/05/2026",
-  "total": 90,
+  "total": 93,
   "pedidos": [
     {
       "cod": "#292039 (#2017)",
@@ -693,7 +693,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 110.47,
+        "desde_cadastro": 112.76,
         "desde_pronto": null
       },
       "status": {
@@ -873,7 +873,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 82.47,
+        "desde_cadastro": 84.76,
         "desde_pronto": null
       },
       "status": {
@@ -1039,51 +1039,6 @@
       "dt_retorno": null
     },
     {
-      "cod": "#22322 (#2186)",
-      "hub": "DS Sion",
-      "estabelec": "Estela Damasceno Confeitaria",
-      "cliente": "Retirada (Giulia Staar Ghignone)",
-      "categoria": "loja",
-      "etapa_atual": "concluido",
-      "status_geral": "critico",
-      "inativo": false,
-      "alerta_retorno": false,
-      "tempos": {
-        "cad_pronto": 6.0,
-        "pronto_col": null,
-        "col_conc": null,
-        "aguard_saida": null,
-        "desde_cadastro": null,
-        "desde_pronto": null
-      },
-      "status": {
-        "cad_pronto": "critico",
-        "pronto_col": "na",
-        "col_conc": "pendente"
-      },
-      "datas": {
-        "cadastro": "18/05/2026 10:49",
-        "pronto": "18/05/2026 10:55",
-        "coleta": "-",
-        "retorno": "-",
-        "conclusao": "18/05/2026 11:04"
-      },
-      "horas": {
-        "cadastro": "10:49:00",
-        "pronto": "10:55:00",
-        "coleta": null,
-        "conclusao": "11:04:00",
-        "retorno": null
-      },
-      "ts": {
-        "cadastro": "2026-05-18T10:49:00",
-        "pronto": "2026-05-18T10:55:00",
-        "coleta": null,
-        "conclusao": "2026-05-18T11:04:00"
-      },
-      "dt_retorno": null
-    },
-    {
       "cod": "#34787 (#9686)",
       "hub": "DS Sion",
       "estabelec": "3f - Fast Fitness Food - Savassi",
@@ -1125,6 +1080,51 @@
         "pronto": "2026-05-18T10:55:00",
         "coleta": null,
         "conclusao": "2026-05-18T11:06:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#22322 (#2186)",
+      "hub": "DS Sion",
+      "estabelec": "Estela Damasceno Confeitaria",
+      "cliente": "Retirada (Giulia Staar Ghignone)",
+      "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 6.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "18/05/2026 10:49",
+        "pronto": "18/05/2026 10:55",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "18/05/2026 11:04"
+      },
+      "horas": {
+        "cadastro": "10:49:00",
+        "pronto": "10:55:00",
+        "coleta": null,
+        "conclusao": "11:04:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-05-18T10:49:00",
+        "pronto": "2026-05-18T10:55:00",
+        "coleta": null,
+        "conclusao": "2026-05-18T11:04:00"
       },
       "dt_retorno": null
     },
@@ -1547,9 +1547,9 @@
         "cad_pronto": 28.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 16.47,
+        "aguard_saida": 18.76,
         "desde_cadastro": null,
-        "desde_pronto": 17.47
+        "desde_pronto": 19.76
       },
       "status": {
         "cad_pronto": "na",
@@ -1899,17 +1899,17 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Amanda)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "aguardando_coleta",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 41.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 39.47,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 0.76
       },
       "status": {
         "cad_pronto": "na",
@@ -1918,21 +1918,21 @@
       },
       "datas": {
         "cadastro": "18/05/2026 11:16",
-        "pronto": "-",
+        "pronto": "18/05/2026 11:57",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "11:16:00",
-        "pronto": null,
+        "pronto": "11:57:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-18T11:16:00",
-        "pronto": null,
+        "pronto": "2026-05-18T11:57:00",
         "coleta": null,
         "conclusao": null
       },
@@ -1954,7 +1954,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 0.47
+        "desde_pronto": 2.76
       },
       "status": {
         "cad_pronto": "na",
@@ -2403,7 +2403,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 29.47,
+        "desde_cadastro": 31.76,
         "desde_pronto": null
       },
       "status": {
@@ -2446,7 +2446,7 @@
       "tempos": {
         "cad_pronto": 6.0,
         "pronto_col": 3.0,
-        "col_conc": 1.0,
+        "col_conc": 20.0,
         "aguard_saida": null,
         "desde_cadastro": null,
         "desde_pronto": null
@@ -2454,27 +2454,27 @@
       "status": {
         "cad_pronto": "na",
         "pronto_col": "critico",
-        "col_conc": "ok"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "18/05/2026 11:27",
         "pronto": "18/05/2026 11:33",
         "coleta": "18/05/2026 11:36",
         "retorno": "-",
-        "conclusao": "18/05/2026 11:37"
+        "conclusao": "18/05/2026 11:56"
       },
       "horas": {
         "cadastro": "11:27:00",
         "pronto": "11:33:00",
         "coleta": "11:36:00",
-        "conclusao": "11:37:00",
+        "conclusao": "11:56:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-18T11:27:00",
         "pronto": "2026-05-18T11:33:00",
         "coleta": "2026-05-18T11:36:00",
-        "conclusao": "2026-05-18T11:37:00"
+        "conclusao": "2026-05-18T11:56:00"
       },
       "dt_retorno": null
     },
@@ -2484,7 +2484,7 @@
       "estabelec": "Estela Damasceno Confeitaria",
       "cliente": "Retirada (Renata Magalhães Salomão)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -2494,7 +2494,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 13.47
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -2506,20 +2506,20 @@
         "pronto": "18/05/2026 11:42",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "18/05/2026 11:57"
       },
       "horas": {
         "cadastro": "11:27:00",
         "pronto": "11:42:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "11:57:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-18T11:27:00",
         "pronto": "2026-05-18T11:42:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-05-18T11:57:00"
       },
       "dt_retorno": null
     },
@@ -2539,7 +2539,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 13.47
+        "desde_pronto": 15.76
       },
       "status": {
         "cad_pronto": "critico",
@@ -2582,9 +2582,9 @@
         "cad_pronto": 10.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 16.47,
+        "aguard_saida": 18.76,
         "desde_cadastro": null,
-        "desde_pronto": 17.47
+        "desde_pronto": 19.76
       },
       "status": {
         "cad_pronto": "na",
@@ -2674,7 +2674,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 0.47
+        "desde_pronto": 2.76
       },
       "status": {
         "cad_pronto": "na",
@@ -2762,9 +2762,9 @@
         "cad_pronto": 8.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 12.47,
+        "aguard_saida": 14.76,
         "desde_cadastro": null,
-        "desde_pronto": 13.47
+        "desde_pronto": 15.76
       },
       "status": {
         "cad_pronto": "na",
@@ -2899,7 +2899,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.47
+        "desde_pronto": 3.76
       },
       "status": {
         "cad_pronto": "na",
@@ -2944,7 +2944,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 0.47
+        "desde_pronto": 2.76
       },
       "status": {
         "cad_pronto": "na",
@@ -2988,7 +2988,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 18.47,
+        "desde_cadastro": 20.76,
         "desde_pronto": null
       },
       "status": {
@@ -3032,9 +3032,9 @@
         "cad_pronto": 5.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 12.47,
+        "aguard_saida": 14.76,
         "desde_cadastro": null,
-        "desde_pronto": 13.47
+        "desde_pronto": 15.76
       },
       "status": {
         "cad_pronto": "na",
@@ -3078,7 +3078,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 18.47,
+        "desde_cadastro": 20.76,
         "desde_pronto": null
       },
       "status": {
@@ -3167,9 +3167,9 @@
         "cad_pronto": 11.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 6.47,
+        "aguard_saida": 8.76,
         "desde_cadastro": null,
-        "desde_pronto": 7.47
+        "desde_pronto": 9.76
       },
       "status": {
         "cad_pronto": "na",
@@ -3212,9 +3212,9 @@
         "cad_pronto": 4.0,
         "pronto_col": 3.0,
         "col_conc": null,
-        "aguard_saida": 10.47,
+        "aguard_saida": 12.76,
         "desde_cadastro": null,
-        "desde_pronto": 13.47
+        "desde_pronto": 15.76
       },
       "status": {
         "cad_pronto": "na",
@@ -3257,9 +3257,9 @@
         "cad_pronto": 4.0,
         "pronto_col": 3.0,
         "col_conc": null,
-        "aguard_saida": 10.47,
+        "aguard_saida": 12.76,
         "desde_cadastro": null,
-        "desde_pronto": 13.47
+        "desde_pronto": 15.76
       },
       "status": {
         "cad_pronto": "na",
@@ -3348,7 +3348,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 15.47,
+        "desde_cadastro": 17.76,
         "desde_pronto": null
       },
       "status": {
@@ -3392,9 +3392,9 @@
         "cad_pronto": 5.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 6.47,
+        "aguard_saida": 8.76,
         "desde_cadastro": null,
-        "desde_pronto": 7.47
+        "desde_pronto": 9.76
       },
       "status": {
         "cad_pronto": "na",
@@ -3482,9 +3482,9 @@
         "cad_pronto": 5.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 6.47,
+        "aguard_saida": 8.76,
         "desde_cadastro": null,
-        "desde_pronto": 7.47
+        "desde_pronto": 9.76
       },
       "status": {
         "cad_pronto": "na",
@@ -3529,7 +3529,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.47
+        "desde_pronto": 4.76
       },
       "status": {
         "cad_pronto": "critico",
@@ -3618,7 +3618,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 11.47,
+        "desde_cadastro": 13.76,
         "desde_pronto": null
       },
       "status": {
@@ -3663,7 +3663,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 11.47,
+        "desde_cadastro": 13.76,
         "desde_pronto": null
       },
       "status": {
@@ -3709,7 +3709,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.47
+        "desde_pronto": 3.76
       },
       "status": {
         "cad_pronto": "critico",
@@ -3753,7 +3753,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.47,
+        "desde_cadastro": 10.76,
         "desde_pronto": null
       },
       "status": {
@@ -3798,7 +3798,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.47,
+        "desde_cadastro": 10.76,
         "desde_pronto": null
       },
       "status": {
@@ -3843,7 +3843,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.47,
+        "desde_cadastro": 10.76,
         "desde_pronto": null
       },
       "status": {
@@ -3888,7 +3888,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.47,
+        "desde_cadastro": 6.76,
         "desde_pronto": null
       },
       "status": {
@@ -3933,7 +3933,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 3.47,
+        "desde_cadastro": 5.76,
         "desde_pronto": null
       },
       "status": {
@@ -3978,7 +3978,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.47,
+        "desde_cadastro": 4.76,
         "desde_pronto": null
       },
       "status": {
@@ -4023,7 +4023,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.47,
+        "desde_cadastro": 3.76,
         "desde_pronto": null
       },
       "status": {
@@ -4047,6 +4047,141 @@
       },
       "ts": {
         "cadastro": "2026-05-18T11:54:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#60998 (#3200)",
+      "hub": "-",
+      "estabelec": "Mayu",
+      "cliente": "Retirada (Pedro Sampaio)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 3.76,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "18/05/2026 11:54",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:54:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-05-18T11:54:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#292063 (#758001)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Luiza)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.76,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "18/05/2026 11:55",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:55:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-05-18T11:55:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#22324 (#9043)",
+      "hub": "DS Sion",
+      "estabelec": "Estela Damasceno Confeitaria",
+      "cliente": "Retirada (Ana Paula Fonseca Sitya)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.76,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "18/05/2026 11:56",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:56:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-05-18T11:56:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
