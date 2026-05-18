@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "18/05/2026 14:50:06",
+  "atualizado_em": "18/05/2026 14:52:25",
   "data_ref": "18/05/2026",
   "total": 231,
   "pedidos": [
@@ -693,7 +693,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 285.11,
+        "desde_cadastro": 287.43,
         "desde_pronto": null
       },
       "status": {
@@ -8650,13 +8650,13 @@
       "cliente": "Retirada (Thais Fernanda)",
       "categoria": "cozinha",
       "etapa_atual": "concluido",
-      "status_geral": "ok",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 11.0,
         "pronto_col": 1.0,
-        "col_conc": 6.0,
+        "col_conc": 51.0,
         "aguard_saida": null,
         "desde_cadastro": null,
         "desde_pronto": null
@@ -8664,27 +8664,27 @@
       "status": {
         "cad_pronto": "na",
         "pronto_col": "ok",
-        "col_conc": "ok"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "18/05/2026 13:47",
         "pronto": "18/05/2026 13:58",
         "coleta": "18/05/2026 13:59",
         "retorno": "-",
-        "conclusao": "18/05/2026 14:05"
+        "conclusao": "18/05/2026 14:50"
       },
       "horas": {
         "cadastro": "13:47:00",
         "pronto": "13:58:00",
         "coleta": "13:59:00",
-        "conclusao": "14:05:00",
+        "conclusao": "14:50:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-18T13:47:00",
         "pronto": "2026-05-18T13:58:00",
         "coleta": "2026-05-18T13:59:00",
-        "conclusao": "2026-05-18T14:05:00"
+        "conclusao": "2026-05-18T14:50:00"
       },
       "dt_retorno": null
     },
@@ -10142,9 +10142,9 @@
         "cad_pronto": 9.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 1.11,
+        "aguard_saida": 3.43,
         "desde_cadastro": null,
-        "desde_pronto": 3.11
+        "desde_pronto": 5.43
       },
       "status": {
         "cad_pronto": "na",
@@ -10224,17 +10224,17 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Lia Bifano)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "aguardando_coleta",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 10.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.11,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 0.43
       },
       "status": {
         "cad_pronto": "na",
@@ -10243,21 +10243,21 @@
       },
       "datas": {
         "cadastro": "18/05/2026 14:42",
-        "pronto": "-",
+        "pronto": "18/05/2026 14:52",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "14:42:00",
-        "pronto": null,
+        "pronto": "14:52:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-18T14:42:00",
-        "pronto": null,
+        "pronto": "2026-05-18T14:52:00",
         "coleta": null,
         "conclusao": null
       },
@@ -10279,7 +10279,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 6.11
+        "desde_pronto": 8.43
       },
       "status": {
         "cad_pronto": "ok",
@@ -10324,7 +10324,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 6.11
+        "desde_pronto": 8.43
       },
       "status": {
         "cad_pronto": "ok",
@@ -10359,42 +10359,42 @@
       "estabelec": "Cremella Confeitaria - Cookies, Doces & Bolos",
       "cliente": "Retirada (Manuela Wbs)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 4.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.11,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "18/05/2026 14:46",
-        "pronto": "-",
+        "pronto": "18/05/2026 14:50",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "18/05/2026 14:51"
       },
       "horas": {
         "cadastro": "14:46:00",
-        "pronto": null,
+        "pronto": "14:50:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "14:51:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-18T14:46:00",
-        "pronto": null,
+        "pronto": "2026-05-18T14:50:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-05-18T14:51:00"
       },
       "dt_retorno": null
     }
