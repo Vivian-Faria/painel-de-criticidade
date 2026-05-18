@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "18/05/2026 16:09:59",
+  "atualizado_em": "18/05/2026 16:12:59",
   "data_ref": "18/05/2026",
-  "total": 274,
+  "total": 277,
   "pedidos": [
     {
       "cod": "#292039 (#2017)",
@@ -693,7 +693,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 365.0,
+        "desde_cadastro": 367.99,
         "desde_pronto": null
       },
       "status": {
@@ -4437,7 +4437,7 @@
         "col_conc": "critico"
       },
       "datas": {
-        ""cadastro": "18/05/2026 12:04",
+        "cadastro": "18/05/2026 12:04",
         "pronto": "18/05/2026 12:22",
         "coleta": "18/05/2026 12:23",
         "retorno": "-",
@@ -8873,7 +8873,7 @@
       "hub": "DS Cidade Nova",
       "estabelec": "Cacau Arte Bolos e Doces - Cidade Nova",
       "cliente": "Retirada (Marcela Moreira)",
-      "categoria: "outro",
+      "categoria": "outro",
       "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
@@ -11133,7 +11133,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 46.0,
+        "desde_cadastro": 48.99,
         "desde_pronto": null
       },
       "status": {
@@ -11809,7 +11809,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 25.0
+        "desde_pronto": 27.99
       },
       "status": {
         "cad_pronto": "ok",
@@ -11979,42 +11979,42 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Vinicius Oliveira)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
-        "pronto_col": null,
-        "col_conc": null,
+        "cad_pronto": 23.0,
+        "pronto_col": 2.0,
+        "col_conc": 0.0,
         "aguard_saida": null,
-        "desde_cadastro": 23.0,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
-        "col_conc": "pendente"
+        "pronto_col": "critico",
+        "col_conc": "ok"
       },
       "datas": {
         "cadastro": "18/05/2026 15:47",
-        "pronto": "-",
-        "coleta": "-",
+        "pronto": "18/05/2026 16:10",
+        "coleta": "18/05/2026 16:12",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "18/05/2026 16:12"
       },
       "horas": {
         "cadastro": "15:47:00",
-        "pronto": null,
-        "coleta": null,
-        "conclusao": null,
+        "pronto": "16:10:00",
+        "coleta": "16:12:00",
+        "conclusao": "16:12:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-18T15:47:00",
-        "pronto": null,
-        "coleta": null,
-        "conclusao": null
+        "pronto": "2026-05-18T16:10:00",
+        "coleta": "2026-05-18T16:12:00",
+        "conclusao": "2026-05-18T16:12:00"
       },
       "dt_retorno": null
     },
@@ -12069,41 +12069,41 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Joao Renato Almeida)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_saida",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
-        "pronto_col": null,
+        "cad_pronto": 13.0,
+        "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": null,
-        "desde_cadastro": 13.0,
-        "desde_pronto": null
+        "aguard_saida": 0.99,
+        "desde_cadastro": null,
+        "desde_pronto": 2.99
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
+        "pronto_col": "critico",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "18/05/2026 15:57",
-        "pronto": "-",
-        "coleta": "-",
+        "pronto": "18/05/2026 16:10",
+        "coleta": "18/05/2026 16:12",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "15:57:00",
-        "pronto": null,
-        "coleta": null,
+        "pronto": "16:10:00",
+        "coleta": "16:12:00",
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-18T15:57:00",
-        "pronto": null,
-        "coleta": null,
+        "pronto": "2026-05-18T16:10:00",
+        "coleta": "2026-05-18T16:12:00",
         "conclusao": null
       },
       "dt_retorno": null
@@ -12114,41 +12114,41 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Jennifer)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_saida",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
-        "pronto_col": null,
+        "cad_pronto": 10.0,
+        "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": null,
-        "desde_cadastro": 10.0,
-        "desde_pronto": null
+        "aguard_saida": 0.99,
+        "desde_cadastro": null,
+        "desde_pronto": 2.99
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
+        "pronto_col": "critico",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "18/05/2026 16:00",
-        "pronto": "-",
-        "coleta": "-",
+        "pronto": "18/05/2026 16:10",
+        "coleta": "18/05/2026 16:12",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "16:00:00",
-        "pronto": null,
-        "coleta": null,
+        "pronto": "16:10:00",
+        "coleta": "16:12:00",
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-18T16:00:00",
-        "pronto": null,
-        "coleta": null,
+        "pronto": "2026-05-18T16:10:00",
+        "coleta": "2026-05-18T16:12:00",
         "conclusao": null
       },
       "dt_retorno": null
@@ -12167,9 +12167,9 @@
         "cad_pronto": 5.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 4.0,
+        "aguard_saida": 6.99,
         "desde_cadastro": null,
-        "desde_pronto": 5.0
+        "desde_pronto": 7.99
       },
       "status": {
         "cad_pronto": "na",
@@ -12204,41 +12204,41 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Lorrayny)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_saida",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
-        "pronto_col": null,
+        "cad_pronto": 10.0,
+        "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": null,
-        "desde_cadastro": 10.0,
-        "desde_pronto": null
+        "aguard_saida": 0.99,
+        "desde_cadastro": null,
+        "desde_pronto": 2.99
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
+        "pronto_col": "critico",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "18/05/2026 16:00",
-        "pronto": "-",
-        "coleta": "-",
+        "pronto": "18/05/2026 16:10",
+        "coleta": "18/05/2026 16:12",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "16:00:00",
-        "pronto": null,
-        "coleta": null,
+        "pronto": "16:10:00",
+        "coleta": "16:12:00",
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-18T16:00:00",
-        "pronto": null,
-        "coleta": null,
+        "pronto": "2026-05-18T16:10:00",
+        "coleta": "2026-05-18T16:12:00",
         "conclusao": null
       },
       "dt_retorno": null
@@ -12259,7 +12259,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.0
+        "desde_pronto": 5.99
       },
       "status": {
         "cad_pronto": "ok",
@@ -12304,7 +12304,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.0
+        "desde_pronto": 3.99
       },
       "status": {
         "cad_pronto": "ok",
@@ -12332,8 +12332,141 @@
         "conclusao": null
       },
       "dt_retorno": null
+    },
+    {
+      "cod": "#11945 (#5368)",
+      "hub": "DS Sion",
+      "estabelec": "Kolac Bolos & Doces - Sion",
+      "cliente": "Retirada (Bruna Barros)",
+      "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "alerta",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 3.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 0.99
+      },
+      "status": {
+        "cad_pronto": "alerta",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "18/05/2026 16:09",
+        "pronto": "18/05/2026 16:12",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:09:00",
+        "pronto": "16:12:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-05-18T16:09:00",
+        "pronto": "2026-05-18T16:12:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#11654 (#7576)",
+      "hub": "DS Sion",
+      "estabelec": "Sorveteria Doce Cascão - Savassi",
+      "cliente": "Retirada (Maria Helena Bizotto Domingues)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.99,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "18/05/2026 16:10",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:10:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-05-18T16:10:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#19453 (#4773)",
+      "hub": "DS Sion",
+      "estabelec": "Viviane Sales Cake's - Bolos & Doces",
+      "cliente": "Retirada (Caroline Alves)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.99,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "18/05/2026 16:11",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:11:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-05-18T16:11:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
     }
-  ]
-}}
   ]
 }
