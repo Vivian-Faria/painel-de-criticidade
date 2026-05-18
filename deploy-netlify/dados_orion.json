@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "18/05/2026 16:57:38",
+  "atualizado_em": "18/05/2026 17:00:25",
   "data_ref": "18/05/2026",
-  "total": 290,
+  "total": 291,
   "pedidos": [
     {
       "cod": "#292039 (#2017)",
@@ -694,7 +694,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 23.65
+        "desde_pronto": 26.42
       },
       "status": {
         "cad_pronto": "critico",
@@ -12744,7 +12744,7 @@
       "estabelec": "Chocake Sion - Bolos & Doces",
       "cliente": "Retirada (Thiago Cortes)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
@@ -12754,7 +12754,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 20.65
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "ok",
@@ -12766,20 +12766,20 @@
         "pronto": "18/05/2026 16:37",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "18/05/2026 16:59"
       },
       "horas": {
         "cadastro": "16:35:00",
         "pronto": "16:37:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "16:59:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-18T16:35:00",
         "pronto": "2026-05-18T16:37:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-05-18T16:59:00"
       },
       "dt_retorno": null
     },
@@ -12879,7 +12879,7 @@
       "estabelec": "Mr Duck Cookies - Belo Horizonte",
       "cliente": "Retirada (Alexandre Costa)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
@@ -12889,7 +12889,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.65
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "ok",
@@ -12901,20 +12901,20 @@
         "pronto": "18/05/2026 16:54",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "18/05/2026 17:00"
       },
       "horas": {
         "cadastro": "16:52:00",
         "pronto": "16:54:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "17:00:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-18T16:52:00",
         "pronto": "2026-05-18T16:54:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-05-18T17:00:00"
       },
       "dt_retorno": null
     },
@@ -12933,7 +12933,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 3.65,
+        "desde_cadastro": 6.42,
         "desde_pronto": null
       },
       "status": {
@@ -12969,40 +12969,40 @@
       "estabelec": "Mr Duck Cookies - Belo Horizonte",
       "cliente": "Retirada (Matheus Vilela)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "alerta",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 3.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.65,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 2.42
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "alerta",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "18/05/2026 16:55",
-        "pronto": "-",
+        "pronto": "18/05/2026 16:58",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "16:55:00",
-        "pronto": null,
+        "pronto": "16:58:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-18T16:55:00",
-        "pronto": null,
+        "pronto": "2026-05-18T16:58:00",
         "coleta": null,
         "conclusao": null
       },
@@ -13014,6 +13014,51 @@
       "estabelec": "Império do Açaí Savassi",
       "cliente": "Entrega (Luizana Silva)",
       "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 2.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 2.42
+      },
+      "status": {
+        "cad_pronto": "ok",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "18/05/2026 16:56",
+        "pronto": "18/05/2026 16:58",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:56:00",
+        "pronto": "16:58:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-05-18T16:56:00",
+        "pronto": "2026-05-18T16:58:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#148 (#570001)",
+      "hub": "DS Sion",
+      "estabelec": "K&l Doceria Sion",
+      "cliente": "Retirada (Lavinia)",
+      "categoria": "loja",
       "etapa_atual": "em_preparo",
       "status_geral": "ok",
       "inativo": false,
@@ -13023,7 +13068,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.65,
+        "desde_cadastro": 2.42,
         "desde_pronto": null
       },
       "status": {
@@ -13032,21 +13077,21 @@
         "col_conc": "pendente"
       },
       "datas": {
-        "cadastro": "18/05/2026 16:56",
+        "cadastro": "18/05/2026 16:58",
         "pronto": "-",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
-        "cadastro": "16:56:00",
+        "cadastro": "16:58:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
-        "cadastro": "2026-05-18T16:56:00",
+        "cadastro": "2026-05-18T16:58:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
