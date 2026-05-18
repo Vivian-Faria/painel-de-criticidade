@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "18/05/2026 10:22:01",
+  "atualizado_em": "18/05/2026 10:24:00",
   "data_ref": "18/05/2026",
-  "total": 18,
+  "total": 19,
   "pedidos": [
     {
       "cod": "#292039 (#2017)",
@@ -693,7 +693,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 17.02,
+        "desde_cadastro": 19.0,
         "desde_pronto": null
       },
       "status": {
@@ -739,7 +739,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.02
+        "desde_pronto": 5.0
       },
       "status": {
         "cad_pronto": "critico",
@@ -779,12 +779,12 @@
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": 4.0,
+        "cad_pronto": 7.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.02
+        "desde_pronto": 2.0
       },
       "status": {
         "cad_pronto": "na",
@@ -793,21 +793,66 @@
       },
       "datas": {
         "cadastro": "18/05/2026 10:15",
-        "pronto": "18/05/2026 10:19",
+        "pronto": "18/05/2026 10:22",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "10:15:00",
-        "pronto": "10:19:00",
+        "pronto": "10:22:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-18T10:15:00",
-        "pronto": "2026-05-18T10:19:00",
+        "pronto": "2026-05-18T10:22:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#34784 (#0431)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Maria Eduarda De Oliveira )",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 3.0,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "18/05/2026 10:21",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "10:21:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-05-18T10:21:00",
+        "pronto": null,
         "coleta": null,
         "conclusao": null
       },
