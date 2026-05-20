@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "20/05/2026 10:58:26",
+  "atualizado_em": "20/05/2026 11:00:08",
   "data_ref": "20/05/2026",
   "total": 25,
   "pedidos": [
@@ -963,7 +963,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 18.44,
+        "desde_cadastro": 20.14,
         "desde_pronto": null
       },
       "status": {
@@ -1054,7 +1054,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.44
+        "desde_pronto": 5.14
       },
       "status": {
         "cad_pronto": "critico",
@@ -1089,42 +1089,42 @@
       "estabelec": "Moink",
       "cliente": "Retirada (Bruno Aragao)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_coleta",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 8.0,
-        "pronto_col": null,
-        "col_conc": null,
+        "pronto_col": 2.0,
+        "col_conc": 0.0,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.44
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
-        "col_conc": "pendente"
+        "pronto_col": "critico",
+        "col_conc": "ok"
       },
       "datas": {
         "cadastro": "20/05/2026 10:49",
         "pronto": "20/05/2026 10:57",
-        "coleta": "-",
+        "coleta": "20/05/2026 10:59",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "20/05/2026 10:59"
       },
       "horas": {
         "cadastro": "10:49:00",
         "pronto": "10:57:00",
-        "coleta": null,
-        "conclusao": null,
+        "coleta": "10:59:00",
+        "conclusao": "10:59:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-20T10:49:00",
         "pronto": "2026-05-20T10:57:00",
-        "coleta": null,
-        "conclusao": null
+        "coleta": "2026-05-20T10:59:00",
+        "conclusao": "2026-05-20T10:59:00"
       },
       "dt_retorno": null
     }
