@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "20/05/2026 10:45:04",
+  "atualizado_em": "20/05/2026 10:46:51",
   "data_ref": "20/05/2026",
-  "total": 22,
+  "total": 24,
   "pedidos": [
     {
       "cod": "#292359 (#6380)",
@@ -739,7 +739,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 31.07
+        "desde_pronto": 32.86
       },
       "status": {
         "cad_pronto": "critico",
@@ -864,7 +864,7 @@
       "estabelec": "3f - Fast Fitness Food - Savassi",
       "cliente": "Retirada (Stephanie Gurtner Soares)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -874,7 +874,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 4.07
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -886,20 +886,20 @@
         "pronto": "20/05/2026 10:41",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "20/05/2026 10:46"
       },
       "horas": {
         "cadastro": "10:37:00",
         "pronto": "10:41:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "10:46:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-20T10:37:00",
         "pronto": "2026-05-20T10:41:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-05-20T10:46:00"
       },
       "dt_retorno": null
     },
@@ -918,7 +918,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.07,
+        "desde_cadastro": 8.86,
         "desde_pronto": null
       },
       "status": {
@@ -963,7 +963,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.07,
+        "desde_cadastro": 6.86,
         "desde_pronto": null
       },
       "status": {
@@ -987,6 +987,96 @@
       },
       "ts": {
         "cadastro": "2026-05-20T10:40:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#34900 (#3449)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Manuella Ribeiro)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.86,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "20/05/2026 10:45",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "10:45:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-05-20T10:45:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#34901 (#2252)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Luize Pavani)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.86,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "20/05/2026 10:45",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "10:45:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-05-20T10:45:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
