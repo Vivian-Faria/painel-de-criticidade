@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "20/05/2026 12:01:18",
+  "atualizado_em": "20/05/2026 12:01:58",
   "data_ref": "20/05/2026",
   "total": 102,
   "pedidos": [
@@ -1456,7 +1456,7 @@
       "tempos": {
         "cad_pronto": 18.0,
         "pronto_col": 1.0,
-        "col_conc": 19.0,
+        "col_conc": 31.0,
         "aguard_saida": null,
         "desde_cadastro": null,
         "desde_pronto": null
@@ -1471,20 +1471,20 @@
         "pronto": "20/05/2026 11:29",
         "coleta": "20/05/2026 11:30",
         "retorno": "-",
-        "conclusao": "20/05/2026 11:49"
+        "conclusao": "20/05/2026 12:01"
       },
       "horas": {
         "cadastro": "11:11:00",
         "pronto": "11:29:00",
         "coleta": "11:30:00",
-        "conclusao": "11:49:00",
+        "conclusao": "12:01:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-20T11:11:00",
         "pronto": "2026-05-20T11:29:00",
         "coleta": "2026-05-20T11:30:00",
-        "conclusao": "2026-05-20T11:49:00"
+        "conclusao": "2026-05-20T12:01:00"
       },
       "dt_retorno": null
     },
@@ -1638,7 +1638,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 46.31,
+        "desde_cadastro": 46.98,
         "desde_pronto": null
       },
       "status": {
@@ -1682,8 +1682,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 24.31,
-        "desde_cadastro": 45.31,
+        "aguard_saida": 24.98,
+        "desde_cadastro": 45.98,
         "desde_pronto": null
       },
       "status": {
@@ -1862,8 +1862,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 8.31,
-        "desde_cadastro": 42.31,
+        "aguard_saida": 8.98,
+        "desde_cadastro": 42.98,
         "desde_pronto": null
       },
       "status": {
@@ -2312,9 +2312,9 @@
         "cad_pronto": 6.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 28.31,
+        "aguard_saida": 28.98,
         "desde_cadastro": null,
-        "desde_pronto": 29.31
+        "desde_pronto": 29.98
       },
       "status": {
         "cad_pronto": "na",
@@ -2447,9 +2447,9 @@
         "cad_pronto": 9.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 24.31,
+        "aguard_saida": 24.98,
         "desde_cadastro": null,
-        "desde_pronto": 25.31
+        "desde_pronto": 25.98
       },
       "status": {
         "cad_pronto": "na",
@@ -2582,9 +2582,9 @@
         "cad_pronto": 22.0,
         "pronto_col": 3.0,
         "col_conc": null,
-        "aguard_saida": 8.31,
+        "aguard_saida": 8.98,
         "desde_cadastro": null,
-        "desde_pronto": 11.31
+        "desde_pronto": 11.98
       },
       "status": {
         "cad_pronto": "na",
@@ -2672,9 +2672,9 @@
         "cad_pronto": 10.0,
         "pronto_col": 0.0,
         "col_conc": null,
-        "aguard_saida": 22.31,
+        "aguard_saida": 22.98,
         "desde_cadastro": null,
-        "desde_pronto": 22.31
+        "desde_pronto": 22.98
       },
       "status": {
         "cad_pronto": "na",
@@ -2897,9 +2897,9 @@
         "cad_pronto": 22.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 1.31,
+        "aguard_saida": 1.98,
         "desde_cadastro": null,
-        "desde_pronto": 3.31
+        "desde_pronto": 3.98
       },
       "status": {
         "cad_pronto": "na",
@@ -2942,9 +2942,9 @@
         "cad_pronto": 13.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 10.31,
+        "aguard_saida": 10.98,
         "desde_cadastro": null,
-        "desde_pronto": 11.31
+        "desde_pronto": 11.98
       },
       "status": {
         "cad_pronto": "na",
@@ -2988,7 +2988,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 23.31,
+        "desde_cadastro": 23.98,
         "desde_pronto": null
       },
       "status": {
@@ -3069,42 +3069,42 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Linda)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": null,
         "pronto_col": null,
-        "col_conc": null,
+        "col_conc": 0.0,
         "aguard_saida": null,
-        "desde_cadastro": 22.31,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "pendente",
-        "col_conc": "pendente"
+        "col_conc": "ok"
       },
       "datas": {
         "cadastro": "20/05/2026 11:39",
         "pronto": "-",
-        "coleta": "-",
+        "coleta": "20/05/2026 12:01",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "20/05/2026 12:01"
       },
       "horas": {
         "cadastro": "11:39:00",
         "pronto": null,
-        "coleta": null,
-        "conclusao": null,
+        "coleta": "12:01:00",
+        "conclusao": "12:01:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-20T11:39:00",
         "pronto": null,
-        "coleta": null,
-        "conclusao": null
+        "coleta": "2026-05-20T12:01:00",
+        "conclusao": "2026-05-20T12:01:00"
       },
       "dt_retorno": null
     },
@@ -3114,42 +3114,42 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Dyana)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_saida",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 18.0,
         "pronto_col": 2.0,
-        "col_conc": null,
-        "aguard_saida": 1.31,
+        "col_conc": 1.0,
+        "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.31
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "critico",
-        "col_conc": "pendente"
+        "col_conc": "ok"
       },
       "datas": {
         "cadastro": "20/05/2026 11:40",
         "pronto": "20/05/2026 11:58",
         "coleta": "20/05/2026 12:00",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "20/05/2026 12:01"
       },
       "horas": {
         "cadastro": "11:40:00",
         "pronto": "11:58:00",
         "coleta": "12:00:00",
-        "conclusao": null,
+        "conclusao": "12:01:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-20T11:40:00",
         "pronto": "2026-05-20T11:58:00",
         "coleta": "2026-05-20T12:00:00",
-        "conclusao": null
+        "conclusao": "2026-05-20T12:01:00"
       },
       "dt_retorno": null
     },
@@ -3212,8 +3212,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 0.31,
-        "desde_cadastro": 21.31,
+        "aguard_saida": 0.98,
+        "desde_cadastro": 21.98,
         "desde_pronto": null
       },
       "status": {
@@ -3258,7 +3258,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 20.31,
+        "desde_cadastro": 20.98,
         "desde_pronto": null
       },
       "status": {
@@ -3294,42 +3294,42 @@
       "estabelec": "Mayu",
       "cliente": "Retirada (Pedro Sampaio)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_saida",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 15.0,
         "pronto_col": 1.0,
-        "col_conc": null,
-        "aguard_saida": 3.31,
+        "col_conc": 3.0,
+        "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 4.31
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "ok",
-        "col_conc": "pendente"
+        "col_conc": "ok"
       },
       "datas": {
         "cadastro": "20/05/2026 11:42",
         "pronto": "20/05/2026 11:57",
         "coleta": "20/05/2026 11:58",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "20/05/2026 12:01"
       },
       "horas": {
         "cadastro": "11:42:00",
         "pronto": "11:57:00",
         "coleta": "11:58:00",
-        "conclusao": null,
+        "conclusao": "12:01:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-20T11:42:00",
         "pronto": "2026-05-20T11:57:00",
         "coleta": "2026-05-20T11:58:00",
-        "conclusao": null
+        "conclusao": "2026-05-20T12:01:00"
       },
       "dt_retorno": null
     },
@@ -3349,7 +3349,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 15.31
+        "desde_pronto": 15.98
       },
       "status": {
         "cad_pronto": "alerta",
@@ -3392,8 +3392,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 0.31,
-        "desde_cadastro": 18.31,
+        "aguard_saida": 0.98,
+        "desde_cadastro": 18.98,
         "desde_pronto": null
       },
       "status": {
@@ -3437,9 +3437,9 @@
         "cad_pronto": 14.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 2.31,
+        "aguard_saida": 2.98,
         "desde_cadastro": null,
-        "desde_pronto": 3.31
+        "desde_pronto": 3.98
       },
       "status": {
         "cad_pronto": "na",
@@ -3528,7 +3528,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 16.31,
+        "desde_cadastro": 16.98,
         "desde_pronto": null
       },
       "status": {
@@ -3572,9 +3572,9 @@
         "cad_pronto": 10.0,
         "pronto_col": 0.0,
         "col_conc": null,
-        "aguard_saida": 5.31,
+        "aguard_saida": 5.98,
         "desde_cadastro": null,
-        "desde_pronto": 5.31
+        "desde_pronto": 5.98
       },
       "status": {
         "cad_pronto": "na",
@@ -3617,9 +3617,9 @@
         "cad_pronto": 10.0,
         "pronto_col": 0.0,
         "col_conc": null,
-        "aguard_saida": 5.31,
+        "aguard_saida": 5.98,
         "desde_cadastro": null,
-        "desde_pronto": 5.31
+        "desde_pronto": 5.98
       },
       "status": {
         "cad_pronto": "na",
@@ -3663,7 +3663,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 13.31,
+        "desde_cadastro": 13.98,
         "desde_pronto": null
       },
       "status": {
@@ -3707,9 +3707,9 @@
         "cad_pronto": 9.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 1.31,
+        "aguard_saida": 1.98,
         "desde_cadastro": null,
-        "desde_pronto": 3.31
+        "desde_pronto": 3.98
       },
       "status": {
         "cad_pronto": "na",
@@ -3753,7 +3753,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 11.31,
+        "desde_cadastro": 11.98,
         "desde_pronto": null
       },
       "status": {
@@ -3798,7 +3798,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 11.31,
+        "desde_cadastro": 11.98,
         "desde_pronto": null
       },
       "status": {
@@ -3843,7 +3843,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 11.31,
+        "desde_cadastro": 11.98,
         "desde_pronto": null
       },
       "status": {
@@ -3888,7 +3888,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 10.31,
+        "desde_cadastro": 10.98,
         "desde_pronto": null
       },
       "status": {
@@ -3933,7 +3933,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 9.31,
+        "desde_cadastro": 9.98,
         "desde_pronto": null
       },
       "status": {
@@ -3969,41 +3969,41 @@
       "estabelec": "Savassi Brasileira",
       "cliente": "Retirada (Lucas Souza)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "aguardando_saida",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 7.0,
-        "pronto_col": null,
+        "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": null,
+        "aguard_saida": 0.98,
         "desde_cadastro": null,
-        "desde_pronto": 1.31
+        "desde_pronto": 1.98
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
+        "pronto_col": "ok",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "20/05/2026 11:53",
         "pronto": "20/05/2026 12:00",
-        "coleta": "-",
+        "coleta": "20/05/2026 12:01",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "11:53:00",
         "pronto": "12:00:00",
-        "coleta": null,
+        "coleta": "12:01:00",
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-20T11:53:00",
         "pronto": "2026-05-20T12:00:00",
-        "coleta": null,
+        "coleta": "2026-05-20T12:01:00",
         "conclusao": null
       },
       "dt_retorno": null
@@ -4024,7 +4024,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 6.31
+        "desde_pronto": 6.98
       },
       "status": {
         "cad_pronto": "ok",
@@ -4068,7 +4068,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 6.31,
+        "desde_cadastro": 6.98,
         "desde_pronto": null
       },
       "status": {
@@ -4113,7 +4113,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.31,
+        "desde_cadastro": 5.98,
         "desde_pronto": null
       },
       "status": {
@@ -4158,7 +4158,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.31,
+        "desde_cadastro": 5.98,
         "desde_pronto": null
       },
       "status": {
@@ -4203,7 +4203,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.31,
+        "desde_cadastro": 5.98,
         "desde_pronto": null
       },
       "status": {
@@ -4249,7 +4249,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.31
+        "desde_pronto": 1.98
       },
       "status": {
         "cad_pronto": "alerta",
@@ -4293,7 +4293,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.31,
+        "desde_cadastro": 4.98,
         "desde_pronto": null
       },
       "status": {
@@ -4338,7 +4338,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.31,
+        "desde_cadastro": 4.98,
         "desde_pronto": null
       },
       "status": {
@@ -4383,7 +4383,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 3.31,
+        "desde_cadastro": 3.98,
         "desde_pronto": null
       },
       "status": {
@@ -4429,7 +4429,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.31
+        "desde_pronto": 3.98
       },
       "status": {
         "cad_pronto": "na",
@@ -4473,7 +4473,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.31,
+        "desde_cadastro": 2.98,
         "desde_pronto": null
       },
       "status": {
@@ -4518,7 +4518,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.31,
+        "desde_cadastro": 1.98,
         "desde_pronto": null
       },
       "status": {
@@ -4563,7 +4563,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.31,
+        "desde_cadastro": 1.98,
         "desde_pronto": null
       },
       "status": {
