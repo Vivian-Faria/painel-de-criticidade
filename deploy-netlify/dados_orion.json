@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "21/05/2026 16:11:34",
+  "atualizado_em": "21/05/2026 16:14:18",
   "data_ref": "21/05/2026",
-  "total": 279,
+  "total": 280,
   "pedidos": [
     {
       "cod": "#292552 (#0720)",
@@ -6048,7 +6048,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 212.58,
+        "desde_cadastro": 215.31,
         "desde_pronto": null
       },
       "status": {
@@ -7984,7 +7984,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 165.58
+        "desde_pronto": 168.31
       },
       "status": {
         "cad_pronto": "na",
@@ -8704,7 +8704,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 147.58
+        "desde_pronto": 150.31
       },
       "status": {
         "cad_pronto": "na",
@@ -10548,7 +10548,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 91.58,
+        "desde_cadastro": 94.31,
         "desde_pronto": null
       },
       "status": {
@@ -10773,7 +10773,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 86.58,
+        "desde_cadastro": 89.31,
         "desde_pronto": null
       },
       "status": {
@@ -10863,7 +10863,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 85.58,
+        "desde_cadastro": 88.31,
         "desde_pronto": null
       },
       "status": {
@@ -11989,7 +11989,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 27.58
+        "desde_pronto": 30.31
       },
       "status": {
         "cad_pronto": "ok",
@@ -12079,7 +12079,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 18.58
+        "desde_pronto": 21.31
       },
       "status": {
         "cad_pronto": "na",
@@ -12214,7 +12214,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 10.58
+        "desde_pronto": 13.31
       },
       "status": {
         "cad_pronto": "critico",
@@ -12259,7 +12259,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 7.58
+        "desde_pronto": 10.31
       },
       "status": {
         "cad_pronto": "critico",
@@ -12394,7 +12394,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.58
+        "desde_pronto": 5.31
       },
       "status": {
         "cad_pronto": "critico",
@@ -12439,7 +12439,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.58
+        "desde_pronto": 5.31
       },
       "status": {
         "cad_pronto": "critico",
@@ -12484,7 +12484,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.58
+        "desde_pronto": 5.31
       },
       "status": {
         "cad_pronto": "critico",
@@ -12519,40 +12519,85 @@
       "estabelec": "Império do Açaí Savassi",
       "cliente": "Entrega (João Victor Fagundes)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 5.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 3.58,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 1.31
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "21/05/2026 16:08",
-        "pronto": "-",
+        "pronto": "21/05/2026 16:13",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "16:08:00",
-        "pronto": null,
+        "pronto": "16:13:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-21T16:08:00",
-        "pronto": null,
+        "pronto": "2026-05-21T16:13:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#11727 (#8309)",
+      "hub": "DS Sion",
+      "estabelec": "Sorveteria Doce Cascão - Savassi",
+      "cliente": "Retirada (Raquel Annoni)",
+      "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 1.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 1.31
+      },
+      "status": {
+        "cad_pronto": "ok",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "21/05/2026 16:12",
+        "pronto": "21/05/2026 16:13",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:12:00",
+        "pronto": "16:13:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-05-21T16:12:00",
+        "pronto": "2026-05-21T16:13:00",
         "coleta": null,
         "conclusao": null
       },
