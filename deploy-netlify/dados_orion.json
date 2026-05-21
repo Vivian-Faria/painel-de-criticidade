@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "21/05/2026 15:07:47",
+  "atualizado_em": "21/05/2026 15:10:39",
   "data_ref": "21/05/2026",
-  "total": 247,
+  "total": 249,
   "pedidos": [
     {
       "cod": "#292552 (#0720)",
@@ -6048,7 +6048,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 148.79,
+        "desde_cadastro": 151.65,
         "desde_pronto": null
       },
       "status": {
@@ -7984,7 +7984,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 101.79
+        "desde_pronto": 104.65
       },
       "status": {
         "cad_pronto": "na",
@@ -8614,7 +8614,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 79.79
+        "desde_pronto": 82.65
       },
       "status": {
         "cad_pronto": "critico",
@@ -8704,7 +8704,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 83.79
+        "desde_pronto": 86.65
       },
       "status": {
         "cad_pronto": "na",
@@ -10548,7 +10548,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 27.79,
+        "desde_cadastro": 30.65,
         "desde_pronto": null
       },
       "status": {
@@ -10674,42 +10674,42 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Elisabeth Brandao)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": null,
         "pronto_col": null,
-        "col_conc": null,
+        "col_conc": 1.0,
         "aguard_saida": null,
-        "desde_cadastro": 22.79,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "pendente",
-        "col_conc": "pendente"
+        "col_conc": "ok"
       },
       "datas": {
         "cadastro": "21/05/2026 14:45",
         "pronto": "-",
-        "coleta": "-",
+        "coleta": "21/05/2026 15:07",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "21/05/2026 15:08"
       },
       "horas": {
         "cadastro": "14:45:00",
         "pronto": null,
-        "coleta": null,
-        "conclusao": null,
+        "coleta": "15:07:00",
+        "conclusao": "15:08:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-21T14:45:00",
         "pronto": null,
-        "coleta": null,
-        "conclusao": null
+        "coleta": "2026-05-21T15:07:00",
+        "conclusao": "2026-05-21T15:08:00"
       },
       "dt_retorno": null
     },
@@ -10773,7 +10773,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 22.79,
+        "desde_cadastro": 25.65,
         "desde_pronto": null
       },
       "status": {
@@ -10809,7 +10809,7 @@
       "estabelec": "Viviane Sales Cake's - Bolos & Doces",
       "cliente": "Retirada (Sofia Machado)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "alerta",
       "inativo": false,
       "alerta_retorno": false,
@@ -10819,7 +10819,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 18.79
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "alerta",
@@ -10831,20 +10831,20 @@
         "pronto": "21/05/2026 14:49",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "21/05/2026 15:08"
       },
       "horas": {
         "cadastro": "14:46:00",
         "pronto": "14:49:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "15:08:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-21T14:46:00",
         "pronto": "2026-05-21T14:49:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-05-21T15:08:00"
       },
       "dt_retorno": null
     },
@@ -10863,7 +10863,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 21.79,
+        "desde_cadastro": 24.65,
         "desde_pronto": null
       },
       "status": {
@@ -10899,41 +10899,41 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Manoella)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_coleta",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_saida",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 15.0,
-        "pronto_col": null,
+        "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": null,
+        "aguard_saida": 3.65,
         "desde_cadastro": null,
-        "desde_pronto": 2.79
+        "desde_pronto": 5.65
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
+        "pronto_col": "critico",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "21/05/2026 14:50",
         "pronto": "21/05/2026 15:05",
-        "coleta": "-",
+        "coleta": "21/05/2026 15:07",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "14:50:00",
         "pronto": "15:05:00",
-        "coleta": null,
+        "coleta": "15:07:00",
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-05-21T14:50:00",
         "pronto": "2026-05-21T15:05:00",
-        "coleta": null,
+        "coleta": "2026-05-21T15:07:00",
         "conclusao": null
       },
       "dt_retorno": null
@@ -10953,7 +10953,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 16.79,
+        "desde_cadastro": 19.65,
         "desde_pronto": null
       },
       "status": {
@@ -10998,7 +10998,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 9.79,
+        "desde_cadastro": 12.65,
         "desde_pronto": null
       },
       "status": {
@@ -11044,7 +11044,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 0.79
+        "desde_pronto": 3.65
       },
       "status": {
         "cad_pronto": "critico",
@@ -11089,7 +11089,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.79
+        "desde_pronto": 4.65
       },
       "status": {
         "cad_pronto": "critico",
@@ -11113,6 +11113,96 @@
       "ts": {
         "cadastro": "2026-05-21T15:02:00",
         "pronto": "2026-05-21T15:06:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#11725 (#4668)",
+      "hub": "DS Sion",
+      "estabelec": "Sorveteria Doce Cascão - Savassi",
+      "cliente": "Retirada (Marina Drummond Machado)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.65,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "21/05/2026 15:09",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "15:09:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-05-21T15:09:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#292616 (#1837)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (João Gontijo)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 0.65,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "21/05/2026 15:10",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "15:10:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-05-21T15:10:00",
+        "pronto": null,
         "coleta": null,
         "conclusao": null
       },
