@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "02/06/2026 11:10:30",
+  "atualizado_em": "02/06/2026 11:12:24",
   "data_ref": "02/06/2026",
-  "total": 29,
+  "total": 30,
   "pedidos": [
     {
       "cod": "#294955 (#2449)",
@@ -648,7 +648,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 639.51,
+        "desde_cadastro": 641.41,
         "desde_pronto": null
       },
       "status": {
@@ -738,7 +738,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 82.51,
+        "desde_cadastro": 84.41,
         "desde_pronto": null
       },
       "status": {
@@ -828,7 +828,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 55.51,
+        "desde_cadastro": 57.41,
         "desde_pronto": null
       },
       "status": {
@@ -1009,7 +1009,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 24.51
+        "desde_pronto": 26.41
       },
       "status": {
         "cad_pronto": "alerta",
@@ -1054,7 +1054,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 4.51
+        "desde_pronto": 6.41
       },
       "status": {
         "cad_pronto": "critico",
@@ -1099,7 +1099,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 6.51
+        "desde_pronto": 8.41
       },
       "status": {
         "cad_pronto": "critico",
@@ -1144,7 +1144,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.51
+        "desde_pronto": 3.41
       },
       "status": {
         "cad_pronto": "alerta",
@@ -1188,7 +1188,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.51,
+        "desde_cadastro": 4.41,
         "desde_pronto": null
       },
       "status": {
@@ -1224,40 +1224,40 @@
       "estabelec": "3f - Fast Fitness Food - Savassi",
       "cliente": "Retirada (Luana Ferreira)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "aguardando_coleta",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 2.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.51,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 2.41
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "ok",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "02/06/2026 11:08",
-        "pronto": "-",
+        "pronto": "02/06/2026 11:10",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "11:08:00",
-        "pronto": null,
+        "pronto": "11:10:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-02T11:08:00",
-        "pronto": null,
+        "pronto": "2026-06-02T11:10:00",
         "coleta": null,
         "conclusao": null
       },
@@ -1278,7 +1278,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.51,
+        "desde_cadastro": 3.41,
         "desde_pronto": null
       },
       "status": {
@@ -1302,6 +1302,51 @@
       },
       "ts": {
         "cadastro": "2026-06-02T11:09:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#35486 (#3778)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Carla Oliveira)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.41,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "02/06/2026 11:11",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:11:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-02T11:11:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
