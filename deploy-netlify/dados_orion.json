@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "02/06/2026 17:22:17",
+  "atualizado_em": "02/06/2026 17:24:47",
   "data_ref": "02/06/2026",
-  "total": 250,
+  "total": 252,
   "pedidos": [
     {
       "cod": "#294955 (#2449)",
@@ -2808,7 +2808,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 321.29,
+        "desde_cadastro": 323.79,
         "desde_pronto": null
       },
       "status": {
@@ -4384,7 +4384,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 235.29
+        "desde_pronto": 237.79
       },
       "status": {
         "cad_pronto": "na",
@@ -6993,7 +6993,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 191.29,
+        "desde_cadastro": 193.79,
         "desde_pronto": null
       },
       "status": {
@@ -8117,9 +8117,9 @@
         "cad_pronto": 39.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 104.29,
+        "aguard_saida": 106.79,
         "desde_cadastro": null,
-        "desde_pronto": 105.29
+        "desde_pronto": 107.79
       },
       "status": {
         "cad_pronto": "na",
@@ -10909,7 +10909,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.29
+        "desde_pronto": 5.79
       },
       "status": {
         "cad_pronto": "critico",
@@ -10953,7 +10953,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 14.29,
+        "desde_cadastro": 16.79,
         "desde_pronto": null
       },
       "status": {
@@ -10998,7 +10998,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 14.29,
+        "desde_cadastro": 16.79,
         "desde_pronto": null
       },
       "status": {
@@ -11034,40 +11034,40 @@
       "estabelec": "Kolac Bolos & Doces - Sion",
       "cliente": "Retirada (Júlia Maria)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 15.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 13.29,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 0.79
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "02/06/2026 17:09",
-        "pronto": "-",
+        "pronto": "02/06/2026 17:24",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "17:09:00",
-        "pronto": null,
+        "pronto": "17:24:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-02T17:09:00",
-        "pronto": null,
+        "pronto": "2026-06-02T17:24:00",
         "coleta": null,
         "conclusao": null
       },
@@ -11089,7 +11089,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 4.29
+        "desde_pronto": 6.79
       },
       "status": {
         "cad_pronto": "critico",
@@ -11133,7 +11133,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.29,
+        "desde_cadastro": 9.79,
         "desde_pronto": null
       },
       "status": {
@@ -11179,7 +11179,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.29
+        "desde_pronto": 5.79
       },
       "status": {
         "cad_pronto": "ok",
@@ -11223,7 +11223,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.29,
+        "desde_cadastro": 3.79,
         "desde_pronto": null
       },
       "status": {
@@ -11247,6 +11247,96 @@
       },
       "ts": {
         "cadastro": "2026-06-02T17:21:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#295003 (#3842)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Maria Eduarda Duarte Rinaldi)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.79,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "02/06/2026 17:23",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "17:23:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-02T17:23:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#978 (#2622)",
+      "hub": "DS Sion",
+      "estabelec": "Doce Fit Bella",
+      "cliente": "Retirada (Marcilene Araújo)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 0.79,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "02/06/2026 17:24",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "17:24:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-02T17:24:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
