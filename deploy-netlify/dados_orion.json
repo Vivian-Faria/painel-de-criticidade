@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "02/06/2026 17:44:14",
+  "atualizado_em": "02/06/2026 17:46:46",
   "data_ref": "02/06/2026",
-  "total": 257,
+  "total": 258,
   "pedidos": [
     {
       "cod": "#294955 (#2449)",
@@ -2808,7 +2808,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 343.24,
+        "desde_cadastro": 345.78,
         "desde_pronto": null
       },
       "status": {
@@ -4384,7 +4384,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 257.24
+        "desde_pronto": 259.78
       },
       "status": {
         "cad_pronto": "na",
@@ -10773,7 +10773,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 36.24,
+        "desde_cadastro": 38.78,
         "desde_pronto": null
       },
       "status": {
@@ -11088,7 +11088,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 21.24,
+        "desde_cadastro": 23.78,
         "desde_pronto": null
       },
       "status": {
@@ -11223,7 +11223,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 18.24,
+        "desde_cadastro": 20.78,
         "desde_pronto": null
       },
       "status": {
@@ -11269,7 +11269,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 11.24
+        "desde_pronto": 13.78
       },
       "status": {
         "cad_pronto": "alerta",
@@ -11313,7 +11313,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 11.24,
+        "desde_cadastro": 13.78,
         "desde_pronto": null
       },
       "status": {
@@ -11358,7 +11358,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 10.24,
+        "desde_cadastro": 12.78,
         "desde_pronto": null
       },
       "status": {
@@ -11439,40 +11439,40 @@
       "estabelec": "Viviane Sales Cake's - Bolos & Doces",
       "cliente": "Retirada (Cristiane Pedrosa Federici)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 9.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 9.24,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 2.78
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "02/06/2026 17:35",
-        "pronto": "-",
+        "pronto": "02/06/2026 17:44",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "17:35:00",
-        "pronto": null,
+        "pronto": "17:44:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-02T17:35:00",
-        "pronto": null,
+        "pronto": "2026-06-02T17:44:00",
         "coleta": null,
         "conclusao": null
       },
@@ -11493,7 +11493,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.24,
+        "desde_cadastro": 6.78,
         "desde_pronto": null
       },
       "status": {
@@ -11538,7 +11538,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.24,
+        "desde_cadastro": 4.78,
         "desde_pronto": null
       },
       "status": {
@@ -11562,6 +11562,51 @@
       },
       "ts": {
         "cadastro": "2026-06-02T17:42:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#35513 (#4157)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Arnobio)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.78,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "02/06/2026 17:45",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "17:45:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-02T17:45:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
