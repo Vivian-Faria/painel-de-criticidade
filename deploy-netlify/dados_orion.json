@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "02/06/2026 14:23:00",
+  "atualizado_em": "02/06/2026 14:25:36",
   "data_ref": "02/06/2026",
-  "total": 166,
+  "total": 168,
   "pedidos": [
     {
       "cod": "#294955 (#2449)",
@@ -2808,7 +2808,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 142.0,
+        "desde_cadastro": 144.61,
         "desde_pronto": null
       },
       "status": {
@@ -3124,7 +3124,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 51.0
+        "desde_pronto": 53.61
       },
       "status": {
         "cad_pronto": "critico",
@@ -4474,7 +4474,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 56.0
+        "desde_pronto": 58.61
       },
       "status": {
         "cad_pronto": "na",
@@ -5869,7 +5869,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 42.0
+        "desde_pronto": 44.61
       },
       "status": {
         "cad_pronto": "critico",
@@ -6094,7 +6094,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 43.0
+        "desde_pronto": 45.61
       },
       "status": {
         "cad_pronto": "critico",
@@ -6679,7 +6679,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 19.0
+        "desde_pronto": 21.61
       },
       "status": {
         "cad_pronto": "critico",
@@ -6715,13 +6715,13 @@
       "cliente": "Retirada (Natália Alves De Freitas)",
       "categoria": "cozinha",
       "etapa_atual": "concluido",
-      "status_geral": "ok",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 19.0,
         "pronto_col": 1.0,
-        "col_conc": 1.0,
+        "col_conc": 14.0,
         "aguard_saida": null,
         "desde_cadastro": null,
         "desde_pronto": null
@@ -6729,27 +6729,27 @@
       "status": {
         "cad_pronto": "na",
         "pronto_col": "ok",
-        "col_conc": "ok"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "02/06/2026 13:49",
         "pronto": "02/06/2026 14:08",
         "coleta": "02/06/2026 14:09",
         "retorno": "-",
-        "conclusao": "02/06/2026 14:10"
+        "conclusao": "02/06/2026 14:23"
       },
       "horas": {
         "cadastro": "13:49:00",
         "pronto": "14:08:00",
         "coleta": "14:09:00",
-        "conclusao": "14:10:00",
+        "conclusao": "14:23:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-02T13:49:00",
         "pronto": "2026-06-02T14:08:00",
         "coleta": "2026-06-02T14:09:00",
-        "conclusao": "2026-06-02T14:10:00"
+        "conclusao": "2026-06-02T14:23:00"
       },
       "dt_retorno": null
     },
@@ -7029,40 +7029,40 @@
       "estabelec": "Chocake Sion - Bolos & Doces",
       "cliente": "Retirada (Amanda Corrêa Braga)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 16.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 15.0,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 1.61
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "02/06/2026 14:08",
-        "pronto": "-",
+        "pronto": "02/06/2026 14:24",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "14:08:00",
-        "pronto": null,
+        "pronto": "14:24:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-02T14:08:00",
-        "pronto": null,
+        "pronto": "2026-06-02T14:24:00",
         "coleta": null,
         "conclusao": null
       },
@@ -7074,40 +7074,40 @@
       "estabelec": "Cremella Confeitaria - Cookies, Doces & Bolos",
       "cliente": "Retirada (Débora Alvarenga)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 15.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 14.0,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 1.61
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "02/06/2026 14:09",
-        "pronto": "-",
+        "pronto": "02/06/2026 14:24",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "14:09:00",
-        "pronto": null,
+        "pronto": "14:24:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-02T14:09:00",
-        "pronto": null,
+        "pronto": "2026-06-02T14:24:00",
         "coleta": null,
         "conclusao": null
       },
@@ -7128,7 +7128,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 14.0,
+        "desde_cadastro": 16.61,
         "desde_pronto": null
       },
       "status": {
@@ -7173,7 +7173,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 12.0,
+        "desde_cadastro": 14.61,
         "desde_pronto": null
       },
       "status": {
@@ -7218,7 +7218,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 12.0,
+        "desde_cadastro": 14.61,
         "desde_pronto": null
       },
       "status": {
@@ -7263,7 +7263,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 12.0,
+        "desde_cadastro": 14.61,
         "desde_pronto": null
       },
       "status": {
@@ -7308,7 +7308,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 11.0,
+        "desde_cadastro": 13.61,
         "desde_pronto": null
       },
       "status": {
@@ -7353,7 +7353,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.0,
+        "desde_cadastro": 10.61,
         "desde_pronto": null
       },
       "status": {
@@ -7398,7 +7398,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 6.0,
+        "desde_cadastro": 8.61,
         "desde_pronto": null
       },
       "status": {
@@ -7443,7 +7443,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.0,
+        "desde_cadastro": 6.61,
         "desde_pronto": null
       },
       "status": {
@@ -7467,6 +7467,96 @@
       },
       "ts": {
         "cadastro": "2026-06-02T14:19:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#1276 (#1009)",
+      "hub": "DS Cidade Nova",
+      "estabelec": "3f - Fast Fitness Food - Cidade Nova",
+      "cliente": "Retirada (Atos Tavares)",
+      "categoria": "outro",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.61,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "02/06/2026 14:23",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "14:23:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-02T14:23:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#12049 (#0499)",
+      "hub": "DS Sion",
+      "estabelec": "Sorveteria Doce Cascão - Savassi",
+      "cliente": "Retirada (Larissa Fernandes)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.61,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "02/06/2026 14:24",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "14:24:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-02T14:24:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
