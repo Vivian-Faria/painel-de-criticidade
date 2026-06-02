@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "02/06/2026 16:59:49",
+  "atualizado_em": "02/06/2026 17:02:15",
   "data_ref": "02/06/2026",
   "total": 242,
   "pedidos": [
@@ -2801,14 +2801,14 @@
       "categoria": "loja",
       "etapa_atual": "em_preparo",
       "status_geral": "ok",
-      "inativo": false,
+      "inativo": true,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 298.83,
+        "desde_cadastro": 301.26,
         "desde_pronto": null
       },
       "status": {
@@ -4384,7 +4384,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 212.83
+        "desde_pronto": 215.26
       },
       "status": {
         "cad_pronto": "na",
@@ -6993,7 +6993,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 168.83,
+        "desde_cadastro": 171.26,
         "desde_pronto": null
       },
       "status": {
@@ -8117,9 +8117,9 @@
         "cad_pronto": 39.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 81.83,
+        "aguard_saida": 84.26,
         "desde_cadastro": null,
-        "desde_pronto": 82.83
+        "desde_pronto": 85.26
       },
       "status": {
         "cad_pronto": "na",
@@ -9961,7 +9961,7 @@
       "tempos": {
         "cad_pronto": 51.0,
         "pronto_col": 3.0,
-        "col_conc": 0.0,
+        "col_conc": 4.0,
         "aguard_saida": null,
         "desde_cadastro": null,
         "desde_pronto": null
@@ -9976,20 +9976,20 @@
         "pronto": "02/06/2026 16:54",
         "coleta": "02/06/2026 16:57",
         "retorno": "-",
-        "conclusao": "02/06/2026 16:57"
+        "conclusao": "02/06/2026 17:01"
       },
       "horas": {
         "cadastro": "16:03:00",
         "pronto": "16:54:00",
         "coleta": "16:57:00",
-        "conclusao": "16:57:00",
+        "conclusao": "17:01:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-02T16:03:00",
         "pronto": "2026-06-02T16:54:00",
         "coleta": "2026-06-02T16:57:00",
-        "conclusao": "2026-06-02T16:57:00"
+        "conclusao": "2026-06-02T17:01:00"
       },
       "dt_retorno": null
     },
@@ -10367,9 +10367,9 @@
         "cad_pronto": 32.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 2.83,
+        "aguard_saida": 5.26,
         "desde_cadastro": null,
-        "desde_pronto": 4.83
+        "desde_pronto": 7.26
       },
       "status": {
         "cad_pronto": "na",
@@ -10729,7 +10729,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 4.83
+        "desde_pronto": 7.26
       },
       "status": {
         "cad_pronto": "critico",
@@ -10774,7 +10774,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 16.83
+        "desde_pronto": 19.26
       },
       "status": {
         "cad_pronto": "critico",
@@ -10819,7 +10819,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 5.83
+        "desde_pronto": 8.26
       },
       "status": {
         "cad_pronto": "alerta",
@@ -10854,7 +10854,7 @@
       "estabelec": "Estela Damasceno Confeitaria",
       "cliente": "Retirada (Eduarda )",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
@@ -10864,7 +10864,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 5.83
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "ok",
@@ -10876,20 +10876,20 @@
         "pronto": "02/06/2026 16:54",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "02/06/2026 17:01"
       },
       "horas": {
         "cadastro": "16:52:00",
         "pronto": "16:54:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "17:01:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-02T16:52:00",
         "pronto": "2026-06-02T16:54:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-02T17:01:00"
       },
       "dt_retorno": null
     }
