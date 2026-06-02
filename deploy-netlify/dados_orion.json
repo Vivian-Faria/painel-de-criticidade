@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "02/06/2026 15:47:29",
+  "atualizado_em": "02/06/2026 15:48:49",
   "data_ref": "02/06/2026",
   "total": 211,
   "pedidos": [
@@ -2808,7 +2808,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 226.5,
+        "desde_cadastro": 227.82,
         "desde_pronto": null
       },
       "status": {
@@ -4384,7 +4384,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 140.5
+        "desde_pronto": 141.82
       },
       "status": {
         "cad_pronto": "na",
@@ -6993,7 +6993,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 96.5,
+        "desde_cadastro": 97.82,
         "desde_pronto": null
       },
       "status": {
@@ -8110,13 +8110,13 @@
       "cliente": "Retirada (Pedro Gabriel)",
       "categoria": "cozinha",
       "etapa_atual": "concluido",
-      "status_geral": "ok",
+      "status_geral": "alerta",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 40.0,
         "pronto_col": 0.0,
-        "col_conc": 1.0,
+        "col_conc": 10.0,
         "aguard_saida": null,
         "desde_cadastro": null,
         "desde_pronto": null
@@ -8124,27 +8124,27 @@
       "status": {
         "cad_pronto": "na",
         "pronto_col": "ok",
-        "col_conc": "ok"
+        "col_conc": "alerta"
       },
       "datas": {
         "cadastro": "02/06/2026 14:57",
         "pronto": "02/06/2026 15:37",
         "coleta": "02/06/2026 15:37",
         "retorno": "-",
-        "conclusao": "02/06/2026 15:38"
+        "conclusao": "02/06/2026 15:47"
       },
       "horas": {
         "cadastro": "14:57:00",
         "pronto": "15:37:00",
         "coleta": "15:37:00",
-        "conclusao": "15:38:00",
+        "conclusao": "15:47:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-02T14:57:00",
         "pronto": "2026-06-02T15:37:00",
         "coleta": "2026-06-02T15:37:00",
-        "conclusao": "2026-06-02T15:38:00"
+        "conclusao": "2026-06-02T15:47:00"
       },
       "dt_retorno": null
     },
@@ -8162,9 +8162,9 @@
         "cad_pronto": 39.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 9.5,
+        "aguard_saida": 10.82,
         "desde_cadastro": null,
-        "desde_pronto": 10.5
+        "desde_pronto": 11.82
       },
       "status": {
         "cad_pronto": "na",
@@ -8379,42 +8379,42 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Estheer)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_saida",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "alerta",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 32.0,
         "pronto_col": 1.0,
-        "col_conc": null,
-        "aguard_saida": 9.5,
+        "col_conc": 10.0,
+        "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 10.5
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "ok",
-        "col_conc": "pendente"
+        "col_conc": "alerta"
       },
       "datas": {
         "cadastro": "02/06/2026 15:05",
         "pronto": "02/06/2026 15:37",
         "coleta": "02/06/2026 15:38",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "02/06/2026 15:48"
       },
       "horas": {
         "cadastro": "15:05:00",
         "pronto": "15:37:00",
         "coleta": "15:38:00",
-        "conclusao": null,
+        "conclusao": "15:48:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-02T15:05:00",
         "pronto": "2026-06-02T15:37:00",
         "coleta": "2026-06-02T15:38:00",
-        "conclusao": null
+        "conclusao": "2026-06-02T15:48:00"
       },
       "dt_retorno": null
     },
@@ -8568,7 +8568,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 30.5,
+        "desde_cadastro": 31.82,
         "desde_pronto": null
       },
       "status": {
@@ -8652,14 +8652,14 @@
       "etapa_atual": "aguardando_saida",
       "status_geral": "critico",
       "inativo": false,
-      "alerta_retorno": false,
+      "alerta_retorno": true,
       "tempos": {
         "cad_pronto": 10.0,
         "pronto_col": 5.0,
         "col_conc": null,
-        "aguard_saida": 14.5,
+        "aguard_saida": 15.82,
         "desde_cadastro": null,
-        "desde_pronto": 19.5
+        "desde_pronto": 20.82
       },
       "status": {
         "cad_pronto": "na",
@@ -8748,7 +8748,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 27.5,
+        "desde_cadastro": 28.82,
         "desde_pronto": null
       },
       "status": {
@@ -8793,7 +8793,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 25.5,
+        "desde_cadastro": 26.82,
         "desde_pronto": null
       },
       "status": {
@@ -8838,7 +8838,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 21.5,
+        "desde_cadastro": 22.82,
         "desde_pronto": null
       },
       "status": {
@@ -8884,7 +8884,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 11.5
+        "desde_pronto": 12.82
       },
       "status": {
         "cad_pronto": "critico",
@@ -8964,7 +8964,7 @@
       "estabelec": "Viviane Sales Cake's - Bolos & Doces",
       "cliente": "Retirada (Cecilia Abreu)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -8974,7 +8974,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.5
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -8986,20 +8986,20 @@
         "pronto": "02/06/2026 15:46",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "02/06/2026 15:47"
       },
       "horas": {
         "cadastro": "15:32:00",
         "pronto": "15:46:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "15:47:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-02T15:32:00",
         "pronto": "2026-06-02T15:46:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-02T15:47:00"
       },
       "dt_retorno": null
     },
@@ -9064,7 +9064,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.5
+        "desde_pronto": 2.82
       },
       "status": {
         "cad_pronto": "critico",
@@ -9099,7 +9099,7 @@
       "estabelec": "Viviane Sales Cake's - Bolos & Doces",
       "cliente": "Retirada (Katia)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -9109,7 +9109,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.5
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -9121,20 +9121,20 @@
         "pronto": "02/06/2026 15:46",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "02/06/2026 15:47"
       },
       "horas": {
         "cadastro": "15:37:00",
         "pronto": "15:46:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "15:47:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-02T15:37:00",
         "pronto": "2026-06-02T15:46:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-02T15:47:00"
       },
       "dt_retorno": null
     },
@@ -9154,7 +9154,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.5
+        "desde_pronto": 2.82
       },
       "status": {
         "cad_pronto": "critico",
@@ -9198,7 +9198,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.5,
+        "desde_cadastro": 9.82,
         "desde_pronto": null
       },
       "status": {
@@ -9243,7 +9243,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.5,
+        "desde_cadastro": 8.82,
         "desde_pronto": null
       },
       "status": {
@@ -9288,7 +9288,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 6.5,
+        "desde_cadastro": 7.82,
         "desde_pronto": null
       },
       "status": {
@@ -9333,7 +9333,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 6.5,
+        "desde_cadastro": 7.82,
         "desde_pronto": null
       },
       "status": {
@@ -9378,7 +9378,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.5,
+        "desde_cadastro": 5.82,
         "desde_pronto": null
       },
       "status": {
@@ -9423,7 +9423,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 3.5,
+        "desde_cadastro": 4.82,
         "desde_pronto": null
       },
       "status": {
@@ -9468,7 +9468,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 3.5,
+        "desde_cadastro": 4.82,
         "desde_pronto": null
       },
       "status": {
