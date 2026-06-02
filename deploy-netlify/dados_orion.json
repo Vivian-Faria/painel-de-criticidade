@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "02/06/2026 11:08:37",
+  "atualizado_em": "02/06/2026 11:10:30",
   "data_ref": "02/06/2026",
-  "total": 26,
+  "total": 29,
   "pedidos": [
     {
       "cod": "#294955 (#2449)",
@@ -648,7 +648,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 637.62,
+        "desde_cadastro": 639.51,
         "desde_pronto": null
       },
       "status": {
@@ -738,7 +738,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 80.62,
+        "desde_cadastro": 82.51,
         "desde_pronto": null
       },
       "status": {
@@ -828,7 +828,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 53.62,
+        "desde_cadastro": 55.51,
         "desde_pronto": null
       },
       "status": {
@@ -1009,7 +1009,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 22.62
+        "desde_pronto": 24.51
       },
       "status": {
         "cad_pronto": "alerta",
@@ -1054,7 +1054,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.62
+        "desde_pronto": 4.51
       },
       "status": {
         "cad_pronto": "critico",
@@ -1099,7 +1099,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 4.62
+        "desde_pronto": 6.51
       },
       "status": {
         "cad_pronto": "critico",
@@ -1134,6 +1134,51 @@
       "estabelec": "Petit Brigadier Savassi - Bolos & Doces",
       "cliente": "Retirada (Denise Sousa)",
       "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "alerta",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 3.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 1.51
+      },
+      "status": {
+        "cad_pronto": "alerta",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "02/06/2026 11:06",
+        "pronto": "02/06/2026 11:09",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:06:00",
+        "pronto": "11:09:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-02T11:06:00",
+        "pronto": "2026-06-02T11:09:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#56 (#1586)",
+      "hub": "-",
+      "estabelec": "Confeitaria Doce Doçura",
+      "cliente": "Retirada (Ana Flavia Oliveira)",
+      "categoria": "cozinha",
       "etapa_atual": "em_preparo",
       "status_geral": "ok",
       "inativo": false,
@@ -1143,7 +1188,52 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.62,
+        "desde_cadastro": 2.51,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "02/06/2026 11:08",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:08:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-02T11:08:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#35485 (#4709)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Luana Ferreira)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.51,
         "desde_pronto": null
       },
       "status": {
@@ -1152,21 +1242,66 @@
         "col_conc": "pendente"
       },
       "datas": {
-        "cadastro": "02/06/2026 11:06",
+        "cadastro": "02/06/2026 11:08",
         "pronto": "-",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
-        "cadastro": "11:06:00",
+        "cadastro": "11:08:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
-        "cadastro": "2026-06-02T11:06:00",
+        "cadastro": "2026-06-02T11:08:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#2488 (#4372)",
+      "hub": "DS Sion",
+      "estabelec": "Petit Brigadier Savassi - Bolos & Doces",
+      "cliente": "Retirada (Maira Marques)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.51,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "02/06/2026 11:09",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:09:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-02T11:09:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
