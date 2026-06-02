@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "02/06/2026 10:42:41",
+  "atualizado_em": "02/06/2026 10:44:38",
   "data_ref": "02/06/2026",
-  "total": 22,
+  "total": 23,
   "pedidos": [
     {
       "cod": "#294955 (#2449)",
@@ -648,7 +648,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 611.7,
+        "desde_cadastro": 613.65,
         "desde_pronto": null
       },
       "status": {
@@ -684,42 +684,42 @@
       "estabelec": "Cacau Arte - Doces,& Tortas CONGELADOS - SION",
       "cliente": "Retirada (Wallisson Rodrigues)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
-      "inativo": true,
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 71.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 70.7,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "02/06/2026 09:32",
-        "pronto": "-",
+        "pronto": "02/06/2026 10:43",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "02/06/2026 10:43"
       },
       "horas": {
         "cadastro": "09:32:00",
-        "pronto": null,
+        "pronto": "10:43:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "10:43:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-02T09:32:00",
-        "pronto": null,
+        "pronto": "2026-06-02T10:43:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-02T10:43:00"
       },
       "dt_retorno": null
     },
@@ -738,7 +738,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 54.7,
+        "desde_cadastro": 56.65,
         "desde_pronto": null
       },
       "status": {
@@ -828,7 +828,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 27.7,
+        "desde_cadastro": 29.65,
         "desde_pronto": null
       },
       "status": {
@@ -964,7 +964,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 5.7
+        "desde_pronto": 7.65
       },
       "status": {
         "cad_pronto": "critico",
@@ -988,6 +988,51 @@
       "ts": {
         "cadastro": "2026-06-02T10:32:00",
         "pronto": "2026-06-02T10:37:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#5574 (#4488)",
+      "hub": "DS Sion",
+      "estabelec": "Cacau Arte - Doces,& Tortas CONGELADOS - SION",
+      "cliente": "Retirada (Rosângela Tôrres)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.65,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "02/06/2026 10:43",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "10:43:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-02T10:43:00",
+        "pronto": null,
         "coleta": null,
         "conclusao": null
       },
