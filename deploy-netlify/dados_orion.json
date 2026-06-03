@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "03/06/2026 10:16:54",
+  "atualizado_em": "03/06/2026 10:18:48",
   "data_ref": "03/06/2026",
-  "total": 25,
+  "total": 26,
   "pedidos": [
     {
       "cod": "#295142 (#3341)",
@@ -873,7 +873,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 34.92,
+        "desde_cadastro": 36.81,
         "desde_pronto": null
       },
       "status": {
@@ -954,7 +954,7 @@
       "estabelec": "Cenôra Bolos",
       "cliente": "Retirada (Graziela Gontijo )",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -964,7 +964,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.92
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -976,20 +976,20 @@
         "pronto": "03/06/2026 10:14",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "03/06/2026 10:18"
       },
       "horas": {
         "cadastro": "10:08:00",
         "pronto": "10:14:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "10:18:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-03T10:08:00",
         "pronto": "2026-06-03T10:14:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-03T10:18:00"
       },
       "dt_retorno": null
     },
@@ -1009,7 +1009,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.92
+        "desde_pronto": 4.81
       },
       "status": {
         "cad_pronto": "critico",
@@ -1053,7 +1053,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.92,
+        "desde_cadastro": 6.81,
         "desde_pronto": null
       },
       "status": {
@@ -1098,7 +1098,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.92,
+        "desde_cadastro": 3.81,
         "desde_pronto": null
       },
       "status": {
@@ -1122,6 +1122,51 @@
       },
       "ts": {
         "cadastro": "2026-06-03T10:15:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#35542 (#1701)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Ana Carolina)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 0.81,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "03/06/2026 10:18",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "10:18:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-03T10:18:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
