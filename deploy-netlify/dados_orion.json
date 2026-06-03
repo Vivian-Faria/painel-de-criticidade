@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "03/06/2026 00:20:26",
+  "atualizado_em": "03/06/2026 00:22:15",
   "data_ref": "03/06/2026",
-  "total": 13,
+  "total": 15,
   "pedidos": [
     {
       "cod": "#295142 (#3341)",
@@ -17,9 +17,9 @@
         "cad_pronto": 14.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 4.45,
+        "aguard_saida": 6.26,
         "desde_cadastro": null,
-        "desde_pronto": 6.45
+        "desde_pronto": 8.26
       },
       "status": {
         "cad_pronto": "na",
@@ -99,7 +99,7 @@
       "estabelec": "Chocolate no Cone /bolos /doceria",
       "cliente": "Retirada (Allan Rayaro)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
@@ -109,7 +109,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 13.45
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "ok",
@@ -121,20 +121,20 @@
         "pronto": "03/06/2026 00:07",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "03/06/2026 00:20"
       },
       "horas": {
         "cadastro": "00:05:00",
         "pronto": "00:07:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "00:20:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-03T00:05:00",
         "pronto": "2026-06-03T00:07:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-03T00:20:00"
       },
       "dt_retorno": null
     },
@@ -144,7 +144,7 @@
       "estabelec": "Mr Duck Cookies - Belo Horizonte",
       "cliente": "Retirada (Daniel Cabral )",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "alerta",
       "inativo": false,
       "alerta_retorno": false,
@@ -154,7 +154,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 12.45
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "alerta",
@@ -166,20 +166,20 @@
         "pronto": "03/06/2026 00:08",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "03/06/2026 00:20"
       },
       "horas": {
         "cadastro": "00:05:00",
         "pronto": "00:08:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "00:20:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-03T00:05:00",
         "pronto": "2026-06-03T00:08:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-03T00:20:00"
       },
       "dt_retorno": null
     },
@@ -243,7 +243,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.45,
+        "desde_cadastro": 10.26,
         "desde_pronto": null
       },
       "status": {
@@ -288,7 +288,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.45,
+        "desde_cadastro": 9.26,
         "desde_pronto": null
       },
       "status": {
@@ -333,7 +333,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 6.45,
+        "desde_cadastro": 8.26,
         "desde_pronto": null
       },
       "status": {
@@ -378,7 +378,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.45,
+        "desde_cadastro": 7.26,
         "desde_pronto": null
       },
       "status": {
@@ -424,7 +424,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.45
+        "desde_pronto": 3.26
       },
       "status": {
         "cad_pronto": "ok",
@@ -468,7 +468,52 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.45,
+        "desde_cadastro": 4.26,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "03/06/2026 00:18",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "00:18:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-03T00:18:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#295148 (#3110)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Maria Renilda)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 4.26,
         "desde_pronto": null
       },
       "status": {
@@ -513,7 +558,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.45,
+        "desde_cadastro": 4.26,
         "desde_pronto": null
       },
       "status": {
@@ -558,7 +603,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.45,
+        "desde_cadastro": 3.26,
         "desde_pronto": null
       },
       "status": {
@@ -582,6 +627,51 @@
       },
       "ts": {
         "cadastro": "2026-06-03T00:19:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#3908 (#1867)",
+      "hub": "DS Sion",
+      "estabelec": "Amor e Açaí - Savassi",
+      "cliente": "Retirada (Giovana Cavalcante)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.26,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "03/06/2026 00:20",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "00:20:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-03T00:20:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
