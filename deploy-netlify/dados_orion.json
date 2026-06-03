@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "03/06/2026 00:03:58",
+  "atualizado_em": "03/06/2026 00:05:47",
   "data_ref": "03/06/2026",
-  "total": 2,
+  "total": 3,
   "pedidos": [
     {
       "cod": "#295142 (#3341)",
@@ -18,7 +18,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 3.97,
+        "desde_cadastro": 5.79,
         "desde_pronto": null
       },
       "status": {
@@ -64,7 +64,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 0.97
+        "desde_pronto": 2.79
       },
       "status": {
         "cad_pronto": "ok",
@@ -88,6 +88,51 @@
       "ts": {
         "cadastro": "2026-06-03T00:02:00",
         "pronto": "2026-06-03T00:03:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#1554 (#974001)",
+      "hub": "DS Sion",
+      "estabelec": "Chocolate no Cone /bolos /doceria",
+      "cliente": "Retirada (Allan Rayaro)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 0.79,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "03/06/2026 00:05",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "00:05:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-03T00:05:00",
+        "pronto": null,
         "coleta": null,
         "conclusao": null
       },
