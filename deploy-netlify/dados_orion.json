@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "03/06/2026 11:04:15",
+  "atualizado_em": "03/06/2026 11:06:05",
   "data_ref": "03/06/2026",
   "total": 30,
   "pedidos": [
@@ -864,42 +864,42 @@
       "estabelec": "Estela Damasceno Confeitaria",
       "cliente": "Retirada (Glenda Moura)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
-      "inativo": true,
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 83.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 82.26,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "03/06/2026 09:42",
-        "pronto": "-",
+        "pronto": "03/06/2026 11:05",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "03/06/2026 11:05"
       },
       "horas": {
         "cadastro": "09:42:00",
-        "pronto": null,
+        "pronto": "11:05:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "11:05:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-03T09:42:00",
-        "pronto": null,
+        "pronto": "2026-06-03T11:05:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-03T11:05:00"
       },
       "dt_retorno": null
     },
@@ -1179,7 +1179,7 @@
       "estabelec": "Estela Damasceno Confeitaria",
       "cliente": "Retirada (Renata Arruda Cerqueira)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -1189,7 +1189,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 24.26
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -1201,20 +1201,20 @@
         "pronto": "03/06/2026 10:40",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "03/06/2026 11:05"
       },
       "horas": {
         "cadastro": "10:25:00",
         "pronto": "10:40:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "11:05:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-03T10:25:00",
         "pronto": "2026-06-03T10:40:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-03T11:05:00"
       },
       "dt_retorno": null
     },
