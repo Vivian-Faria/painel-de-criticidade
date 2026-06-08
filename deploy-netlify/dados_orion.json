@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "08/06/2026 16:16:28",
+  "atualizado_em": "08/06/2026 16:18:40",
   "data_ref": "08/06/2026",
-  "total": 190,
+  "total": 191,
   "pedidos": [
     {
       "cod": "#1574 (#974001)",
@@ -3888,7 +3888,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 212.47,
+        "desde_cadastro": 214.68,
         "desde_pronto": null
       },
       "status": {
@@ -4203,7 +4203,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 205.47,
+        "desde_cadastro": 207.68,
         "desde_pronto": null
       },
       "status": {
@@ -7577,9 +7577,9 @@
         "cad_pronto": 35.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 7.47,
+        "aguard_saida": 9.68,
         "desde_cadastro": null,
-        "desde_pronto": 8.47
+        "desde_pronto": 10.68
       },
       "status": {
         "cad_pronto": "na",
@@ -7713,7 +7713,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 36.47,
+        "desde_cadastro": 38.68,
         "desde_pronto": null
       },
       "status": {
@@ -8019,42 +8019,42 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Lana Fidelis)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_saida",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 17.0,
         "pronto_col": 1.0,
-        "col_conc": null,
-        "aguard_saida": 7.47,
+        "col_conc": 7.0,
+        "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 8.47
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "ok",
-        "col_conc": "pendente"
+        "col_conc": "ok"
       },
       "datas": {
         "cadastro": "08/06/2026 15:51",
         "pronto": "08/06/2026 16:08",
         "coleta": "08/06/2026 16:09",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "08/06/2026 16:16"
       },
       "horas": {
         "cadastro": "15:51:00",
         "pronto": "16:08:00",
         "coleta": "16:09:00",
-        "conclusao": null,
+        "conclusao": "16:16:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-08T15:51:00",
         "pronto": "2026-06-08T16:08:00",
         "coleta": "2026-06-08T16:09:00",
-        "conclusao": null
+        "conclusao": "2026-06-08T16:16:00"
       },
       "dt_retorno": null
     },
@@ -8109,42 +8109,42 @@
       "estabelec": "Savassi Brasileira",
       "cliente": "Entrega (Ana Felix)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": null,
         "pronto_col": null,
-        "col_conc": null,
+        "col_conc": 1.0,
         "aguard_saida": null,
-        "desde_cadastro": 21.47,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "pendente",
-        "col_conc": "pendente"
+        "col_conc": "ok"
       },
       "datas": {
         "cadastro": "08/06/2026 15:55",
         "pronto": "-",
-        "coleta": "-",
+        "coleta": "08/06/2026 16:17",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "08/06/2026 16:18"
       },
       "horas": {
         "cadastro": "15:55:00",
         "pronto": null,
-        "coleta": null,
-        "conclusao": null,
+        "coleta": "16:17:00",
+        "conclusao": "16:18:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-08T15:55:00",
         "pronto": null,
-        "coleta": null,
-        "conclusao": null
+        "coleta": "2026-06-08T16:17:00",
+        "conclusao": "2026-06-08T16:18:00"
       },
       "dt_retorno": null
     },
@@ -8299,7 +8299,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.47
+        "desde_pronto": 4.68
       },
       "status": {
         "cad_pronto": "critico",
@@ -8344,7 +8344,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.47
+        "desde_pronto": 4.68
       },
       "status": {
         "cad_pronto": "critico",
@@ -8389,7 +8389,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.47
+        "desde_pronto": 5.68
       },
       "status": {
         "cad_pronto": "critico",
@@ -8424,40 +8424,40 @@
       "estabelec": "Cacau Arte - Doces,& Tortas CONGELADOS - SION",
       "cliente": "Retirada (刘梦玲)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "alerta",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 3.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.47,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 1.68
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "alerta",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "08/06/2026 16:14",
-        "pronto": "-",
+        "pronto": "08/06/2026 16:17",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "16:14:00",
-        "pronto": null,
+        "pronto": "16:17:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-08T16:14:00",
-        "pronto": null,
+        "pronto": "2026-06-08T16:17:00",
         "coleta": null,
         "conclusao": null
       },
@@ -8478,7 +8478,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.47,
+        "desde_cadastro": 4.68,
         "desde_pronto": null
       },
       "status": {
@@ -8523,7 +8523,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.47,
+        "desde_cadastro": 3.68,
         "desde_pronto": null
       },
       "status": {
@@ -8547,6 +8547,51 @@
       },
       "ts": {
         "cadastro": "2026-06-08T16:15:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#15 (#5913)",
+      "hub": "DS Sion",
+      "estabelec": "Açaí Bom Gosto (Savassi)",
+      "cliente": "Retirada (Denis Leal)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.68,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "08/06/2026 16:17",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:17:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-08T16:17:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
