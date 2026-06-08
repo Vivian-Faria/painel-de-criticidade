@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "08/06/2026 18:13:39",
+  "atualizado_em": "08/06/2026 18:15:52",
   "data_ref": "08/06/2026",
-  "total": 231,
+  "total": 232,
   "pedidos": [
     {
       "cod": "#1574 (#974001)",
@@ -4203,7 +4203,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 322.66,
+        "desde_cadastro": 324.88,
         "desde_pronto": null
       },
       "status": {
@@ -7668,7 +7668,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 153.66,
+        "desde_cadastro": 155.88,
         "desde_pronto": null
       },
       "status": {
@@ -8478,7 +8478,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 118.66,
+        "desde_cadastro": 120.88,
         "desde_pronto": null
       },
       "status": {
@@ -10007,8 +10007,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 19.66,
-        "desde_cadastro": 30.66,
+        "aguard_saida": 21.88,
+        "desde_cadastro": 32.88,
         "desde_pronto": null
       },
       "status": {
@@ -10134,41 +10134,41 @@
       "estabelec": "Mayu",
       "cliente": "Retirada (Karina Madureira)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "aguardando_saida",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
-        "pronto_col": null,
+        "cad_pronto": 18.0,
+        "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": null,
-        "desde_cadastro": 17.66,
-        "desde_pronto": null
+        "aguard_saida": 0.88,
+        "desde_cadastro": null,
+        "desde_pronto": 1.88
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
+        "pronto_col": "ok",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "08/06/2026 17:56",
-        "pronto": "-",
-        "coleta": "-",
+        "pronto": "08/06/2026 18:14",
+        "coleta": "08/06/2026 18:15",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "17:56:00",
-        "pronto": null,
-        "coleta": null,
+        "pronto": "18:14:00",
+        "coleta": "18:15:00",
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-08T17:56:00",
-        "pronto": null,
-        "coleta": null,
+        "pronto": "2026-06-08T18:14:00",
+        "coleta": "2026-06-08T18:15:00",
         "conclusao": null
       },
       "dt_retorno": null
@@ -10189,7 +10189,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 8.66
+        "desde_pronto": 10.88
       },
       "status": {
         "cad_pronto": "critico",
@@ -10234,7 +10234,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 4.66
+        "desde_pronto": 6.88
       },
       "status": {
         "cad_pronto": "na",
@@ -10279,7 +10279,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 0.66
+        "desde_pronto": 2.88
       },
       "status": {
         "cad_pronto": "alerta",
@@ -10323,7 +10323,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 3.66,
+        "desde_cadastro": 5.88,
         "desde_pronto": null
       },
       "status": {
@@ -10368,7 +10368,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.66,
+        "desde_cadastro": 3.88,
         "desde_pronto": null
       },
       "status": {
@@ -10392,6 +10392,51 @@
       },
       "ts": {
         "cadastro": "2026-06-08T18:12:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#260 (#0111)",
+      "hub": "DS Sion",
+      "estabelec": "Cenôra Bolos",
+      "cliente": "Retirada (Bruna Kassab)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.88,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "08/06/2026 18:14",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "18:14:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-08T18:14:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
