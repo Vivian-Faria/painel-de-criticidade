@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "08/06/2026 18:25:01",
+  "atualizado_em": "08/06/2026 18:27:14",
   "data_ref": "08/06/2026",
-  "total": 234,
+  "total": 235,
   "pedidos": [
     {
       "cod": "#1574 (#974001)",
@@ -4203,7 +4203,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 334.03,
+        "desde_cadastro": 336.24,
         "desde_pronto": null
       },
       "status": {
@@ -7668,7 +7668,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 165.03,
+        "desde_cadastro": 167.24,
         "desde_pronto": null
       },
       "status": {
@@ -8478,7 +8478,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 130.03,
+        "desde_cadastro": 132.24,
         "desde_pronto": null
       },
       "status": {
@@ -10007,8 +10007,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 31.03,
-        "desde_cadastro": 42.03,
+        "aguard_saida": 33.24,
+        "desde_cadastro": 44.24,
         "desde_pronto": null
       },
       "status": {
@@ -10142,9 +10142,9 @@
         "cad_pronto": 18.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 10.03,
+        "aguard_saida": 12.24,
         "desde_cadastro": null,
-        "desde_pronto": 11.03
+        "desde_pronto": 13.24
       },
       "status": {
         "cad_pronto": "na",
@@ -10234,7 +10234,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 16.03
+        "desde_pronto": 18.24
       },
       "status": {
         "cad_pronto": "na",
@@ -10279,7 +10279,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 8.03
+        "desde_pronto": 10.24
       },
       "status": {
         "cad_pronto": "critico",
@@ -10323,7 +10323,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 15.03,
+        "desde_cadastro": 17.24,
         "desde_pronto": null
       },
       "status": {
@@ -10404,7 +10404,7 @@
       "estabelec": "Cenôra Bolos",
       "cliente": "Retirada (Bruna Kassab)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "alerta",
       "inativo": false,
       "alerta_retorno": false,
@@ -10414,7 +10414,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 8.03
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "alerta",
@@ -10426,20 +10426,20 @@
         "pronto": "08/06/2026 18:17",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "08/06/2026 18:26"
       },
       "horas": {
         "cadastro": "18:14:00",
         "pronto": "18:17:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "18:26:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-08T18:14:00",
         "pronto": "2026-06-08T18:17:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-08T18:26:00"
       },
       "dt_retorno": null
     },
@@ -10458,7 +10458,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.03,
+        "desde_cadastro": 6.24,
         "desde_pronto": null
       },
       "status": {
@@ -10503,7 +10503,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.03,
+        "desde_cadastro": 4.24,
         "desde_pronto": null
       },
       "status": {
@@ -10527,6 +10527,51 @@
       },
       "ts": {
         "cadastro": "2026-06-08T18:23:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#210 (#4243)",
+      "hub": "DS Sion",
+      "estabelec": "Fitfoods Marmitaria Saudável",
+      "cliente": "Retirada (Karen Fraudik De Mendonça)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.24,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "08/06/2026 18:25",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "18:25:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-08T18:25:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
