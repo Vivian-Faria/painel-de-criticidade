@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "08/06/2026 18:06:47",
+  "atualizado_em": "08/06/2026 18:09:04",
   "data_ref": "08/06/2026",
-  "total": 227,
+  "total": 228,
   "pedidos": [
     {
       "cod": "#1574 (#974001)",
@@ -4203,7 +4203,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 315.79,
+        "desde_cadastro": 318.07,
         "desde_pronto": null
       },
       "status": {
@@ -7668,7 +7668,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 146.79,
+        "desde_cadastro": 149.07,
         "desde_pronto": null
       },
       "status": {
@@ -8478,7 +8478,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 111.79,
+        "desde_cadastro": 114.07,
         "desde_pronto": null
       },
       "status": {
@@ -9827,9 +9827,9 @@
         "cad_pronto": 21.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 8.79,
+        "aguard_saida": 11.07,
         "desde_cadastro": null,
-        "desde_pronto": 9.79
+        "desde_pronto": 12.07
       },
       "status": {
         "cad_pronto": "na",
@@ -10002,13 +10002,13 @@
       "etapa_atual": "aguardando_saida",
       "status_geral": "ok",
       "inativo": false,
-      "alerta_retorno": false,
+      "alerta_retorno": true,
       "tempos": {
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 12.79,
-        "desde_cadastro": 23.79,
+        "aguard_saida": 15.07,
+        "desde_cadastro": 26.07,
         "desde_pronto": null
       },
       "status": {
@@ -10099,7 +10099,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.79
+        "desde_pronto": 6.07
       },
       "status": {
         "cad_pronto": "critico",
@@ -10143,7 +10143,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 10.79,
+        "desde_cadastro": 13.07,
         "desde_pronto": null
       },
       "status": {
@@ -10189,7 +10189,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.79
+        "desde_pronto": 4.07
       },
       "status": {
         "cad_pronto": "critico",
@@ -10213,6 +10213,51 @@
       "ts": {
         "cadastro": "2026-06-08T18:00:00",
         "pronto": "2026-06-08T18:05:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#240 (#5142)",
+      "hub": "DS Cidade Nova",
+      "estabelec": "Cacau Arte Bolos e Doces - Cidade Nova",
+      "cliente": "Retirada (Debora Duarte)",
+      "categoria": "outro",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.07,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "08/06/2026 18:07",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "18:07:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-08T18:07:00",
+        "pronto": null,
         "coleta": null,
         "conclusao": null
       },
