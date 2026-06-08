@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "08/06/2026 16:25:23",
+  "atualizado_em": "08/06/2026 16:27:41",
   "data_ref": "08/06/2026",
-  "total": 192,
+  "total": 193,
   "pedidos": [
     {
       "cod": "#1574 (#974001)",
@@ -3888,7 +3888,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 221.4,
+        "desde_cadastro": 223.69,
         "desde_pronto": null
       },
       "status": {
@@ -4203,7 +4203,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 214.4,
+        "desde_cadastro": 216.69,
         "desde_pronto": null
       },
       "status": {
@@ -7713,7 +7713,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 45.4,
+        "desde_cadastro": 47.69,
         "desde_pronto": null
       },
       "status": {
@@ -8299,7 +8299,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 11.4
+        "desde_pronto": 13.69
       },
       "status": {
         "cad_pronto": "critico",
@@ -8344,7 +8344,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 11.4
+        "desde_pronto": 13.69
       },
       "status": {
         "cad_pronto": "critico",
@@ -8434,7 +8434,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 8.4
+        "desde_pronto": 10.69
       },
       "status": {
         "cad_pronto": "alerta",
@@ -8523,7 +8523,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 10.4,
+        "desde_cadastro": 12.69,
         "desde_pronto": null
       },
       "status": {
@@ -8559,40 +8559,40 @@
       "estabelec": "Açaí Bom Gosto (Savassi)",
       "cliente": "Retirada (Denis Leal)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 9.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.4,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 1.69
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "08/06/2026 16:17",
-        "pronto": "-",
+        "pronto": "08/06/2026 16:26",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "16:17:00",
-        "pronto": null,
+        "pronto": "16:26:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-08T16:17:00",
-        "pronto": null,
+        "pronto": "2026-06-08T16:26:00",
         "coleta": null,
         "conclusao": null
       },
@@ -8604,6 +8604,51 @@
       "estabelec": "Açaí Bom Gosto (Savassi)",
       "cliente": "Retirada (Lauriston Abreu)",
       "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 8.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 0.69
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "08/06/2026 16:19",
+        "pronto": "08/06/2026 16:27",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:19:00",
+        "pronto": "16:27:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-08T16:19:00",
+        "pronto": "2026-06-08T16:27:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#1619 (#2626)",
+      "hub": "-",
+      "estabelec": "Savassi Brasileira",
+      "cliente": "Entrega (Eduardo Bresolini J)",
+      "categoria": "cozinha",
       "etapa_atual": "em_preparo",
       "status_geral": "ok",
       "inativo": false,
@@ -8613,30 +8658,30 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 6.4,
+        "desde_cadastro": 2.69,
         "desde_pronto": null
       },
       "status": {
-        "cad_pronto": "pendente",
-        "pronto_col": "na",
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
         "col_conc": "pendente"
       },
       "datas": {
-        "cadastro": "08/06/2026 16:19",
+        "cadastro": "08/06/2026 16:25",
         "pronto": "-",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
-        "cadastro": "16:19:00",
+        "cadastro": "16:25:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
-        "cadastro": "2026-06-08T16:19:00",
+        "cadastro": "2026-06-08T16:25:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
