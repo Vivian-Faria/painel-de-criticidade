@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "08/06/2026 15:22:55",
+  "atualizado_em": "08/06/2026 15:25:07",
   "data_ref": "08/06/2026",
   "total": 167,
   "pedidos": [
@@ -3888,7 +3888,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 158.92,
+        "desde_cadastro": 161.12,
         "desde_pronto": null
       },
       "status": {
@@ -4203,7 +4203,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 151.92,
+        "desde_cadastro": 154.12,
         "desde_pronto": null
       },
       "status": {
@@ -6859,7 +6859,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 29.92
+        "desde_pronto": 32.12
       },
       "status": {
         "cad_pronto": "critico",
@@ -7119,42 +7119,42 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Samya Mara)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_coleta",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 34.0,
-        "pronto_col": null,
-        "col_conc": null,
+        "pronto_col": 2.0,
+        "col_conc": 1.0,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.92
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
-        "col_conc": "pendente"
+        "pronto_col": "critico",
+        "col_conc": "ok"
       },
       "datas": {
         "cadastro": "08/06/2026 14:47",
         "pronto": "08/06/2026 15:21",
-        "coleta": "-",
+        "coleta": "08/06/2026 15:23",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "08/06/2026 15:24"
       },
       "horas": {
         "cadastro": "14:47:00",
         "pronto": "15:21:00",
-        "coleta": null,
-        "conclusao": null,
+        "coleta": "15:23:00",
+        "conclusao": "15:24:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-08T14:47:00",
         "pronto": "2026-06-08T15:21:00",
-        "coleta": null,
-        "conclusao": null
+        "coleta": "2026-06-08T15:23:00",
+        "conclusao": "2026-06-08T15:24:00"
       },
       "dt_retorno": null
     },
@@ -7479,40 +7479,40 @@
       "estabelec": "Kolac Bolos & Doces - Sion",
       "cliente": "Retirada (Marta V)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 10.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 9.92,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 2.12
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "08/06/2026 15:13",
-        "pronto": "-",
+        "pronto": "08/06/2026 15:23",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "15:13:00",
-        "pronto": null,
+        "pronto": "15:23:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-08T15:13:00",
-        "pronto": null,
+        "pronto": "2026-06-08T15:23:00",
         "coleta": null,
         "conclusao": null
       },
