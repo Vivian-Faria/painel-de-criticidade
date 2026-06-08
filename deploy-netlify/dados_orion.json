@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "08/06/2026 14:27:53",
+  "atualizado_em": "08/06/2026 14:30:04",
   "data_ref": "08/06/2026",
-  "total": 147,
+  "total": 149,
   "pedidos": [
     {
       "cod": "#1574 (#974001)",
@@ -3933,7 +3933,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 103.89,
+        "desde_cadastro": 106.07,
         "desde_pronto": null
       },
       "status": {
@@ -4248,7 +4248,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 96.89,
+        "desde_cadastro": 99.07,
         "desde_pronto": null
       },
       "status": {
@@ -6174,7 +6174,7 @@
       "estabelec": "Cremella Confeitaria - Cookies, Doces & Bolos",
       "cliente": "Retirada (Livia Maris)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -6184,7 +6184,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 14.89
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -6196,20 +6196,20 @@
         "pronto": "08/06/2026 14:13",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "08/06/2026 14:29"
       },
       "horas": {
         "cadastro": "14:04:00",
         "pronto": "14:13:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "14:29:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-08T14:04:00",
         "pronto": "2026-06-08T14:13:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-08T14:29:00"
       },
       "dt_retorno": null
     },
@@ -6454,7 +6454,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.89
+        "desde_pronto": 5.07
       },
       "status": {
         "cad_pronto": "critico",
@@ -6499,7 +6499,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.89
+        "desde_pronto": 4.07
       },
       "status": {
         "cad_pronto": "critico",
@@ -6543,7 +6543,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.89,
+        "desde_cadastro": 8.07,
         "desde_pronto": null
       },
       "status": {
@@ -6588,7 +6588,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.89,
+        "desde_cadastro": 7.07,
         "desde_pronto": null
       },
       "status": {
@@ -6612,6 +6612,96 @@
       },
       "ts": {
         "cadastro": "2026-06-08T14:23:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#35718 (#1661)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Caio Lúcio França Vieira)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 3.07,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "08/06/2026 14:27",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "14:27:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-08T14:27:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#12220 (#9295)",
+      "hub": "DS Sion",
+      "estabelec": "Sorveteria Doce Cascão - Savassi",
+      "cliente": "Retirada (José Leite Freitas)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.07,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "08/06/2026 14:29",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "14:29:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-08T14:29:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
