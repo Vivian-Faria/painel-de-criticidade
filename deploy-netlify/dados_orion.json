@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "08/06/2026 14:38:41",
+  "atualizado_em": "08/06/2026 14:40:50",
   "data_ref": "08/06/2026",
-  "total": 148,
+  "total": 150,
   "pedidos": [
     {
       "cod": "#1574 (#974001)",
@@ -3888,7 +3888,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 114.69,
+        "desde_cadastro": 116.84,
         "desde_pronto": null
       },
       "status": {
@@ -4203,7 +4203,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 107.69,
+        "desde_cadastro": 109.84,
         "desde_pronto": null
       },
       "status": {
@@ -5140,13 +5140,13 @@
       "cliente": "Retirada (Lord Kagawa)",
       "categoria": "cozinha",
       "etapa_atual": "concluido",
-      "status_geral": "ok",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 48.0,
         "pronto_col": 1.0,
-        "col_conc": 7.0,
+        "col_conc": 25.0,
         "aguard_saida": null,
         "desde_cadastro": null,
         "desde_pronto": null
@@ -5154,27 +5154,27 @@
       "status": {
         "cad_pronto": "na",
         "pronto_col": "ok",
-        "col_conc": "ok"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "08/06/2026 13:26",
         "pronto": "08/06/2026 14:14",
         "coleta": "08/06/2026 14:15",
         "retorno": "-",
-        "conclusao": "08/06/2026 14:22"
+        "conclusao": "08/06/2026 14:40"
       },
       "horas": {
         "cadastro": "13:26:00",
         "pronto": "14:14:00",
         "coleta": "14:15:00",
-        "conclusao": "14:22:00",
+        "conclusao": "14:40:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-08T13:26:00",
         "pronto": "2026-06-08T14:14:00",
         "coleta": "2026-06-08T14:15:00",
-        "conclusao": "2026-06-08T14:22:00"
+        "conclusao": "2026-06-08T14:40:00"
       },
       "dt_retorno": null
     },
@@ -6454,7 +6454,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 7.69
+        "desde_pronto": 9.84
       },
       "status": {
         "cad_pronto": "critico",
@@ -6589,7 +6589,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 0.69
+        "desde_pronto": 2.84
       },
       "status": {
         "cad_pronto": "critico",
@@ -6633,7 +6633,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 0.69,
+        "desde_cadastro": 2.84,
         "desde_pronto": null
       },
       "status": {
@@ -6657,6 +6657,96 @@
       },
       "ts": {
         "cadastro": "2026-06-08T14:38:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#1611 (#3493)",
+      "hub": "-",
+      "estabelec": "Savassi Brasileira",
+      "cliente": "Entrega (Brayan Oliveira)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.84,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "08/06/2026 14:38",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "14:38:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-08T14:38:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#5613 (#1751)",
+      "hub": "DS Sion",
+      "estabelec": "Cacau Arte - Doces,& Tortas CONGELADOS - SION",
+      "cliente": "Retirada (Joana Melo)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.84,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "08/06/2026 14:39",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "14:39:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-08T14:39:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
