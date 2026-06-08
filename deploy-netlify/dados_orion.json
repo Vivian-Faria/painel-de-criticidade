@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "08/06/2026 15:38:04",
+  "atualizado_em": "08/06/2026 15:40:23",
   "data_ref": "08/06/2026",
-  "total": 169,
+  "total": 171,
   "pedidos": [
     {
       "cod": "#1574 (#974001)",
@@ -3888,7 +3888,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 174.08,
+        "desde_cadastro": 176.39,
         "desde_pronto": null
       },
       "status": {
@@ -4203,7 +4203,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 167.08,
+        "desde_cadastro": 169.39,
         "desde_pronto": null
       },
       "status": {
@@ -7489,7 +7489,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.08
+        "desde_pronto": 3.39
       },
       "status": {
         "cad_pronto": "critico",
@@ -7524,40 +7524,40 @@
       "estabelec": "Bolos e Doces - Arelice Sion",
       "cliente": "Retirada (Laryssa Reis)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 8.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.08,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 1.39
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "08/06/2026 15:31",
-        "pronto": "-",
+        "pronto": "08/06/2026 15:39",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "15:31:00",
-        "pronto": null,
+        "pronto": "15:39:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-08T15:31:00",
-        "pronto": null,
+        "pronto": "2026-06-08T15:39:00",
         "coleta": null,
         "conclusao": null
       },
@@ -7578,7 +7578,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.08,
+        "desde_cadastro": 7.39,
         "desde_pronto": null
       },
       "status": {
@@ -7602,6 +7602,96 @@
       },
       "ts": {
         "cadastro": "2026-06-08T15:33:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#30262 (#1901)",
+      "hub": "DS Sion",
+      "estabelec": "Chocake Sion - Bolos & Doces",
+      "cliente": "Retirada (Bárbara Roberti)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.39,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "08/06/2026 15:38",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "15:38:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-08T15:38:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#2349 (#6993)",
+      "hub": "DS Sion",
+      "estabelec": "Trilhas da Amazônia Savassi - Açai, Sorvete & Picolé",
+      "cliente": "Retirada (Isabela Lorraine)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.39,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "08/06/2026 15:39",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "15:39:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-08T15:39:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
