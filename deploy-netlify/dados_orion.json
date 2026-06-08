@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "08/06/2026 19:02:39",
+  "atualizado_em": "08/06/2026 19:05:04",
   "data_ref": "08/06/2026",
-  "total": 254,
+  "total": 257,
   "pedidos": [
     {
       "cod": "#1574 (#974001)",
@@ -4203,7 +4203,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 371.66,
+        "desde_cadastro": 374.08,
         "desde_pronto": null
       },
       "status": {
@@ -7668,7 +7668,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 202.66,
+        "desde_cadastro": 205.08,
         "desde_pronto": null
       },
       "status": {
@@ -8478,7 +8478,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 167.66,
+        "desde_cadastro": 170.08,
         "desde_pronto": null
       },
       "status": {
@@ -10908,7 +10908,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 18.66,
+        "desde_cadastro": 21.08,
         "desde_pronto": null
       },
       "status": {
@@ -10953,7 +10953,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 16.66,
+        "desde_cadastro": 19.08,
         "desde_pronto": null
       },
       "status": {
@@ -11034,17 +11034,17 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Melissa Bravo)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "aguardando_coleta",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 13.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 11.66,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 1.08
       },
       "status": {
         "cad_pronto": "na",
@@ -11053,21 +11053,21 @@
       },
       "datas": {
         "cadastro": "08/06/2026 18:51",
-        "pronto": "-",
+        "pronto": "08/06/2026 19:04",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "18:51:00",
-        "pronto": null,
+        "pronto": "19:04:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-08T18:51:00",
-        "pronto": null,
+        "pronto": "2026-06-08T19:04:00",
         "coleta": null,
         "conclusao": null
       },
@@ -11079,7 +11079,7 @@
       "estabelec": "Savassi Brasileira",
       "cliente": "Entrega (Frederico Diniz)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "aguardando_saida",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
@@ -11087,8 +11087,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": null,
-        "desde_cadastro": 11.66,
+        "aguard_saida": 3.08,
+        "desde_cadastro": 14.08,
         "desde_pronto": null
       },
       "status": {
@@ -11099,21 +11099,21 @@
       "datas": {
         "cadastro": "08/06/2026 18:51",
         "pronto": "-",
-        "coleta": "-",
+        "coleta": "08/06/2026 19:02",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "18:51:00",
         "pronto": null,
-        "coleta": null,
+        "coleta": "19:02:00",
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-08T18:51:00",
         "pronto": null,
-        "coleta": null,
+        "coleta": "2026-06-08T19:02:00",
         "conclusao": null
       },
       "dt_retorno": null
@@ -11124,7 +11124,7 @@
       "estabelec": "Estela Damasceno Confeitaria",
       "cliente": "Retirada (Paula Vieira)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -11134,7 +11134,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 4.66
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -11146,20 +11146,20 @@
         "pronto": "08/06/2026 18:58",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "08/06/2026 19:03"
       },
       "horas": {
         "cadastro": "18:53:00",
         "pronto": "18:58:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "19:03:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-08T18:53:00",
         "pronto": "2026-06-08T18:58:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-08T19:03:00"
       },
       "dt_retorno": null
     },
@@ -11179,7 +11179,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 6.66
+        "desde_pronto": 9.08
       },
       "status": {
         "cad_pronto": "ok",
@@ -11223,7 +11223,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.66,
+        "desde_cadastro": 8.08,
         "desde_pronto": null
       },
       "status": {
@@ -11259,7 +11259,7 @@
       "estabelec": "3f - Fast Fitness Food - Savassi",
       "cliente": "Retirada (Giovanna Laporte)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "alerta",
       "inativo": false,
       "alerta_retorno": false,
@@ -11269,7 +11269,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.66
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "alerta",
@@ -11281,20 +11281,20 @@
         "pronto": "08/06/2026 19:00",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "08/06/2026 19:03"
       },
       "horas": {
         "cadastro": "18:57:00",
         "pronto": "19:00:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "19:03:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-08T18:57:00",
         "pronto": "2026-06-08T19:00:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-08T19:03:00"
       },
       "dt_retorno": null
     },
@@ -11313,7 +11313,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.66,
+        "desde_cadastro": 7.08,
         "desde_pronto": null
       },
       "status": {
@@ -11349,40 +11349,85 @@
       "estabelec": "Viviane Sales Cake's - Bolos & Doces",
       "cliente": "Retirada (Carolyne Garbero)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 4.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.66,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 1.08
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "08/06/2026 19:00",
-        "pronto": "-",
+        "pronto": "08/06/2026 19:04",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "19:00:00",
-        "pronto": null,
+        "pronto": "19:04:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-08T19:00:00",
-        "pronto": null,
+        "pronto": "2026-06-08T19:04:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#9608 (#6059)",
+      "hub": "DS Sion",
+      "estabelec": "Bolos e Doces - Arelice Sion",
+      "cliente": "Retirada (Aline Carvalho)",
+      "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 4.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 1.08
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "08/06/2026 19:00",
+        "pronto": "08/06/2026 19:04",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "19:00:00",
+        "pronto": "19:04:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-08T19:00:00",
+        "pronto": "2026-06-08T19:04:00",
         "coleta": null,
         "conclusao": null
       },
@@ -11403,7 +11448,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.66,
+        "desde_cadastro": 4.08,
         "desde_pronto": null
       },
       "status": {
@@ -11427,6 +11472,96 @@
       },
       "ts": {
         "cadastro": "2026-06-08T19:01:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#35730 (#1370)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Felipe Assis)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.08,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "08/06/2026 19:03",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "19:03:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-08T19:03:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#296237 (#4505)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Igor Pugedo)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.08,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "08/06/2026 19:04",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "19:04:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-08T19:04:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
