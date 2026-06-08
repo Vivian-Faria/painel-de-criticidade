@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "08/06/2026 14:40:50",
+  "atualizado_em": "08/06/2026 14:42:56",
   "data_ref": "08/06/2026",
-  "total": 150,
+  "total": 151,
   "pedidos": [
     {
       "cod": "#1574 (#974001)",
@@ -3888,7 +3888,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 116.84,
+        "desde_cadastro": 118.94,
         "desde_pronto": null
       },
       "status": {
@@ -4203,7 +4203,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 109.84,
+        "desde_cadastro": 111.94,
         "desde_pronto": null
       },
       "status": {
@@ -6454,7 +6454,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 9.84
+        "desde_pronto": 11.94
       },
       "status": {
         "cad_pronto": "critico",
@@ -6589,7 +6589,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.84
+        "desde_pronto": 4.94
       },
       "status": {
         "cad_pronto": "critico",
@@ -6633,7 +6633,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.84,
+        "desde_cadastro": 4.94,
         "desde_pronto": null
       },
       "status": {
@@ -6669,42 +6669,42 @@
       "estabelec": "Savassi Brasileira",
       "cliente": "Entrega (Brayan Oliveira)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": null,
         "pronto_col": null,
-        "col_conc": null,
+        "col_conc": 0.0,
         "aguard_saida": null,
-        "desde_cadastro": 2.84,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "pendente",
-        "col_conc": "pendente"
+        "col_conc": "ok"
       },
       "datas": {
         "cadastro": "08/06/2026 14:38",
         "pronto": "-",
-        "coleta": "-",
+        "coleta": "08/06/2026 14:42",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "08/06/2026 14:42"
       },
       "horas": {
         "cadastro": "14:38:00",
         "pronto": null,
-        "coleta": null,
-        "conclusao": null,
+        "coleta": "14:42:00",
+        "conclusao": "14:42:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-08T14:38:00",
         "pronto": null,
-        "coleta": null,
-        "conclusao": null
+        "coleta": "2026-06-08T14:42:00",
+        "conclusao": "2026-06-08T14:42:00"
       },
       "dt_retorno": null
     },
@@ -6723,7 +6723,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.84,
+        "desde_cadastro": 3.94,
         "desde_pronto": null
       },
       "status": {
@@ -6747,6 +6747,51 @@
       },
       "ts": {
         "cadastro": "2026-06-08T14:39:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#61598 (#7463)",
+      "hub": "-",
+      "estabelec": "Mayu",
+      "cliente": "Retirada (Otávio Oliveira Biavati Pereira)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.94,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "08/06/2026 14:40",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "14:40:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-08T14:40:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
