@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "08/06/2026 18:57:58",
+  "atualizado_em": "08/06/2026 19:00:19",
   "data_ref": "08/06/2026",
-  "total": 250,
+  "total": 252,
   "pedidos": [
     {
       "cod": "#1574 (#974001)",
@@ -4203,7 +4203,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 366.98,
+        "desde_cadastro": 369.32,
         "desde_pronto": null
       },
       "status": {
@@ -7668,7 +7668,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 197.98,
+        "desde_cadastro": 200.32,
         "desde_pronto": null
       },
       "status": {
@@ -8478,7 +8478,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 162.98,
+        "desde_cadastro": 165.32,
         "desde_pronto": null
       },
       "status": {
@@ -9962,8 +9962,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 63.98,
-        "desde_cadastro": 74.98,
+        "aguard_saida": 66.32,
+        "desde_cadastro": 77.32,
         "desde_pronto": null
       },
       "status": {
@@ -10682,8 +10682,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 6.98,
-        "desde_cadastro": 28.98,
+        "aguard_saida": 9.32,
+        "desde_cadastro": 31.32,
         "desde_pronto": null
       },
       "status": {
@@ -10908,7 +10908,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 13.98,
+        "desde_cadastro": 16.32,
         "desde_pronto": null
       },
       "status": {
@@ -10953,7 +10953,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 11.98,
+        "desde_cadastro": 14.32,
         "desde_pronto": null
       },
       "status": {
@@ -10997,8 +10997,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 7.98,
-        "desde_cadastro": 10.98,
+        "aguard_saida": 10.32,
+        "desde_cadastro": 13.32,
         "desde_pronto": null
       },
       "status": {
@@ -11043,7 +11043,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 6.98,
+        "desde_cadastro": 9.32,
         "desde_pronto": null
       },
       "status": {
@@ -11088,7 +11088,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 6.98,
+        "desde_cadastro": 9.32,
         "desde_pronto": null
       },
       "status": {
@@ -11124,40 +11124,40 @@
       "estabelec": "Estela Damasceno Confeitaria",
       "cliente": "Retirada (Paula Vieira)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 5.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.98,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 2.32
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "08/06/2026 18:53",
-        "pronto": "-",
+        "pronto": "08/06/2026 18:58",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "18:53:00",
-        "pronto": null,
+        "pronto": "18:58:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-08T18:53:00",
-        "pronto": null,
+        "pronto": "2026-06-08T18:58:00",
         "coleta": null,
         "conclusao": null
       },
@@ -11179,7 +11179,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.98
+        "desde_pronto": 4.32
       },
       "status": {
         "cad_pronto": "ok",
@@ -11223,7 +11223,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 0.98,
+        "desde_cadastro": 3.32,
         "desde_pronto": null
       },
       "status": {
@@ -11247,6 +11247,96 @@
       },
       "ts": {
         "cadastro": "2026-06-08T18:57:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#35729 (#3683)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Giovanna Laporte)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 3.32,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "08/06/2026 18:57",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "18:57:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-08T18:57:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#61603 (#4911)",
+      "hub": "-",
+      "estabelec": "Mayu",
+      "cliente": "Retirada (Cláudio Alves E Silva)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.32,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "08/06/2026 18:58",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "18:58:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-08T18:58:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
