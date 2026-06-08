@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "08/06/2026 12:29:41",
+  "atualizado_em": "08/06/2026 12:31:50",
   "data_ref": "08/06/2026",
-  "total": 84,
+  "total": 83,
   "pedidos": [
     {
       "cod": "#1574 (#974001)",
@@ -738,7 +738,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 103.7,
+        "desde_cadastro": 105.84,
         "desde_pronto": null
       },
       "status": {
@@ -1819,7 +1819,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 50.7
+        "desde_pronto": 52.84
       },
       "status": {
         "cad_pronto": "critico",
@@ -1944,42 +1944,42 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Fernanda Maia)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_saida",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
-      "alerta_retorno": true,
+      "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 16.0,
         "pronto_col": 1.0,
-        "col_conc": null,
-        "aguard_saida": 33.7,
+        "col_conc": 34.0,
+        "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 34.7
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "ok",
-        "col_conc": "pendente"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "08/06/2026 11:39",
         "pronto": "08/06/2026 11:55",
         "coleta": "08/06/2026 11:56",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "08/06/2026 12:30"
       },
       "horas": {
         "cadastro": "11:39:00",
         "pronto": "11:55:00",
         "coleta": "11:56:00",
-        "conclusao": null,
+        "conclusao": "12:30:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-08T11:39:00",
         "pronto": "2026-06-08T11:55:00",
         "coleta": "2026-06-08T11:56:00",
-        "conclusao": null
+        "conclusao": "2026-06-08T12:30:00"
       },
       "dt_retorno": null
     },
@@ -1999,7 +1999,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 23.7
+        "desde_pronto": 25.84
       },
       "status": {
         "cad_pronto": "na",
@@ -2044,7 +2044,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 40.7
+        "desde_pronto": 42.84
       },
       "status": {
         "cad_pronto": "critico",
@@ -2179,7 +2179,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 37.7
+        "desde_pronto": 39.84
       },
       "status": {
         "cad_pronto": "critico",
@@ -2250,51 +2250,6 @@
         "pronto": "2026-06-08T11:54:00",
         "coleta": null,
         "conclusao": "2026-06-08T12:09:00"
-      },
-      "dt_retorno": null
-    },
-    {
-      "cod": "#246 (#570001)",
-      "hub": "DS Sion",
-      "estabelec": "K&l Doceria Sion",
-      "cliente": "Retirada (Maria)",
-      "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
-      "status_geral": "critico",
-      "inativo": false,
-      "alerta_retorno": false,
-      "tempos": {
-        "cad_pronto": 9.0,
-        "pronto_col": null,
-        "col_conc": null,
-        "aguard_saida": null,
-        "desde_cadastro": null,
-        "desde_pronto": 35.7
-      },
-      "status": {
-        "cad_pronto": "critico",
-        "pronto_col": "na",
-        "col_conc": "pendente"
-      },
-      "datas": {
-        "cadastro": "08/06/2026 11:45",
-        "pronto": "08/06/2026 11:54",
-        "coleta": "-",
-        "retorno": "-",
-        "conclusao": "-"
-      },
-      "horas": {
-        "cadastro": "11:45:00",
-        "pronto": "11:54:00",
-        "coleta": null,
-        "conclusao": null,
-        "retorno": null
-      },
-      "ts": {
-        "cadastro": "2026-06-08T11:45:00",
-        "pronto": "2026-06-08T11:54:00",
-        "coleta": null,
-        "conclusao": null
       },
       "dt_retorno": null
     },
@@ -2584,7 +2539,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 24.7
+        "desde_pronto": 26.84
       },
       "status": {
         "cad_pronto": "critico",
@@ -2627,9 +2582,9 @@
         "cad_pronto": 14.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 16.7,
+        "aguard_saida": 18.84,
         "desde_cadastro": null,
-        "desde_pronto": 18.7
+        "desde_pronto": 20.84
       },
       "status": {
         "cad_pronto": "na",
@@ -2704,51 +2659,6 @@
       "dt_retorno": null
     },
     {
-      "cod": "#5103 (#9304)",
-      "hub": "DS Cidade Nova",
-      "estabelec": "Eu Que Fiz (cidade Nova) - Doces & Bolos",
-      "cliente": "Retirada (Pedro Franco)",
-      "categoria": "outro",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
-      "inativo": false,
-      "alerta_retorno": false,
-      "tempos": {
-        "cad_pronto": null,
-        "pronto_col": null,
-        "col_conc": null,
-        "aguard_saida": null,
-        "desde_cadastro": 28.7,
-        "desde_pronto": null
-      },
-      "status": {
-        "cad_pronto": "na",
-        "pronto_col": "na",
-        "col_conc": "pendente"
-      },
-      "datas": {
-        "cadastro": "08/06/2026 12:01",
-        "pronto": "-",
-        "coleta": "-",
-        "retorno": "-",
-        "conclusao": "-"
-      },
-      "horas": {
-        "cadastro": "12:01:00",
-        "pronto": null,
-        "coleta": null,
-        "conclusao": null,
-        "retorno": null
-      },
-      "ts": {
-        "cadastro": "2026-06-08T12:01:00",
-        "pronto": null,
-        "coleta": null,
-        "conclusao": null
-      },
-      "dt_retorno": null
-    },
-    {
       "cod": "#35701 (#3497)",
       "hub": "DS Sion",
       "estabelec": "3f - Fast Fitness Food - Savassi",
@@ -2790,51 +2700,6 @@
         "pronto": "2026-06-08T12:10:00",
         "coleta": null,
         "conclusao": "2026-06-08T12:12:00"
-      },
-      "dt_retorno": null
-    },
-    {
-      "cod": "#5104 (#3092)",
-      "hub": "DS Cidade Nova",
-      "estabelec": "Eu Que Fiz (cidade Nova) - Doces & Bolos",
-      "cliente": "Retirada (Marina Ferreira)",
-      "categoria": "outro",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
-      "inativo": false,
-      "alerta_retorno": false,
-      "tempos": {
-        "cad_pronto": null,
-        "pronto_col": null,
-        "col_conc": null,
-        "aguard_saida": null,
-        "desde_cadastro": 26.7,
-        "desde_pronto": null
-      },
-      "status": {
-        "cad_pronto": "na",
-        "pronto_col": "na",
-        "col_conc": "pendente"
-      },
-      "datas": {
-        "cadastro": "08/06/2026 12:03",
-        "pronto": "-",
-        "coleta": "-",
-        "retorno": "-",
-        "conclusao": "-"
-      },
-      "horas": {
-        "cadastro": "12:03:00",
-        "pronto": null,
-        "coleta": null,
-        "conclusao": null,
-        "retorno": null
-      },
-      "ts": {
-        "cadastro": "2026-06-08T12:03:00",
-        "pronto": null,
-        "coleta": null,
-        "conclusao": null
       },
       "dt_retorno": null
     },
@@ -2898,7 +2763,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 24.7,
+        "desde_cadastro": 26.84,
         "desde_pronto": null
       },
       "status": {
@@ -2944,7 +2809,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 14.7
+        "desde_pronto": 16.84
       },
       "status": {
         "cad_pronto": "critico",
@@ -3033,7 +2898,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 19.7,
+        "desde_cadastro": 21.84,
         "desde_pronto": null
       },
       "status": {
@@ -3079,7 +2944,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 8.7
+        "desde_pronto": 10.84
       },
       "status": {
         "cad_pronto": "critico",
@@ -3117,13 +2982,13 @@
       "etapa_atual": "aguardando_saida",
       "status_geral": "ok",
       "inativo": false,
-      "alerta_retorno": false,
+      "alerta_retorno": true,
       "tempos": {
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 13.7,
-        "desde_cadastro": 15.7,
+        "aguard_saida": 15.84,
+        "desde_cadastro": 17.84,
         "desde_pronto": null
       },
       "status": {
@@ -3159,7 +3024,7 @@
       "estabelec": "Savassi Brasileira",
       "cliente": "Entrega (Nina.emmanuella Castro)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "aguardando_saida",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
@@ -3167,8 +3032,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": null,
-        "desde_cadastro": 13.7,
+        "aguard_saida": 1.84,
+        "desde_cadastro": 15.84,
         "desde_pronto": null
       },
       "status": {
@@ -3179,21 +3044,21 @@
       "datas": {
         "cadastro": "08/06/2026 12:16",
         "pronto": "-",
-        "coleta": "-",
+        "coleta": "08/06/2026 12:30",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "12:16:00",
         "pronto": null,
-        "coleta": null,
+        "coleta": "12:30:00",
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-08T12:16:00",
         "pronto": null,
-        "coleta": null,
+        "coleta": "2026-06-08T12:30:00",
         "conclusao": null
       },
       "dt_retorno": null
@@ -3214,7 +3079,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 4.7
+        "desde_pronto": 6.84
       },
       "status": {
         "cad_pronto": "critico",
@@ -3259,7 +3124,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.7
+        "desde_pronto": 5.84
       },
       "status": {
         "cad_pronto": "critico",
@@ -3304,7 +3169,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.7
+        "desde_pronto": 4.84
       },
       "status": {
         "cad_pronto": "critico",
@@ -3393,7 +3258,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 9.7,
+        "desde_cadastro": 11.84,
         "desde_pronto": null
       },
       "status": {
@@ -3438,7 +3303,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.7,
+        "desde_cadastro": 10.84,
         "desde_pronto": null
       },
       "status": {
@@ -3474,40 +3339,40 @@
       "estabelec": "3f - Fast Fitness Food - Savassi",
       "cliente": "Retirada (Matheus Felix)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 9.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.7,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 1.84
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "08/06/2026 12:21",
-        "pronto": "-",
+        "pronto": "08/06/2026 12:30",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "12:21:00",
-        "pronto": null,
+        "pronto": "12:30:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-08T12:21:00",
-        "pronto": null,
+        "pronto": "2026-06-08T12:30:00",
         "coleta": null,
         "conclusao": null
       },
@@ -3528,7 +3393,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.7,
+        "desde_cadastro": 10.84,
         "desde_pronto": null
       },
       "status": {
@@ -3573,7 +3438,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.7,
+        "desde_cadastro": 9.84,
         "desde_pronto": null
       },
       "status": {
@@ -3609,40 +3474,40 @@
       "estabelec": "Sorveteria Doce Cascão - Savassi",
       "cliente": "Retirada (Mariana Valentim)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 8.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 6.7,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 0.84
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "08/06/2026 12:23",
-        "pronto": "-",
+        "pronto": "08/06/2026 12:31",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "12:23:00",
-        "pronto": null,
+        "pronto": "12:31:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-08T12:23:00",
-        "pronto": null,
+        "pronto": "2026-06-08T12:31:00",
         "coleta": null,
         "conclusao": null
       },
@@ -3663,7 +3528,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.7,
+        "desde_cadastro": 7.84,
         "desde_pronto": null
       },
       "status": {
@@ -3708,7 +3573,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.7,
+        "desde_cadastro": 6.84,
         "desde_pronto": null
       },
       "status": {
@@ -3753,7 +3618,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.7,
+        "desde_cadastro": 6.84,
         "desde_pronto": null
       },
       "status": {
@@ -3777,6 +3642,96 @@
       },
       "ts": {
         "cadastro": "2026-06-08T12:25:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#20044 (#7740)",
+      "hub": "DS Sion",
+      "estabelec": "Viviane Sales Cake's - Bolos & Doces",
+      "cliente": "Retirada (Mylenia )",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 3.84,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "08/06/2026 12:28",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "12:28:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-08T12:28:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#30259 (#6983)",
+      "hub": "DS Sion",
+      "estabelec": "Chocake Sion - Bolos & Doces",
+      "cliente": "Retirada (Ana Beatriz Neves)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.84,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "08/06/2026 12:30",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "12:30:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-08T12:30:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
