@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "08/06/2026 16:55:43",
+  "atualizado_em": "08/06/2026 16:58:00",
   "data_ref": "08/06/2026",
-  "total": 208,
+  "total": 209,
   "pedidos": [
     {
       "cod": "#1574 (#974001)",
@@ -3889,7 +3889,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 16.73
+        "desde_pronto": 19.01
       },
       "status": {
         "cad_pronto": "critico",
@@ -4203,7 +4203,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 244.73,
+        "desde_cadastro": 247.01,
         "desde_pronto": null
       },
       "status": {
@@ -7713,7 +7713,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 75.73,
+        "desde_cadastro": 78.01,
         "desde_pronto": null
       },
       "status": {
@@ -8523,7 +8523,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 40.73,
+        "desde_cadastro": 43.01,
         "desde_pronto": null
       },
       "status": {
@@ -8749,7 +8749,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 18.73
+        "desde_pronto": 21.01
       },
       "status": {
         "cad_pronto": "critico",
@@ -8883,7 +8883,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 22.73,
+        "desde_cadastro": 25.01,
         "desde_pronto": null
       },
       "status": {
@@ -9152,9 +9152,9 @@
         "cad_pronto": 7.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 0.73,
+        "aguard_saida": 3.01,
         "desde_cadastro": null,
-        "desde_pronto": 2.73
+        "desde_pronto": 5.01
       },
       "status": {
         "cad_pronto": "na",
@@ -9189,40 +9189,40 @@
       "estabelec": "Doces Oliveira Bolos & Doces - Savassi",
       "cliente": "Retirada (Fabiana Silveira)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 8.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.73,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 2.01
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "08/06/2026 16:48",
-        "pronto": "-",
+        "pronto": "08/06/2026 16:56",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "16:48:00",
-        "pronto": null,
+        "pronto": "16:56:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-08T16:48:00",
-        "pronto": null,
+        "pronto": "2026-06-08T16:56:00",
         "coleta": null,
         "conclusao": null
       },
@@ -9243,7 +9243,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 6.73,
+        "desde_cadastro": 9.01,
         "desde_pronto": null
       },
       "status": {
@@ -9288,7 +9288,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.73,
+        "desde_cadastro": 8.01,
         "desde_pronto": null
       },
       "status": {
@@ -9333,7 +9333,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.73,
+        "desde_cadastro": 5.01,
         "desde_pronto": null
       },
       "status": {
@@ -9357,6 +9357,51 @@
       },
       "ts": {
         "cadastro": "2026-06-08T16:53:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#20055 (#7051)",
+      "hub": "DS Sion",
+      "estabelec": "Viviane Sales Cake's - Bolos & Doces",
+      "cliente": "Retirada (Graciela Cerqueira )",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.01,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "08/06/2026 16:57",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:57:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-08T16:57:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
