@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "08/06/2026 17:11:33",
+  "atualizado_em": "08/06/2026 17:13:45",
   "data_ref": "08/06/2026",
   "total": 212,
   "pedidos": [
@@ -3889,7 +3889,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 32.56
+        "desde_pronto": 34.75
       },
       "status": {
         "cad_pronto": "critico",
@@ -4203,7 +4203,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 260.56,
+        "desde_cadastro": 262.75,
         "desde_pronto": null
       },
       "status": {
@@ -7713,7 +7713,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 91.56,
+        "desde_cadastro": 93.75,
         "desde_pronto": null
       },
       "status": {
@@ -8523,7 +8523,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 56.56,
+        "desde_cadastro": 58.75,
         "desde_pronto": null
       },
       "status": {
@@ -8883,7 +8883,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 38.56,
+        "desde_cadastro": 40.75,
         "desde_pronto": null
       },
       "status": {
@@ -9242,8 +9242,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 7.56,
-        "desde_cadastro": 22.56,
+        "aguard_saida": 9.75,
+        "desde_cadastro": 24.75,
         "desde_pronto": null
       },
       "status": {
@@ -9287,8 +9287,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 7.56,
-        "desde_cadastro": 21.56,
+        "aguard_saida": 9.75,
+        "desde_cadastro": 23.75,
         "desde_pronto": null
       },
       "status": {
@@ -9391,20 +9391,20 @@
         "pronto": "08/06/2026 17:02",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "08/06/2026 17:03"
+        "conclusao": "08/06/2026 17:13"
       },
       "horas": {
         "cadastro": "16:57:00",
         "pronto": "17:02:00",
         "coleta": null,
-        "conclusao": "17:03:00",
+        "conclusao": "17:13:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-08T16:57:00",
         "pronto": "2026-06-08T17:02:00",
         "coleta": null,
-        "conclusao": "2026-06-08T17:03:00"
+        "conclusao": "2026-06-08T17:13:00"
       },
       "dt_retorno": null
     },
@@ -9414,42 +9414,42 @@
       "estabelec": "Savassi Brasileira",
       "cliente": "Entrega (Enzo Siqueira)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": null,
         "pronto_col": null,
-        "col_conc": null,
+        "col_conc": 1.0,
         "aguard_saida": null,
-        "desde_cadastro": 12.56,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "pendente",
-        "col_conc": "pendente"
+        "col_conc": "ok"
       },
       "datas": {
         "cadastro": "08/06/2026 16:59",
         "pronto": "-",
-        "coleta": "-",
+        "coleta": "08/06/2026 17:11",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "08/06/2026 17:12"
       },
       "horas": {
         "cadastro": "16:59:00",
         "pronto": null,
-        "coleta": null,
-        "conclusao": null,
+        "coleta": "17:11:00",
+        "conclusao": "17:12:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-08T16:59:00",
         "pronto": null,
-        "coleta": null,
-        "conclusao": null
+        "coleta": "2026-06-08T17:11:00",
+        "conclusao": "2026-06-08T17:12:00"
       },
       "dt_retorno": null
     },
@@ -9504,40 +9504,40 @@
       "estabelec": "Mr Duck Cookies - Belo Horizonte",
       "cliente": "Retirada (Landerson Lemos)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "alerta",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 3.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 3.56,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 2.75
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "alerta",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "08/06/2026 17:08",
-        "pronto": "-",
+        "pronto": "08/06/2026 17:11",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "17:08:00",
-        "pronto": null,
+        "pronto": "17:11:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-08T17:08:00",
-        "pronto": null,
+        "pronto": "2026-06-08T17:11:00",
         "coleta": null,
         "conclusao": null
       },
