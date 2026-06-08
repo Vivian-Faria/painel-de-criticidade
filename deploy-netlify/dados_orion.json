@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "08/06/2026 14:14:39",
+  "atualizado_em": "08/06/2026 14:16:47",
   "data_ref": "08/06/2026",
-  "total": 140,
+  "total": 144,
   "pedidos": [
     {
       "cod": "#1574 (#974001)",
@@ -3933,7 +3933,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 90.65,
+        "desde_cadastro": 92.79,
         "desde_pronto": null
       },
       "status": {
@@ -4248,7 +4248,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 83.65,
+        "desde_cadastro": 85.79,
         "desde_pronto": null
       },
       "status": {
@@ -5229,41 +5229,41 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Lord Kagawa)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "aguardando_saida",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 48.0,
-        "pronto_col": null,
+        "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": null,
+        "aguard_saida": 1.79,
         "desde_cadastro": null,
-        "desde_pronto": 0.65
+        "desde_pronto": 2.79
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
+        "pronto_col": "ok",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "08/06/2026 13:26",
         "pronto": "08/06/2026 14:14",
-        "coleta": "-",
+        "coleta": "08/06/2026 14:15",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "13:26:00",
         "pronto": "14:14:00",
-        "coleta": null,
+        "coleta": "14:15:00",
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-08T13:26:00",
         "pronto": "2026-06-08T14:14:00",
-        "coleta": null,
+        "coleta": "2026-06-08T14:15:00",
         "conclusao": null
       },
       "dt_retorno": null
@@ -5867,9 +5867,9 @@
         "cad_pronto": 3.0,
         "pronto_col": 0.0,
         "col_conc": null,
-        "aguard_saida": 18.65,
+        "aguard_saida": 20.79,
         "desde_cadastro": null,
-        "desde_pronto": 18.65
+        "desde_pronto": 20.79
       },
       "status": {
         "cad_pronto": "na",
@@ -5959,7 +5959,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 7.65
+        "desde_pronto": 9.79
       },
       "status": {
         "cad_pronto": "critico",
@@ -6092,8 +6092,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 5.65,
-        "desde_cadastro": 13.65,
+        "aguard_saida": 7.79,
+        "desde_cadastro": 15.79,
         "desde_pronto": null
       },
       "status": {
@@ -6184,7 +6184,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.65
+        "desde_pronto": 3.79
       },
       "status": {
         "cad_pronto": "critico",
@@ -6228,7 +6228,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.65,
+        "desde_cadastro": 10.79,
         "desde_pronto": null
       },
       "status": {
@@ -6273,7 +6273,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.65,
+        "desde_cadastro": 7.79,
         "desde_pronto": null
       },
       "status": {
@@ -6297,6 +6297,186 @@
       },
       "ts": {
         "cadastro": "2026-06-08T14:09:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#12219 (#1537)",
+      "hub": "DS Sion",
+      "estabelec": "Sorveteria Doce Cascão - Savassi",
+      "cliente": "Retirada (Lucas Luiz)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.79,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "08/06/2026 14:14",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "14:14:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-08T14:14:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#20051 (#1588)",
+      "hub": "DS Sion",
+      "estabelec": "Viviane Sales Cake's - Bolos & Doces",
+      "cliente": "Retirada (Maira Neiva Gomes)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.79,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "08/06/2026 14:15",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "14:15:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-08T14:15:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#5611 (#572001)",
+      "hub": "DS Sion",
+      "estabelec": "Cacau Arte - Doces,& Tortas CONGELADOS - SION",
+      "cliente": "Retirada (Janine)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.79,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "08/06/2026 14:15",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "14:15:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-08T14:15:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#20052 (#527002)",
+      "hub": "DS Sion",
+      "estabelec": "Viviane Sales Cake's - Bolos & Doces",
+      "cliente": "Retirada (Luiza)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 0.79,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "08/06/2026 14:16",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "14:16:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-08T14:16:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
