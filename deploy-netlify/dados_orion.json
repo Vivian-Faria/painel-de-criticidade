@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "08/06/2026 13:14:23",
+  "atualizado_em": "08/06/2026 13:16:31",
   "data_ref": "08/06/2026",
-  "total": 108,
+  "total": 109,
   "pedidos": [
     {
       "cod": "#1574 (#974001)",
@@ -2889,42 +2889,42 @@
       "estabelec": "Mayu",
       "cliente": "Retirada (Suzanne Guimaraes)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_saida",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
-      "alerta_retorno": true,
+      "alerta_retorno": false,
       "tempos": {
         "cad_pronto": null,
         "pronto_col": null,
-        "col_conc": null,
-        "aguard_saida": 38.39,
-        "desde_cadastro": 64.39,
+        "col_conc": 39.0,
+        "aguard_saida": null,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "pendente",
-        "col_conc": "pendente"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "08/06/2026 12:10",
         "pronto": "-",
         "coleta": "08/06/2026 12:36",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "08/06/2026 13:15"
       },
       "horas": {
         "cadastro": "12:10:00",
         "pronto": null,
         "coleta": "12:36:00",
-        "conclusao": null,
+        "conclusao": "13:15:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-08T12:10:00",
         "pronto": null,
         "coleta": "2026-06-08T12:36:00",
-        "conclusao": null
+        "conclusao": "2026-06-08T13:15:00"
       },
       "dt_retorno": null
     },
@@ -3933,7 +3933,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 30.39,
+        "desde_cadastro": 32.53,
         "desde_pronto": null
       },
       "status": {
@@ -4112,9 +4112,9 @@
         "cad_pronto": 21.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 2.39,
+        "aguard_saida": 4.53,
         "desde_cadastro": null,
-        "desde_pronto": 4.39
+        "desde_pronto": 6.53
       },
       "status": {
         "cad_pronto": "na",
@@ -4248,7 +4248,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 23.39,
+        "desde_cadastro": 25.53,
         "desde_pronto": null
       },
       "status": {
@@ -4339,7 +4339,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 12.39
+        "desde_pronto": 14.53
       },
       "status": {
         "cad_pronto": "critico",
@@ -4384,7 +4384,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 12.39
+        "desde_pronto": 14.53
       },
       "status": {
         "cad_pronto": "critico",
@@ -4427,9 +4427,9 @@
         "cad_pronto": 12.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 2.39,
+        "aguard_saida": 4.53,
         "desde_cadastro": null,
-        "desde_pronto": 4.39
+        "desde_pronto": 6.53
       },
       "status": {
         "cad_pronto": "na",
@@ -4554,40 +4554,40 @@
       "estabelec": "3f - Fast Fitness Food - Savassi",
       "cliente": "Retirada (Cintia Salvo)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 9.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.39,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 1.53
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "08/06/2026 13:06",
-        "pronto": "-",
+        "pronto": "08/06/2026 13:15",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "13:06:00",
-        "pronto": null,
+        "pronto": "13:15:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-08T13:06:00",
-        "pronto": null,
+        "pronto": "2026-06-08T13:15:00",
         "coleta": null,
         "conclusao": null
       },
@@ -4608,7 +4608,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.39,
+        "desde_cadastro": 7.53,
         "desde_pronto": null
       },
       "status": {
@@ -4653,7 +4653,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.39,
+        "desde_cadastro": 7.53,
         "desde_pronto": null
       },
       "status": {
@@ -4698,7 +4698,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.39,
+        "desde_cadastro": 7.53,
         "desde_pronto": null
       },
       "status": {
@@ -4743,7 +4743,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.39,
+        "desde_cadastro": 6.53,
         "desde_pronto": null
       },
       "status": {
@@ -4788,7 +4788,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.39,
+        "desde_cadastro": 4.53,
         "desde_pronto": null
       },
       "status": {
@@ -4833,7 +4833,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.39,
+        "desde_cadastro": 3.53,
         "desde_pronto": null
       },
       "status": {
@@ -4857,6 +4857,51 @@
       },
       "ts": {
         "cadastro": "2026-06-08T13:13:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#20047 (#1673)",
+      "hub": "DS Sion",
+      "estabelec": "Viviane Sales Cake's - Bolos & Doces",
+      "cliente": "Retirada (Felipe Rocha)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.53,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "08/06/2026 13:15",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "13:15:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-08T13:15:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
