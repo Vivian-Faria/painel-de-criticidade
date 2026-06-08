@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "08/06/2026 14:36:32",
+  "atualizado_em": "08/06/2026 14:38:41",
   "data_ref": "08/06/2026",
-  "total": 147,
+  "total": 148,
   "pedidos": [
     {
       "cod": "#1574 (#974001)",
@@ -3888,7 +3888,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 112.54,
+        "desde_cadastro": 114.69,
         "desde_pronto": null
       },
       "status": {
@@ -4203,7 +4203,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 105.54,
+        "desde_cadastro": 107.69,
         "desde_pronto": null
       },
       "status": {
@@ -6136,7 +6136,7 @@
       "tempos": {
         "cad_pronto": 12.0,
         "pronto_col": 2.0,
-        "col_conc": 1.0,
+        "col_conc": 16.0,
         "aguard_saida": null,
         "desde_cadastro": null,
         "desde_pronto": null
@@ -6144,27 +6144,27 @@
       "status": {
         "cad_pronto": "na",
         "pronto_col": "critico",
-        "col_conc": "ok"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "08/06/2026 14:06",
         "pronto": "08/06/2026 14:18",
         "coleta": "08/06/2026 14:20",
         "retorno": "-",
-        "conclusao": "08/06/2026 14:21"
+        "conclusao": "08/06/2026 14:36"
       },
       "horas": {
         "cadastro": "14:06:00",
         "pronto": "14:18:00",
         "coleta": "14:20:00",
-        "conclusao": "14:21:00",
+        "conclusao": "14:36:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-08T14:06:00",
         "pronto": "2026-06-08T14:18:00",
         "coleta": "2026-06-08T14:20:00",
-        "conclusao": "2026-06-08T14:21:00"
+        "conclusao": "2026-06-08T14:36:00"
       },
       "dt_retorno": null
     },
@@ -6454,7 +6454,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 5.54
+        "desde_pronto": 7.69
       },
       "status": {
         "cad_pronto": "critico",
@@ -6534,7 +6534,7 @@
       "estabelec": "3f - Fast Fitness Food - Savassi",
       "cliente": "Retirada (Caio Lúcio França Vieira)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -6544,7 +6544,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.54
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -6556,20 +6556,20 @@
         "pronto": "08/06/2026 14:35",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "08/06/2026 14:38"
       },
       "horas": {
         "cadastro": "14:27:00",
         "pronto": "14:35:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "14:38:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-08T14:27:00",
         "pronto": "2026-06-08T14:35:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-08T14:38:00"
       },
       "dt_retorno": null
     },
@@ -6578,6 +6578,51 @@
       "hub": "DS Sion",
       "estabelec": "Sorveteria Doce Cascão - Savassi",
       "cliente": "Retirada (José Leite Freitas)",
+      "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 9.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 0.69
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "08/06/2026 14:29",
+        "pronto": "08/06/2026 14:38",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "14:29:00",
+        "pronto": "14:38:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-08T14:29:00",
+        "pronto": "2026-06-08T14:38:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#9606 (#111004)",
+      "hub": "DS Sion",
+      "estabelec": "Bolos e Doces - Arelice Sion",
+      "cliente": "Retirada (Pedro)",
       "categoria": "loja",
       "etapa_atual": "em_preparo",
       "status_geral": "ok",
@@ -6588,7 +6633,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.54,
+        "desde_cadastro": 0.69,
         "desde_pronto": null
       },
       "status": {
@@ -6597,21 +6642,21 @@
         "col_conc": "pendente"
       },
       "datas": {
-        "cadastro": "08/06/2026 14:29",
+        "cadastro": "08/06/2026 14:38",
         "pronto": "-",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
-        "cadastro": "14:29:00",
+        "cadastro": "14:38:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
-        "cadastro": "2026-06-08T14:29:00",
+        "cadastro": "2026-06-08T14:38:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
