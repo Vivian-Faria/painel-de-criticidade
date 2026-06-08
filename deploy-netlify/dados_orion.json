@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "08/06/2026 17:09:23",
+  "atualizado_em": "08/06/2026 17:11:33",
   "data_ref": "08/06/2026",
-  "total": 211,
+  "total": 212,
   "pedidos": [
     {
       "cod": "#1574 (#974001)",
@@ -3889,7 +3889,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 30.39
+        "desde_pronto": 32.56
       },
       "status": {
         "cad_pronto": "critico",
@@ -4203,7 +4203,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 258.39,
+        "desde_cadastro": 260.56,
         "desde_pronto": null
       },
       "status": {
@@ -7713,7 +7713,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 89.39,
+        "desde_cadastro": 91.56,
         "desde_pronto": null
       },
       "status": {
@@ -8523,7 +8523,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 54.39,
+        "desde_cadastro": 56.56,
         "desde_pronto": null
       },
       "status": {
@@ -8883,7 +8883,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 36.39,
+        "desde_cadastro": 38.56,
         "desde_pronto": null
       },
       "status": {
@@ -9242,8 +9242,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 5.39,
-        "desde_cadastro": 20.39,
+        "aguard_saida": 7.56,
+        "desde_cadastro": 22.56,
         "desde_pronto": null
       },
       "status": {
@@ -9287,8 +9287,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 5.39,
-        "desde_cadastro": 19.39,
+        "aguard_saida": 7.56,
+        "desde_cadastro": 21.56,
         "desde_pronto": null
       },
       "status": {
@@ -9423,7 +9423,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 10.39,
+        "desde_cadastro": 12.56,
         "desde_pronto": null
       },
       "status": {
@@ -9459,7 +9459,7 @@
       "estabelec": "Eu Que Fiz (cidade Nova) - Doces & Bolos",
       "cliente": "Retirada (Vitória Angelini)",
       "categoria": "outro",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
@@ -9468,7 +9468,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.39,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
@@ -9481,17 +9481,62 @@
         "pronto": "-",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "08/06/2026 17:11"
       },
       "horas": {
         "cadastro": "17:01:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": "17:11:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-08T17:01:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": "2026-06-08T17:11:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#9910 (#2443)",
+      "hub": "DS Sion",
+      "estabelec": "Mr Duck Cookies - Belo Horizonte",
+      "cliente": "Retirada (Landerson Lemos)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 3.56,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "08/06/2026 17:08",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "17:08:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
-        "cadastro": "2026-06-08T17:01:00",
+        "cadastro": "2026-06-08T17:08:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
