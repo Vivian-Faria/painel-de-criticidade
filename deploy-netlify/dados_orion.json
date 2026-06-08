@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "08/06/2026 12:08:39",
+  "atualizado_em": "08/06/2026 12:10:44",
   "data_ref": "08/06/2026",
-  "total": 65,
+  "total": 66,
   "pedidos": [
     {
       "cod": "#1574 (#974001)",
@@ -684,7 +684,7 @@
       "estabelec": "3f - Fast Fitness Food - Savassi",
       "cliente": "Retirada (Mariana Viotti)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -694,7 +694,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 0.65
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -706,20 +706,20 @@
         "pronto": "08/06/2026 12:08",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "08/06/2026 12:09"
       },
       "horas": {
         "cadastro": "10:42:00",
         "pronto": "12:08:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "12:09:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-08T10:42:00",
         "pronto": "2026-06-08T12:08:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-08T12:09:00"
       },
       "dt_retorno": null
     },
@@ -738,7 +738,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 82.65,
+        "desde_cadastro": 84.74,
         "desde_pronto": null
       },
       "status": {
@@ -1039,51 +1039,6 @@
       "dt_retorno": null
     },
     {
-      "cod": "#9602 (#111001)",
-      "hub": "DS Sion",
-      "estabelec": "Bolos e Doces - Arelice Sion",
-      "cliente": "Retirada (Pamella)",
-      "categoria": "loja",
-      "etapa_atual": "concluido",
-      "status_geral": "critico",
-      "inativo": false,
-      "alerta_retorno": false,
-      "tempos": {
-        "cad_pronto": 6.0,
-        "pronto_col": null,
-        "col_conc": null,
-        "aguard_saida": null,
-        "desde_cadastro": null,
-        "desde_pronto": null
-      },
-      "status": {
-        "cad_pronto": "critico",
-        "pronto_col": "na",
-        "col_conc": "pendente"
-      },
-      "datas": {
-        "cadastro": "08/06/2026 11:07",
-        "pronto": "08/06/2026 11:13",
-        "coleta": "-",
-        "retorno": "-",
-        "conclusao": "08/06/2026 11:13"
-      },
-      "horas": {
-        "cadastro": "11:07:00",
-        "pronto": "11:13:00",
-        "coleta": null,
-        "conclusao": "11:13:00",
-        "retorno": null
-      },
-      "ts": {
-        "cadastro": "2026-06-08T11:07:00",
-        "pronto": "2026-06-08T11:13:00",
-        "coleta": null,
-        "conclusao": "2026-06-08T11:13:00"
-      },
-      "dt_retorno": null
-    },
-    {
       "cod": "#1596 (#4971)",
       "hub": "-",
       "estabelec": "Savassi Brasileira",
@@ -1125,6 +1080,51 @@
         "pronto": null,
         "coleta": "2026-06-08T11:26:00",
         "conclusao": "2026-06-08T11:31:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#9602 (#111001)",
+      "hub": "DS Sion",
+      "estabelec": "Bolos e Doces - Arelice Sion",
+      "cliente": "Retirada (Pamella)",
+      "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 6.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "08/06/2026 11:07",
+        "pronto": "08/06/2026 11:13",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "08/06/2026 11:13"
+      },
+      "horas": {
+        "cadastro": "11:07:00",
+        "pronto": "11:13:00",
+        "coleta": null,
+        "conclusao": "11:13:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-08T11:07:00",
+        "pronto": "2026-06-08T11:13:00",
+        "coleta": null,
+        "conclusao": "2026-06-08T11:13:00"
       },
       "dt_retorno": null
     },
@@ -1819,7 +1819,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 29.65
+        "desde_pronto": 31.74
       },
       "status": {
         "cad_pronto": "critico",
@@ -1952,9 +1952,9 @@
         "cad_pronto": 16.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 12.65,
+        "aguard_saida": 14.74,
         "desde_cadastro": null,
-        "desde_pronto": 13.65
+        "desde_pronto": 15.74
       },
       "status": {
         "cad_pronto": "na",
@@ -1999,7 +1999,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.65
+        "desde_pronto": 4.74
       },
       "status": {
         "cad_pronto": "na",
@@ -2044,7 +2044,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 19.65
+        "desde_pronto": 21.74
       },
       "status": {
         "cad_pronto": "critico",
@@ -2134,7 +2134,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 16.65
+        "desde_pronto": 18.74
       },
       "status": {
         "cad_pronto": "critico",
@@ -2179,7 +2179,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 16.65
+        "desde_pronto": 18.74
       },
       "status": {
         "cad_pronto": "critico",
@@ -2214,7 +2214,7 @@
       "estabelec": "3f - Fast Fitness Food - Savassi",
       "cliente": "Retirada (Mariana Novaes)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -2224,7 +2224,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 14.65
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -2236,20 +2236,20 @@
         "pronto": "08/06/2026 11:54",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "08/06/2026 12:09"
       },
       "horas": {
         "cadastro": "11:45:00",
         "pronto": "11:54:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "12:09:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-08T11:45:00",
         "pronto": "2026-06-08T11:54:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-08T12:09:00"
       },
       "dt_retorno": null
     },
@@ -2269,7 +2269,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 14.65
+        "desde_pronto": 16.74
       },
       "status": {
         "cad_pronto": "critico",
@@ -2304,7 +2304,7 @@
       "estabelec": "3f - Fast Fitness Food - Savassi",
       "cliente": "Retirada (Giovana Pinho)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -2314,7 +2314,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 12.65
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -2326,20 +2326,20 @@
         "pronto": "08/06/2026 11:56",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "08/06/2026 12:09"
       },
       "horas": {
         "cadastro": "11:47:00",
         "pronto": "11:56:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "12:09:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-08T11:47:00",
         "pronto": "2026-06-08T11:56:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-08T12:09:00"
       },
       "dt_retorno": null
     },
@@ -2349,7 +2349,7 @@
       "estabelec": "3f - Fast Fitness Food - Savassi",
       "cliente": "Retirada (João Cezar)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -2359,7 +2359,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 10.65
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -2371,20 +2371,20 @@
         "pronto": "08/06/2026 11:58",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "08/06/2026 12:09"
       },
       "horas": {
         "cadastro": "11:49:00",
         "pronto": "11:58:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "12:09:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-08T11:49:00",
         "pronto": "2026-06-08T11:58:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-08T12:09:00"
       },
       "dt_retorno": null
     },
@@ -2494,7 +2494,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 6.65
+        "desde_pronto": 8.74
       },
       "status": {
         "cad_pronto": "critico",
@@ -2584,7 +2584,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.65
+        "desde_pronto": 5.74
       },
       "status": {
         "cad_pronto": "critico",
@@ -2628,7 +2628,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 11.65,
+        "desde_cadastro": 13.74,
         "desde_pronto": null
       },
       "status": {
@@ -2674,7 +2674,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 0.65
+        "desde_pronto": 2.74
       },
       "status": {
         "cad_pronto": "critico",
@@ -2718,7 +2718,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.65,
+        "desde_cadastro": 9.74,
         "desde_pronto": null
       },
       "status": {
@@ -2754,40 +2754,40 @@
       "estabelec": "3f - Fast Fitness Food - Savassi",
       "cliente": "Retirada (Daniela Faria Vilela)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 9.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.65,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 0.74
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "08/06/2026 12:01",
-        "pronto": "-",
+        "pronto": "08/06/2026 12:10",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "12:01:00",
-        "pronto": null,
+        "pronto": "12:10:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-08T12:01:00",
-        "pronto": null,
+        "pronto": "2026-06-08T12:10:00",
         "coleta": null,
         "conclusao": null
       },
@@ -2808,7 +2808,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.65,
+        "desde_cadastro": 7.74,
         "desde_pronto": null
       },
       "status": {
@@ -2853,7 +2853,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.65,
+        "desde_cadastro": 6.74,
         "desde_pronto": null
       },
       "status": {
@@ -2898,7 +2898,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.65,
+        "desde_cadastro": 4.74,
         "desde_pronto": null
       },
       "status": {
@@ -2922,6 +2922,51 @@
       },
       "ts": {
         "cadastro": "2026-06-08T12:06:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#35703 (#7218)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Bárbara Araújo)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.74,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "08/06/2026 12:08",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "12:08:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-08T12:08:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
