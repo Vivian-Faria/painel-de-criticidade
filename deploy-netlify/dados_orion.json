@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "09/06/2026 00:16:34",
+  "atualizado_em": "09/06/2026 00:18:24",
   "data_ref": "09/06/2026",
-  "total": 8,
+  "total": 10,
   "pedidos": [
     {
       "cod": "#9922 (#9481)",
@@ -64,7 +64,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 9.58
+        "desde_pronto": 11.41
       },
       "status": {
         "cad_pronto": "ok",
@@ -198,7 +198,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.58,
+        "desde_cadastro": 6.41,
         "desde_pronto": null
       },
       "status": {
@@ -243,7 +243,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 3.58,
+        "desde_cadastro": 5.41,
         "desde_pronto": null
       },
       "status": {
@@ -288,7 +288,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 3.58,
+        "desde_cadastro": 5.41,
         "desde_pronto": null
       },
       "status": {
@@ -334,7 +334,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 0.58
+        "desde_pronto": 2.41
       },
       "status": {
         "cad_pronto": "alerta",
@@ -358,6 +358,96 @@
       "ts": {
         "cadastro": "2026-06-09T00:13:00",
         "pronto": "2026-06-09T00:16:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#296300 (#818001)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Pamella)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.41,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "09/06/2026 00:16",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "00:16:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-09T00:16:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#296301 (#818002)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Gledston)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.41,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "09/06/2026 00:17",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "00:17:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-09T00:17:00",
+        "pronto": null,
         "coleta": null,
         "conclusao": null
       },
