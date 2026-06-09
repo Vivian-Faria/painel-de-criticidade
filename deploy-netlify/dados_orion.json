@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "09/06/2026 10:40:41",
+  "atualizado_em": "09/06/2026 10:42:37",
   "data_ref": "09/06/2026",
-  "total": 20,
+  "total": 21,
   "pedidos": [
     {
       "cod": "#9922 (#9481)",
@@ -694,7 +694,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 13.69
+        "desde_pronto": 15.62
       },
       "status": {
         "cad_pronto": "critico",
@@ -819,7 +819,7 @@
       "estabelec": "Padaria Pão Fermentação Natural",
       "cliente": "Retirada (Cristina)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -829,7 +829,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 4.69
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -841,20 +841,20 @@
         "pronto": "09/06/2026 10:36",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "09/06/2026 10:40"
       },
       "horas": {
         "cadastro": "10:28:00",
         "pronto": "10:36:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "10:40:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-09T10:28:00",
         "pronto": "2026-06-09T10:36:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-09T10:40:00"
       },
       "dt_retorno": null
     },
@@ -873,7 +873,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.69,
+        "desde_cadastro": 6.62,
         "desde_pronto": null
       },
       "status": {
@@ -897,6 +897,51 @@
       },
       "ts": {
         "cadastro": "2026-06-09T10:36:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#5619 (#1238)",
+      "hub": "DS Sion",
+      "estabelec": "Cacau Arte - Doces,& Tortas CONGELADOS - SION",
+      "cliente": "Retirada (Danielle Moreira De Paiva)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 0.62,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "09/06/2026 10:42",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "10:42:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-09T10:42:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
