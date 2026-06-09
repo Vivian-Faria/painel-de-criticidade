@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "09/06/2026 10:34:55",
+  "atualizado_em": "09/06/2026 10:36:48",
   "data_ref": "09/06/2026",
-  "total": 19,
+  "total": 20,
   "pedidos": [
     {
       "cod": "#9922 (#9481)",
@@ -694,7 +694,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 7.92
+        "desde_pronto": 9.81
       },
       "status": {
         "cad_pronto": "critico",
@@ -729,7 +729,7 @@
       "estabelec": "3f - Fast Fitness Food - Savassi",
       "cliente": "Retirada (Janaina Luciana Estevam)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -739,7 +739,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 4.92
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -751,20 +751,20 @@
         "pronto": "09/06/2026 10:30",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "09/06/2026 10:35"
       },
       "horas": {
         "cadastro": "10:21:00",
         "pronto": "10:30:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "10:35:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-09T10:21:00",
         "pronto": "2026-06-09T10:30:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-09T10:35:00"
       },
       "dt_retorno": null
     },
@@ -819,6 +819,51 @@
       "estabelec": "Padaria Pão Fermentação Natural",
       "cliente": "Retirada (Cristina)",
       "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 8.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 0.81
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "09/06/2026 10:28",
+        "pronto": "09/06/2026 10:36",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "10:28:00",
+        "pronto": "10:36:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-09T10:28:00",
+        "pronto": "2026-06-09T10:36:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#30271 (#4811)",
+      "hub": "DS Sion",
+      "estabelec": "Chocake Sion - Bolos & Doces",
+      "cliente": "Retirada (Kelly Franco)",
+      "categoria": "loja",
       "etapa_atual": "em_preparo",
       "status_geral": "ok",
       "inativo": false,
@@ -828,7 +873,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 6.92,
+        "desde_cadastro": 0.81,
         "desde_pronto": null
       },
       "status": {
@@ -837,21 +882,21 @@
         "col_conc": "pendente"
       },
       "datas": {
-        "cadastro": "09/06/2026 10:28",
+        "cadastro": "09/06/2026 10:36",
         "pronto": "-",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
-        "cadastro": "10:28:00",
+        "cadastro": "10:36:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
-        "cadastro": "2026-06-09T10:28:00",
+        "cadastro": "2026-06-09T10:36:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
