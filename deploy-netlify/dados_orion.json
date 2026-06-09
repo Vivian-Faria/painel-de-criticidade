@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "09/06/2026 10:27:14",
+  "atualizado_em": "09/06/2026 10:29:11",
   "data_ref": "09/06/2026",
-  "total": 18,
+  "total": 19,
   "pedidos": [
     {
       "cod": "#9922 (#9481)",
@@ -694,7 +694,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 0.24
+        "desde_pronto": 2.18
       },
       "status": {
         "cad_pronto": "critico",
@@ -738,7 +738,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 6.24,
+        "desde_cadastro": 8.18,
         "desde_pronto": null
       },
       "status": {
@@ -783,7 +783,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.24,
+        "desde_cadastro": 6.18,
         "desde_pronto": null
       },
       "status": {
@@ -807,6 +807,51 @@
       },
       "ts": {
         "cadastro": "2026-06-09T10:23:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#95 (#7744)",
+      "hub": "DS Sion",
+      "estabelec": "Padaria Pão Fermentação Natural",
+      "cliente": "Retirada (Cristina)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.18,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "09/06/2026 10:28",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "10:28:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-09T10:28:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
