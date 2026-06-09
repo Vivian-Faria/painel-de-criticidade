@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "09/06/2026 11:02:04",
+  "atualizado_em": "09/06/2026 11:04:01",
   "data_ref": "09/06/2026",
-  "total": 25,
+  "total": 26,
   "pedidos": [
     {
       "cod": "#9922 (#9481)",
@@ -999,40 +999,40 @@
       "estabelec": "3f - Fast Fitness Food - Savassi",
       "cliente": "Retirada (Dayane)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 9.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.07,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 1.02
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "09/06/2026 10:54",
-        "pronto": "-",
+        "pronto": "09/06/2026 11:03",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "10:54:00",
-        "pronto": null,
+        "pronto": "11:03:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-09T10:54:00",
-        "pronto": null,
+        "pronto": "2026-06-09T11:03:00",
         "coleta": null,
         "conclusao": null
       },
@@ -1053,7 +1053,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 6.07,
+        "desde_cadastro": 8.02,
         "desde_pronto": null
       },
       "status": {
@@ -1098,7 +1098,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.07,
+        "desde_cadastro": 6.02,
         "desde_pronto": null
       },
       "status": {
@@ -1122,6 +1122,51 @@
       },
       "ts": {
         "cadastro": "2026-06-09T10:58:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#35751 (#8337)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Duda Alves Canesso)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.02,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "09/06/2026 11:02",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:02:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-09T11:02:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
