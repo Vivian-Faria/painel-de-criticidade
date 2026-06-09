@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "09/06/2026 00:09:15",
+  "atualizado_em": "09/06/2026 00:11:04",
   "data_ref": "09/06/2026",
-  "total": 3,
+  "total": 4,
   "pedidos": [
     {
       "cod": "#9922 (#9481)",
@@ -19,7 +19,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 4.25
+        "desde_pronto": 6.07
       },
       "status": {
         "cad_pronto": "ok",
@@ -64,7 +64,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.25
+        "desde_pronto": 4.07
       },
       "status": {
         "cad_pronto": "ok",
@@ -108,7 +108,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.25,
+        "desde_cadastro": 4.07,
         "desde_pronto": null
       },
       "status": {
@@ -132,6 +132,51 @@
       },
       "ts": {
         "cadastro": "2026-06-09T00:07:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#296296 (#915001)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Pollyana)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.07,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "09/06/2026 00:09",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "00:09:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-09T00:09:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
