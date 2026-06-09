@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "09/06/2026 00:22:19",
+  "atualizado_em": "09/06/2026 00:24:10",
   "data_ref": "09/06/2026",
-  "total": 12,
+  "total": 13,
   "pedidos": [
     {
       "cod": "#9922 (#9481)",
@@ -64,7 +64,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 15.33
+        "desde_pronto": 17.18
       },
       "status": {
         "cad_pronto": "ok",
@@ -189,41 +189,41 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Guilherme Alves)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "aguardando_saida",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
-        "pronto_col": null,
+        "cad_pronto": 10.0,
+        "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": null,
-        "desde_cadastro": 10.33,
-        "desde_pronto": null
+        "aguard_saida": 1.18,
+        "desde_cadastro": null,
+        "desde_pronto": 2.18
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
+        "pronto_col": "ok",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "09/06/2026 00:12",
-        "pronto": "-",
-        "coleta": "-",
+        "pronto": "09/06/2026 00:22",
+        "coleta": "09/06/2026 00:23",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "00:12:00",
-        "pronto": null,
-        "coleta": null,
+        "pronto": "00:22:00",
+        "coleta": "00:23:00",
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-09T00:12:00",
-        "pronto": null,
-        "coleta": null,
+        "pronto": "2026-06-09T00:22:00",
+        "coleta": "2026-06-09T00:23:00",
         "conclusao": null
       },
       "dt_retorno": null
@@ -234,41 +234,41 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Emily Nathalielw)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_coleta",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_saida",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 8.0,
-        "pronto_col": null,
+        "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": null,
+        "aguard_saida": 1.18,
         "desde_cadastro": null,
-        "desde_pronto": 1.33
+        "desde_pronto": 3.18
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
+        "pronto_col": "critico",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "09/06/2026 00:13",
         "pronto": "09/06/2026 00:21",
-        "coleta": "-",
+        "coleta": "09/06/2026 00:23",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "00:13:00",
         "pronto": "00:21:00",
-        "coleta": null,
+        "coleta": "00:23:00",
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-09T00:13:00",
         "pronto": "2026-06-09T00:21:00",
-        "coleta": null,
+        "coleta": "2026-06-09T00:23:00",
         "conclusao": null
       },
       "dt_retorno": null
@@ -279,41 +279,41 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Alex Silva)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_coleta",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_saida",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 8.0,
-        "pronto_col": null,
+        "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": null,
+        "aguard_saida": 1.18,
         "desde_cadastro": null,
-        "desde_pronto": 1.33
+        "desde_pronto": 3.18
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
+        "pronto_col": "critico",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "09/06/2026 00:13",
         "pronto": "09/06/2026 00:21",
-        "coleta": "-",
+        "coleta": "09/06/2026 00:23",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "00:13:00",
         "pronto": "00:21:00",
-        "coleta": null,
+        "coleta": "00:23:00",
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-09T00:13:00",
         "pronto": "2026-06-09T00:21:00",
-        "coleta": null,
+        "coleta": "2026-06-09T00:23:00",
         "conclusao": null
       },
       "dt_retorno": null
@@ -334,7 +334,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 6.33
+        "desde_pronto": 8.18
       },
       "status": {
         "cad_pronto": "alerta",
@@ -378,7 +378,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 6.33,
+        "desde_cadastro": 8.18,
         "desde_pronto": null
       },
       "status": {
@@ -423,7 +423,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.33,
+        "desde_cadastro": 7.18,
         "desde_pronto": null
       },
       "status": {
@@ -468,7 +468,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.33,
+        "desde_cadastro": 4.18,
         "desde_pronto": null
       },
       "status": {
@@ -504,6 +504,51 @@
       "estabelec": "E! Doces • Sobremesas - Sion",
       "cliente": "Retirada (Kathleen)",
       "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "alerta",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 3.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 0.18
+      },
+      "status": {
+        "cad_pronto": "alerta",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "09/06/2026 00:21",
+        "pronto": "09/06/2026 00:24",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "00:21:00",
+        "pronto": "00:24:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-09T00:21:00",
+        "pronto": "2026-06-09T00:24:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#296303 (#5636)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Luiz Felipe Ferreira Mello)",
+      "categoria": "cozinha",
       "etapa_atual": "em_preparo",
       "status_geral": "ok",
       "inativo": false,
@@ -513,30 +558,30 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.33,
+        "desde_cadastro": 2.18,
         "desde_pronto": null
       },
       "status": {
-        "cad_pronto": "pendente",
-        "pronto_col": "na",
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
         "col_conc": "pendente"
       },
       "datas": {
-        "cadastro": "09/06/2026 00:21",
+        "cadastro": "09/06/2026 00:22",
         "pronto": "-",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
-        "cadastro": "00:21:00",
+        "cadastro": "00:22:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
-        "cadastro": "2026-06-09T00:21:00",
+        "cadastro": "2026-06-09T00:22:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
