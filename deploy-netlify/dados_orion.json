@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "10/06/2026 19:45:21",
+  "atualizado_em": "10/06/2026 19:47:54",
   "data_ref": "10/06/2026",
-  "total": 415,
+  "total": 418,
   "pedidos": [
     {
       "cod": "#9954 (#4165)",
@@ -11673,7 +11673,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 297.36,
+        "desde_cadastro": 299.9,
         "desde_pronto": null
       },
       "status": {
@@ -17928,7 +17928,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 23.36,
+        "desde_cadastro": 25.9,
         "desde_pronto": null
       },
       "status": {
@@ -17972,9 +17972,9 @@
         "cad_pronto": 10.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 10.36,
+        "aguard_saida": 12.9,
         "desde_cadastro": null,
-        "desde_pronto": 11.36
+        "desde_pronto": 13.9
       },
       "status": {
         "cad_pronto": "na",
@@ -18063,7 +18063,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 20.36,
+        "desde_cadastro": 22.9,
         "desde_pronto": null
       },
       "status": {
@@ -18198,7 +18198,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 17.36,
+        "desde_cadastro": 19.9,
         "desde_pronto": null
       },
       "status": {
@@ -18279,42 +18279,42 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Saïđ Chaddid All Sain )",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_saida",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "alerta",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": null,
         "pronto_col": null,
-        "col_conc": null,
-        "aguard_saida": 10.36,
-        "desde_cadastro": 17.36,
+        "col_conc": 11.0,
+        "aguard_saida": null,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "pendente",
-        "col_conc": "pendente"
+        "col_conc": "alerta"
       },
       "datas": {
         "cadastro": "10/06/2026 19:28",
         "pronto": "-",
         "coleta": "10/06/2026 19:35",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "10/06/2026 19:46"
       },
       "horas": {
         "cadastro": "19:28:00",
         "pronto": null,
         "coleta": "19:35:00",
-        "conclusao": null,
+        "conclusao": "19:46:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-10T19:28:00",
         "pronto": null,
         "coleta": "2026-06-10T19:35:00",
-        "conclusao": null
+        "conclusao": "2026-06-10T19:46:00"
       },
       "dt_retorno": null
     },
@@ -18333,7 +18333,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 15.36,
+        "desde_cadastro": 17.9,
         "desde_pronto": null
       },
       "status": {
@@ -18378,7 +18378,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 13.36,
+        "desde_cadastro": 15.9,
         "desde_pronto": null
       },
       "status": {
@@ -18424,7 +18424,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 5.36
+        "desde_pronto": 7.9
       },
       "status": {
         "cad_pronto": "critico",
@@ -18468,7 +18468,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 11.36,
+        "desde_cadastro": 13.9,
         "desde_pronto": null
       },
       "status": {
@@ -18558,7 +18558,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.36,
+        "desde_cadastro": 4.9,
         "desde_pronto": null
       },
       "status": {
@@ -18603,7 +18603,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.36,
+        "desde_cadastro": 3.9,
         "desde_pronto": null
       },
       "status": {
@@ -18648,7 +18648,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.36,
+        "desde_cadastro": 3.9,
         "desde_pronto": null
       },
       "status": {
@@ -18672,6 +18672,141 @@
       },
       "ts": {
         "cadastro": "2026-06-10T19:44:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#20104 (#7943)",
+      "hub": "DS Sion",
+      "estabelec": "Viviane Sales Cake's - Bolos & Doces",
+      "cliente": "Retirada (Maria Clara Dias Carneiro )",
+      "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 2.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 0.9
+      },
+      "status": {
+        "cad_pronto": "ok",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "10/06/2026 19:45",
+        "pronto": "10/06/2026 19:47",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "19:45:00",
+        "pronto": "19:47:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-10T19:45:00",
+        "pronto": "2026-06-10T19:47:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#1735 (#9091)",
+      "hub": "-",
+      "estabelec": "Savassi Brasileira",
+      "cliente": "Entrega (Pedro H. Dutra Amaral)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.9,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "10/06/2026 19:45",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "19:45:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-10T19:45:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#23034 (#8088)",
+      "hub": "DS Sion",
+      "estabelec": "Estela Damasceno Confeitaria",
+      "cliente": "Retirada (Gustavo Silvério)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.9,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "10/06/2026 19:46",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "19:46:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-10T19:46:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
