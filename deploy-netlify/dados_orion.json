@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "10/06/2026 10:35:35",
+  "atualizado_em": "10/06/2026 10:37:30",
   "data_ref": "10/06/2026",
-  "total": 19,
+  "total": 20,
   "pedidos": [
     {
       "cod": "#9954 (#4165)",
@@ -784,7 +784,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 9.58
+        "desde_pronto": 11.51
       },
       "status": {
         "cad_pronto": "critico",
@@ -828,7 +828,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.58,
+        "desde_cadastro": 3.51,
         "desde_pronto": null
       },
       "status": {
@@ -852,6 +852,51 @@
       },
       "ts": {
         "cadastro": "2026-06-10T10:34:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#12246 (#4037)",
+      "hub": "DS Sion",
+      "estabelec": "Sorveteria Doce Cascão - Savassi",
+      "cliente": "Retirada (Felipe Rigueira Campos )",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.51,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "10/06/2026 10:36",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "10:36:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-10T10:36:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
