@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "10/06/2026 11:07:30",
+  "atualizado_em": "10/06/2026 11:09:30",
   "data_ref": "10/06/2026",
-  "total": 33,
+  "total": 38,
   "pedidos": [
     {
       "cod": "#9954 (#4165)",
@@ -828,7 +828,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 33.51,
+        "desde_cadastro": 35.51,
         "desde_pronto": null
       },
       "status": {
@@ -1044,7 +1044,7 @@
       "estabelec": "3f - Fast Fitness Food - Savassi",
       "cliente": "Retirada (Alice Jácome De Miranda)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -1054,7 +1054,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 12.51
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -1066,20 +1066,20 @@
         "pronto": "10/06/2026 10:55",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "10/06/2026 11:07"
       },
       "horas": {
         "cadastro": "10:49:00",
         "pronto": "10:55:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "11:07:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-10T10:49:00",
         "pronto": "2026-06-10T10:55:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-10T11:07:00"
       },
       "dt_retorno": null
     },
@@ -1269,7 +1269,7 @@
       "estabelec": "3f - Fast Fitness Food - Savassi",
       "cliente": "Retirada (Nadege Antunes Godinho)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -1279,7 +1279,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 0.51
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -1291,20 +1291,20 @@
         "pronto": "10/06/2026 11:07",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "10/06/2026 11:08"
       },
       "horas": {
         "cadastro": "11:01:00",
         "pronto": "11:07:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "11:08:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-10T11:01:00",
         "pronto": "2026-06-10T11:07:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-10T11:08:00"
       },
       "dt_retorno": null
     },
@@ -1314,7 +1314,7 @@
       "estabelec": "Açaí Bom Gosto (Savassi)",
       "cliente": "Retirada (Danilo Silva)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
@@ -1323,7 +1323,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.51,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
@@ -1336,20 +1336,20 @@
         "pronto": "-",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "10/06/2026 11:08"
       },
       "horas": {
         "cadastro": "11:02:00",
         "pronto": null,
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "11:08:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-10T11:02:00",
         "pronto": null,
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-10T11:08:00"
       },
       "dt_retorno": null
     },
@@ -1369,7 +1369,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.51
+        "desde_pronto": 5.51
       },
       "status": {
         "cad_pronto": "ok",
@@ -1413,7 +1413,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.51,
+        "desde_cadastro": 3.51,
         "desde_pronto": null
       },
       "status": {
@@ -1458,7 +1458,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.51,
+        "desde_cadastro": 3.51,
         "desde_pronto": null
       },
       "status": {
@@ -1482,6 +1482,231 @@
       },
       "ts": {
         "cadastro": "2026-06-10T11:06:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#43 (#3707)",
+      "hub": "DS Sion",
+      "estabelec": "Açaí Bom Gosto (Savassi)",
+      "cliente": "Retirada (Danilo Silva)",
+      "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "10/06/2026 11:07",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "10/06/2026 11:08"
+      },
+      "horas": {
+        "cadastro": "11:07:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": "11:08:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-10T11:07:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": "2026-06-10T11:08:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#296491 (#229001)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Sara)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.51,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "10/06/2026 11:07",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:07:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-10T11:07:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#296492 (#758001)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Bruna)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.51,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "10/06/2026 11:07",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:07:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-10T11:07:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#35811 (#8617)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Letícia Tavares)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.51,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "10/06/2026 11:08",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:08:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-10T11:08:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#35812 (#3110)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Brenda Militão)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 0.51,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "10/06/2026 11:09",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:09:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-10T11:09:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
