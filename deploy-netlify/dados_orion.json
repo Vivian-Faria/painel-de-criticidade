@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "10/06/2026 00:16:10",
+  "atualizado_em": "10/06/2026 00:18:09",
   "data_ref": "10/06/2026",
-  "total": 13,
+  "total": 15,
   "pedidos": [
     {
       "cod": "#9954 (#4165)",
@@ -63,7 +63,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 15.17,
+        "desde_cadastro": 17.16,
         "desde_pronto": null
       },
       "status": {
@@ -194,12 +194,12 @@
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": 9.0,
+        "cad_pronto": 12.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.17
+        "desde_pronto": 2.16
       },
       "status": {
         "cad_pronto": "critico",
@@ -208,21 +208,21 @@
       },
       "datas": {
         "cadastro": "10/06/2026 00:04",
-        "pronto": "10/06/2026 00:13",
+        "pronto": "10/06/2026 00:16",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "00:04:00",
-        "pronto": "00:13:00",
+        "pronto": "00:16:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-10T00:04:00",
-        "pronto": "2026-06-10T00:13:00",
+        "pronto": "2026-06-10T00:16:00",
         "coleta": null,
         "conclusao": null
       },
@@ -288,7 +288,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 11.17,
+        "desde_cadastro": 13.16,
         "desde_pronto": null
       },
       "status": {
@@ -333,7 +333,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 10.17,
+        "desde_cadastro": 12.16,
         "desde_pronto": null
       },
       "status": {
@@ -378,7 +378,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 9.17,
+        "desde_cadastro": 11.16,
         "desde_pronto": null
       },
       "status": {
@@ -423,7 +423,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.17,
+        "desde_cadastro": 10.16,
         "desde_pronto": null
       },
       "status": {
@@ -549,6 +549,51 @@
       "estabelec": "Mr Duck Cookies - Belo Horizonte",
       "cliente": "Retirada (Daniel Bispo De Souza)",
       "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 2.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 2.16
+      },
+      "status": {
+        "cad_pronto": "ok",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "10/06/2026 00:14",
+        "pronto": "10/06/2026 00:16",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "00:14:00",
+        "pronto": "00:16:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-10T00:14:00",
+        "pronto": "2026-06-10T00:16:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#12244 (#1139)",
+      "hub": "DS Sion",
+      "estabelec": "Sorveteria Doce Cascão - Savassi",
+      "cliente": "Retirada (Gabriel Vitor De Oliveira)",
+      "categoria": "loja",
       "etapa_atual": "em_preparo",
       "status_geral": "ok",
       "inativo": false,
@@ -558,7 +603,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.17,
+        "desde_cadastro": 3.16,
         "desde_pronto": null
       },
       "status": {
@@ -567,21 +612,66 @@
         "col_conc": "pendente"
       },
       "datas": {
-        "cadastro": "10/06/2026 00:14",
+        "cadastro": "10/06/2026 00:15",
         "pronto": "-",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
-        "cadastro": "00:14:00",
+        "cadastro": "00:15:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
-        "cadastro": "2026-06-10T00:14:00",
+        "cadastro": "2026-06-10T00:15:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#3792 (#2865)",
+      "hub": "DS Sion",
+      "estabelec": "Cremella Confeitaria - Cookies, Doces & Bolos",
+      "cliente": "Retirada (Beto Carvalho De Lopes Filho)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.16,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "10/06/2026 00:16",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "00:16:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-10T00:16:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
