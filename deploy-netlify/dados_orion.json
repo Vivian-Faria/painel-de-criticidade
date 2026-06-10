@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "10/06/2026 16:05:48",
+  "atualizado_em": "10/06/2026 16:08:27",
   "data_ref": "10/06/2026",
   "total": 296,
   "pedidos": [
@@ -6092,9 +6092,9 @@
         "cad_pronto": 80.0,
         "pronto_col": 9.0,
         "col_conc": null,
-        "aguard_saida": 119.81,
+        "aguard_saida": 122.47,
         "desde_cadastro": null,
-        "desde_pronto": 128.81
+        "desde_pronto": 131.47
       },
       "status": {
         "cad_pronto": "na",
@@ -11673,7 +11673,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 77.81,
+        "desde_cadastro": 80.47,
         "desde_pronto": null
       },
       "status": {
@@ -12844,7 +12844,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 24.81
+        "desde_pronto": 27.47
       },
       "status": {
         "cad_pronto": "alerta",
@@ -12879,42 +12879,42 @@
       "estabelec": "Savassi Brasileira",
       "cliente": "Entrega (Marcos Paulo)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_saida",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
-      "alerta_retorno": true,
+      "alerta_retorno": false,
       "tempos": {
         "cad_pronto": null,
         "pronto_col": null,
-        "col_conc": null,
-        "aguard_saida": 19.81,
-        "desde_cadastro": 25.81,
+        "col_conc": 21.0,
+        "aguard_saida": null,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "pendente",
-        "col_conc": "pendente"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "10/06/2026 15:40",
         "pronto": "-",
         "coleta": "10/06/2026 15:46",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "10/06/2026 16:07"
       },
       "horas": {
         "cadastro": "15:40:00",
         "pronto": null,
         "coleta": "15:46:00",
-        "conclusao": null,
+        "conclusao": "16:07:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-10T15:40:00",
         "pronto": null,
         "coleta": "2026-06-10T15:46:00",
-        "conclusao": null
+        "conclusao": "2026-06-10T16:07:00"
       },
       "dt_retorno": null
     },
@@ -13059,7 +13059,7 @@
       "estabelec": "Mr Duck Cookies - Belo Horizonte",
       "cliente": "Retirada (Marcella Marques)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -13069,7 +13069,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 8.81
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -13081,20 +13081,20 @@
         "pronto": "10/06/2026 15:57",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "10/06/2026 16:07"
       },
       "horas": {
         "cadastro": "15:50:00",
         "pronto": "15:57:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "16:07:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-10T15:50:00",
         "pronto": "2026-06-10T15:57:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-10T16:07:00"
       },
       "dt_retorno": null
     },
@@ -13104,17 +13104,17 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Rafaella)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "aguardando_coleta",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 16.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 14.81,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 1.47
       },
       "status": {
         "cad_pronto": "na",
@@ -13123,21 +13123,21 @@
       },
       "datas": {
         "cadastro": "10/06/2026 15:51",
-        "pronto": "-",
+        "pronto": "10/06/2026 16:07",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "15:51:00",
-        "pronto": null,
+        "pronto": "16:07:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-10T15:51:00",
-        "pronto": null,
+        "pronto": "2026-06-10T16:07:00",
         "coleta": null,
         "conclusao": null
       },
@@ -13149,7 +13149,7 @@
       "estabelec": "Mr Duck Cookies - Belo Horizonte",
       "cliente": "Retirada (Sophia Marques)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -13159,7 +13159,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 5.81
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -13171,20 +13171,20 @@
         "pronto": "10/06/2026 16:00",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "10/06/2026 16:07"
       },
       "horas": {
         "cadastro": "15:54:00",
         "pronto": "16:00:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "16:07:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-10T15:54:00",
         "pronto": "2026-06-10T16:00:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-10T16:07:00"
       },
       "dt_retorno": null
     },
@@ -13203,7 +13203,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.81,
+        "desde_cadastro": 11.47,
         "desde_pronto": null
       },
       "status": {
@@ -13239,40 +13239,40 @@
       "estabelec": "Kolac Bolos & Doces - Sion",
       "cliente": "Retirada (Erica Souza)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 6.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.81,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 1.47
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "10/06/2026 16:01",
-        "pronto": "-",
+        "pronto": "10/06/2026 16:07",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "16:01:00",
-        "pronto": null,
+        "pronto": "16:07:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-10T16:01:00",
-        "pronto": null,
+        "pronto": "2026-06-10T16:07:00",
         "coleta": null,
         "conclusao": null
       },
@@ -13284,7 +13284,7 @@
       "estabelec": "Savassi Brasileira",
       "cliente": "Entrega (Debora Alves)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "aguardando_saida",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
@@ -13292,8 +13292,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": null,
-        "desde_cadastro": 3.81,
+        "aguard_saida": 1.47,
+        "desde_cadastro": 6.47,
         "desde_pronto": null
       },
       "status": {
@@ -13304,21 +13304,21 @@
       "datas": {
         "cadastro": "10/06/2026 16:02",
         "pronto": "-",
-        "coleta": "-",
+        "coleta": "10/06/2026 16:07",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "16:02:00",
         "pronto": null,
-        "coleta": null,
+        "coleta": "16:07:00",
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-10T16:02:00",
         "pronto": null,
-        "coleta": null,
+        "coleta": "2026-06-10T16:07:00",
         "conclusao": null
       },
       "dt_retorno": null
