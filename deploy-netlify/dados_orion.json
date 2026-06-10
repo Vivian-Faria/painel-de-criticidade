@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "10/06/2026 00:06:08",
+  "atualizado_em": "10/06/2026 00:08:09",
   "data_ref": "10/06/2026",
-  "total": 6,
+  "total": 9,
   "pedidos": [
     {
       "cod": "#9954 (#4165)",
@@ -19,7 +19,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 4.14
+        "desde_pronto": 6.15
       },
       "status": {
         "cad_pronto": "ok",
@@ -63,7 +63,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.14,
+        "desde_cadastro": 7.15,
         "desde_pronto": null
       },
       "status": {
@@ -99,42 +99,42 @@
       "estabelec": "Amor e Açaí - Savassi",
       "cliente": "Retirada (Manuela Chacón)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "alerta",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 3.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 3.14,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "alerta",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "10/06/2026 00:03",
-        "pronto": "-",
+        "pronto": "10/06/2026 00:06",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "10/06/2026 00:06"
       },
       "horas": {
         "cadastro": "00:03:00",
-        "pronto": null,
+        "pronto": "00:06:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "00:06:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-10T00:03:00",
-        "pronto": null,
+        "pronto": "2026-06-10T00:06:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-10T00:06:00"
       },
       "dt_retorno": null
     },
@@ -153,7 +153,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 3.14,
+        "desde_cadastro": 5.15,
         "desde_pronto": null
       },
       "status": {
@@ -198,7 +198,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.14,
+        "desde_cadastro": 4.15,
         "desde_pronto": null
       },
       "status": {
@@ -243,7 +243,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.14,
+        "desde_cadastro": 4.15,
         "desde_pronto": null
       },
       "status": {
@@ -267,6 +267,141 @@
       },
       "ts": {
         "cadastro": "2026-06-10T00:04:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#296486 (#6186)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Kethlim Vasconcelos)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 3.15,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "10/06/2026 00:05",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "00:05:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-10T00:05:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#296487 (#4581)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (João Pedro Queiroz Grossi)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.15,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "10/06/2026 00:06",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "00:06:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-10T00:06:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#296488 (#3109)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Joao Marcelo)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.15,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "10/06/2026 00:07",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "00:07:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-10T00:07:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
