@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "10/06/2026 11:42:55",
+  "atualizado_em": "10/06/2026 11:44:55",
   "data_ref": "10/06/2026",
-  "total": 79,
+  "total": 81,
   "pedidos": [
     {
       "cod": "#9954 (#4165)",
@@ -828,7 +828,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 68.92,
+        "desde_cadastro": 70.93,
         "desde_pronto": null
       },
       "status": {
@@ -1997,9 +1997,9 @@
         "cad_pronto": 25.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 4.92,
+        "aguard_saida": 6.93,
         "desde_cadastro": null,
-        "desde_pronto": 5.92
+        "desde_pronto": 7.93
       },
       "status": {
         "cad_pronto": "na",
@@ -2079,17 +2079,17 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Alice)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "aguardando_coleta",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 31.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 30.92,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 1.93
       },
       "status": {
         "cad_pronto": "na",
@@ -2098,21 +2098,21 @@
       },
       "datas": {
         "cadastro": "10/06/2026 11:12",
-        "pronto": "-",
+        "pronto": "10/06/2026 11:43",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "11:12:00",
-        "pronto": null,
+        "pronto": "11:43:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-10T11:12:00",
-        "pronto": null,
+        "pronto": "2026-06-10T11:43:00",
         "coleta": null,
         "conclusao": null
       },
@@ -2176,7 +2176,7 @@
       "tempos": {
         "cad_pronto": 24.0,
         "pronto_col": 1.0,
-        "col_conc": 0.0,
+        "col_conc": 5.0,
         "aguard_saida": null,
         "desde_cadastro": null,
         "desde_pronto": null
@@ -2191,20 +2191,20 @@
         "pronto": "10/06/2026 11:37",
         "coleta": "10/06/2026 11:38",
         "retorno": "-",
-        "conclusao": "10/06/2026 11:38"
+        "conclusao": "10/06/2026 11:43"
       },
       "horas": {
         "cadastro": "11:13:00",
         "pronto": "11:37:00",
         "coleta": "11:38:00",
-        "conclusao": "11:38:00",
+        "conclusao": "11:43:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-10T11:13:00",
         "pronto": "2026-06-10T11:37:00",
         "coleta": "2026-06-10T11:38:00",
-        "conclusao": "2026-06-10T11:38:00"
+        "conclusao": "2026-06-10T11:43:00"
       },
       "dt_retorno": null
     },
@@ -2447,9 +2447,9 @@
         "cad_pronto": 18.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 4.92,
+        "aguard_saida": 6.93,
         "desde_cadastro": null,
-        "desde_pronto": 5.92
+        "desde_pronto": 7.93
       },
       "status": {
         "cad_pronto": "na",
@@ -2529,42 +2529,42 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Nubia)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": null,
         "pronto_col": null,
-        "col_conc": null,
+        "col_conc": 0.0,
         "aguard_saida": null,
-        "desde_cadastro": 20.92,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "pendente",
-        "col_conc": "pendente"
+        "col_conc": "ok"
       },
       "datas": {
         "cadastro": "10/06/2026 11:22",
         "pronto": "-",
-        "coleta": "-",
+        "coleta": "10/06/2026 11:44",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "10/06/2026 11:44"
       },
       "horas": {
         "cadastro": "11:22:00",
         "pronto": null,
-        "coleta": null,
-        "conclusao": null,
+        "coleta": "11:44:00",
+        "conclusao": "11:44:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-10T11:22:00",
         "pronto": null,
-        "coleta": null,
-        "conclusao": null
+        "coleta": "2026-06-10T11:44:00",
+        "conclusao": "2026-06-10T11:44:00"
       },
       "dt_retorno": null
     },
@@ -2583,7 +2583,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 20.92,
+        "desde_cadastro": 22.93,
         "desde_pronto": null
       },
       "status": {
@@ -2763,7 +2763,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 18.92,
+        "desde_cadastro": 20.93,
         "desde_pronto": null
       },
       "status": {
@@ -2799,42 +2799,42 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Morgana)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
-        "pronto_col": null,
-        "col_conc": null,
+        "cad_pronto": 19.0,
+        "pronto_col": 1.0,
+        "col_conc": 0.0,
         "aguard_saida": null,
-        "desde_cadastro": 18.92,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
-        "col_conc": "pendente"
+        "pronto_col": "ok",
+        "col_conc": "ok"
       },
       "datas": {
         "cadastro": "10/06/2026 11:24",
-        "pronto": "-",
-        "coleta": "-",
+        "pronto": "10/06/2026 11:43",
+        "coleta": "10/06/2026 11:44",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "10/06/2026 11:44"
       },
       "horas": {
         "cadastro": "11:24:00",
-        "pronto": null,
-        "coleta": null,
-        "conclusao": null,
+        "pronto": "11:43:00",
+        "coleta": "11:44:00",
+        "conclusao": "11:44:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-10T11:24:00",
-        "pronto": null,
-        "coleta": null,
-        "conclusao": null
+        "pronto": "2026-06-10T11:43:00",
+        "coleta": "2026-06-10T11:44:00",
+        "conclusao": "2026-06-10T11:44:00"
       },
       "dt_retorno": null
     },
@@ -2898,7 +2898,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 16.92,
+        "desde_cadastro": 18.93,
         "desde_pronto": null
       },
       "status": {
@@ -2943,7 +2943,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 15.92,
+        "desde_cadastro": 17.93,
         "desde_pronto": null
       },
       "status": {
@@ -2988,7 +2988,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 14.92,
+        "desde_cadastro": 16.93,
         "desde_pronto": null
       },
       "status": {
@@ -3024,17 +3024,17 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Rick)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "aguardando_coleta",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 13.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 12.92,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 1.93
       },
       "status": {
         "cad_pronto": "na",
@@ -3043,21 +3043,21 @@
       },
       "datas": {
         "cadastro": "10/06/2026 11:30",
-        "pronto": "-",
+        "pronto": "10/06/2026 11:43",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "11:30:00",
-        "pronto": null,
+        "pronto": "11:43:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-10T11:30:00",
-        "pronto": null,
+        "pronto": "2026-06-10T11:43:00",
         "coleta": null,
         "conclusao": null
       },
@@ -3078,7 +3078,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 10.92,
+        "desde_cadastro": 12.93,
         "desde_pronto": null
       },
       "status": {
@@ -3109,6 +3109,51 @@
       "dt_retorno": null
     },
     {
+      "cod": "#1337 (#5096)",
+      "hub": "DS Cidade Nova",
+      "estabelec": "3f - Fast Fitness Food - Cidade Nova",
+      "cliente": "Retirada (Pedro Rangel)",
+      "categoria": "outro",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 11.93,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "10/06/2026 11:33",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:33:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-10T11:33:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
       "cod": "#296507 (#818003)",
       "hub": "-",
       "estabelec": "Burger X",
@@ -3123,7 +3168,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 9.92,
+        "desde_cadastro": 11.93,
         "desde_pronto": null
       },
       "status": {
@@ -3169,7 +3214,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 4.92
+        "desde_pronto": 6.93
       },
       "status": {
         "cad_pronto": "critico",
@@ -3213,7 +3258,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 6.92,
+        "desde_cadastro": 8.93,
         "desde_pronto": null
       },
       "status": {
@@ -3258,7 +3303,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.92,
+        "desde_cadastro": 7.93,
         "desde_pronto": null
       },
       "status": {
@@ -3303,7 +3348,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.92,
+        "desde_cadastro": 7.93,
         "desde_pronto": null
       },
       "status": {
@@ -3348,7 +3393,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.92,
+        "desde_cadastro": 6.93,
         "desde_pronto": null
       },
       "status": {
@@ -3393,7 +3438,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.92,
+        "desde_cadastro": 6.93,
         "desde_pronto": null
       },
       "status": {
@@ -3438,7 +3483,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.92,
+        "desde_cadastro": 3.93,
         "desde_pronto": null
       },
       "status": {
@@ -3483,7 +3528,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.92,
+        "desde_cadastro": 3.93,
         "desde_pronto": null
       },
       "status": {
@@ -3528,7 +3573,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 0.92,
+        "desde_cadastro": 2.93,
         "desde_pronto": null
       },
       "status": {
@@ -3552,6 +3597,51 @@
       },
       "ts": {
         "cadastro": "2026-06-10T11:42:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#296513 (#229005)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Guilherme)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 0.93,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "10/06/2026 11:44",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:44:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-10T11:44:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
