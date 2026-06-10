@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "10/06/2026 16:16:24",
+  "atualizado_em": "10/06/2026 16:18:58",
   "data_ref": "10/06/2026",
-  "total": 298,
+  "total": 299,
   "pedidos": [
     {
       "cod": "#9954 (#4165)",
@@ -6092,9 +6092,9 @@
         "cad_pronto": 80.0,
         "pronto_col": 9.0,
         "col_conc": null,
-        "aguard_saida": 130.41,
+        "aguard_saida": 132.98,
         "desde_cadastro": null,
-        "desde_pronto": 139.41
+        "desde_pronto": 141.98
       },
       "status": {
         "cad_pronto": "na",
@@ -11673,7 +11673,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 88.41,
+        "desde_cadastro": 90.98,
         "desde_pronto": null
       },
       "status": {
@@ -12844,7 +12844,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 35.41
+        "desde_pronto": 37.98
       },
       "status": {
         "cad_pronto": "alerta",
@@ -13104,42 +13104,42 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Rafaella)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_saida",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 16.0,
         "pronto_col": 1.0,
-        "col_conc": null,
-        "aguard_saida": 8.41,
+        "col_conc": 9.0,
+        "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 9.41
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "ok",
-        "col_conc": "pendente"
+        "col_conc": "ok"
       },
       "datas": {
         "cadastro": "10/06/2026 15:51",
         "pronto": "10/06/2026 16:07",
         "coleta": "10/06/2026 16:08",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "10/06/2026 16:17"
       },
       "horas": {
         "cadastro": "15:51:00",
         "pronto": "16:07:00",
         "coleta": "16:08:00",
-        "conclusao": null,
+        "conclusao": "16:17:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-10T15:51:00",
         "pronto": "2026-06-10T16:07:00",
         "coleta": "2026-06-10T16:08:00",
-        "conclusao": null
+        "conclusao": "2026-06-10T16:17:00"
       },
       "dt_retorno": null
     },
@@ -13292,8 +13292,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 9.41,
-        "desde_cadastro": 14.41,
+        "aguard_saida": 11.98,
+        "desde_cadastro": 16.98,
         "desde_pronto": null
       },
       "status": {
@@ -13410,6 +13410,51 @@
         "pronto": "2026-06-10T16:15:00",
         "coleta": null,
         "conclusao": "2026-06-10T16:16:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#1726 (#1254)",
+      "hub": "-",
+      "estabelec": "Savassi Brasileira",
+      "cliente": "Entrega (Isabela Tavares)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.98,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "10/06/2026 16:16",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:16:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-10T16:16:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
       },
       "dt_retorno": null
     }
