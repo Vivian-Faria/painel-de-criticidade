@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "10/06/2026 15:45:33",
+  "atualizado_em": "10/06/2026 15:48:03",
   "data_ref": "10/06/2026",
   "total": 289,
   "pedidos": [
@@ -6092,9 +6092,9 @@
         "cad_pronto": 80.0,
         "pronto_col": 9.0,
         "col_conc": null,
-        "aguard_saida": 99.55,
+        "aguard_saida": 102.06,
         "desde_cadastro": null,
-        "desde_pronto": 108.55
+        "desde_pronto": 111.06
       },
       "status": {
         "cad_pronto": "na",
@@ -11673,7 +11673,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 57.55,
+        "desde_cadastro": 60.06,
         "desde_pronto": null
       },
       "status": {
@@ -12340,13 +12340,13 @@
       "cliente": "Retirada (Maria Fernanda Oliveira)",
       "categoria": "cozinha",
       "etapa_atual": "concluido",
-      "status_geral": "ok",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": null,
         "pronto_col": null,
-        "col_conc": 3.0,
+        "col_conc": 20.0,
         "aguard_saida": null,
         "desde_cadastro": null,
         "desde_pronto": null
@@ -12354,27 +12354,27 @@
       "status": {
         "cad_pronto": "na",
         "pronto_col": "pendente",
-        "col_conc": "ok"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "10/06/2026 15:12",
         "pronto": "-",
         "coleta": "10/06/2026 15:25",
         "retorno": "-",
-        "conclusao": "10/06/2026 15:28"
+        "conclusao": "10/06/2026 15:45"
       },
       "horas": {
         "cadastro": "15:12:00",
         "pronto": null,
         "coleta": "15:25:00",
-        "conclusao": "15:28:00",
+        "conclusao": "15:45:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-10T15:12:00",
         "pronto": null,
         "coleta": "2026-06-10T15:25:00",
-        "conclusao": "2026-06-10T15:28:00"
+        "conclusao": "2026-06-10T15:45:00"
       },
       "dt_retorno": null
     },
@@ -12394,7 +12394,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 30.55
+        "desde_pronto": 33.06
       },
       "status": {
         "cad_pronto": "ok",
@@ -12574,7 +12574,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 24.55
+        "desde_pronto": 27.06
       },
       "status": {
         "cad_pronto": "ok",
@@ -12708,7 +12708,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 11.55,
+        "desde_cadastro": 14.06,
         "desde_pronto": null
       },
       "status": {
@@ -12753,7 +12753,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 10.55,
+        "desde_cadastro": 13.06,
         "desde_pronto": null
       },
       "status": {
@@ -12844,7 +12844,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 4.55
+        "desde_pronto": 7.06
       },
       "status": {
         "cad_pronto": "alerta",
@@ -12879,7 +12879,7 @@
       "estabelec": "Savassi Brasileira",
       "cliente": "Entrega (Marcos Paulo)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "aguardando_saida",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
@@ -12887,8 +12887,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": null,
-        "desde_cadastro": 5.55,
+        "aguard_saida": 2.06,
+        "desde_cadastro": 8.06,
         "desde_pronto": null
       },
       "status": {
@@ -12899,21 +12899,21 @@
       "datas": {
         "cadastro": "10/06/2026 15:40",
         "pronto": "-",
-        "coleta": "-",
+        "coleta": "10/06/2026 15:46",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "15:40:00",
         "pronto": null,
-        "coleta": null,
+        "coleta": "15:46:00",
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-10T15:40:00",
         "pronto": null,
-        "coleta": null,
+        "coleta": "2026-06-10T15:46:00",
         "conclusao": null
       },
       "dt_retorno": null
@@ -12934,7 +12934,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.55
+        "desde_pronto": 4.06
       },
       "status": {
         "cad_pronto": "ok",
@@ -12969,40 +12969,40 @@
       "estabelec": "Chocolate no Cone /bolos /doceria",
       "cliente": "Retirada (Arthur Baião)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "aguardando_coleta",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 2.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.55,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 3.06
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "ok",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "10/06/2026 15:43",
-        "pronto": "-",
+        "pronto": "10/06/2026 15:45",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "15:43:00",
-        "pronto": null,
+        "pronto": "15:45:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-10T15:43:00",
-        "pronto": null,
+        "pronto": "2026-06-10T15:45:00",
         "coleta": null,
         "conclusao": null
       },
