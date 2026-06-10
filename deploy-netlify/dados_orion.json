@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "10/06/2026 12:19:06",
+  "atualizado_em": "10/06/2026 12:21:30",
   "data_ref": "10/06/2026",
-  "total": 114,
+  "total": 116,
   "pedidos": [
     {
       "cod": "#9954 (#4165)",
@@ -3024,42 +3024,42 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Rick)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_saida",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
-      "alerta_retorno": true,
+      "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 13.0,
         "pronto_col": 1.0,
-        "col_conc": null,
-        "aguard_saida": 35.12,
+        "col_conc": 35.0,
+        "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 36.12
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "ok",
-        "col_conc": "pendente"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "10/06/2026 11:30",
         "pronto": "10/06/2026 11:43",
         "coleta": "10/06/2026 11:44",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "10/06/2026 12:19"
       },
       "horas": {
         "cadastro": "11:30:00",
         "pronto": "11:43:00",
         "coleta": "11:44:00",
-        "conclusao": null,
+        "conclusao": "12:19:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-10T11:30:00",
         "pronto": "2026-06-10T11:43:00",
         "coleta": "2026-06-10T11:44:00",
-        "conclusao": null
+        "conclusao": "2026-06-10T12:19:00"
       },
       "dt_retorno": null
     },
@@ -3077,9 +3077,9 @@
         "cad_pronto": 24.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 22.12,
+        "aguard_saida": 24.51,
         "desde_cadastro": null,
-        "desde_pronto": 23.12
+        "desde_pronto": 25.51
       },
       "status": {
         "cad_pronto": "na",
@@ -3347,9 +3347,9 @@
         "cad_pronto": 29.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 12.12,
+        "aguard_saida": 14.51,
         "desde_cadastro": null,
-        "desde_pronto": 13.12
+        "desde_pronto": 15.51
       },
       "status": {
         "cad_pronto": "na",
@@ -3436,7 +3436,7 @@
       "tempos": {
         "cad_pronto": 18.0,
         "pronto_col": 1.0,
-        "col_conc": 15.0,
+        "col_conc": 22.0,
         "aguard_saida": null,
         "desde_cadastro": null,
         "desde_pronto": null
@@ -3451,20 +3451,20 @@
         "pronto": "10/06/2026 11:56",
         "coleta": "10/06/2026 11:57",
         "retorno": "-",
-        "conclusao": "10/06/2026 12:12"
+        "conclusao": "10/06/2026 12:19"
       },
       "horas": {
         "cadastro": "11:38:00",
         "pronto": "11:56:00",
         "coleta": "11:57:00",
-        "conclusao": "12:12:00",
+        "conclusao": "12:19:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-10T11:38:00",
         "pronto": "2026-06-10T11:56:00",
         "coleta": "2026-06-10T11:57:00",
-        "conclusao": "2026-06-10T12:12:00"
+        "conclusao": "2026-06-10T12:19:00"
       },
       "dt_retorno": null
     },
@@ -3572,9 +3572,9 @@
         "cad_pronto": 17.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 19.12,
+        "aguard_saida": 21.51,
         "desde_cadastro": null,
-        "desde_pronto": 20.12
+        "desde_pronto": 22.51
       },
       "status": {
         "cad_pronto": "na",
@@ -3663,7 +3663,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 35.12,
+        "desde_cadastro": 37.51,
         "desde_pronto": null
       },
       "status": {
@@ -3707,9 +3707,9 @@
         "cad_pronto": 15.0,
         "pronto_col": 0.0,
         "col_conc": null,
-        "aguard_saida": 20.12,
+        "aguard_saida": 22.51,
         "desde_cadastro": null,
-        "desde_pronto": 20.12
+        "desde_pronto": 22.51
       },
       "status": {
         "cad_pronto": "na",
@@ -3752,9 +3752,9 @@
         "cad_pronto": 21.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 12.12,
+        "aguard_saida": 14.51,
         "desde_cadastro": null,
-        "desde_pronto": 13.12
+        "desde_pronto": 15.51
       },
       "status": {
         "cad_pronto": "na",
@@ -3797,9 +3797,9 @@
         "cad_pronto": 32.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 1.12,
+        "aguard_saida": 3.51,
         "desde_cadastro": null,
-        "desde_pronto": 2.12
+        "desde_pronto": 4.51
       },
       "status": {
         "cad_pronto": "na",
@@ -4022,9 +4022,9 @@
         "cad_pronto": 28.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 1.12,
+        "aguard_saida": 3.51,
         "desde_cadastro": null,
-        "desde_pronto": 2.12
+        "desde_pronto": 4.51
       },
       "status": {
         "cad_pronto": "na",
@@ -4202,9 +4202,9 @@
         "cad_pronto": 20.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 1.12,
+        "aguard_saida": 3.51,
         "desde_cadastro": null,
-        "desde_pronto": 2.12
+        "desde_pronto": 4.51
       },
       "status": {
         "cad_pronto": "na",
@@ -4247,9 +4247,9 @@
         "cad_pronto": 20.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 1.12,
+        "aguard_saida": 3.51,
         "desde_cadastro": null,
-        "desde_pronto": 2.12
+        "desde_pronto": 4.51
       },
       "status": {
         "cad_pronto": "na",
@@ -4339,7 +4339,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 14.12
+        "desde_pronto": 16.51
       },
       "status": {
         "cad_pronto": "critico",
@@ -4382,9 +4382,9 @@
         "cad_pronto": 15.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 1.12,
+        "aguard_saida": 3.51,
         "desde_cadastro": null,
-        "desde_pronto": 2.12
+        "desde_pronto": 4.51
       },
       "status": {
         "cad_pronto": "na",
@@ -4428,7 +4428,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 16.12,
+        "desde_cadastro": 18.51,
         "desde_pronto": null
       },
       "status": {
@@ -4473,7 +4473,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 13.12,
+        "desde_cadastro": 15.51,
         "desde_pronto": null
       },
       "status": {
@@ -4518,7 +4518,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 12.12,
+        "desde_cadastro": 14.51,
         "desde_pronto": null
       },
       "status": {
@@ -4563,7 +4563,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 11.12,
+        "desde_cadastro": 13.51,
         "desde_pronto": null
       },
       "status": {
@@ -4607,9 +4607,9 @@
         "cad_pronto": 8.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 1.12,
+        "aguard_saida": 3.51,
         "desde_cadastro": null,
-        "desde_pronto": 2.12
+        "desde_pronto": 4.51
       },
       "status": {
         "cad_pronto": "na",
@@ -4698,7 +4698,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 9.12,
+        "desde_cadastro": 11.51,
         "desde_pronto": null
       },
       "status": {
@@ -4743,7 +4743,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.12,
+        "desde_cadastro": 10.51,
         "desde_pronto": null
       },
       "status": {
@@ -4788,7 +4788,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.12,
+        "desde_cadastro": 10.51,
         "desde_pronto": null
       },
       "status": {
@@ -4833,7 +4833,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.12,
+        "desde_cadastro": 10.51,
         "desde_pronto": null
       },
       "status": {
@@ -4878,7 +4878,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.12,
+        "desde_cadastro": 10.51,
         "desde_pronto": null
       },
       "status": {
@@ -4923,7 +4923,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.12,
+        "desde_cadastro": 9.51,
         "desde_pronto": null
       },
       "status": {
@@ -4968,7 +4968,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 6.12,
+        "desde_cadastro": 8.51,
         "desde_pronto": null
       },
       "status": {
@@ -5013,7 +5013,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.12,
+        "desde_cadastro": 6.51,
         "desde_pronto": null
       },
       "status": {
@@ -5058,7 +5058,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 3.12,
+        "desde_cadastro": 5.51,
         "desde_pronto": null
       },
       "status": {
@@ -5103,7 +5103,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 3.12,
+        "desde_cadastro": 5.51,
         "desde_pronto": null
       },
       "status": {
@@ -5127,6 +5127,96 @@
       },
       "ts": {
         "cadastro": "2026-06-10T12:16:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#20089 (#1352)",
+      "hub": "DS Sion",
+      "estabelec": "Viviane Sales Cake's - Bolos & Doces",
+      "cliente": "Retirada (Maiara Muniz)",
+      "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 2.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 0.51
+      },
+      "status": {
+        "cad_pronto": "ok",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "10/06/2026 12:19",
+        "pronto": "10/06/2026 12:21",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "12:19:00",
+        "pronto": "12:21:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-10T12:19:00",
+        "pronto": "2026-06-10T12:21:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#296533 (#758003)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Bianca)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.51,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "10/06/2026 12:19",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "12:19:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-10T12:19:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
