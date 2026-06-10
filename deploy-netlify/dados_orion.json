@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "10/06/2026 15:53:04",
+  "atualizado_em": "10/06/2026 15:55:35",
   "data_ref": "10/06/2026",
-  "total": 291,
+  "total": 292,
   "pedidos": [
     {
       "cod": "#9954 (#4165)",
@@ -6092,9 +6092,9 @@
         "cad_pronto": 80.0,
         "pronto_col": 9.0,
         "col_conc": null,
-        "aguard_saida": 107.08,
+        "aguard_saida": 109.58,
         "desde_cadastro": null,
-        "desde_pronto": 116.08
+        "desde_pronto": 118.58
       },
       "status": {
         "cad_pronto": "na",
@@ -11673,7 +11673,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 65.08,
+        "desde_cadastro": 67.58,
         "desde_pronto": null
       },
       "status": {
@@ -12384,7 +12384,7 @@
       "estabelec": "La Cake - Doceria, Bolos e Sobremesas",
       "cliente": "Retirada (Julia Louvise)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
@@ -12394,7 +12394,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 38.08
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "ok",
@@ -12406,20 +12406,20 @@
         "pronto": "10/06/2026 15:15",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "10/06/2026 15:54"
       },
       "horas": {
         "cadastro": "15:13:00",
         "pronto": "15:15:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "15:54:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-10T15:13:00",
         "pronto": "2026-06-10T15:15:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-10T15:54:00"
       },
       "dt_retorno": null
     },
@@ -12574,7 +12574,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 32.08
+        "desde_pronto": 34.58
       },
       "status": {
         "cad_pronto": "ok",
@@ -12844,7 +12844,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 12.08
+        "desde_pronto": 14.58
       },
       "status": {
         "cad_pronto": "alerta",
@@ -12887,8 +12887,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 7.08,
-        "desde_cadastro": 13.08,
+        "aguard_saida": 9.58,
+        "desde_cadastro": 15.58,
         "desde_pronto": null
       },
       "status": {
@@ -12969,7 +12969,7 @@
       "estabelec": "Chocolate no Cone /bolos /doceria",
       "cliente": "Retirada (Arthur Baião)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
@@ -12979,7 +12979,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 8.08
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "ok",
@@ -12991,20 +12991,20 @@
         "pronto": "10/06/2026 15:45",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "10/06/2026 15:53"
       },
       "horas": {
         "cadastro": "15:43:00",
         "pronto": "15:45:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "15:53:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-10T15:43:00",
         "pronto": "2026-06-10T15:45:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-10T15:53:00"
       },
       "dt_retorno": null
     },
@@ -13024,7 +13024,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.08
+        "desde_pronto": 5.58
       },
       "status": {
         "cad_pronto": "ok",
@@ -13068,7 +13068,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.08,
+        "desde_cadastro": 4.58,
         "desde_pronto": null
       },
       "status": {
@@ -13092,6 +13092,51 @@
       },
       "ts": {
         "cadastro": "2026-06-10T15:51:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#9965 (#7263)",
+      "hub": "DS Sion",
+      "estabelec": "Mr Duck Cookies - Belo Horizonte",
+      "cliente": "Retirada (Sophia Marques)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.58,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "10/06/2026 15:54",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "15:54:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-10T15:54:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
