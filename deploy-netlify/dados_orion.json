@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "10/06/2026 15:37:25",
+  "atualizado_em": "10/06/2026 15:40:05",
   "data_ref": "10/06/2026",
-  "total": 285,
+  "total": 286,
   "pedidos": [
     {
       "cod": "#9954 (#4165)",
@@ -6092,9 +6092,9 @@
         "cad_pronto": 80.0,
         "pronto_col": 9.0,
         "col_conc": null,
-        "aguard_saida": 91.43,
+        "aguard_saida": 94.09,
         "desde_cadastro": null,
-        "desde_pronto": 100.43
+        "desde_pronto": 103.09
       },
       "status": {
         "cad_pronto": "na",
@@ -11673,7 +11673,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 49.43,
+        "desde_cadastro": 52.09,
         "desde_pronto": null
       },
       "status": {
@@ -12394,7 +12394,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 22.43
+        "desde_pronto": 25.09
       },
       "status": {
         "cad_pronto": "ok",
@@ -12574,7 +12574,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 16.43
+        "desde_pronto": 19.09
       },
       "status": {
         "cad_pronto": "ok",
@@ -12619,7 +12619,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 16.43
+        "desde_pronto": 19.09
       },
       "status": {
         "cad_pronto": "ok",
@@ -12654,7 +12654,7 @@
       "estabelec": "Nuh Cookies",
       "cliente": "Retirada (Ana Gomes)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
@@ -12664,7 +12664,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 9.43
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "ok",
@@ -12676,20 +12676,20 @@
         "pronto": "10/06/2026 15:28",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "10/06/2026 15:39"
       },
       "horas": {
         "cadastro": "15:26:00",
         "pronto": "15:28:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "15:39:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-10T15:26:00",
         "pronto": "2026-06-10T15:28:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-10T15:39:00"
       },
       "dt_retorno": null
     },
@@ -12708,7 +12708,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 3.43,
+        "desde_cadastro": 6.09,
         "desde_pronto": null
       },
       "status": {
@@ -12753,7 +12753,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.43,
+        "desde_cadastro": 5.09,
         "desde_pronto": null
       },
       "status": {
@@ -12798,7 +12798,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.43,
+        "desde_cadastro": 4.09,
         "desde_pronto": null
       },
       "status": {
@@ -12822,6 +12822,51 @@
       },
       "ts": {
         "cadastro": "2026-06-10T15:36:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#249 (#1143)",
+      "hub": "DS Sion",
+      "estabelec": "K&l Doceria Sion",
+      "cliente": "Retirada (Vitoria Almeida)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.09,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "10/06/2026 15:38",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "15:38:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-10T15:38:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
