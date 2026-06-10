@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "10/06/2026 15:55:35",
+  "atualizado_em": "10/06/2026 15:58:05",
   "data_ref": "10/06/2026",
-  "total": 292,
+  "total": 293,
   "pedidos": [
     {
       "cod": "#9954 (#4165)",
@@ -6092,9 +6092,9 @@
         "cad_pronto": 80.0,
         "pronto_col": 9.0,
         "col_conc": null,
-        "aguard_saida": 109.58,
+        "aguard_saida": 112.1,
         "desde_cadastro": null,
-        "desde_pronto": 118.58
+        "desde_pronto": 121.1
       },
       "status": {
         "cad_pronto": "na",
@@ -11673,7 +11673,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 67.58,
+        "desde_cadastro": 70.1,
         "desde_pronto": null
       },
       "status": {
@@ -12564,7 +12564,7 @@
       "estabelec": "Pudim da Mafê",
       "cliente": "Retirada (Pedro Martins)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
@@ -12574,7 +12574,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 34.58
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "ok",
@@ -12586,20 +12586,20 @@
         "pronto": "10/06/2026 15:21",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "10/06/2026 15:57"
       },
       "horas": {
         "cadastro": "15:19:00",
         "pronto": "15:21:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "15:57:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-10T15:19:00",
         "pronto": "2026-06-10T15:21:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-10T15:57:00"
       },
       "dt_retorno": null
     },
@@ -12844,7 +12844,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 14.58
+        "desde_pronto": 17.1
       },
       "status": {
         "cad_pronto": "alerta",
@@ -12887,8 +12887,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 9.58,
-        "desde_cadastro": 15.58,
+        "aguard_saida": 12.1,
+        "desde_cadastro": 18.1,
         "desde_pronto": null
       },
       "status": {
@@ -13014,7 +13014,7 @@
       "estabelec": "Cremella Confeitaria - Cookies, Doces & Bolos",
       "cliente": "Retirada (Stephani Galvão)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
@@ -13024,7 +13024,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 5.58
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "ok",
@@ -13036,18 +13036,63 @@
         "pronto": "10/06/2026 15:50",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "10/06/2026 15:56"
       },
       "horas": {
         "cadastro": "15:48:00",
         "pronto": "15:50:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "15:56:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-10T15:48:00",
         "pronto": "2026-06-10T15:50:00",
+        "coleta": null,
+        "conclusao": "2026-06-10T15:56:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#9966 (#6565)",
+      "hub": "DS Sion",
+      "estabelec": "Mr Duck Cookies - Belo Horizonte",
+      "cliente": "Retirada (Marcella Marques)",
+      "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 7.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 1.1
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "10/06/2026 15:50",
+        "pronto": "10/06/2026 15:57",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "15:50:00",
+        "pronto": "15:57:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-10T15:50:00",
+        "pronto": "2026-06-10T15:57:00",
         "coleta": null,
         "conclusao": null
       },
@@ -13068,7 +13113,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.58,
+        "desde_cadastro": 7.1,
         "desde_pronto": null
       },
       "status": {
@@ -13113,7 +13158,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.58,
+        "desde_cadastro": 4.1,
         "desde_pronto": null
       },
       "status": {
