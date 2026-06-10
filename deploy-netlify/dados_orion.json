@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "10/06/2026 14:26:38",
+  "atualizado_em": "10/06/2026 14:29:22",
   "data_ref": "10/06/2026",
-  "total": 248,
+  "total": 247,
   "pedidos": [
     {
       "cod": "#9954 (#4165)",
@@ -6092,9 +6092,9 @@
         "cad_pronto": 80.0,
         "pronto_col": 9.0,
         "col_conc": null,
-        "aguard_saida": 20.64,
+        "aguard_saida": 23.37,
         "desde_cadastro": null,
-        "desde_pronto": 29.64
+        "desde_pronto": 32.37
       },
       "status": {
         "cad_pronto": "na",
@@ -6165,51 +6165,6 @@
         "pronto": null,
         "coleta": "2026-06-10T13:01:00",
         "conclusao": "2026-06-10T13:10:00"
-      },
-      "dt_retorno": null
-    },
-    {
-      "cod": "#1706 (#6810)",
-      "hub": "-",
-      "estabelec": "Savassi Brasileira",
-      "cliente": "Entrega (Isabela Guimarães)",
-      "categoria": "cozinha",
-      "etapa_atual": "concluido",
-      "status_geral": "critico",
-      "inativo": false,
-      "alerta_retorno": false,
-      "tempos": {
-        "cad_pronto": null,
-        "pronto_col": null,
-        "col_conc": 53.0,
-        "aguard_saida": null,
-        "desde_cadastro": null,
-        "desde_pronto": null
-      },
-      "status": {
-        "cad_pronto": "na",
-        "pronto_col": "pendente",
-        "col_conc": "critico"
-      },
-      "datas": {
-        "cadastro": "10/06/2026 12:38",
-        "pronto": "-",
-        "coleta": "10/06/2026 12:51",
-        "retorno": "-",
-        "conclusao": "10/06/2026 13:44"
-      },
-      "horas": {
-        "cadastro": "12:38:00",
-        "pronto": null,
-        "coleta": "12:51:00",
-        "conclusao": "13:44:00",
-        "retorno": null
-      },
-      "ts": {
-        "cadastro": "2026-06-10T12:38:00",
-        "pronto": null,
-        "coleta": "2026-06-10T12:51:00",
-        "conclusao": "2026-06-10T13:44:00"
       },
       "dt_retorno": null
     },
@@ -10052,9 +10007,9 @@
         "cad_pronto": 3.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 26.64,
+        "aguard_saida": 29.37,
         "desde_cadastro": null,
-        "desde_pronto": 28.64
+        "desde_pronto": 31.37
       },
       "status": {
         "cad_pronto": "na",
@@ -10224,42 +10179,42 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Beatriz)",
       "categoria": "cozinha",
-      "etapa_atual": "retornado",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 8.0,
         "pronto_col": 1.0,
-        "col_conc": null,
-        "aguard_saida": 17.64,
+        "col_conc": 20.0,
+        "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 18.64
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "ok",
-        "col_conc": "pendente"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "10/06/2026 14:00",
         "pronto": "10/06/2026 14:08",
         "coleta": "10/06/2026 14:09",
         "retorno": "10/06/2026 14:24",
-        "conclusao": "-"
+        "conclusao": "10/06/2026 14:29"
       },
       "horas": {
         "cadastro": "14:00:00",
         "pronto": "14:08:00",
         "coleta": "14:09:00",
-        "conclusao": null,
+        "conclusao": "14:29:00",
         "retorno": "14:24:00"
       },
       "ts": {
         "cadastro": "2026-06-10T14:00:00",
         "pronto": "2026-06-10T14:08:00",
         "coleta": "2026-06-10T14:09:00",
-        "conclusao": null
+        "conclusao": "2026-06-10T14:29:00"
       },
       "dt_retorno": "14:24:00"
     },
@@ -10404,7 +10359,7 @@
       "estabelec": "3f - Fast Fitness Food - Savassi",
       "cliente": "Retirada (Lilian França)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -10414,7 +10369,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.64
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -10426,20 +10381,20 @@
         "pronto": "10/06/2026 14:25",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "10/06/2026 14:29"
       },
       "horas": {
         "cadastro": "14:05:00",
         "pronto": "14:25:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "14:29:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-10T14:05:00",
         "pronto": "2026-06-10T14:25:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-10T14:29:00"
       },
       "dt_retorno": null
     },
@@ -10459,7 +10414,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.64
+        "desde_pronto": 4.37
       },
       "status": {
         "cad_pronto": "critico",
@@ -10638,7 +10593,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 14.64,
+        "desde_cadastro": 17.37,
         "desde_pronto": null
       },
       "status": {
@@ -10728,7 +10683,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 9.64,
+        "desde_cadastro": 12.37,
         "desde_pronto": null
       },
       "status": {
@@ -10773,7 +10728,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 9.64,
+        "desde_cadastro": 12.37,
         "desde_pronto": null
       },
       "status": {
@@ -10818,7 +10773,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.64,
+        "desde_cadastro": 11.37,
         "desde_pronto": null
       },
       "status": {
@@ -10864,7 +10819,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.64
+        "desde_pronto": 4.37
       },
       "status": {
         "cad_pronto": "critico",
@@ -10909,7 +10864,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.64
+        "desde_pronto": 4.37
       },
       "status": {
         "cad_pronto": "critico",
@@ -10952,8 +10907,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 2.64,
-        "desde_cadastro": 8.64,
+        "aguard_saida": 5.37,
+        "desde_cadastro": 11.37,
         "desde_pronto": null
       },
       "status": {
@@ -10998,7 +10953,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.64,
+        "desde_cadastro": 10.37,
         "desde_pronto": null
       },
       "status": {
@@ -11088,7 +11043,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.64,
+        "desde_cadastro": 7.37,
         "desde_pronto": null
       },
       "status": {
@@ -11133,7 +11088,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 0.64,
+        "desde_cadastro": 3.37,
         "desde_pronto": null
       },
       "status": {
