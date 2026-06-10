@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "10/06/2026 16:34:20",
+  "atualizado_em": "10/06/2026 16:37:02",
   "data_ref": "10/06/2026",
-  "total": 310,
+  "total": 312,
   "pedidos": [
     {
       "cod": "#9954 (#4165)",
@@ -11673,7 +11673,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 106.35,
+        "desde_cadastro": 109.05,
         "desde_pronto": null
       },
       "status": {
@@ -13474,7 +13474,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 12.35
+        "desde_pronto": 15.05
       },
       "status": {
         "cad_pronto": "ok",
@@ -13518,7 +13518,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 13.35,
+        "desde_cadastro": 16.05,
         "desde_pronto": null
       },
       "status": {
@@ -13554,7 +13554,7 @@
       "estabelec": "Bolos e Doces - Arelice Sion",
       "cliente": "Retirada (Lucas)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -13564,7 +13564,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 9.35
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -13576,20 +13576,20 @@
         "pronto": "10/06/2026 16:25",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "10/06/2026 16:36"
       },
       "horas": {
         "cadastro": "16:21:00",
         "pronto": "16:25:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "16:36:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-10T16:21:00",
         "pronto": "2026-06-10T16:25:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-10T16:36:00"
       },
       "dt_retorno": null
     },
@@ -13698,7 +13698,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 11.35,
+        "desde_cadastro": 14.05,
         "desde_pronto": null
       },
       "status": {
@@ -13742,8 +13742,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 2.35,
-        "desde_cadastro": 10.35,
+        "aguard_saida": 5.05,
+        "desde_cadastro": 13.05,
         "desde_pronto": null
       },
       "status": {
@@ -13833,7 +13833,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 9.35,
+        "desde_cadastro": 12.05,
         "desde_pronto": null
       },
       "status": {
@@ -13877,8 +13877,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 2.35,
-        "desde_cadastro": 9.35,
+        "aguard_saida": 5.05,
+        "desde_cadastro": 12.05,
         "desde_pronto": null
       },
       "status": {
@@ -13924,7 +13924,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 0.35
+        "desde_pronto": 3.05
       },
       "status": {
         "cad_pronto": "critico",
@@ -13948,6 +13948,96 @@
       "ts": {
         "cadastro": "2026-06-10T16:28:00",
         "pronto": "2026-06-10T16:34:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#20094 (#7652)",
+      "hub": "DS Sion",
+      "estabelec": "Viviane Sales Cake's - Bolos & Doces",
+      "cliente": "Retirada (Barbara Sobreira)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 3.05,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "10/06/2026 16:34",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:34:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-10T16:34:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#1619 (#8906)",
+      "hub": "DS Sion",
+      "estabelec": "Nuh Cookies",
+      "cliente": "Retirada (Danielle Manes)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.05,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "10/06/2026 16:35",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:35:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-10T16:35:00",
+        "pronto": null,
         "coleta": null,
         "conclusao": null
       },
