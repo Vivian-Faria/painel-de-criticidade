@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "10/06/2026 16:53:45",
+  "atualizado_em": "10/06/2026 16:56:30",
   "data_ref": "10/06/2026",
-  "total": 317,
+  "total": 318,
   "pedidos": [
     {
       "cod": "#9954 (#4165)",
@@ -11673,7 +11673,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 125.75,
+        "desde_cadastro": 128.51,
         "desde_pronto": null
       },
       "status": {
@@ -13512,14 +13512,14 @@
       "etapa_atual": "aguardando_saida",
       "status_geral": "ok",
       "inativo": false,
-      "alerta_retorno": false,
+      "alerta_retorno": true,
       "tempos": {
         "cad_pronto": 18.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 13.75,
+        "aguard_saida": 16.51,
         "desde_cadastro": null,
-        "desde_pronto": 14.75
+        "desde_pronto": 17.51
       },
       "status": {
         "cad_pronto": "na",
@@ -13924,7 +13924,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 19.75
+        "desde_pronto": 22.51
       },
       "status": {
         "cad_pronto": "critico",
@@ -13968,7 +13968,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 19.75,
+        "desde_cadastro": 22.51,
         "desde_pronto": null
       },
       "status": {
@@ -14104,7 +14104,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 10.75
+        "desde_pronto": 13.51
       },
       "status": {
         "cad_pronto": "ok",
@@ -14148,7 +14148,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 10.75,
+        "desde_cadastro": 13.51,
         "desde_pronto": null
       },
       "status": {
@@ -14239,7 +14239,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 5.75
+        "desde_pronto": 8.51
       },
       "status": {
         "cad_pronto": "ok",
@@ -14263,6 +14263,51 @@
       "ts": {
         "cadastro": "2026-06-10T16:47:00",
         "pronto": "2026-06-10T16:48:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#23028 (#9096)",
+      "hub": "DS Sion",
+      "estabelec": "Estela Damasceno Confeitaria",
+      "cliente": "Retirada (Lis Maria)",
+      "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 2.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 1.51
+      },
+      "status": {
+        "cad_pronto": "ok",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "10/06/2026 16:53",
+        "pronto": "10/06/2026 16:55",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:53:00",
+        "pronto": "16:55:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-10T16:53:00",
+        "pronto": "2026-06-10T16:55:00",
         "coleta": null,
         "conclusao": null
       },
