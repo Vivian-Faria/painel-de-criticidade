@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "11/06/2026 00:10:49",
+  "atualizado_em": "11/06/2026 00:12:42",
   "data_ref": "11/06/2026",
-  "total": 2,
+  "total": 4,
   "pedidos": [
     {
       "cod": "#296706 (#6770)",
@@ -18,7 +18,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.83,
+        "desde_cadastro": 10.71,
         "desde_pronto": null
       },
       "status": {
@@ -64,7 +64,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.83
+        "desde_pronto": 4.71
       },
       "status": {
         "cad_pronto": "alerta",
@@ -88,6 +88,96 @@
       "ts": {
         "cadastro": "2026-06-11T00:05:00",
         "pronto": "2026-06-11T00:08:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#8792 (#7239)",
+      "hub": "DS Sion",
+      "estabelec": "Inclitus - Bolos e Doces",
+      "cliente": "Retirada (Wendell Braz)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 3.71,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "11/06/2026 00:09",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "00:09:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-11T00:09:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#296707 (#8773)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Sidney Coura)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.71,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "11/06/2026 00:11",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "00:11:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-11T00:11:00",
+        "pronto": null,
         "coleta": null,
         "conclusao": null
       },
