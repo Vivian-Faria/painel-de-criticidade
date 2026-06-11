@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "11/06/2026 17:49:16",
+  "atualizado_em": "11/06/2026 17:55:01",
   "data_ref": "11/06/2026",
-  "total": 392,
+  "total": 395,
   "pedidos": [
     {
       "cod": "#296706 (#6770)",
@@ -1278,7 +1278,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 399.28,
+        "desde_cadastro": 405.02,
         "desde_pronto": null
       },
       "status": {
@@ -8614,7 +8614,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 280.28
+        "desde_pronto": 286.02
       },
       "status": {
         "cad_pronto": "critico",
@@ -10863,7 +10863,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 230.28,
+        "desde_cadastro": 236.02,
         "desde_pronto": null
       },
       "status": {
@@ -13834,7 +13834,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 134.28
+        "desde_pronto": 140.02
       },
       "status": {
         "cad_pronto": "critico",
@@ -16308,7 +16308,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 55.28,
+        "desde_cadastro": 61.02,
         "desde_pronto": null
       },
       "status": {
@@ -16488,7 +16488,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 46.28,
+        "desde_cadastro": 52.02,
         "desde_pronto": null
       },
       "status": {
@@ -17523,7 +17523,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.28,
+        "desde_cadastro": 14.02,
         "desde_pronto": null
       },
       "status": {
@@ -17569,7 +17569,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.28
+        "desde_pronto": 9.02
       },
       "status": {
         "cad_pronto": "alerta",
@@ -17604,7 +17604,7 @@
       "estabelec": "Tortas dos Silva - Itens Congelados",
       "cliente": "Retirada (Sandro Brandao)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "alerta",
       "inativo": false,
       "alerta_retorno": false,
@@ -17614,7 +17614,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.28
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "alerta",
@@ -17626,18 +17626,153 @@
         "pronto": "11/06/2026 17:48",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "11/06/2026 17:54"
       },
       "horas": {
         "cadastro": "17:45:00",
         "pronto": "17:48:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "17:54:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-11T17:45:00",
         "pronto": "2026-06-11T17:48:00",
+        "coleta": null,
+        "conclusao": "2026-06-11T17:54:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#5629 (#5055)",
+      "hub": "DS Sion",
+      "estabelec": "Cacau Arte - Doces,& Tortas CONGELADOS - SION",
+      "cliente": "Retirada (Vitor Castello Branco)",
+      "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 2.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 3.02
+      },
+      "status": {
+        "cad_pronto": "ok",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "11/06/2026 17:50",
+        "pronto": "11/06/2026 17:52",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "17:50:00",
+        "pronto": "17:52:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-11T17:50:00",
+        "pronto": "2026-06-11T17:52:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#5139 (#8641)",
+      "hub": "DS Cidade Nova",
+      "estabelec": "Eu Que Fiz (cidade Nova) - Doces & Bolos",
+      "cliente": "Retirada (Roana Daphne)",
+      "categoria": "outro",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.02,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "11/06/2026 17:53",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "17:53:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-11T17:53:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#10000 (#5766)",
+      "hub": "DS Sion",
+      "estabelec": "Mr Duck Cookies - Belo Horizonte",
+      "cliente": "Retirada (Domenica)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.02,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "11/06/2026 17:53",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "17:53:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-11T17:53:00",
+        "pronto": null,
         "coleta": null,
         "conclusao": null
       },
