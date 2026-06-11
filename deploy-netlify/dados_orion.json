@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "11/06/2026 00:14:36",
+  "atualizado_em": "11/06/2026 00:16:30",
   "data_ref": "11/06/2026",
-  "total": 4,
+  "total": 6,
   "pedidos": [
     {
       "cod": "#296706 (#6770)",
@@ -18,7 +18,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 12.6,
+        "desde_cadastro": 14.5,
         "desde_pronto": null
       },
       "status": {
@@ -54,7 +54,7 @@
       "estabelec": "Kolac Bolos & Doces - Sion",
       "cliente": "Retirada (Constancia D.)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "alerta",
       "inativo": false,
       "alerta_retorno": false,
@@ -64,7 +64,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 6.6
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "alerta",
@@ -76,20 +76,20 @@
         "pronto": "11/06/2026 00:08",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "11/06/2026 00:16"
       },
       "horas": {
         "cadastro": "00:05:00",
         "pronto": "00:08:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "00:16:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-11T00:05:00",
         "pronto": "2026-06-11T00:08:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-11T00:16:00"
       },
       "dt_retorno": null
     },
@@ -139,6 +139,51 @@
       "dt_retorno": null
     },
     {
+      "cod": "#296708 (#7453)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Felipe Ferreira)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 6.5,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "11/06/2026 00:10",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "00:10:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-11T00:10:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
       "cod": "#296707 (#8773)",
       "hub": "-",
       "estabelec": "Burger X",
@@ -153,7 +198,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 3.6,
+        "desde_cadastro": 5.5,
         "desde_pronto": null
       },
       "status": {
@@ -177,6 +222,51 @@
       },
       "ts": {
         "cadastro": "2026-06-11T00:11:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#296709 (#8241)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (André Macedo Ribeiro)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 0.5,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "11/06/2026 00:16",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "00:16:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-11T00:16:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
