@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "11/06/2026 10:09:49",
+  "atualizado_em": "11/06/2026 10:11:44",
   "data_ref": "11/06/2026",
   "total": 12,
   "pedidos": [
@@ -468,7 +468,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 74.83,
+        "desde_cadastro": 76.74,
         "desde_pronto": null
       },
       "status": {
@@ -504,40 +504,40 @@
       "estabelec": "Sorveteria Doce Cascão - Savassi",
       "cliente": "Retirada (Daniele Zanon)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 5.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 3.83,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 0.74
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "11/06/2026 10:06",
-        "pronto": "-",
+        "pronto": "11/06/2026 10:11",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "10:06:00",
-        "pronto": null,
+        "pronto": "10:11:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-11T10:06:00",
-        "pronto": null,
+        "pronto": "2026-06-11T10:11:00",
         "coleta": null,
         "conclusao": null
       },
