@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "11/06/2026 10:21:18",
+  "atualizado_em": "11/06/2026 10:23:12",
   "data_ref": "11/06/2026",
-  "total": 12,
+  "total": 13,
   "pedidos": [
     {
       "cod": "#296706 (#6770)",
@@ -468,7 +468,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 86.31,
+        "desde_cadastro": 88.21,
         "desde_pronto": null
       },
       "status": {
@@ -540,6 +540,51 @@
         "pronto": "2026-06-11T10:11:00",
         "coleta": null,
         "conclusao": "2026-06-11T10:17:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#983 (#1)",
+      "hub": "-",
+      "estabelec": "Moink",
+      "cliente": "Retirada (Thiago Pongelupe Buffet & Catering Ltda)",
+      "categoria": "cozinha",
+      "etapa_atual": "aguardando_saida",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 1.0,
+        "pronto_col": 0.0,
+        "col_conc": null,
+        "aguard_saida": 1.21,
+        "desde_cadastro": null,
+        "desde_pronto": 1.21
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "ok",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "11/06/2026 10:21",
+        "pronto": "11/06/2026 10:22",
+        "coleta": "11/06/2026 10:22",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "10:21:00",
+        "pronto": "10:22:00",
+        "coleta": "10:22:00",
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-11T10:21:00",
+        "pronto": "2026-06-11T10:22:00",
+        "coleta": "2026-06-11T10:22:00",
+        "conclusao": null
       },
       "dt_retorno": null
     }
