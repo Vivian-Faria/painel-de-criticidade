@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "11/06/2026 10:50:24",
+  "atualizado_em": "11/06/2026 10:52:21",
   "data_ref": "11/06/2026",
-  "total": 14,
+  "total": 15,
   "pedidos": [
     {
       "cod": "#296706 (#6770)",
@@ -468,7 +468,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 115.41,
+        "desde_cadastro": 117.35,
         "desde_pronto": null
       },
       "status": {
@@ -549,42 +549,42 @@
       "estabelec": "Moink",
       "cliente": "Retirada (Thiago Pongelupe Buffet & Catering Ltda)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_saida",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
-      "alerta_retorno": true,
+      "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 1.0,
         "pronto_col": 0.0,
-        "col_conc": null,
-        "aguard_saida": 28.41,
+        "col_conc": 28.0,
+        "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 28.41
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "ok",
-        "col_conc": "pendente"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "11/06/2026 10:21",
         "pronto": "11/06/2026 10:22",
         "coleta": "11/06/2026 10:22",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "11/06/2026 10:50"
       },
       "horas": {
         "cadastro": "10:21:00",
         "pronto": "10:22:00",
         "coleta": "10:22:00",
-        "conclusao": null,
+        "conclusao": "10:50:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-11T10:21:00",
         "pronto": "2026-06-11T10:22:00",
         "coleta": "2026-06-11T10:22:00",
-        "conclusao": null
+        "conclusao": "2026-06-11T10:50:00"
       },
       "dt_retorno": null
     },
@@ -604,7 +604,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 12.41
+        "desde_pronto": 14.35
       },
       "status": {
         "cad_pronto": "alerta",
@@ -628,6 +628,51 @@
       "ts": {
         "cadastro": "2026-06-11T10:35:00",
         "pronto": "2026-06-11T10:38:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#35869 (#4502)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Patrícia Vidigal)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.35,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "11/06/2026 10:50",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "10:50:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-11T10:50:00",
+        "pronto": null,
         "coleta": null,
         "conclusao": null
       },
