@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "11/06/2026 14:41:42",
+  "atualizado_em": "11/06/2026 14:44:20",
   "data_ref": "11/06/2026",
-  "total": 273,
+  "total": 274,
   "pedidos": [
     {
       "cod": "#296706 (#6770)",
@@ -468,7 +468,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 346.7,
+        "desde_cadastro": 349.34,
         "desde_pronto": null
       },
       "status": {
@@ -1278,7 +1278,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 211.7,
+        "desde_cadastro": 214.34,
         "desde_pronto": null
       },
       "status": {
@@ -7174,7 +7174,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 114.7
+        "desde_pronto": 117.34
       },
       "status": {
         "cad_pronto": "ok",
@@ -8614,7 +8614,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 92.7
+        "desde_pronto": 95.34
       },
       "status": {
         "cad_pronto": "critico",
@@ -9604,7 +9604,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 72.7
+        "desde_pronto": 75.34
       },
       "status": {
         "cad_pronto": "alerta",
@@ -10863,7 +10863,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 42.7,
+        "desde_cadastro": 45.34,
         "desde_pronto": null
       },
       "status": {
@@ -11314,7 +11314,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 4.7
+        "desde_pronto": 7.34
       },
       "status": {
         "cad_pronto": "na",
@@ -11449,7 +11449,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 22.7
+        "desde_pronto": 25.34
       },
       "status": {
         "cad_pronto": "critico",
@@ -11944,7 +11944,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 4.7
+        "desde_pronto": 7.34
       },
       "status": {
         "cad_pronto": "na",
@@ -12033,7 +12033,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 11.7,
+        "desde_cadastro": 14.34,
         "desde_pronto": null
       },
       "status": {
@@ -12078,7 +12078,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 9.7,
+        "desde_cadastro": 12.34,
         "desde_pronto": null
       },
       "status": {
@@ -12123,7 +12123,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.7,
+        "desde_cadastro": 8.34,
         "desde_pronto": null
       },
       "status": {
@@ -12169,7 +12169,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.7
+        "desde_pronto": 5.34
       },
       "status": {
         "cad_pronto": "alerta",
@@ -12204,42 +12204,42 @@
       "estabelec": "Cremella Confeitaria - Cookies, Doces & Bolos",
       "cliente": "Retirada (Raquel Ribeiro)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 5.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.7,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "11/06/2026 14:37",
-        "pronto": "-",
+        "pronto": "11/06/2026 14:42",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "11/06/2026 14:43"
       },
       "horas": {
         "cadastro": "14:37:00",
-        "pronto": null,
+        "pronto": "14:42:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "14:43:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-11T14:37:00",
-        "pronto": null,
+        "pronto": "2026-06-11T14:42:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-11T14:43:00"
       },
       "dt_retorno": null
     },
@@ -12249,6 +12249,51 @@
       "estabelec": "Mr Duck Cookies - Belo Horizonte",
       "cliente": "Retirada (Stephany Badaro)",
       "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "alerta",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 3.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 2.34
+      },
+      "status": {
+        "cad_pronto": "alerta",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "11/06/2026 14:39",
+        "pronto": "11/06/2026 14:42",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "14:39:00",
+        "pronto": "14:42:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-11T14:39:00",
+        "pronto": "2026-06-11T14:42:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#296819 (#229015)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Israel)",
+      "categoria": "cozinha",
       "etapa_atual": "em_preparo",
       "status_geral": "ok",
       "inativo": false,
@@ -12258,30 +12303,30 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.7,
+        "desde_cadastro": 1.34,
         "desde_pronto": null
       },
       "status": {
-        "cad_pronto": "pendente",
-        "pronto_col": "na",
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
         "col_conc": "pendente"
       },
       "datas": {
-        "cadastro": "11/06/2026 14:39",
+        "cadastro": "11/06/2026 14:43",
         "pronto": "-",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
-        "cadastro": "14:39:00",
+        "cadastro": "14:43:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
-        "cadastro": "2026-06-11T14:39:00",
+        "cadastro": "2026-06-11T14:43:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
