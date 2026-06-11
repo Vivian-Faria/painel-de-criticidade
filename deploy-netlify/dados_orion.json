@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "11/06/2026 00:22:11",
+  "atualizado_em": "11/06/2026 00:24:05",
   "data_ref": "11/06/2026",
-  "total": 8,
+  "total": 9,
   "pedidos": [
     {
       "cod": "#296706 (#6770)",
@@ -18,7 +18,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 20.18,
+        "desde_cadastro": 22.09,
         "desde_pronto": null
       },
       "status": {
@@ -153,7 +153,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 12.18,
+        "desde_cadastro": 14.09,
         "desde_pronto": null
       },
       "status": {
@@ -198,7 +198,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 11.18,
+        "desde_cadastro": 13.09,
         "desde_pronto": null
       },
       "status": {
@@ -243,7 +243,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 6.18,
+        "desde_cadastro": 8.09,
         "desde_pronto": null
       },
       "status": {
@@ -279,7 +279,7 @@
       "estabelec": "Arcanjos Açai Delivery",
       "cliente": "Retirada (Marcos Manduba)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -289,7 +289,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 0.18
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -301,20 +301,20 @@
         "pronto": "11/06/2026 00:22",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "11/06/2026 00:22"
       },
       "horas": {
         "cadastro": "00:16:00",
         "pronto": "00:22:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "00:22:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-11T00:16:00",
         "pronto": "2026-06-11T00:22:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-11T00:22:00"
       },
       "dt_retorno": null
     },
@@ -324,7 +324,7 @@
       "estabelec": "Estela Damasceno Confeitaria",
       "cliente": "Retirada (Ana Luísa Martins)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -334,7 +334,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 0.18
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -346,18 +346,63 @@
         "pronto": "11/06/2026 00:22",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "11/06/2026 00:23"
       },
       "horas": {
         "cadastro": "00:17:00",
         "pronto": "00:22:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "00:23:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-11T00:17:00",
         "pronto": "2026-06-11T00:22:00",
+        "coleta": null,
+        "conclusao": "2026-06-11T00:23:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#296710 (#0351)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Natália Prado)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 4.09,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "11/06/2026 00:20",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "00:20:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-11T00:20:00",
+        "pronto": null,
         "coleta": null,
         "conclusao": null
       },
