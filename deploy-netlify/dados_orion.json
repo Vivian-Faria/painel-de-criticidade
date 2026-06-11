@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "11/06/2026 10:34:43",
+  "atualizado_em": "11/06/2026 10:36:38",
   "data_ref": "11/06/2026",
-  "total": 13,
+  "total": 14,
   "pedidos": [
     {
       "cod": "#296706 (#6770)",
@@ -468,7 +468,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 99.73,
+        "desde_cadastro": 101.64,
         "desde_pronto": null
       },
       "status": {
@@ -557,9 +557,9 @@
         "cad_pronto": 1.0,
         "pronto_col": 0.0,
         "col_conc": null,
-        "aguard_saida": 12.73,
+        "aguard_saida": 14.64,
         "desde_cadastro": null,
-        "desde_pronto": 12.73
+        "desde_pronto": 14.64
       },
       "status": {
         "cad_pronto": "na",
@@ -584,6 +584,51 @@
         "cadastro": "2026-06-11T10:21:00",
         "pronto": "2026-06-11T10:22:00",
         "coleta": "2026-06-11T10:22:00",
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#1050 (#328)",
+      "hub": "DS Sion",
+      "estabelec": "Doce Fit Bella",
+      "cliente": "Retirada (Flávio)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.64,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "11/06/2026 10:35",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "10:35:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-11T10:35:00",
+        "pronto": null,
+        "coleta": null,
         "conclusao": null
       },
       "dt_retorno": null
