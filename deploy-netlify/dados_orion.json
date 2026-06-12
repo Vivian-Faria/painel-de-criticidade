@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "12/06/2026 10:04:42",
+  "atualizado_em": "12/06/2026 10:06:38",
   "data_ref": "12/06/2026",
-  "total": 21,
+  "total": 22,
   "pedidos": [
     {
       "cod": "#30336 (#0719)",
@@ -918,7 +918,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 60.71,
+        "desde_cadastro": 62.65,
         "desde_pronto": null
       },
       "status": {
@@ -943,6 +943,51 @@
       "ts": {
         "cadastro": "2026-06-12T09:04:00",
         "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#10018 (#8619)",
+      "hub": "DS Sion",
+      "estabelec": "Mr Duck Cookies - Belo Horizonte",
+      "cliente": "Retirada (Beatriz Duarte)",
+      "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 1.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 0.65
+      },
+      "status": {
+        "cad_pronto": "ok",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "12/06/2026 10:05",
+        "pronto": "12/06/2026 10:06",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "10:05:00",
+        "pronto": "10:06:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-12T10:05:00",
+        "pronto": "2026-06-12T10:06:00",
         "coleta": null,
         "conclusao": null
       },
