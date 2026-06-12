@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "12/06/2026 11:10:59",
+  "atualizado_em": "12/06/2026 11:13:00",
   "data_ref": "12/06/2026",
-  "total": 35,
+  "total": 40,
   "pedidos": [
     {
       "cod": "#30336 (#0719)",
@@ -1134,7 +1134,7 @@
       "estabelec": "K&l Doceria Sion",
       "cliente": "Retirada (Ana Amaro )",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -1144,7 +1144,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 32.0
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -1156,20 +1156,20 @@
         "pronto": "12/06/2026 10:39",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "12/06/2026 11:11"
       },
       "horas": {
         "cadastro": "10:34:00",
         "pronto": "10:39:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "11:11:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-12T10:34:00",
         "pronto": "2026-06-12T10:39:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-12T11:11:00"
       },
       "dt_retorno": null
     },
@@ -1458,7 +1458,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.0,
+        "desde_cadastro": 9.0,
         "desde_pronto": null
       },
       "status": {
@@ -1504,7 +1504,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.0
+        "desde_pronto": 3.0
       },
       "status": {
         "cad_pronto": "critico",
@@ -1549,7 +1549,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.0
+        "desde_pronto": 3.0
       },
       "status": {
         "cad_pronto": "ok",
@@ -1573,6 +1573,231 @@
       "ts": {
         "cadastro": "2026-06-12T11:09:00",
         "pronto": "2026-06-12T11:10:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#1834 (#6831)",
+      "hub": "-",
+      "estabelec": "Savassi Brasileira",
+      "cliente": "Entrega (Isabella Brito)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 3.0,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "12/06/2026 11:10",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:10:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-12T11:10:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#23083 (#2627)",
+      "hub": "DS Sion",
+      "estabelec": "Estela Damasceno Confeitaria",
+      "cliente": "Retirada (Julia Miranda )",
+      "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 0.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 2.0
+      },
+      "status": {
+        "cad_pronto": "ok",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "12/06/2026 11:11",
+        "pronto": "12/06/2026 11:11",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:11:00",
+        "pronto": "11:11:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-12T11:11:00",
+        "pronto": "2026-06-12T11:11:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#35924 (#9005)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Jackeline Rodrigues)",
+      "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 1.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 1.0
+      },
+      "status": {
+        "cad_pronto": "ok",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "12/06/2026 11:11",
+        "pronto": "12/06/2026 11:12",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:11:00",
+        "pronto": "11:12:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-12T11:11:00",
+        "pronto": "2026-06-12T11:12:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#1835 (#5751)",
+      "hub": "-",
+      "estabelec": "Savassi Brasileira",
+      "cliente": "Entrega (Victor Furtado)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.0,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "12/06/2026 11:11",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:11:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-12T11:11:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#152 (#1167)",
+      "hub": "DS Sion",
+      "estabelec": "Doces Oliveira Bolos & Doces - Savassi",
+      "cliente": "Retirada (Thaiane Noronha)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.0,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "12/06/2026 11:12",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:12:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-12T11:12:00",
+        "pronto": null,
         "coleta": null,
         "conclusao": null
       },
