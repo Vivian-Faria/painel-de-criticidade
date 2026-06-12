@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "12/06/2026 10:06:38",
+  "atualizado_em": "12/06/2026 10:08:35",
   "data_ref": "12/06/2026",
-  "total": 22,
+  "total": 23,
   "pedidos": [
     {
       "cod": "#30336 (#0719)",
@@ -918,7 +918,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 62.65,
+        "desde_cadastro": 64.59,
         "desde_pronto": null
       },
       "status": {
@@ -964,7 +964,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 0.65
+        "desde_pronto": 2.59
       },
       "status": {
         "cad_pronto": "ok",
@@ -988,6 +988,51 @@
       "ts": {
         "cadastro": "2026-06-12T10:05:00",
         "pronto": "2026-06-12T10:06:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#2311 (#6961)",
+      "hub": "DS Sion",
+      "estabelec": "Adocicado Doces",
+      "cliente": "Retirada (Leonardo Diniz Durães)",
+      "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 1.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 1.59
+      },
+      "status": {
+        "cad_pronto": "ok",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "12/06/2026 10:06",
+        "pronto": "12/06/2026 10:07",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "10:06:00",
+        "pronto": "10:07:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-12T10:06:00",
+        "pronto": "2026-06-12T10:07:00",
         "coleta": null,
         "conclusao": null
       },
