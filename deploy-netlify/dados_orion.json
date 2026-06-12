@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "12/06/2026 00:20:01",
+  "atualizado_em": "12/06/2026 00:22:01",
   "data_ref": "12/06/2026",
-  "total": 13,
+  "total": 15,
   "pedidos": [
     {
       "cod": "#30336 (#0719)",
@@ -64,7 +64,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 13.03
+        "desde_pronto": 15.02
       },
       "status": {
         "cad_pronto": "alerta",
@@ -107,9 +107,9 @@
         "cad_pronto": 9.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 3.03,
+        "aguard_saida": 5.02,
         "desde_cadastro": null,
-        "desde_pronto": 5.03
+        "desde_pronto": 7.02
       },
       "status": {
         "cad_pronto": "na",
@@ -244,7 +244,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 8.03
+        "desde_pronto": 10.02
       },
       "status": {
         "cad_pronto": "critico",
@@ -289,7 +289,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 10.03
+        "desde_pronto": 12.02
       },
       "status": {
         "cad_pronto": "ok",
@@ -334,7 +334,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 10.03
+        "desde_pronto": 12.02
       },
       "status": {
         "cad_pronto": "ok",
@@ -378,7 +378,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 9.03,
+        "desde_cadastro": 11.02,
         "desde_pronto": null
       },
       "status": {
@@ -424,7 +424,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 7.03
+        "desde_pronto": 9.02
       },
       "status": {
         "cad_pronto": "ok",
@@ -468,7 +468,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.03,
+        "desde_cadastro": 10.02,
         "desde_pronto": null
       },
       "status": {
@@ -513,7 +513,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.03,
+        "desde_cadastro": 9.02,
         "desde_pronto": null
       },
       "status": {
@@ -559,7 +559,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.03
+        "desde_pronto": 5.02
       },
       "status": {
         "cad_pronto": "ok",
@@ -583,6 +583,96 @@
       "ts": {
         "cadastro": "2026-06-12T00:16:00",
         "pronto": "2026-06-12T00:17:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#297228 (#3239)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Vitor Hugo)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.02,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "12/06/2026 00:20",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "00:20:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-12T00:20:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#3834 (#2810)",
+      "hub": "DS Sion",
+      "estabelec": "Cremella Confeitaria - Cookies, Doces & Bolos",
+      "cliente": "Retirada (Paula Miranda)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.02,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "12/06/2026 00:20",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "00:20:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-12T00:20:00",
+        "pronto": null,
         "coleta": null,
         "conclusao": null
       },
