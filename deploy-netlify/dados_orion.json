@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "12/06/2026 10:14:26",
+  "atualizado_em": "12/06/2026 10:16:23",
   "data_ref": "12/06/2026",
-  "total": 23,
+  "total": 24,
   "pedidos": [
     {
       "cod": "#30336 (#0719)",
@@ -918,7 +918,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 70.44,
+        "desde_cadastro": 72.4,
         "desde_pronto": null
       },
       "status": {
@@ -964,7 +964,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 8.44
+        "desde_pronto": 10.4
       },
       "status": {
         "cad_pronto": "ok",
@@ -1009,7 +1009,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 7.44
+        "desde_pronto": 9.4
       },
       "status": {
         "cad_pronto": "ok",
@@ -1033,6 +1033,51 @@
       "ts": {
         "cadastro": "2026-06-12T10:06:00",
         "pronto": "2026-06-12T10:07:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#10019 (#1748)",
+      "hub": "DS Sion",
+      "estabelec": "Mr Duck Cookies - Belo Horizonte",
+      "cliente": "Retirada (Bianca Gonçalves)",
+      "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 2.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 1.4
+      },
+      "status": {
+        "cad_pronto": "ok",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "12/06/2026 10:13",
+        "pronto": "12/06/2026 10:15",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "10:13:00",
+        "pronto": "10:15:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-12T10:13:00",
+        "pronto": "2026-06-12T10:15:00",
         "coleta": null,
         "conclusao": null
       },
