@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "12/06/2026 10:26:24",
+  "atualizado_em": "12/06/2026 10:28:24",
   "data_ref": "12/06/2026",
-  "total": 24,
+  "total": 25,
   "pedidos": [
     {
       "cod": "#30336 (#0719)",
@@ -918,7 +918,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 82.41,
+        "desde_cadastro": 84.41,
         "desde_pronto": null
       },
       "status": {
@@ -964,7 +964,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 20.41
+        "desde_pronto": 22.41
       },
       "status": {
         "cad_pronto": "ok",
@@ -999,7 +999,7 @@
       "estabelec": "Adocicado Doces",
       "cliente": "Retirada (Leonardo Diniz Durães)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
@@ -1009,7 +1009,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 19.41
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "ok",
@@ -1021,20 +1021,20 @@
         "pronto": "12/06/2026 10:07",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "12/06/2026 10:26"
       },
       "horas": {
         "cadastro": "10:06:00",
         "pronto": "10:07:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "10:26:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-12T10:06:00",
         "pronto": "2026-06-12T10:07:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-12T10:26:00"
       },
       "dt_retorno": null
     },
@@ -1054,7 +1054,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 11.41
+        "desde_pronto": 13.41
       },
       "status": {
         "cad_pronto": "ok",
@@ -1078,6 +1078,51 @@
       "ts": {
         "cadastro": "2026-06-12T10:13:00",
         "pronto": "2026-06-12T10:15:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#10020 (#3323)",
+      "hub": "DS Sion",
+      "estabelec": "Mr Duck Cookies - Belo Horizonte",
+      "cliente": "Retirada (Edson Raposo)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.41,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "12/06/2026 10:27",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "10:27:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-12T10:27:00",
+        "pronto": null,
         "coleta": null,
         "conclusao": null
       },
