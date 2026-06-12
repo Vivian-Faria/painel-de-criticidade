@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "12/06/2026 11:04:48",
+  "atualizado_em": "12/06/2026 11:06:56",
   "data_ref": "12/06/2026",
-  "total": 32,
+  "total": 34,
   "pedidos": [
     {
       "cod": "#30336 (#0719)",
@@ -1144,7 +1144,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 25.8
+        "desde_pronto": 27.95
       },
       "status": {
         "cad_pronto": "critico",
@@ -1234,7 +1234,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 12.8
+        "desde_pronto": 14.95
       },
       "status": {
         "cad_pronto": "critico",
@@ -1359,7 +1359,7 @@
       "estabelec": "Sorveteria Doce Cascão - Savassi",
       "cliente": "Retirada (Vivian Valamiel)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "alerta",
       "inativo": false,
       "alerta_retorno": false,
@@ -1369,7 +1369,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 10.8
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "alerta",
@@ -1381,20 +1381,20 @@
         "pronto": "12/06/2026 10:54",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "12/06/2026 11:05"
       },
       "horas": {
         "cadastro": "10:51:00",
         "pronto": "10:54:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "11:05:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-12T10:51:00",
         "pronto": "2026-06-12T10:54:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-12T11:05:00"
       },
       "dt_retorno": null
     },
@@ -1440,6 +1440,96 @@
         "pronto": "2026-06-12T10:53:00",
         "coleta": null,
         "conclusao": "2026-06-12T10:59:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#1833 (#6607)",
+      "hub": "-",
+      "estabelec": "Savassi Brasileira",
+      "cliente": "Entrega (Pedro Henrique)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.95,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "12/06/2026 11:04",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:04:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-12T11:04:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#16887 (#7990)",
+      "hub": "DS Sion",
+      "estabelec": "E! Doces • Sobremesas - Sion",
+      "cliente": "Retirada (ícaro Dantas)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.95,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "12/06/2026 11:05",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:05:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-12T11:05:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
       },
       "dt_retorno": null
     }
