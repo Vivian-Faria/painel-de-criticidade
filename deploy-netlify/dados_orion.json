@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "12/06/2026 11:08:58",
+  "atualizado_em": "12/06/2026 11:10:59",
   "data_ref": "12/06/2026",
-  "total": 34,
+  "total": 35,
   "pedidos": [
     {
       "cod": "#30336 (#0719)",
@@ -1144,7 +1144,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 29.97
+        "desde_pronto": 32.0
       },
       "status": {
         "cad_pronto": "critico",
@@ -1458,7 +1458,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.97,
+        "desde_cadastro": 7.0,
         "desde_pronto": null
       },
       "status": {
@@ -1494,40 +1494,85 @@
       "estabelec": "E! Doces • Sobremesas - Sion",
       "cliente": "Retirada (ícaro Dantas)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 5.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 3.97,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 1.0
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "12/06/2026 11:05",
-        "pronto": "-",
+        "pronto": "12/06/2026 11:10",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "11:05:00",
-        "pronto": null,
+        "pronto": "11:10:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-12T11:05:00",
-        "pronto": null,
+        "pronto": "2026-06-12T11:10:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#35923 (#7078)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Natália Quaresma)",
+      "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 1.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 1.0
+      },
+      "status": {
+        "cad_pronto": "ok",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "12/06/2026 11:09",
+        "pronto": "12/06/2026 11:10",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:09:00",
+        "pronto": "11:10:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-12T11:09:00",
+        "pronto": "2026-06-12T11:10:00",
         "coleta": null,
         "conclusao": null
       },
