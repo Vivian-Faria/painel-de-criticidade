@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "12/06/2026 11:35:48",
+  "atualizado_em": "12/06/2026 11:38:01",
   "data_ref": "12/06/2026",
-  "total": 63,
+  "total": 67,
   "pedidos": [
     {
       "cod": "#30336 (#0719)",
@@ -1458,7 +1458,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 31.81,
+        "desde_cadastro": 34.03,
         "desde_pronto": null
       },
       "status": {
@@ -1539,17 +1539,17 @@
       "estabelec": "Mayu",
       "cliente": "Retirada (Pedro Sampaio)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "aguardando_coleta",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 31.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 29.81,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 1.03
       },
       "status": {
         "cad_pronto": "na",
@@ -1558,21 +1558,21 @@
       },
       "datas": {
         "cadastro": "12/06/2026 11:06",
-        "pronto": "-",
+        "pronto": "12/06/2026 11:37",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "11:06:00",
-        "pronto": null,
+        "pronto": "11:37:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-12T11:06:00",
-        "pronto": null,
+        "pronto": "2026-06-12T11:37:00",
         "coleta": null,
         "conclusao": null
       },
@@ -1638,7 +1638,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 25.81,
+        "desde_cadastro": 28.03,
         "desde_pronto": null
       },
       "status": {
@@ -1773,7 +1773,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 24.81,
+        "desde_cadastro": 27.03,
         "desde_pronto": null
       },
       "status": {
@@ -1908,7 +1908,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 19.81,
+        "desde_cadastro": 22.03,
         "desde_pronto": null
       },
       "status": {
@@ -2043,7 +2043,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 16.81,
+        "desde_cadastro": 19.03,
         "desde_pronto": null
       },
       "status": {
@@ -2133,7 +2133,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 14.81,
+        "desde_cadastro": 17.03,
         "desde_pronto": null
       },
       "status": {
@@ -2268,7 +2268,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 12.81,
+        "desde_cadastro": 15.03,
         "desde_pronto": null
       },
       "status": {
@@ -2404,7 +2404,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 6.81
+        "desde_pronto": 9.03
       },
       "status": {
         "cad_pronto": "critico",
@@ -2448,7 +2448,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 10.81,
+        "desde_cadastro": 13.03,
         "desde_pronto": null
       },
       "status": {
@@ -2479,6 +2479,51 @@
       "dt_retorno": null
     },
     {
+      "cod": "#1366 (#5531)",
+      "hub": "DS Cidade Nova",
+      "estabelec": "3f - Fast Fitness Food - Cidade Nova",
+      "cliente": "Retirada (Andréa Garcia Ledesma)",
+      "categoria": "outro",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 11.03,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "12/06/2026 11:27",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:27:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-12T11:27:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
       "cod": "#61699 (#4210)",
       "hub": "-",
       "estabelec": "Mayu",
@@ -2493,7 +2538,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.81,
+        "desde_cadastro": 10.03,
         "desde_pronto": null
       },
       "status": {
@@ -2529,7 +2574,7 @@
       "estabelec": "3f - Fast Fitness Food - Savassi",
       "cliente": "Retirada (Guilherme Lucas De Morais)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
@@ -2539,7 +2584,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 5.81
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "ok",
@@ -2551,20 +2596,20 @@
         "pronto": "12/06/2026 11:30",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "12/06/2026 11:35"
       },
       "horas": {
         "cadastro": "11:30:00",
         "pronto": "11:30:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "11:35:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-12T11:30:00",
         "pronto": "2026-06-12T11:30:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-12T11:35:00"
       },
       "dt_retorno": null
     },
@@ -2619,42 +2664,42 @@
       "estabelec": "3f - Fast Fitness Food - Savassi",
       "cliente": "Retirada (Jaime Villela)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 5.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.81,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "12/06/2026 11:31",
-        "pronto": "-",
+        "pronto": "12/06/2026 11:36",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "12/06/2026 11:37"
       },
       "horas": {
         "cadastro": "11:31:00",
-        "pronto": null,
+        "pronto": "11:36:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "11:37:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-12T11:31:00",
-        "pronto": null,
+        "pronto": "2026-06-12T11:36:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-12T11:37:00"
       },
       "dt_retorno": null
     },
@@ -2673,7 +2718,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 3.81,
+        "desde_cadastro": 6.03,
         "desde_pronto": null
       },
       "status": {
@@ -2709,17 +2754,17 @@
       "estabelec": "Varanda 1389",
       "cliente": "Retirada (Lucas Picchioni)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "aguardando_coleta",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 5.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 3.81,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 1.03
       },
       "status": {
         "cad_pronto": "na",
@@ -2728,21 +2773,21 @@
       },
       "datas": {
         "cadastro": "12/06/2026 11:32",
-        "pronto": "-",
+        "pronto": "12/06/2026 11:37",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "11:32:00",
-        "pronto": null,
+        "pronto": "11:37:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-12T11:32:00",
-        "pronto": null,
+        "pronto": "2026-06-12T11:37:00",
         "coleta": null,
         "conclusao": null
       },
@@ -2763,7 +2808,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.81,
+        "desde_cadastro": 5.03,
         "desde_pronto": null
       },
       "status": {
@@ -2799,7 +2844,7 @@
       "estabelec": "Viviane Sales Cake's - Bolos & Doces",
       "cliente": "Retirada (David Aguiar)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
@@ -2809,7 +2854,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.81
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "ok",
@@ -2821,18 +2866,153 @@
         "pronto": "12/06/2026 11:34",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "12/06/2026 11:36"
       },
       "horas": {
         "cadastro": "11:33:00",
         "pronto": "11:34:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "11:36:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-12T11:33:00",
         "pronto": "2026-06-12T11:34:00",
+        "coleta": null,
+        "conclusao": "2026-06-12T11:36:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#35930 (#7990)",
+      "hub": "DS Sion",
+      "estabelec": "3f - Fast Fitness Food - Savassi",
+      "cliente": "Retirada (Natalia Pequeno )",
+      "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 1.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 2.03
+      },
+      "status": {
+        "cad_pronto": "ok",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "12/06/2026 11:35",
+        "pronto": "12/06/2026 11:36",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:35:00",
+        "pronto": "11:36:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-12T11:35:00",
+        "pronto": "2026-06-12T11:36:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#20139 (#6775)",
+      "hub": "DS Sion",
+      "estabelec": "Viviane Sales Cake's - Bolos & Doces",
+      "cliente": "Retirada (Vitória Alice)",
+      "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 0.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 2.03
+      },
+      "status": {
+        "cad_pronto": "ok",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "12/06/2026 11:36",
+        "pronto": "12/06/2026 11:36",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:36:00",
+        "pronto": "11:36:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-12T11:36:00",
+        "pronto": "2026-06-12T11:36:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#16888 (#777002)",
+      "hub": "DS Sion",
+      "estabelec": "E! Doces • Sobremesas - Sion",
+      "cliente": "Retirada (Vinicius)",
+      "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 1.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 1.03
+      },
+      "status": {
+        "cad_pronto": "ok",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "12/06/2026 11:36",
+        "pronto": "12/06/2026 11:37",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "11:36:00",
+        "pronto": "11:37:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-12T11:36:00",
+        "pronto": "2026-06-12T11:37:00",
         "coleta": null,
         "conclusao": null
       },
