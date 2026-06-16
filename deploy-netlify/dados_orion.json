@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "16/06/2026 20:48:12",
+  "atualizado_em": "16/06/2026 20:50:49",
   "data_ref": "16/06/2026",
-  "total": 425,
+  "total": 427,
   "pedidos": [
     {
       "cod": "#297712 (#0600)",
@@ -17020,13 +17020,13 @@
       "cliente": "Retirada (João Otávio Alves Cagnin)",
       "categoria": "cozinha",
       "etapa_atual": "concluido",
-      "status_geral": "ok",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 20.0,
         "pronto_col": 1.0,
-        "col_conc": 6.0,
+        "col_conc": 26.0,
         "aguard_saida": null,
         "desde_cadastro": null,
         "desde_pronto": null
@@ -17034,27 +17034,27 @@
       "status": {
         "cad_pronto": "na",
         "pronto_col": "ok",
-        "col_conc": "ok"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "16/06/2026 20:03",
         "pronto": "16/06/2026 20:23",
         "coleta": "16/06/2026 20:24",
         "retorno": "-",
-        "conclusao": "16/06/2026 20:30"
+        "conclusao": "16/06/2026 20:50"
       },
       "horas": {
         "cadastro": "20:03:00",
         "pronto": "20:23:00",
         "coleta": "20:24:00",
-        "conclusao": "20:30:00",
+        "conclusao": "20:50:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-16T20:03:00",
         "pronto": "2026-06-16T20:23:00",
         "coleta": "2026-06-16T20:24:00",
-        "conclusao": "2026-06-16T20:30:00"
+        "conclusao": "2026-06-16T20:50:00"
       },
       "dt_retorno": null
     },
@@ -17569,7 +17569,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 29.2
+        "desde_pronto": 31.83
       },
       "status": {
         "cad_pronto": "critico",
@@ -17884,7 +17884,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 19.2
+        "desde_pronto": 21.83
       },
       "status": {
         "cad_pronto": "critico",
@@ -17919,42 +17919,42 @@
       "estabelec": "Mayu",
       "cliente": "Retirada (Clara Gustin)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
-        "pronto_col": null,
-        "col_conc": null,
+        "cad_pronto": 27.0,
+        "pronto_col": 1.0,
+        "col_conc": 1.0,
         "aguard_saida": null,
-        "desde_cadastro": 27.2,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
-        "col_conc": "pendente"
+        "pronto_col": "ok",
+        "col_conc": "ok"
       },
       "datas": {
         "cadastro": "16/06/2026 20:21",
-        "pronto": "-",
-        "coleta": "-",
+        "pronto": "16/06/2026 20:48",
+        "coleta": "16/06/2026 20:49",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "16/06/2026 20:50"
       },
       "horas": {
         "cadastro": "20:21:00",
-        "pronto": null,
-        "coleta": null,
-        "conclusao": null,
+        "pronto": "20:48:00",
+        "coleta": "20:49:00",
+        "conclusao": "20:50:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-16T20:21:00",
-        "pronto": null,
-        "coleta": null,
-        "conclusao": null
+        "pronto": "2026-06-16T20:48:00",
+        "coleta": "2026-06-16T20:49:00",
+        "conclusao": "2026-06-16T20:50:00"
       },
       "dt_retorno": null
     },
@@ -17974,7 +17974,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 24.2
+        "desde_pronto": 26.83
       },
       "status": {
         "cad_pronto": "ok",
@@ -18019,7 +18019,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 22.2
+        "desde_pronto": 24.83
       },
       "status": {
         "cad_pronto": "ok",
@@ -18064,7 +18064,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 19.2
+        "desde_pronto": 21.83
       },
       "status": {
         "cad_pronto": "ok",
@@ -18109,7 +18109,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 18.2
+        "desde_pronto": 20.83
       },
       "status": {
         "cad_pronto": "alerta",
@@ -18153,7 +18153,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 20.2,
+        "desde_cadastro": 22.83,
         "desde_pronto": null
       },
       "status": {
@@ -18199,7 +18199,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 12.2
+        "desde_pronto": 14.83
       },
       "status": {
         "cad_pronto": "critico",
@@ -18289,7 +18289,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 11.2
+        "desde_pronto": 13.83
       },
       "status": {
         "cad_pronto": "critico",
@@ -18334,7 +18334,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 14.2
+        "desde_pronto": 16.83
       },
       "status": {
         "cad_pronto": "ok",
@@ -18379,7 +18379,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 13.2
+        "desde_pronto": 15.83
       },
       "status": {
         "cad_pronto": "ok",
@@ -18422,9 +18422,9 @@
         "cad_pronto": 7.0,
         "pronto_col": 4.0,
         "col_conc": null,
-        "aguard_saida": 4.2,
+        "aguard_saida": 6.83,
         "desde_cadastro": null,
-        "desde_pronto": 8.2
+        "desde_pronto": 10.83
       },
       "status": {
         "cad_pronto": "na",
@@ -18469,7 +18469,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 12.2
+        "desde_pronto": 14.83
       },
       "status": {
         "cad_pronto": "ok",
@@ -18513,7 +18513,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 12.2,
+        "desde_cadastro": 14.83,
         "desde_pronto": null
       },
       "status": {
@@ -18559,7 +18559,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 10.2
+        "desde_pronto": 12.83
       },
       "status": {
         "cad_pronto": "ok",
@@ -18604,7 +18604,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 9.2
+        "desde_pronto": 11.83
       },
       "status": {
         "cad_pronto": "ok",
@@ -18648,7 +18648,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.2,
+        "desde_cadastro": 10.83,
         "desde_pronto": null
       },
       "status": {
@@ -18694,7 +18694,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.2
+        "desde_pronto": 4.83
       },
       "status": {
         "cad_pronto": "critico",
@@ -18729,40 +18729,40 @@
       "estabelec": "Sorveteria Doce Cascão - Savassi",
       "cliente": "Retirada (Laura Domingues Dias)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 9.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.2,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 0.83
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "16/06/2026 20:41",
-        "pronto": "-",
+        "pronto": "16/06/2026 20:50",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "20:41:00",
-        "pronto": null,
+        "pronto": "20:50:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-16T20:41:00",
-        "pronto": null,
+        "pronto": "2026-06-16T20:50:00",
         "coleta": null,
         "conclusao": null
       },
@@ -18783,7 +18783,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.2,
+        "desde_cadastro": 9.83,
         "desde_pronto": null
       },
       "status": {
@@ -18819,40 +18819,40 @@
       "estabelec": "Chocake Sion - Bolos & Doces",
       "cliente": "Retirada (Raquel Junqueira)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 8.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 6.2,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 0.83
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "16/06/2026 20:42",
-        "pronto": "-",
+        "pronto": "16/06/2026 20:50",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "20:42:00",
-        "pronto": null,
+        "pronto": "20:50:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-16T20:42:00",
-        "pronto": null,
+        "pronto": "2026-06-16T20:50:00",
         "coleta": null,
         "conclusao": null
       },
@@ -18873,7 +18873,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 6.2,
+        "desde_cadastro": 8.83,
         "desde_pronto": null
       },
       "status": {
@@ -18918,7 +18918,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.2,
+        "desde_cadastro": 7.83,
         "desde_pronto": null
       },
       "status": {
@@ -18963,7 +18963,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.2,
+        "desde_cadastro": 7.83,
         "desde_pronto": null
       },
       "status": {
@@ -19008,7 +19008,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.2,
+        "desde_cadastro": 6.83,
         "desde_pronto": null
       },
       "status": {
@@ -19053,7 +19053,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.2,
+        "desde_cadastro": 6.83,
         "desde_pronto": null
       },
       "status": {
@@ -19098,7 +19098,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 3.2,
+        "desde_cadastro": 5.83,
         "desde_pronto": null
       },
       "status": {
@@ -19122,6 +19122,96 @@
       },
       "ts": {
         "cadastro": "2026-06-16T20:45:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#297780 (#2847)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Fernando Jabour)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.83,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "16/06/2026 20:49",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "20:49:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-16T20:49:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#2334 (#7875)",
+      "hub": "DS Sion",
+      "estabelec": "Adocicado Doces",
+      "cliente": "Retirada (Eliane Raymundo)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.83,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "16/06/2026 20:49",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "20:49:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-16T20:49:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
