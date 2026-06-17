@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "17/06/2026 16:22:57",
+  "atualizado_em": "17/06/2026 16:25:22",
   "data_ref": "17/06/2026",
-  "total": 233,
+  "total": 234,
   "pedidos": [
     {
       "cod": "#23246 (#6794)",
@@ -7938,7 +7938,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 109.95,
+        "desde_cadastro": 112.37,
         "desde_pronto": null
       },
       "status": {
@@ -9154,7 +9154,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 48.95
+        "desde_pronto": 51.37
       },
       "status": {
         "cad_pronto": "na",
@@ -9961,7 +9961,7 @@
       "tempos": {
         "cad_pronto": 8.0,
         "pronto_col": 3.0,
-        "col_conc": 6.0,
+        "col_conc": 20.0,
         "aguard_saida": null,
         "desde_cadastro": null,
         "desde_pronto": null
@@ -9969,27 +9969,27 @@
       "status": {
         "cad_pronto": "na",
         "pronto_col": "critico",
-        "col_conc": "ok"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "17/06/2026 15:52",
         "pronto": "17/06/2026 16:00",
         "coleta": "17/06/2026 16:03",
         "retorno": "-",
-        "conclusao": "17/06/2026 16:09"
+        "conclusao": "17/06/2026 16:23"
       },
       "horas": {
         "cadastro": "15:52:00",
         "pronto": "16:00:00",
         "coleta": "16:03:00",
-        "conclusao": "16:09:00",
+        "conclusao": "16:23:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-17T15:52:00",
         "pronto": "2026-06-17T16:00:00",
         "coleta": "2026-06-17T16:03:00",
-        "conclusao": "2026-06-17T16:09:00"
+        "conclusao": "2026-06-17T16:23:00"
       },
       "dt_retorno": null
     },
@@ -10089,42 +10089,42 @@
       "estabelec": "Varanda 1389",
       "cliente": "Retirada (Frederico)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_saida",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 13.0,
         "pronto_col": 1.0,
-        "col_conc": null,
-        "aguard_saida": 4.95,
+        "col_conc": 5.0,
+        "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 5.95
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "ok",
-        "col_conc": "pendente"
+        "col_conc": "ok"
       },
       "datas": {
         "cadastro": "17/06/2026 16:04",
         "pronto": "17/06/2026 16:17",
         "coleta": "17/06/2026 16:18",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "17/06/2026 16:23"
       },
       "horas": {
         "cadastro": "16:04:00",
         "pronto": "16:17:00",
         "coleta": "16:18:00",
-        "conclusao": null,
+        "conclusao": "16:23:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-17T16:04:00",
         "pronto": "2026-06-17T16:17:00",
         "coleta": "2026-06-17T16:18:00",
-        "conclusao": null
+        "conclusao": "2026-06-17T16:23:00"
       },
       "dt_retorno": null
     },
@@ -10278,7 +10278,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 14.95,
+        "desde_cadastro": 17.37,
         "desde_pronto": null
       },
       "status": {
@@ -10323,7 +10323,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 12.95,
+        "desde_cadastro": 15.37,
         "desde_pronto": null
       },
       "status": {
@@ -10369,7 +10369,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 7.95
+        "desde_pronto": 10.37
       },
       "status": {
         "cad_pronto": "alerta",
@@ -10449,7 +10449,7 @@
       "estabelec": "Savassi Brasileira",
       "cliente": "Entrega (Lauanda Adriele)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "aguardando_saida",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
@@ -10457,8 +10457,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": null,
-        "desde_cadastro": 1.95,
+        "aguard_saida": 1.37,
+        "desde_cadastro": 4.37,
         "desde_pronto": null
       },
       "status": {
@@ -10469,19 +10469,64 @@
       "datas": {
         "cadastro": "17/06/2026 16:21",
         "pronto": "-",
-        "coleta": "-",
+        "coleta": "17/06/2026 16:24",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "16:21:00",
         "pronto": null,
-        "coleta": null,
+        "coleta": "16:24:00",
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-17T16:21:00",
+        "pronto": null,
+        "coleta": "2026-06-17T16:24:00",
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#279 (#3399)",
+      "hub": "DS Sion",
+      "estabelec": "Cenôra Bolos",
+      "cliente": "Retirada (Marcell Philippe)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.37,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "17/06/2026 16:23",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:23:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-17T16:23:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
