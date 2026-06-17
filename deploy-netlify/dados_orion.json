@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "17/06/2026 15:27:41",
+  "atualizado_em": "17/06/2026 15:30:05",
   "data_ref": "17/06/2026",
-  "total": 204,
+  "total": 206,
   "pedidos": [
     {
       "cod": "#23246 (#6794)",
@@ -7938,7 +7938,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 54.7,
+        "desde_cadastro": 57.09,
         "desde_pronto": null
       },
       "status": {
@@ -8694,42 +8694,42 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Natanael Moreira)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_saida",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
-      "alerta_retorno": true,
+      "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 11.0,
         "pronto_col": 1.0,
-        "col_conc": null,
-        "aguard_saida": 18.7,
+        "col_conc": 19.0,
+        "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 19.7
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "ok",
-        "col_conc": "pendente"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "17/06/2026 14:57",
         "pronto": "17/06/2026 15:08",
         "coleta": "17/06/2026 15:09",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "17/06/2026 15:28"
       },
       "horas": {
         "cadastro": "14:57:00",
         "pronto": "15:08:00",
         "coleta": "15:09:00",
-        "conclusao": null,
+        "conclusao": "15:28:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-17T14:57:00",
         "pronto": "2026-06-17T15:08:00",
         "coleta": "2026-06-17T15:09:00",
-        "conclusao": null
+        "conclusao": "2026-06-17T15:28:00"
       },
       "dt_retorno": null
     },
@@ -8784,7 +8784,7 @@
       "estabelec": "E! Doces • Sobremesas - Sion",
       "cliente": "Retirada (Arthur Vasconcelos)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -8794,7 +8794,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 20.7
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -8806,20 +8806,20 @@
         "pronto": "17/06/2026 15:07",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "17/06/2026 15:28"
       },
       "horas": {
         "cadastro": "15:00:00",
         "pronto": "15:07:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "15:28:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-17T15:00:00",
         "pronto": "2026-06-17T15:07:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-17T15:28:00"
       },
       "dt_retorno": null
     },
@@ -8884,7 +8884,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 15.7
+        "desde_pronto": 18.09
       },
       "status": {
         "cad_pronto": "critico",
@@ -9109,7 +9109,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.7
+        "desde_pronto": 6.09
       },
       "status": {
         "cad_pronto": "ok",
@@ -9153,7 +9153,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.7,
+        "desde_cadastro": 5.09,
         "desde_pronto": null
       },
       "status": {
@@ -9177,6 +9177,96 @@
       },
       "ts": {
         "cadastro": "2026-06-17T15:25:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#2230 (#3071)",
+      "hub": "DS Sion",
+      "estabelec": "Pudim da Nilda - Sion",
+      "cliente": "Retirada (Marvley Carlos)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 5.09,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "17/06/2026 15:25",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "15:25:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-17T15:25:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#20305 (#7490)",
+      "hub": "DS Sion",
+      "estabelec": "Viviane Sales Cake's - Bolos & Doces",
+      "cliente": "Retirada (Eduardah Silva)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.09,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "17/06/2026 15:28",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "15:28:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-17T15:28:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
