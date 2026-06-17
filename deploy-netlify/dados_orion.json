@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "17/06/2026 15:25:24",
+  "atualizado_em": "17/06/2026 15:27:41",
   "data_ref": "17/06/2026",
-  "total": 203,
+  "total": 204,
   "pedidos": [
     {
       "cod": "#23246 (#6794)",
@@ -7938,7 +7938,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 52.41,
+        "desde_cadastro": 54.7,
         "desde_pronto": null
       },
       "status": {
@@ -8470,13 +8470,13 @@
       "cliente": "Retirada (Flavio Junior)",
       "categoria": "cozinha",
       "etapa_atual": "concluido",
-      "status_geral": "alerta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 15.0,
         "pronto_col": 1.0,
-        "col_conc": 10.0,
+        "col_conc": 17.0,
         "aguard_saida": null,
         "desde_cadastro": null,
         "desde_pronto": null
@@ -8484,27 +8484,27 @@
       "status": {
         "cad_pronto": "na",
         "pronto_col": "ok",
-        "col_conc": "alerta"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "17/06/2026 14:53",
         "pronto": "17/06/2026 15:08",
         "coleta": "17/06/2026 15:09",
         "retorno": "-",
-        "conclusao": "17/06/2026 15:19"
+        "conclusao": "17/06/2026 15:26"
       },
       "horas": {
         "cadastro": "14:53:00",
         "pronto": "15:08:00",
         "coleta": "15:09:00",
-        "conclusao": "15:19:00",
+        "conclusao": "15:26:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-17T14:53:00",
         "pronto": "2026-06-17T15:08:00",
         "coleta": "2026-06-17T15:09:00",
-        "conclusao": "2026-06-17T15:19:00"
+        "conclusao": "2026-06-17T15:26:00"
       },
       "dt_retorno": null
     },
@@ -8702,9 +8702,9 @@
         "cad_pronto": 11.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 16.41,
+        "aguard_saida": 18.7,
         "desde_cadastro": null,
-        "desde_pronto": 17.41
+        "desde_pronto": 19.7
       },
       "status": {
         "cad_pronto": "na",
@@ -8794,7 +8794,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 18.41
+        "desde_pronto": 20.7
       },
       "status": {
         "cad_pronto": "critico",
@@ -8884,7 +8884,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 13.41
+        "desde_pronto": 15.7
       },
       "status": {
         "cad_pronto": "critico",
@@ -9054,7 +9054,7 @@
       "estabelec": "Doces Oliveira Bolos & Doces - Savassi",
       "cliente": "Retirada (Bruna Stéfany)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -9064,7 +9064,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.41
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -9076,20 +9076,20 @@
         "pronto": "17/06/2026 15:22",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "17/06/2026 15:27"
       },
       "horas": {
         "cadastro": "15:17:00",
         "pronto": "15:22:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "15:27:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-17T15:17:00",
         "pronto": "2026-06-17T15:22:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-17T15:27:00"
       },
       "dt_retorno": null
     },
@@ -9109,7 +9109,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.41
+        "desde_pronto": 3.7
       },
       "status": {
         "cad_pronto": "ok",
@@ -9133,6 +9133,51 @@
       "ts": {
         "cadastro": "2026-06-17T15:22:00",
         "pronto": "2026-06-17T15:24:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#482 (#2904)",
+      "hub": "DS Delivery Mall",
+      "estabelec": "Marché Sucré - Sobremesas Especiais",
+      "cliente": "Entrega (Marina Coelho)",
+      "categoria": "outro",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.7,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "17/06/2026 15:25",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "15:25:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-17T15:25:00",
+        "pronto": null,
         "coleta": null,
         "conclusao": null
       },
