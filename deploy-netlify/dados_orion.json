@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "17/06/2026 17:12:35",
+  "atualizado_em": "17/06/2026 17:15:01",
   "data_ref": "17/06/2026",
-  "total": 252,
+  "total": 253,
   "pedidos": [
     {
       "cod": "#23246 (#6794)",
@@ -7938,7 +7938,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 159.6,
+        "desde_cadastro": 162.03,
         "desde_pronto": null
       },
       "status": {
@@ -9154,7 +9154,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 98.6
+        "desde_pronto": 101.03
       },
       "status": {
         "cad_pronto": "na",
@@ -10682,8 +10682,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 31.6,
-        "desde_cadastro": 42.6,
+        "aguard_saida": 34.03,
+        "desde_cadastro": 45.03,
         "desde_pronto": null
       },
       "status": {
@@ -10773,7 +10773,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 38.6,
+        "desde_cadastro": 41.03,
         "desde_pronto": null
       },
       "status": {
@@ -11034,7 +11034,7 @@
       "estabelec": "Mr Duck Cookies - Belo Horizonte",
       "cliente": "Retirada (Mariana Santos)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
@@ -11044,7 +11044,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 27.6
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "ok",
@@ -11056,20 +11056,20 @@
         "pronto": "17/06/2026 16:45",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "17/06/2026 17:12"
       },
       "horas": {
         "cadastro": "16:43:00",
         "pronto": "16:45:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "17:12:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-17T16:43:00",
         "pronto": "2026-06-17T16:45:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-17T17:12:00"
       },
       "dt_retorno": null
     },
@@ -11088,7 +11088,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 27.6,
+        "desde_cadastro": 30.03,
         "desde_pronto": null
       },
       "status": {
@@ -11127,14 +11127,14 @@
       "etapa_atual": "aguardando_saida",
       "status_geral": "critico",
       "inativo": false,
-      "alerta_retorno": false,
+      "alerta_retorno": true,
       "tempos": {
         "cad_pronto": 8.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 14.6,
+        "aguard_saida": 17.03,
         "desde_cadastro": null,
-        "desde_pronto": 16.6
+        "desde_pronto": 19.03
       },
       "status": {
         "cad_pronto": "na",
@@ -11269,7 +11269,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 10.6
+        "desde_pronto": 13.03
       },
       "status": {
         "cad_pronto": "alerta",
@@ -11340,6 +11340,51 @@
         "pronto": null,
         "coleta": "2026-06-17T17:04:00",
         "conclusao": "2026-06-17T17:08:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#5240 (#0374)",
+      "hub": "DS Cidade Nova",
+      "estabelec": "Eu Que Fiz (cidade Nova) - Doces & Bolos",
+      "cliente": "Retirada (Clara Lopes)",
+      "categoria": "outro",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 3.03,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "17/06/2026 17:12",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "17:12:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-17T17:12:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
       },
       "dt_retorno": null
     }
