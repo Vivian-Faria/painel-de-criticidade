@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "17/06/2026 16:25:22",
+  "atualizado_em": "17/06/2026 16:27:45",
   "data_ref": "17/06/2026",
-  "total": 234,
+  "total": 235,
   "pedidos": [
     {
       "cod": "#23246 (#6794)",
@@ -7938,7 +7938,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 112.37,
+        "desde_cadastro": 114.75,
         "desde_pronto": null
       },
       "status": {
@@ -9154,7 +9154,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 51.37
+        "desde_pronto": 53.75
       },
       "status": {
         "cad_pronto": "na",
@@ -10278,7 +10278,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 17.37,
+        "desde_cadastro": 19.75,
         "desde_pronto": null
       },
       "status": {
@@ -10323,7 +10323,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 15.37,
+        "desde_cadastro": 17.75,
         "desde_pronto": null
       },
       "status": {
@@ -10369,7 +10369,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 10.37
+        "desde_pronto": 12.75
       },
       "status": {
         "cad_pronto": "alerta",
@@ -10449,42 +10449,42 @@
       "estabelec": "Savassi Brasileira",
       "cliente": "Entrega (Lauanda Adriele)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_saida",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": null,
         "pronto_col": null,
-        "col_conc": null,
-        "aguard_saida": 1.37,
-        "desde_cadastro": 4.37,
+        "col_conc": 1.0,
+        "aguard_saida": null,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "pendente",
-        "col_conc": "pendente"
+        "col_conc": "ok"
       },
       "datas": {
         "cadastro": "17/06/2026 16:21",
         "pronto": "-",
         "coleta": "17/06/2026 16:24",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "17/06/2026 16:25"
       },
       "horas": {
         "cadastro": "16:21:00",
         "pronto": null,
         "coleta": "16:24:00",
-        "conclusao": null,
+        "conclusao": "16:25:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-17T16:21:00",
         "pronto": null,
         "coleta": "2026-06-17T16:24:00",
-        "conclusao": null
+        "conclusao": "2026-06-17T16:25:00"
       },
       "dt_retorno": null
     },
@@ -10494,6 +10494,51 @@
       "estabelec": "Cenôra Bolos",
       "cliente": "Retirada (Marcell Philippe)",
       "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 4.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 0.75
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "17/06/2026 16:23",
+        "pronto": "17/06/2026 16:27",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:23:00",
+        "pronto": "16:27:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-17T16:23:00",
+        "pronto": "2026-06-17T16:27:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#2057 (#5139)",
+      "hub": "-",
+      "estabelec": "Savassi Brasileira",
+      "cliente": "Entrega (Aline Gonçalves)",
+      "categoria": "cozinha",
       "etapa_atual": "em_preparo",
       "status_geral": "ok",
       "inativo": false,
@@ -10503,30 +10548,30 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.37,
+        "desde_cadastro": 1.75,
         "desde_pronto": null
       },
       "status": {
-        "cad_pronto": "pendente",
-        "pronto_col": "na",
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
         "col_conc": "pendente"
       },
       "datas": {
-        "cadastro": "17/06/2026 16:23",
+        "cadastro": "17/06/2026 16:26",
         "pronto": "-",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
-        "cadastro": "16:23:00",
+        "cadastro": "16:26:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
-        "cadastro": "2026-06-17T16:23:00",
+        "cadastro": "2026-06-17T16:26:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
