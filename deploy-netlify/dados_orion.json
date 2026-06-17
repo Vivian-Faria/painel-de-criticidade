@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/06/2026 17:48:16",
+  "atualizado_em": "17/06/2026 17:50:47",
   "data_ref": "17/06/2026",
   "total": 268,
   "pedidos": [
@@ -7938,7 +7938,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 195.27,
+        "desde_cadastro": 197.8,
         "desde_pronto": null
       },
       "status": {
@@ -9154,7 +9154,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 134.27
+        "desde_pronto": 136.8
       },
       "status": {
         "cad_pronto": "na",
@@ -10773,7 +10773,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 74.27,
+        "desde_cadastro": 76.8,
         "desde_pronto": null
       },
       "status": {
@@ -11088,7 +11088,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 63.27,
+        "desde_cadastro": 65.8,
         "desde_pronto": null
       },
       "status": {
@@ -11493,7 +11493,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 25.27,
+        "desde_cadastro": 27.8,
         "desde_pronto": null
       },
       "status": {
@@ -11537,9 +11537,9 @@
         "cad_pronto": 18.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 2.27,
+        "aguard_saida": 4.8,
         "desde_cadastro": null,
-        "desde_pronto": 3.27
+        "desde_pronto": 5.8
       },
       "status": {
         "cad_pronto": "na",
@@ -11674,7 +11674,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 10.27
+        "desde_pronto": 12.8
       },
       "status": {
         "cad_pronto": "critico",
@@ -11718,7 +11718,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 13.27,
+        "desde_cadastro": 15.8,
         "desde_pronto": null
       },
       "status": {
@@ -11763,7 +11763,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 13.27,
+        "desde_cadastro": 15.8,
         "desde_pronto": null
       },
       "status": {
@@ -11808,7 +11808,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 13.27,
+        "desde_cadastro": 15.8,
         "desde_pronto": null
       },
       "status": {
@@ -11853,7 +11853,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 12.27,
+        "desde_cadastro": 14.8,
         "desde_pronto": null
       },
       "status": {
@@ -11889,7 +11889,7 @@
       "estabelec": "Amor e Açaí - Savassi",
       "cliente": "Retirada (Claudia Silva)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -11899,10 +11899,55 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 0.27
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "17/06/2026 17:39",
+        "pronto": "17/06/2026 17:48",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "17/06/2026 17:50"
+      },
+      "horas": {
+        "cadastro": "17:39:00",
+        "pronto": "17:48:00",
+        "coleta": null,
+        "conclusao": "17:50:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-17T17:39:00",
+        "pronto": "2026-06-17T17:48:00",
+        "coleta": null,
+        "conclusao": "2026-06-17T17:50:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#484 (#2282)",
+      "hub": "DS Delivery Mall",
+      "estabelec": "Marché Sucré - Sobremesas Especiais",
+      "cliente": "Entrega (Cayo )",
+      "categoria": "outro",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 9.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 2.8
+      },
+      "status": {
+        "cad_pronto": "na",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
@@ -11929,51 +11974,6 @@
       "dt_retorno": null
     },
     {
-      "cod": "#484 (#2282)",
-      "hub": "DS Delivery Mall",
-      "estabelec": "Marché Sucré - Sobremesas Especiais",
-      "cliente": "Entrega (Cayo )",
-      "categoria": "outro",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
-      "inativo": false,
-      "alerta_retorno": false,
-      "tempos": {
-        "cad_pronto": null,
-        "pronto_col": null,
-        "col_conc": null,
-        "aguard_saida": null,
-        "desde_cadastro": 9.27,
-        "desde_pronto": null
-      },
-      "status": {
-        "cad_pronto": "na",
-        "pronto_col": "na",
-        "col_conc": "pendente"
-      },
-      "datas": {
-        "cadastro": "17/06/2026 17:39",
-        "pronto": "-",
-        "coleta": "-",
-        "retorno": "-",
-        "conclusao": "-"
-      },
-      "horas": {
-        "cadastro": "17:39:00",
-        "pronto": null,
-        "coleta": null,
-        "conclusao": null,
-        "retorno": null
-      },
-      "ts": {
-        "cadastro": "2026-06-17T17:39:00",
-        "pronto": null,
-        "coleta": null,
-        "conclusao": null
-      },
-      "dt_retorno": null
-    },
-    {
       "cod": "#61904 (#17)",
       "hub": "-",
       "estabelec": "Mayu",
@@ -11988,7 +11988,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.27,
+        "desde_cadastro": 6.8,
         "desde_pronto": null
       },
       "status": {
@@ -12033,7 +12033,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.27,
+        "desde_cadastro": 4.8,
         "desde_pronto": null
       },
       "status": {
