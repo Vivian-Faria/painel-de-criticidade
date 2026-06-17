@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "17/06/2026 14:14:23",
+  "atualizado_em": "17/06/2026 14:16:39",
   "data_ref": "17/06/2026",
   "total": 163,
   "pedidos": [
@@ -5461,7 +5461,7 @@
       "tempos": {
         "cad_pronto": 45.0,
         "pronto_col": 4.0,
-        "col_conc": 2.0,
+        "col_conc": 20.0,
         "aguard_saida": null,
         "desde_cadastro": null,
         "desde_pronto": null
@@ -5469,27 +5469,27 @@
       "status": {
         "cad_pronto": "na",
         "pronto_col": "critico",
-        "col_conc": "ok"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "17/06/2026 13:07",
         "pronto": "17/06/2026 13:52",
         "coleta": "17/06/2026 13:56",
         "retorno": "-",
-        "conclusao": "17/06/2026 13:58"
+        "conclusao": "17/06/2026 14:16"
       },
       "horas": {
         "cadastro": "13:07:00",
         "pronto": "13:52:00",
         "coleta": "13:56:00",
-        "conclusao": "13:58:00",
+        "conclusao": "14:16:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-17T13:07:00",
         "pronto": "2026-06-17T13:52:00",
         "coleta": "2026-06-17T13:56:00",
-        "conclusao": "2026-06-17T13:58:00"
+        "conclusao": "2026-06-17T14:16:00"
       },
       "dt_retorno": null
     },
@@ -5724,42 +5724,42 @@
       "estabelec": "Varanda 1389",
       "cliente": "Retirada (Yuri Gabriel)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_coleta",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 11.0,
-        "pronto_col": null,
-        "col_conc": null,
+        "pronto_col": 42.0,
+        "col_conc": 1.0,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 42.4
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
-        "col_conc": "pendente"
+        "pronto_col": "critico",
+        "col_conc": "ok"
       },
       "datas": {
         "cadastro": "17/06/2026 13:21",
         "pronto": "17/06/2026 13:32",
-        "coleta": "-",
+        "coleta": "17/06/2026 14:14",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "17/06/2026 14:15"
       },
       "horas": {
         "cadastro": "13:21:00",
         "pronto": "13:32:00",
-        "coleta": null,
-        "conclusao": null,
+        "coleta": "14:14:00",
+        "conclusao": "14:15:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-17T13:21:00",
         "pronto": "2026-06-17T13:32:00",
-        "coleta": null,
-        "conclusao": null
+        "coleta": "2026-06-17T14:14:00",
+        "conclusao": "2026-06-17T14:15:00"
       },
       "dt_retorno": null
     },
@@ -6129,42 +6129,42 @@
       "estabelec": "Mayu",
       "cliente": "Retirada (Fabiana Kalab)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_coleta",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 36.0,
-        "pronto_col": null,
-        "col_conc": null,
+        "pronto_col": 4.0,
+        "col_conc": 0.0,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 4.4
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
-        "col_conc": "pendente"
+        "pronto_col": "critico",
+        "col_conc": "ok"
       },
       "datas": {
         "cadastro": "17/06/2026 13:34",
         "pronto": "17/06/2026 14:10",
-        "coleta": "-",
+        "coleta": "17/06/2026 14:14",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "17/06/2026 14:14"
       },
       "horas": {
         "cadastro": "13:34:00",
         "pronto": "14:10:00",
-        "coleta": null,
-        "conclusao": null,
+        "coleta": "14:14:00",
+        "conclusao": "14:14:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-17T13:34:00",
         "pronto": "2026-06-17T14:10:00",
-        "coleta": null,
-        "conclusao": null
+        "coleta": "2026-06-17T14:14:00",
+        "conclusao": "2026-06-17T14:14:00"
       },
       "dt_retorno": null
     },
@@ -6272,9 +6272,9 @@
         "cad_pronto": 17.0,
         "pronto_col": 4.0,
         "col_conc": null,
-        "aguard_saida": 18.4,
+        "aguard_saida": 20.65,
         "desde_cadastro": null,
-        "desde_pronto": 22.4
+        "desde_pronto": 24.65
       },
       "status": {
         "cad_pronto": "na",
@@ -6858,7 +6858,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 13.4,
+        "desde_cadastro": 15.65,
         "desde_pronto": null
       },
       "status": {
@@ -6948,7 +6948,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 10.4,
+        "desde_cadastro": 12.65,
         "desde_pronto": null
       },
       "status": {
@@ -7084,7 +7084,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.4
+        "desde_pronto": 4.65
       },
       "status": {
         "cad_pronto": "critico",
@@ -7164,7 +7164,7 @@
       "estabelec": "La Cake - Doceria, Bolos e Sobremesas",
       "cliente": "Retirada (Fernando Isac Miranda)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -7174,7 +7174,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.4
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -7186,20 +7186,20 @@
         "pronto": "17/06/2026 14:12",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "17/06/2026 14:14"
       },
       "horas": {
         "cadastro": "14:08:00",
         "pronto": "14:12:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "14:14:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-17T14:08:00",
         "pronto": "2026-06-17T14:12:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-17T14:14:00"
       },
       "dt_retorno": null
     },
@@ -7218,7 +7218,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.4,
+        "desde_cadastro": 6.65,
         "desde_pronto": null
       },
       "status": {
@@ -7263,7 +7263,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.4,
+        "desde_cadastro": 6.65,
         "desde_pronto": null
       },
       "status": {
@@ -7308,7 +7308,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.4,
+        "desde_cadastro": 4.65,
         "desde_pronto": null
       },
       "status": {
