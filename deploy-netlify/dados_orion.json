@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "17/06/2026 15:23:04",
+  "atualizado_em": "17/06/2026 15:25:24",
   "data_ref": "17/06/2026",
-  "total": 202,
+  "total": 203,
   "pedidos": [
     {
       "cod": "#23246 (#6794)",
@@ -7938,7 +7938,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 50.08,
+        "desde_cadastro": 52.41,
         "desde_pronto": null
       },
       "status": {
@@ -8697,14 +8697,14 @@
       "etapa_atual": "aguardando_saida",
       "status_geral": "ok",
       "inativo": false,
-      "alerta_retorno": false,
+      "alerta_retorno": true,
       "tempos": {
         "cad_pronto": 11.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 14.08,
+        "aguard_saida": 16.41,
         "desde_cadastro": null,
-        "desde_pronto": 15.08
+        "desde_pronto": 17.41
       },
       "status": {
         "cad_pronto": "na",
@@ -8794,7 +8794,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 16.08
+        "desde_pronto": 18.41
       },
       "status": {
         "cad_pronto": "critico",
@@ -8884,7 +8884,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 11.08
+        "desde_pronto": 13.41
       },
       "status": {
         "cad_pronto": "critico",
@@ -8919,42 +8919,42 @@
       "estabelec": "Varanda 1389",
       "cliente": "Retirada (Bruna Madsen)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_saida",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 8.0,
         "pronto_col": 2.0,
-        "col_conc": null,
-        "aguard_saida": 2.08,
+        "col_conc": 2.0,
+        "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 4.08
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "critico",
-        "col_conc": "pendente"
+        "col_conc": "ok"
       },
       "datas": {
         "cadastro": "17/06/2026 15:11",
         "pronto": "17/06/2026 15:19",
         "coleta": "17/06/2026 15:21",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "17/06/2026 15:23"
       },
       "horas": {
         "cadastro": "15:11:00",
         "pronto": "15:19:00",
         "coleta": "15:21:00",
-        "conclusao": null,
+        "conclusao": "15:23:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-17T15:11:00",
         "pronto": "2026-06-17T15:19:00",
         "coleta": "2026-06-17T15:21:00",
-        "conclusao": null
+        "conclusao": "2026-06-17T15:23:00"
       },
       "dt_retorno": null
     },
@@ -9064,7 +9064,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.08
+        "desde_pronto": 3.41
       },
       "status": {
         "cad_pronto": "critico",
@@ -9088,6 +9088,51 @@
       "ts": {
         "cadastro": "2026-06-17T15:17:00",
         "pronto": "2026-06-17T15:22:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#10204 (#5521)",
+      "hub": "DS Sion",
+      "estabelec": "Mr Duck Cookies - Belo Horizonte",
+      "cliente": "Retirada (Alice Campelo)",
+      "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 2.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 1.41
+      },
+      "status": {
+        "cad_pronto": "ok",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "17/06/2026 15:22",
+        "pronto": "17/06/2026 15:24",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "15:22:00",
+        "pronto": "15:24:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-17T15:22:00",
+        "pronto": "2026-06-17T15:24:00",
         "coleta": null,
         "conclusao": null
       },
