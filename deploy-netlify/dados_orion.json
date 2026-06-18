@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "18/06/2026 16:08:12",
+  "atualizado_em": "18/06/2026 16:10:41",
   "data_ref": "18/06/2026",
-  "total": 284,
+  "total": 285,
   "pedidos": [
     {
       "cod": "#4008 (#2732)",
@@ -9514,7 +9514,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 108.21
+        "desde_pronto": 110.7
       },
       "status": {
         "cad_pronto": "na",
@@ -11170,13 +11170,13 @@
       "cliente": "Retirada (Sabrina Cristine Pereira De Souza)",
       "categoria": "cozinha",
       "etapa_atual": "concluido",
-      "status_geral": "ok",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": null,
         "pronto_col": null,
-        "col_conc": 0.0,
+        "col_conc": 15.0,
         "aguard_saida": null,
         "desde_cadastro": null,
         "desde_pronto": null
@@ -11184,27 +11184,27 @@
       "status": {
         "cad_pronto": "na",
         "pronto_col": "pendente",
-        "col_conc": "ok"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "18/06/2026 14:57",
         "pronto": "-",
         "coleta": "18/06/2026 15:55",
         "retorno": "-",
-        "conclusao": "18/06/2026 15:55"
+        "conclusao": "18/06/2026 16:10"
       },
       "horas": {
         "cadastro": "14:57:00",
         "pronto": null,
         "coleta": "15:55:00",
-        "conclusao": "15:55:00",
+        "conclusao": "16:10:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-18T14:57:00",
         "pronto": null,
         "coleta": "2026-06-18T15:55:00",
-        "conclusao": "2026-06-18T15:55:00"
+        "conclusao": "2026-06-18T16:10:00"
       },
       "dt_retorno": null
     },
@@ -12349,7 +12349,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 14.21
+        "desde_pronto": 16.7
       },
       "status": {
         "cad_pronto": "critico",
@@ -12572,9 +12572,9 @@
         "cad_pronto": 9.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 1.21,
+        "aguard_saida": 3.7,
         "desde_cadastro": null,
-        "desde_pronto": 3.21
+        "desde_pronto": 5.7
       },
       "status": {
         "cad_pronto": "na",
@@ -12619,7 +12619,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.21
+        "desde_pronto": 4.7
       },
       "status": {
         "cad_pronto": "critico",
@@ -12664,7 +12664,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 0.21
+        "desde_pronto": 2.7
       },
       "status": {
         "cad_pronto": "na",
@@ -12708,7 +12708,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.21,
+        "desde_cadastro": 4.7,
         "desde_pronto": null
       },
       "status": {
@@ -12753,7 +12753,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.21,
+        "desde_cadastro": 3.7,
         "desde_pronto": null
       },
       "status": {
@@ -12777,6 +12777,51 @@
       },
       "ts": {
         "cadastro": "2026-06-18T16:07:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#20333 (#1398)",
+      "hub": "DS Sion",
+      "estabelec": "Viviane Sales Cake's - Bolos & Doces",
+      "cliente": "Retirada (Wilson Carvalho)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.7,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "18/06/2026 16:08",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:08:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-18T16:08:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
