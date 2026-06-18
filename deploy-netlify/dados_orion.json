@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "18/06/2026 16:28:09",
+  "atualizado_em": "18/06/2026 16:32:30",
   "data_ref": "18/06/2026",
-  "total": 295,
+  "total": 297,
   "pedidos": [
     {
       "cod": "#4008 (#2732)",
@@ -9514,7 +9514,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 11.16
+        "desde_pronto": 15.5
       },
       "status": {
         "cad_pronto": "na",
@@ -12654,42 +12654,42 @@
       "estabelec": "Varanda 1389",
       "cliente": "Retirada (Arthur R)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_saida",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "alerta",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 12.0,
         "pronto_col": 1.0,
-        "col_conc": null,
-        "aguard_saida": 10.16,
+        "col_conc": 11.0,
+        "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 11.16
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "ok",
-        "col_conc": "pendente"
+        "col_conc": "alerta"
       },
       "datas": {
         "cadastro": "18/06/2026 16:05",
         "pronto": "18/06/2026 16:17",
         "coleta": "18/06/2026 16:18",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "18/06/2026 16:29"
       },
       "horas": {
         "cadastro": "16:05:00",
         "pronto": "16:17:00",
         "coleta": "16:18:00",
-        "conclusao": null,
+        "conclusao": "16:29:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-18T16:05:00",
         "pronto": "2026-06-18T16:17:00",
         "coleta": "2026-06-18T16:18:00",
-        "conclusao": null
+        "conclusao": "2026-06-18T16:29:00"
       },
       "dt_retorno": null
     },
@@ -12924,42 +12924,42 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Tatiana Durso)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_saida",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 4.0,
         "pronto_col": 2.0,
-        "col_conc": null,
-        "aguard_saida": 10.16,
+        "col_conc": 13.0,
+        "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 12.16
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "critico",
-        "col_conc": "pendente"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "18/06/2026 16:12",
         "pronto": "18/06/2026 16:16",
         "coleta": "18/06/2026 16:18",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "18/06/2026 16:31"
       },
       "horas": {
         "cadastro": "16:12:00",
         "pronto": "16:16:00",
         "coleta": "16:18:00",
-        "conclusao": null,
+        "conclusao": "16:31:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-18T16:12:00",
         "pronto": "2026-06-18T16:16:00",
         "coleta": "2026-06-18T16:18:00",
-        "conclusao": null
+        "conclusao": "2026-06-18T16:31:00"
       },
       "dt_retorno": null
     },
@@ -13014,7 +13014,7 @@
       "estabelec": "Mr Duck Cookies - Belo Horizonte",
       "cliente": "Retirada (Ester Coutinho)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -13024,7 +13024,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 9.16
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -13036,20 +13036,20 @@
         "pronto": "18/06/2026 16:19",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "18/06/2026 16:30"
       },
       "horas": {
         "cadastro": "16:15:00",
         "pronto": "16:19:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "16:30:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-18T16:15:00",
         "pronto": "2026-06-18T16:19:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-18T16:30:00"
       },
       "dt_retorno": null
     },
@@ -13069,7 +13069,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 8.16
+        "desde_pronto": 12.5
       },
       "status": {
         "cad_pronto": "critico",
@@ -13247,9 +13247,9 @@
         "cad_pronto": 5.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 1.16,
+        "aguard_saida": 5.5,
         "desde_cadastro": null,
-        "desde_pronto": 3.16
+        "desde_pronto": 7.5
       },
       "status": {
         "cad_pronto": "na",
@@ -13274,6 +13274,96 @@
         "cadastro": "2026-06-18T16:20:00",
         "pronto": "2026-06-18T16:25:00",
         "coleta": "2026-06-18T16:27:00",
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#297971 (#1692)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Laura Camargos Aguido)",
+      "categoria": "cozinha",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 3.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 1.5
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "18/06/2026 16:28",
+        "pronto": "18/06/2026 16:31",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:28:00",
+        "pronto": "16:31:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-18T16:28:00",
+        "pronto": "2026-06-18T16:31:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#30547 (#0602)",
+      "hub": "DS Sion",
+      "estabelec": "Chocake Sion - Bolos & Doces",
+      "cliente": "Retirada (Bianca Von Rondow)",
+      "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "alerta",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 3.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 1.5
+      },
+      "status": {
+        "cad_pronto": "alerta",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "18/06/2026 16:28",
+        "pronto": "18/06/2026 16:31",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:28:00",
+        "pronto": "16:31:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-18T16:28:00",
+        "pronto": "2026-06-18T16:31:00",
+        "coleta": null,
         "conclusao": null
       },
       "dt_retorno": null
