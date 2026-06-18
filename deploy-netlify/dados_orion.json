@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "18/06/2026 16:10:41",
+  "atualizado_em": "18/06/2026 16:13:12",
   "data_ref": "18/06/2026",
-  "total": 285,
+  "total": 287,
   "pedidos": [
     {
       "cod": "#4008 (#2732)",
@@ -9514,7 +9514,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 110.7
+        "desde_pronto": 113.22
       },
       "status": {
         "cad_pronto": "na",
@@ -12349,7 +12349,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 16.7
+        "desde_pronto": 19.22
       },
       "status": {
         "cad_pronto": "critico",
@@ -12572,9 +12572,9 @@
         "cad_pronto": 9.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 3.7,
+        "aguard_saida": 6.22,
         "desde_cadastro": null,
-        "desde_pronto": 5.7
+        "desde_pronto": 8.22
       },
       "status": {
         "cad_pronto": "na",
@@ -12619,7 +12619,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 4.7
+        "desde_pronto": 7.22
       },
       "status": {
         "cad_pronto": "critico",
@@ -12664,7 +12664,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.7
+        "desde_pronto": 5.22
       },
       "status": {
         "cad_pronto": "na",
@@ -12708,7 +12708,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.7,
+        "desde_cadastro": 7.22,
         "desde_pronto": null
       },
       "status": {
@@ -12744,17 +12744,17 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Bárbara Alves)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "aguardando_coleta",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 4.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 3.7,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 2.22
       },
       "status": {
         "cad_pronto": "na",
@@ -12763,21 +12763,21 @@
       },
       "datas": {
         "cadastro": "18/06/2026 16:07",
-        "pronto": "-",
+        "pronto": "18/06/2026 16:11",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "16:07:00",
-        "pronto": null,
+        "pronto": "16:11:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-18T16:07:00",
-        "pronto": null,
+        "pronto": "2026-06-18T16:11:00",
         "coleta": null,
         "conclusao": null
       },
@@ -12789,6 +12789,51 @@
       "estabelec": "Viviane Sales Cake's - Bolos & Doces",
       "cliente": "Retirada (Wilson Carvalho)",
       "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 4.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 1.22
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "18/06/2026 16:08",
+        "pronto": "18/06/2026 16:12",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:08:00",
+        "pronto": "16:12:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-18T16:08:00",
+        "pronto": "2026-06-18T16:12:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#20334 (#8952)",
+      "hub": "DS Sion",
+      "estabelec": "Viviane Sales Cake's - Bolos & Doces",
+      "cliente": "Retirada (Leniris Lorrayne Ferreira De Souza Perez)",
+      "categoria": "loja",
       "etapa_atual": "em_preparo",
       "status_geral": "ok",
       "inativo": false,
@@ -12798,7 +12843,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.7,
+        "desde_cadastro": 3.22,
         "desde_pronto": null
       },
       "status": {
@@ -12807,22 +12852,67 @@
         "col_conc": "pendente"
       },
       "datas": {
-        "cadastro": "18/06/2026 16:08",
+        "cadastro": "18/06/2026 16:10",
         "pronto": "-",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
-        "cadastro": "16:08:00",
+        "cadastro": "16:10:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
-        "cadastro": "2026-06-18T16:08:00",
+        "cadastro": "2026-06-18T16:10:00",
         "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#567 (#6401)",
+      "hub": "-",
+      "estabelec": "Varanda 1389",
+      "cliente": "Retirada (Rafael Dos Reis Rodrigues )",
+      "categoria": "cozinha",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 2.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 0.22
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "18/06/2026 16:11",
+        "pronto": "18/06/2026 16:13",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:11:00",
+        "pronto": "16:13:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-18T16:11:00",
+        "pronto": "2026-06-18T16:13:00",
         "coleta": null,
         "conclusao": null
       },
