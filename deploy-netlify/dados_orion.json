@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "18/06/2026 16:46:10",
+  "atualizado_em": "18/06/2026 16:50:27",
   "data_ref": "18/06/2026",
-  "total": 303,
+  "total": 304,
   "pedidos": [
     {
       "cod": "#4008 (#2732)",
@@ -12655,13 +12655,13 @@
       "cliente": "Retirada (Arthur R)",
       "categoria": "cozinha",
       "etapa_atual": "concluido",
-      "status_geral": "alerta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 12.0,
         "pronto_col": 1.0,
-        "col_conc": 11.0,
+        "col_conc": 32.0,
         "aguard_saida": null,
         "desde_cadastro": null,
         "desde_pronto": null
@@ -12669,27 +12669,27 @@
       "status": {
         "cad_pronto": "na",
         "pronto_col": "ok",
-        "col_conc": "alerta"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "18/06/2026 16:05",
         "pronto": "18/06/2026 16:17",
         "coleta": "18/06/2026 16:18",
         "retorno": "-",
-        "conclusao": "18/06/2026 16:29"
+        "conclusao": "18/06/2026 16:50"
       },
       "horas": {
         "cadastro": "16:05:00",
         "pronto": "16:17:00",
         "coleta": "16:18:00",
-        "conclusao": "16:29:00",
+        "conclusao": "16:50:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-18T16:05:00",
         "pronto": "2026-06-18T16:17:00",
         "coleta": "2026-06-18T16:18:00",
-        "conclusao": "2026-06-18T16:29:00"
+        "conclusao": "2026-06-18T16:50:00"
       },
       "dt_retorno": null
     },
@@ -13374,7 +13374,7 @@
       "estabelec": "Nuh Cookies",
       "cliente": "Retirada (Clara Arnaut)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "alerta",
       "inativo": false,
       "alerta_retorno": false,
@@ -13384,7 +13384,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 12.18
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "alerta",
@@ -13396,20 +13396,20 @@
         "pronto": "18/06/2026 16:34",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "18/06/2026 16:46"
       },
       "horas": {
         "cadastro": "16:31:00",
         "pronto": "16:34:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "16:46:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-18T16:31:00",
         "pronto": "2026-06-18T16:34:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-18T16:46:00"
       },
       "dt_retorno": null
     },
@@ -13419,7 +13419,7 @@
       "estabelec": "Viviane Sales Cake's - Bolos & Doces",
       "cliente": "Retirada (Rafaela Rodriguez Ribeiro)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -13429,7 +13429,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 6.18
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -13441,20 +13441,20 @@
         "pronto": "18/06/2026 16:40",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "18/06/2026 16:46"
       },
       "horas": {
         "cadastro": "16:36:00",
         "pronto": "16:40:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "16:46:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-18T16:36:00",
         "pronto": "2026-06-18T16:40:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-18T16:46:00"
       },
       "dt_retorno": null
     },
@@ -13464,41 +13464,41 @@
       "estabelec": "Varanda 1389",
       "cliente": "Retirada (Viviane Gonçalves)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "aguardando_saida",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": 3.0,
-        "pronto_col": null,
+        "cad_pronto": 4.0,
+        "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": null,
+        "aguard_saida": 3.46,
         "desde_cadastro": null,
-        "desde_pronto": 1.18
+        "desde_pronto": 4.46
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
+        "pronto_col": "ok",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "18/06/2026 16:42",
-        "pronto": "18/06/2026 16:45",
-        "coleta": "-",
+        "pronto": "18/06/2026 16:46",
+        "coleta": "18/06/2026 16:47",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "16:42:00",
-        "pronto": "16:45:00",
-        "coleta": null,
+        "pronto": "16:46:00",
+        "coleta": "16:47:00",
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-18T16:42:00",
-        "pronto": "2026-06-18T16:45:00",
-        "coleta": null,
+        "pronto": "2026-06-18T16:46:00",
+        "coleta": "2026-06-18T16:47:00",
         "conclusao": null
       },
       "dt_retorno": null
@@ -13509,7 +13509,7 @@
       "estabelec": "La Cake - Doceria, Bolos e Sobremesas",
       "cliente": "Retirada (Mariana Palhares Lima)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
@@ -13519,7 +13519,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.18
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "ok",
@@ -13531,20 +13531,20 @@
         "pronto": "18/06/2026 16:45",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "18/06/2026 16:48"
       },
       "horas": {
         "cadastro": "16:43:00",
         "pronto": "16:45:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "16:48:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-18T16:43:00",
         "pronto": "2026-06-18T16:45:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-18T16:48:00"
       },
       "dt_retorno": null
     },
@@ -13564,7 +13564,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.18
+        "desde_pronto": 5.46
       },
       "status": {
         "cad_pronto": "ok",
@@ -13599,6 +13599,51 @@
       "estabelec": "Chocake Sion - Bolos & Doces",
       "cliente": "Retirada (Kelly Franco)",
       "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 2.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 3.46
+      },
+      "status": {
+        "cad_pronto": "ok",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "18/06/2026 16:45",
+        "pronto": "18/06/2026 16:47",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:45:00",
+        "pronto": "16:47:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-18T16:45:00",
+        "pronto": "2026-06-18T16:47:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#297972 (#9646)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Leticia Santos)",
+      "categoria": "cozinha",
       "etapa_atual": "em_preparo",
       "status_geral": "ok",
       "inativo": false,
@@ -13608,30 +13653,30 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.18,
+        "desde_cadastro": 4.46,
         "desde_pronto": null
       },
       "status": {
-        "cad_pronto": "pendente",
-        "pronto_col": "na",
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
         "col_conc": "pendente"
       },
       "datas": {
-        "cadastro": "18/06/2026 16:45",
+        "cadastro": "18/06/2026 16:46",
         "pronto": "-",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
-        "cadastro": "16:45:00",
+        "cadastro": "16:46:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
-        "cadastro": "2026-06-18T16:45:00",
+        "cadastro": "2026-06-18T16:46:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
