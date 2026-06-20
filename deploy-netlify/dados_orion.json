@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "20/06/2026 00:19:01",
+  "atualizado_em": "20/06/2026 00:20:59",
   "data_ref": "20/06/2026",
-  "total": 17,
+  "total": 19,
   "pedidos": [
     {
       "cod": "#298360 (#7264)",
@@ -17,9 +17,9 @@
         "cad_pronto": 16.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 1.03,
+        "aguard_saida": 3.0,
         "desde_cadastro": null,
-        "desde_pronto": 3.03
+        "desde_pronto": 5.0
       },
       "status": {
         "cad_pronto": "na",
@@ -64,7 +64,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 16.03
+        "desde_pronto": 18.0
       },
       "status": {
         "cad_pronto": "ok",
@@ -108,7 +108,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 17.03,
+        "desde_cadastro": 19.0,
         "desde_pronto": null
       },
       "status": {
@@ -152,9 +152,9 @@
         "cad_pronto": 14.0,
         "pronto_col": 2.0,
         "col_conc": null,
-        "aguard_saida": 1.03,
+        "aguard_saida": 3.0,
         "desde_cadastro": null,
-        "desde_pronto": 3.03
+        "desde_pronto": 5.0
       },
       "status": {
         "cad_pronto": "na",
@@ -198,7 +198,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 13.03,
+        "desde_cadastro": 15.0,
         "desde_pronto": null
       },
       "status": {
@@ -244,7 +244,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 11.03
+        "desde_pronto": 13.0
       },
       "status": {
         "cad_pronto": "ok",
@@ -288,7 +288,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 10.03,
+        "desde_cadastro": 12.0,
         "desde_pronto": null
       },
       "status": {
@@ -334,7 +334,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 5.03
+        "desde_pronto": 7.0
       },
       "status": {
         "cad_pronto": "critico",
@@ -379,7 +379,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 5.03
+        "desde_pronto": 7.0
       },
       "status": {
         "cad_pronto": "alerta",
@@ -423,7 +423,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.03,
+        "desde_cadastro": 10.0,
         "desde_pronto": null
       },
       "status": {
@@ -469,7 +469,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 5.03
+        "desde_pronto": 7.0
       },
       "status": {
         "cad_pronto": "alerta",
@@ -514,7 +514,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 4.03
+        "desde_pronto": 6.0
       },
       "status": {
         "cad_pronto": "critico",
@@ -558,7 +558,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.03,
+        "desde_cadastro": 7.0,
         "desde_pronto": null
       },
       "status": {
@@ -603,7 +603,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.03,
+        "desde_cadastro": 7.0,
         "desde_pronto": null
       },
       "status": {
@@ -648,7 +648,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.03,
+        "desde_cadastro": 6.0,
         "desde_pronto": null
       },
       "status": {
@@ -693,7 +693,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.03,
+        "desde_cadastro": 4.0,
         "desde_pronto": null
       },
       "status": {
@@ -738,7 +738,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.03,
+        "desde_cadastro": 3.0,
         "desde_pronto": null
       },
       "status": {
@@ -762,6 +762,96 @@
       },
       "ts": {
         "cadastro": "2026-06-20T00:18:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#4063 (#8313)",
+      "hub": "DS Sion",
+      "estabelec": "Cremella Confeitaria - Cookies, Doces & Bolos",
+      "cliente": "Retirada (Eduardo Seabra)",
+      "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 1.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 1.0
+      },
+      "status": {
+        "cad_pronto": "ok",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "20/06/2026 00:19",
+        "pronto": "20/06/2026 00:20",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "00:19:00",
+        "pronto": "00:20:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-20T00:19:00",
+        "pronto": "2026-06-20T00:20:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#298371 (#1511)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Larissa Spíndola)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.0,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "20/06/2026 00:19",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "00:19:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-20T00:19:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
