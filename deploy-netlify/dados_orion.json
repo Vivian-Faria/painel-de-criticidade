@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "20/06/2026 00:07:15",
+  "atualizado_em": "20/06/2026 00:09:13",
   "data_ref": "20/06/2026",
-  "total": 4,
+  "total": 6,
   "pedidos": [
     {
       "cod": "#298360 (#7264)",
@@ -18,7 +18,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.25,
+        "desde_cadastro": 9.22,
         "desde_pronto": null
       },
       "status": {
@@ -64,7 +64,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 4.25
+        "desde_pronto": 6.22
       },
       "status": {
         "cad_pronto": "ok",
@@ -108,7 +108,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.25,
+        "desde_cadastro": 7.22,
         "desde_pronto": null
       },
       "status": {
@@ -153,7 +153,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.25,
+        "desde_cadastro": 7.22,
         "desde_pronto": null
       },
       "status": {
@@ -178,6 +178,96 @@
       "ts": {
         "cadastro": "2026-06-20T00:02:00",
         "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#298363 (#7838)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Pedro Marchezini)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 3.22,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "20/06/2026 00:06",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "00:06:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-20T00:06:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#12926 (#3840)",
+      "hub": "DS Sion",
+      "estabelec": "Kolac Bolos & Doces - Sion",
+      "cliente": "Retirada (Luiza Santos)",
+      "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 1.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 1.22
+      },
+      "status": {
+        "cad_pronto": "ok",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "20/06/2026 00:07",
+        "pronto": "20/06/2026 00:08",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "00:07:00",
+        "pronto": "00:08:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-20T00:07:00",
+        "pronto": "2026-06-20T00:08:00",
         "coleta": null,
         "conclusao": null
       },
