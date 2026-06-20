@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "20/06/2026 00:13:07",
+  "atualizado_em": "20/06/2026 00:15:06",
   "data_ref": "20/06/2026",
-  "total": 12,
+  "total": 14,
   "pedidos": [
     {
       "cod": "#298360 (#7264)",
@@ -18,7 +18,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 13.13,
+        "desde_cadastro": 15.1,
         "desde_pronto": null
       },
       "status": {
@@ -64,7 +64,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 10.13
+        "desde_pronto": 12.1
       },
       "status": {
         "cad_pronto": "ok",
@@ -108,7 +108,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 11.13,
+        "desde_cadastro": 13.1,
         "desde_pronto": null
       },
       "status": {
@@ -153,7 +153,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 11.13,
+        "desde_cadastro": 13.1,
         "desde_pronto": null
       },
       "status": {
@@ -198,7 +198,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.13,
+        "desde_cadastro": 9.1,
         "desde_pronto": null
       },
       "status": {
@@ -244,7 +244,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 5.13
+        "desde_pronto": 7.1
       },
       "status": {
         "cad_pronto": "ok",
@@ -288,7 +288,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.13,
+        "desde_cadastro": 6.1,
         "desde_pronto": null
       },
       "status": {
@@ -324,40 +324,40 @@
       "estabelec": "Estela Damasceno Confeitaria",
       "cliente": "Retirada (Anna Luiza Schmidt)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 4.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 3.13,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 1.1
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "20/06/2026 00:10",
-        "pronto": "-",
+        "pronto": "20/06/2026 00:14",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "00:10:00",
-        "pronto": null,
+        "pronto": "00:14:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-20T00:10:00",
-        "pronto": null,
+        "pronto": "2026-06-20T00:14:00",
         "coleta": null,
         "conclusao": null
       },
@@ -369,40 +369,40 @@
       "estabelec": "Cremella Confeitaria - Cookies, Doces & Bolos",
       "cliente": "Retirada (Viccky Borges )",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "alerta",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 3.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.13,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 1.1
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "alerta",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "20/06/2026 00:11",
-        "pronto": "-",
+        "pronto": "20/06/2026 00:14",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "00:11:00",
-        "pronto": null,
+        "pronto": "00:14:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-20T00:11:00",
-        "pronto": null,
+        "pronto": "2026-06-20T00:14:00",
         "coleta": null,
         "conclusao": null
       },
@@ -423,7 +423,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.13,
+        "desde_cadastro": 4.1,
         "desde_pronto": null
       },
       "status": {
@@ -459,6 +459,51 @@
       "estabelec": "Chocake Sion - Bolos & Doces",
       "cliente": "Retirada (Johan Almeida)",
       "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "alerta",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 3.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 1.1
+      },
+      "status": {
+        "cad_pronto": "alerta",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "20/06/2026 00:11",
+        "pronto": "20/06/2026 00:14",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "00:11:00",
+        "pronto": "00:14:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-20T00:11:00",
+        "pronto": "2026-06-20T00:14:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#30601 (#3143)",
+      "hub": "DS Sion",
+      "estabelec": "Chocake Sion - Bolos & Doces",
+      "cliente": "Retirada (Izabella Bicalho)",
+      "categoria": "loja",
       "etapa_atual": "em_preparo",
       "status_geral": "ok",
       "inativo": false,
@@ -468,7 +513,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.13,
+        "desde_cadastro": 4.1,
         "desde_pronto": null
       },
       "status": {
@@ -499,11 +544,11 @@
       "dt_retorno": null
     },
     {
-      "cod": "#30601 (#3143)",
-      "hub": "DS Sion",
-      "estabelec": "Chocake Sion - Bolos & Doces",
-      "cliente": "Retirada (Izabella Bicalho)",
-      "categoria": "loja",
+      "cod": "#298366 (#4326)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Lucas Macedo)",
+      "categoria": "cozinha",
       "etapa_atual": "em_preparo",
       "status_geral": "ok",
       "inativo": false,
@@ -513,30 +558,75 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.13,
+        "desde_cadastro": 1.1,
         "desde_pronto": null
       },
       "status": {
-        "cad_pronto": "pendente",
-        "pronto_col": "na",
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
         "col_conc": "pendente"
       },
       "datas": {
-        "cadastro": "20/06/2026 00:11",
+        "cadastro": "20/06/2026 00:14",
         "pronto": "-",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
-        "cadastro": "00:11:00",
+        "cadastro": "00:14:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
-        "cadastro": "2026-06-20T00:11:00",
+        "cadastro": "2026-06-20T00:14:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#298367 (#8137)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Sávio Rezende Pereira)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.1,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "20/06/2026 00:14",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "00:14:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-20T00:14:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
