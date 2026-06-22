@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "22/06/2026 18:38:06",
+  "atualizado_em": "22/06/2026 18:40:33",
   "data_ref": "22/06/2026",
-  "total": 288,
+  "total": 289,
   "pedidos": [
     {
       "cod": "#9280 (#9190)",
@@ -12033,7 +12033,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 49.1,
+        "desde_cadastro": 51.56,
         "desde_pronto": null
       },
       "status": {
@@ -12121,7 +12121,7 @@
       "tempos": {
         "cad_pronto": 11.0,
         "pronto_col": 6.0,
-        "col_conc": 10.0,
+        "col_conc": 28.0,
         "aguard_saida": null,
         "desde_cadastro": null,
         "desde_pronto": null
@@ -12129,27 +12129,27 @@
       "status": {
         "cad_pronto": "na",
         "pronto_col": "critico",
-        "col_conc": "alerta"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "22/06/2026 17:54",
         "pronto": "22/06/2026 18:05",
         "coleta": "22/06/2026 18:11",
         "retorno": "-",
-        "conclusao": "22/06/2026 18:21"
+        "conclusao": "22/06/2026 18:39"
       },
       "horas": {
         "cadastro": "17:54:00",
         "pronto": "18:05:00",
         "coleta": "18:11:00",
-        "conclusao": "18:21:00",
+        "conclusao": "18:39:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-22T17:54:00",
         "pronto": "2026-06-22T18:05:00",
         "coleta": "2026-06-22T18:11:00",
-        "conclusao": "2026-06-22T18:21:00"
+        "conclusao": "2026-06-22T18:39:00"
       },
       "dt_retorno": null
     },
@@ -12429,7 +12429,7 @@
       "estabelec": "3f - Fast Fitness Food - Cidade Nova",
       "cliente": "Retirada (Pedro Magalhães)",
       "categoria": "outro",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
@@ -12438,7 +12438,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 28.1,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
@@ -12451,20 +12451,20 @@
         "pronto": "-",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "22/06/2026 18:38"
       },
       "horas": {
         "cadastro": "18:10:00",
         "pronto": null,
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "18:38:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-22T18:10:00",
         "pronto": null,
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-22T18:38:00"
       },
       "dt_retorno": null
     },
@@ -12662,9 +12662,9 @@
         "cad_pronto": 10.0,
         "pronto_col": -7.0,
         "col_conc": null,
-        "aguard_saida": 10.1,
+        "aguard_saida": 12.56,
         "desde_cadastro": null,
-        "desde_pronto": 3.1
+        "desde_pronto": 5.56
       },
       "status": {
         "cad_pronto": "na",
@@ -12708,7 +12708,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 11.1,
+        "desde_cadastro": 13.56,
         "desde_pronto": null
       },
       "status": {
@@ -12753,7 +12753,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.1,
+        "desde_cadastro": 9.56,
         "desde_pronto": null
       },
       "status": {
@@ -12789,40 +12789,40 @@
       "estabelec": "Jessy Confeitaria",
       "cliente": "Retirada (Bruna Gomes)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 5.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.1,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 2.56
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "22/06/2026 18:33",
-        "pronto": "-",
+        "pronto": "22/06/2026 18:38",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "18:33:00",
-        "pronto": null,
+        "pronto": "18:38:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-22T18:33:00",
-        "pronto": null,
+        "pronto": "2026-06-22T18:38:00",
         "coleta": null,
         "conclusao": null
       },
@@ -12834,42 +12834,42 @@
       "estabelec": "Viviane Sales Cake's - Bolos & Doces",
       "cliente": "Retirada (Monique Fontes Lima)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 5.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.1,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "22/06/2026 18:33",
-        "pronto": "-",
+        "pronto": "22/06/2026 18:38",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "22/06/2026 18:38"
       },
       "horas": {
         "cadastro": "18:33:00",
-        "pronto": null,
+        "pronto": "18:38:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "18:38:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-22T18:33:00",
-        "pronto": null,
+        "pronto": "2026-06-22T18:38:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-22T18:38:00"
       },
       "dt_retorno": null
     },
@@ -12889,7 +12889,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 0.1
+        "desde_pronto": 2.56
       },
       "status": {
         "cad_pronto": "critico",
@@ -12924,40 +12924,85 @@
       "estabelec": "Viviane Sales Cake's - Bolos & Doces",
       "cliente": "Retirada (Sonia Pinheiro)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 4.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.1,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "22/06/2026 18:34",
-        "pronto": "-",
+        "pronto": "22/06/2026 18:38",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "22/06/2026 18:38"
+      },
+      "horas": {
+        "cadastro": "18:34:00",
+        "pronto": "18:38:00",
+        "coleta": null,
+        "conclusao": "18:38:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-22T18:34:00",
+        "pronto": "2026-06-22T18:38:00",
+        "coleta": null,
+        "conclusao": "2026-06-22T18:38:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#10416 (#3781)",
+      "hub": "DS Sion",
+      "estabelec": "Mr Duck Cookies - Belo Horizonte",
+      "cliente": "Retirada (Gabriela Mello Cançado)",
+      "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "alerta",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 3.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 0.56
+      },
+      "status": {
+        "cad_pronto": "alerta",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/06/2026 18:37",
+        "pronto": "22/06/2026 18:40",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
-        "cadastro": "18:34:00",
-        "pronto": null,
+        "cadastro": "18:37:00",
+        "pronto": "18:40:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
-        "cadastro": "2026-06-22T18:34:00",
-        "pronto": null,
+        "cadastro": "2026-06-22T18:37:00",
+        "pronto": "2026-06-22T18:40:00",
         "coleta": null,
         "conclusao": null
       },
