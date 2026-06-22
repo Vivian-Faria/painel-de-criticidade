@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "22/06/2026 18:35:27",
+  "atualizado_em": "22/06/2026 18:38:06",
   "data_ref": "22/06/2026",
-  "total": 287,
+  "total": 288,
   "pedidos": [
     {
       "cod": "#9280 (#9190)",
@@ -12033,7 +12033,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 46.45,
+        "desde_cadastro": 49.1,
         "desde_pronto": null
       },
       "status": {
@@ -12438,7 +12438,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 25.45,
+        "desde_cadastro": 28.1,
         "desde_pronto": null
       },
       "status": {
@@ -12659,12 +12659,12 @@
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": 2.0,
-        "pronto_col": 1.0,
+        "cad_pronto": 10.0,
+        "pronto_col": -7.0,
         "col_conc": null,
-        "aguard_saida": 7.45,
+        "aguard_saida": 10.1,
         "desde_cadastro": null,
-        "desde_pronto": 8.45
+        "desde_pronto": 3.1
       },
       "status": {
         "cad_pronto": "na",
@@ -12673,21 +12673,21 @@
       },
       "datas": {
         "cadastro": "22/06/2026 18:25",
-        "pronto": "22/06/2026 18:27",
+        "pronto": "22/06/2026 18:35",
         "coleta": "22/06/2026 18:28",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "18:25:00",
-        "pronto": "18:27:00",
+        "pronto": "18:35:00",
         "coleta": "18:28:00",
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-22T18:25:00",
-        "pronto": "2026-06-22T18:27:00",
+        "pronto": "2026-06-22T18:35:00",
         "coleta": "2026-06-22T18:28:00",
         "conclusao": null
       },
@@ -12708,7 +12708,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.45,
+        "desde_cadastro": 11.1,
         "desde_pronto": null
       },
       "status": {
@@ -12753,7 +12753,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.45,
+        "desde_cadastro": 7.1,
         "desde_pronto": null
       },
       "status": {
@@ -12798,7 +12798,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.45,
+        "desde_cadastro": 5.1,
         "desde_pronto": null
       },
       "status": {
@@ -12843,7 +12843,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.45,
+        "desde_cadastro": 5.1,
         "desde_pronto": null
       },
       "status": {
@@ -12874,6 +12874,51 @@
       "dt_retorno": null
     },
     {
+      "cod": "#12635 (#8365)",
+      "hub": "DS Sion",
+      "estabelec": "Sorveteria Doce Cascão - Savassi",
+      "cliente": "Retirada (Eduardo Martins)",
+      "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 4.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 0.1
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/06/2026 18:34",
+        "pronto": "22/06/2026 18:38",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "18:34:00",
+        "pronto": "18:38:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-22T18:34:00",
+        "pronto": "2026-06-22T18:38:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
       "cod": "#20477 (#1514)",
       "hub": "DS Sion",
       "estabelec": "Viviane Sales Cake's - Bolos & Doces",
@@ -12888,7 +12933,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.45,
+        "desde_cadastro": 4.1,
         "desde_pronto": null
       },
       "status": {
