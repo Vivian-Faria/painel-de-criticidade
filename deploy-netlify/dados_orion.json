@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "22/06/2026 18:03:41",
+  "atualizado_em": "22/06/2026 18:06:01",
   "data_ref": "22/06/2026",
-  "total": 273,
+  "total": 275,
   "pedidos": [
     {
       "cod": "#9280 (#9190)",
@@ -11943,7 +11943,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 27.69,
+        "desde_cadastro": 30.03,
         "desde_pronto": null
       },
       "status": {
@@ -12024,7 +12024,7 @@
       "estabelec": "Cacau Arte Bolos e Doces - Cidade Nova",
       "cliente": "Retirada (Thiago Lamego)",
       "categoria": "outro",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
@@ -12034,7 +12034,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 14.69
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
@@ -12046,20 +12046,20 @@
         "pronto": "22/06/2026 17:49",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "22/06/2026 18:04"
       },
       "horas": {
         "cadastro": "17:46:00",
         "pronto": "17:49:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "18:04:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-22T17:46:00",
         "pronto": "2026-06-22T17:49:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-22T18:04:00"
       },
       "dt_retorno": null
     },
@@ -12078,7 +12078,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 14.69,
+        "desde_cadastro": 17.03,
         "desde_pronto": null
       },
       "status": {
@@ -12164,12 +12164,12 @@
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": 7.0,
+        "cad_pronto": 11.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.69
+        "desde_pronto": 1.03
       },
       "status": {
         "cad_pronto": "na",
@@ -12178,21 +12178,21 @@
       },
       "datas": {
         "cadastro": "22/06/2026 17:54",
-        "pronto": "22/06/2026 18:01",
+        "pronto": "22/06/2026 18:05",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "17:54:00",
-        "pronto": "18:01:00",
+        "pronto": "18:05:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-22T17:54:00",
-        "pronto": "2026-06-22T18:01:00",
+        "pronto": "2026-06-22T18:05:00",
         "coleta": null,
         "conclusao": null
       },
@@ -12213,7 +12213,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.69,
+        "desde_cadastro": 4.03,
         "desde_pronto": null
       },
       "status": {
@@ -12258,7 +12258,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.69,
+        "desde_cadastro": 4.03,
         "desde_pronto": null
       },
       "status": {
@@ -12282,6 +12282,96 @@
       },
       "ts": {
         "cadastro": "2026-06-22T18:02:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#62076 (#4301)",
+      "hub": "-",
+      "estabelec": "Mayu",
+      "cliente": "Retirada (Denise Andrade)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 3.03,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/06/2026 18:03",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "18:03:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-22T18:03:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#2280 (#2841)",
+      "hub": "DS Sion",
+      "estabelec": "Pudim da Nilda - Sion",
+      "cliente": "Retirada (Marina Silva Alves)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.03,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/06/2026 18:04",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "18:04:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-22T18:04:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
