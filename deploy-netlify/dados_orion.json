@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "22/06/2026 20:32:48",
+  "atualizado_em": "22/06/2026 20:35:22",
   "data_ref": "22/06/2026",
-  "total": 393,
+  "total": 395,
   "pedidos": [
     {
       "cod": "#9280 (#9190)",
@@ -14824,7 +14824,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 59.8
+        "desde_pronto": 62.37
       },
       "status": {
         "cad_pronto": "critico",
@@ -14869,7 +14869,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 53.8
+        "desde_pronto": 56.37
       },
       "status": {
         "cad_pronto": "critico",
@@ -14956,7 +14956,7 @@
       "tempos": {
         "cad_pronto": 47.0,
         "pronto_col": 3.0,
-        "col_conc": 0.0,
+        "col_conc": 13.0,
         "aguard_saida": null,
         "desde_cadastro": null,
         "desde_pronto": null
@@ -14964,27 +14964,27 @@
       "status": {
         "cad_pronto": "na",
         "pronto_col": "critico",
-        "col_conc": "ok"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "22/06/2026 19:32",
         "pronto": "22/06/2026 20:19",
         "coleta": "22/06/2026 20:22",
         "retorno": "-",
-        "conclusao": "22/06/2026 20:22"
+        "conclusao": "22/06/2026 20:35"
       },
       "horas": {
         "cadastro": "19:32:00",
         "pronto": "20:19:00",
         "coleta": "20:22:00",
-        "conclusao": "20:22:00",
+        "conclusao": "20:35:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-22T19:32:00",
         "pronto": "2026-06-22T20:19:00",
         "coleta": "2026-06-22T20:22:00",
-        "conclusao": "2026-06-22T20:22:00"
+        "conclusao": "2026-06-22T20:35:00"
       },
       "dt_retorno": null
     },
@@ -15129,42 +15129,42 @@
       "estabelec": "Mayu",
       "cliente": "Retirada (Maria Helena Helena)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_coleta",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 57.0,
-        "pronto_col": null,
-        "col_conc": null,
+        "pronto_col": 3.0,
+        "col_conc": 1.0,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.8
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
-        "col_conc": "pendente"
+        "pronto_col": "critico",
+        "col_conc": "ok"
       },
       "datas": {
         "cadastro": "22/06/2026 19:34",
         "pronto": "22/06/2026 20:31",
-        "coleta": "-",
+        "coleta": "22/06/2026 20:34",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "22/06/2026 20:35"
       },
       "horas": {
         "cadastro": "19:34:00",
         "pronto": "20:31:00",
-        "coleta": null,
-        "conclusao": null,
+        "coleta": "20:34:00",
+        "conclusao": "20:35:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-22T19:34:00",
         "pronto": "2026-06-22T20:31:00",
-        "coleta": null,
-        "conclusao": null
+        "coleta": "2026-06-22T20:34:00",
+        "conclusao": "2026-06-22T20:35:00"
       },
       "dt_retorno": null
     },
@@ -15634,7 +15634,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 40.8
+        "desde_pronto": 43.37
       },
       "status": {
         "cad_pronto": "critico",
@@ -15984,41 +15984,41 @@
       "estabelec": "Mayu",
       "cliente": "Retirada (Julia Diniz Rios)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_coleta",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_saida",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 39.0,
-        "pronto_col": null,
+        "pronto_col": 4.0,
         "col_conc": null,
-        "aguard_saida": null,
+        "aguard_saida": 0.37,
         "desde_cadastro": null,
-        "desde_pronto": 1.8
+        "desde_pronto": 4.37
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
+        "pronto_col": "critico",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "22/06/2026 19:52",
         "pronto": "22/06/2026 20:31",
-        "coleta": "-",
+        "coleta": "22/06/2026 20:35",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "19:52:00",
         "pronto": "20:31:00",
-        "coleta": null,
+        "coleta": "20:35:00",
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-22T19:52:00",
         "pronto": "2026-06-22T20:31:00",
-        "coleta": null,
+        "coleta": "2026-06-22T20:35:00",
         "conclusao": null
       },
       "dt_retorno": null
@@ -16578,7 +16578,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 27.8,
+        "desde_cadastro": 30.37,
         "desde_pronto": null
       },
       "status": {
@@ -16893,7 +16893,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 24.8,
+        "desde_cadastro": 27.37,
         "desde_pronto": null
       },
       "status": {
@@ -17073,7 +17073,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 16.8,
+        "desde_cadastro": 19.37,
         "desde_pronto": null
       },
       "status": {
@@ -17119,7 +17119,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 6.8
+        "desde_pronto": 9.37
       },
       "status": {
         "cad_pronto": "critico",
@@ -17254,7 +17254,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.8
+        "desde_pronto": 6.37
       },
       "status": {
         "cad_pronto": "critico",
@@ -17344,7 +17344,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 6.8
+        "desde_pronto": 9.37
       },
       "status": {
         "cad_pronto": "alerta",
@@ -17433,7 +17433,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 9.8,
+        "desde_cadastro": 12.37,
         "desde_pronto": null
       },
       "status": {
@@ -17478,7 +17478,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.8,
+        "desde_cadastro": 11.37,
         "desde_pronto": null
       },
       "status": {
@@ -17569,7 +17569,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 4.8
+        "desde_pronto": 7.37
       },
       "status": {
         "cad_pronto": "ok",
@@ -17613,7 +17613,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.8,
+        "desde_cadastro": 4.37,
         "desde_pronto": null
       },
       "status": {
@@ -17658,7 +17658,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 0.8,
+        "desde_cadastro": 3.37,
         "desde_pronto": null
       },
       "status": {
@@ -17682,6 +17682,96 @@
       },
       "ts": {
         "cadastro": "2026-06-22T20:32:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#62088 (#2559)",
+      "hub": "-",
+      "estabelec": "Mayu",
+      "cliente": "Retirada (Cristina Goncalves Alvim)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.37,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/06/2026 20:33",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "20:33:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-22T20:33:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#930 (#3775)",
+      "hub": "-",
+      "estabelec": "Varanda 1389",
+      "cliente": "Retirada (Livia Rocha)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.37,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/06/2026 20:34",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "20:34:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-22T20:34:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
