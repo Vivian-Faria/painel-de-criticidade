@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "22/06/2026 18:52:35",
+  "atualizado_em": "22/06/2026 18:54:57",
   "data_ref": "22/06/2026",
-  "total": 299,
+  "total": 302,
   "pedidos": [
     {
       "cod": "#9280 (#9190)",
@@ -12661,7 +12661,7 @@
       "tempos": {
         "cad_pronto": 10.0,
         "pronto_col": -7.0,
-        "col_conc": 16.0,
+        "col_conc": 26.0,
         "aguard_saida": null,
         "desde_cadastro": null,
         "desde_pronto": null
@@ -12676,20 +12676,20 @@
         "pronto": "22/06/2026 18:35",
         "coleta": "22/06/2026 18:28",
         "retorno": "-",
-        "conclusao": "22/06/2026 18:44"
+        "conclusao": "22/06/2026 18:54"
       },
       "horas": {
         "cadastro": "18:25:00",
         "pronto": "18:35:00",
         "coleta": "18:28:00",
-        "conclusao": "18:44:00",
+        "conclusao": "18:54:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-22T18:25:00",
         "pronto": "2026-06-22T18:35:00",
         "coleta": "2026-06-22T18:28:00",
-        "conclusao": "2026-06-22T18:44:00"
+        "conclusao": "2026-06-22T18:54:00"
       },
       "dt_retorno": null
     },
@@ -12979,7 +12979,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 12.58
+        "desde_pronto": 14.96
       },
       "status": {
         "cad_pronto": "alerta",
@@ -13024,7 +13024,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 10.58
+        "desde_pronto": 12.96
       },
       "status": {
         "cad_pronto": "ok",
@@ -13067,9 +13067,9 @@
         "cad_pronto": 1.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 9.58,
+        "aguard_saida": 11.96,
         "desde_cadastro": null,
-        "desde_pronto": 10.58
+        "desde_pronto": 12.96
       },
       "status": {
         "cad_pronto": "na",
@@ -13149,17 +13149,17 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Heise Costa)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "aguardando_coleta",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 10.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.58,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 0.96
       },
       "status": {
         "cad_pronto": "na",
@@ -13168,21 +13168,21 @@
       },
       "datas": {
         "cadastro": "22/06/2026 18:44",
-        "pronto": "-",
+        "pronto": "22/06/2026 18:54",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "18:44:00",
-        "pronto": null,
+        "pronto": "18:54:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-22T18:44:00",
-        "pronto": null,
+        "pronto": "2026-06-22T18:54:00",
         "coleta": null,
         "conclusao": null
       },
@@ -13204,7 +13204,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.58
+        "desde_pronto": 5.96
       },
       "status": {
         "cad_pronto": "critico",
@@ -13239,40 +13239,40 @@
       "estabelec": "Bolos e Doces - Arelice Sion",
       "cliente": "Retirada (Isabella Santos)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 8.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 6.58,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 0.96
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "22/06/2026 18:46",
-        "pronto": "-",
+        "pronto": "22/06/2026 18:54",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "18:46:00",
-        "pronto": null,
+        "pronto": "18:54:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-22T18:46:00",
-        "pronto": null,
+        "pronto": "2026-06-22T18:54:00",
         "coleta": null,
         "conclusao": null
       },
@@ -13293,7 +13293,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.58,
+        "desde_cadastro": 7.96,
         "desde_pronto": null
       },
       "status": {
@@ -13338,7 +13338,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.58,
+        "desde_cadastro": 6.96,
         "desde_pronto": null
       },
       "status": {
@@ -13383,7 +13383,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 3.58,
+        "desde_cadastro": 5.96,
         "desde_pronto": null
       },
       "status": {
@@ -13414,6 +13414,51 @@
       "dt_retorno": null
     },
     {
+      "cod": "#12636 (#8679)",
+      "hub": "DS Sion",
+      "estabelec": "Sorveteria Doce Cascão - Savassi",
+      "cliente": "Retirada (Gláucia Dueli)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 4.96,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/06/2026 18:50",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "18:50:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-22T18:50:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
       "cod": "#5695 (#572001)",
       "hub": "DS Sion",
       "estabelec": "Cacau Arte - Doces,& Tortas CONGELADOS - SION",
@@ -13428,7 +13473,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 0.58,
+        "desde_cadastro": 2.96,
         "desde_pronto": null
       },
       "status": {
@@ -13452,6 +13497,96 @@
       },
       "ts": {
         "cadastro": "2026-06-22T18:52:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#62077 (#7590)",
+      "hub": "-",
+      "estabelec": "Mayu",
+      "cliente": "Retirada (Thiago Ferreira)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.96,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/06/2026 18:53",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "18:53:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-22T18:53:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#916 (#8576)",
+      "hub": "-",
+      "estabelec": "Varanda 1389",
+      "cliente": "Retirada (Fabiano Luis Manfron Moro)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 0.96,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "22/06/2026 18:54",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "18:54:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-22T18:54:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
