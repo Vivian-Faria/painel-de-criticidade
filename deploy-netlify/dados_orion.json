@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "23/06/2026 18:55:46",
+  "atualizado_em": "23/06/2026 18:58:34",
   "data_ref": "23/06/2026",
-  "total": 276,
+  "total": 278,
   "pedidos": [
     {
       "cod": "#299011 (#9568)",
@@ -9379,7 +9379,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 175.77
+        "desde_pronto": 178.57
       },
       "status": {
         "cad_pronto": "alerta",
@@ -11041,7 +11041,7 @@
       "tempos": {
         "cad_pronto": 41.0,
         "pronto_col": 2.0,
-        "col_conc": 1.0,
+        "col_conc": 16.0,
         "aguard_saida": null,
         "desde_cadastro": null,
         "desde_pronto": null
@@ -11049,27 +11049,27 @@
       "status": {
         "cad_pronto": "na",
         "pronto_col": "critico",
-        "col_conc": "ok"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "23/06/2026 17:58",
         "pronto": "23/06/2026 18:39",
         "coleta": "23/06/2026 18:41",
         "retorno": "-",
-        "conclusao": "23/06/2026 18:42"
+        "conclusao": "23/06/2026 18:57"
       },
       "horas": {
         "cadastro": "17:58:00",
         "pronto": "18:39:00",
         "coleta": "18:41:00",
-        "conclusao": "18:42:00",
+        "conclusao": "18:57:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-23T17:58:00",
         "pronto": "2026-06-23T18:39:00",
         "coleta": "2026-06-23T18:41:00",
-        "conclusao": "2026-06-23T18:42:00"
+        "conclusao": "2026-06-23T18:57:00"
       },
       "dt_retorno": null
     },
@@ -11484,17 +11484,17 @@
       "estabelec": "Mayu",
       "cliente": "Retirada (Aline Terrão)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "aguardando_coleta",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 39.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 37.77,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 1.57
       },
       "status": {
         "cad_pronto": "na",
@@ -11503,21 +11503,21 @@
       },
       "datas": {
         "cadastro": "23/06/2026 18:18",
-        "pronto": "-",
+        "pronto": "23/06/2026 18:57",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "18:18:00",
-        "pronto": null,
+        "pronto": "18:57:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-23T18:18:00",
-        "pronto": null,
+        "pronto": "2026-06-23T18:57:00",
         "coleta": null,
         "conclusao": null
       },
@@ -11583,7 +11583,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 34.77,
+        "desde_cadastro": 37.57,
         "desde_pronto": null
       },
       "status": {
@@ -11627,8 +11627,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 3.77,
-        "desde_cadastro": 34.77,
+        "aguard_saida": 6.57,
+        "desde_cadastro": 37.57,
         "desde_pronto": null
       },
       "status": {
@@ -11664,17 +11664,17 @@
       "estabelec": "Mayu",
       "cliente": "Retirada (Ana Celia Silva Rodrigues)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "aguardando_coleta",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 36.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 34.77,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 1.57
       },
       "status": {
         "cad_pronto": "na",
@@ -11683,21 +11683,21 @@
       },
       "datas": {
         "cadastro": "23/06/2026 18:21",
-        "pronto": "-",
+        "pronto": "23/06/2026 18:57",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "18:21:00",
-        "pronto": null,
+        "pronto": "18:57:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-23T18:21:00",
-        "pronto": null,
+        "pronto": "2026-06-23T18:57:00",
         "coleta": null,
         "conclusao": null
       },
@@ -11897,9 +11897,9 @@
         "cad_pronto": 6.0,
         "pronto_col": 8.0,
         "col_conc": null,
-        "aguard_saida": 3.77,
+        "aguard_saida": 6.57,
         "desde_cadastro": null,
-        "desde_pronto": 11.77
+        "desde_pronto": 14.57
       },
       "status": {
         "cad_pronto": "na",
@@ -11988,7 +11988,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 14.77,
+        "desde_cadastro": 17.57,
         "desde_pronto": null
       },
       "status": {
@@ -12123,7 +12123,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 10.77,
+        "desde_cadastro": 13.57,
         "desde_pronto": null
       },
       "status": {
@@ -12159,40 +12159,40 @@
       "estabelec": "Estela Damasceno Confeitaria",
       "cliente": "Retirada (Leticia Avila)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 9.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.77,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 1.57
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "23/06/2026 18:48",
-        "pronto": "-",
+        "pronto": "23/06/2026 18:57",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "18:48:00",
-        "pronto": null,
+        "pronto": "18:57:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-23T18:48:00",
-        "pronto": null,
+        "pronto": "2026-06-23T18:57:00",
         "coleta": null,
         "conclusao": null
       },
@@ -12213,7 +12213,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.77,
+        "desde_cadastro": 10.57,
         "desde_pronto": null
       },
       "status": {
@@ -12249,42 +12249,42 @@
       "estabelec": "Sorveteria Doce Cascão - Savassi",
       "cliente": "Retirada (Felipe Augusto)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 9.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.77,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "23/06/2026 18:48",
-        "pronto": "-",
+        "pronto": "23/06/2026 18:57",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "23/06/2026 18:57"
       },
       "horas": {
         "cadastro": "18:48:00",
-        "pronto": null,
+        "pronto": "18:57:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "18:57:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-23T18:48:00",
-        "pronto": null,
+        "pronto": "2026-06-23T18:57:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-23T18:57:00"
       },
       "dt_retorno": null
     },
@@ -12303,7 +12303,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.77,
+        "desde_cadastro": 5.57,
         "desde_pronto": null
       },
       "status": {
@@ -12348,7 +12348,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.77,
+        "desde_cadastro": 5.57,
         "desde_pronto": null
       },
       "status": {
@@ -12393,7 +12393,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 0.77,
+        "desde_cadastro": 3.57,
         "desde_pronto": null
       },
       "status": {
@@ -12417,6 +12417,96 @@
       },
       "ts": {
         "cadastro": "2026-06-23T18:55:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#23457 (#8168)",
+      "hub": "DS Sion",
+      "estabelec": "Estela Damasceno Confeitaria",
+      "cliente": "Retirada (Agatha Leite)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.57,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "23/06/2026 18:56",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "18:56:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-23T18:56:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#30727 (#4170)",
+      "hub": "DS Sion",
+      "estabelec": "Chocake Sion - Bolos & Doces",
+      "cliente": "Retirada (Fernanda Amaral)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.57,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "23/06/2026 18:57",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "18:57:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-23T18:57:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
