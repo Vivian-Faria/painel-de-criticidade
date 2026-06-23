@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "23/06/2026 19:06:07",
+  "atualizado_em": "23/06/2026 19:08:36",
   "data_ref": "23/06/2026",
-  "total": 279,
+  "total": 281,
   "pedidos": [
     {
       "cod": "#299011 (#9568)",
@@ -9379,7 +9379,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 186.13
+        "desde_pronto": 188.6
       },
       "status": {
         "cad_pronto": "alerta",
@@ -11583,7 +11583,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 45.13,
+        "desde_cadastro": 47.6,
         "desde_pronto": null
       },
       "status": {
@@ -11622,13 +11622,13 @@
       "etapa_atual": "aguardando_saida",
       "status_geral": "ok",
       "inativo": false,
-      "alerta_retorno": false,
+      "alerta_retorno": true,
       "tempos": {
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 14.13,
-        "desde_cadastro": 45.13,
+        "aguard_saida": 16.6,
+        "desde_cadastro": 47.6,
         "desde_pronto": null
       },
       "status": {
@@ -11672,9 +11672,9 @@
         "cad_pronto": 36.0,
         "pronto_col": 6.0,
         "col_conc": null,
-        "aguard_saida": 3.13,
+        "aguard_saida": 5.6,
         "desde_cadastro": null,
-        "desde_pronto": 9.13
+        "desde_pronto": 11.6
       },
       "status": {
         "cad_pronto": "na",
@@ -11988,7 +11988,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 25.13,
+        "desde_cadastro": 27.6,
         "desde_pronto": null
       },
       "status": {
@@ -12123,7 +12123,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 21.13,
+        "desde_cadastro": 23.6,
         "desde_pronto": null
       },
       "status": {
@@ -12213,7 +12213,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 18.13,
+        "desde_cadastro": 20.6,
         "desde_pronto": null
       },
       "status": {
@@ -12303,7 +12303,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 13.13,
+        "desde_cadastro": 15.6,
         "desde_pronto": null
       },
       "status": {
@@ -12348,7 +12348,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 13.13,
+        "desde_cadastro": 15.6,
         "desde_pronto": null
       },
       "status": {
@@ -12439,7 +12439,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.13
+        "desde_pronto": 4.6
       },
       "status": {
         "cad_pronto": "critico",
@@ -12484,7 +12484,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.13
+        "desde_pronto": 5.6
       },
       "status": {
         "cad_pronto": "critico",
@@ -12528,7 +12528,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 6.13,
+        "desde_cadastro": 8.6,
         "desde_pronto": null
       },
       "status": {
@@ -12552,6 +12552,96 @@
       },
       "ts": {
         "cadastro": "2026-06-23T19:00:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#299055 (#2718)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Patrícia Oliveira )",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.6,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "23/06/2026 19:06",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "19:06:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-23T19:06:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#299054 (#8362)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Jéssica Capelini)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.6,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "23/06/2026 19:06",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "19:06:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-23T19:06:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
