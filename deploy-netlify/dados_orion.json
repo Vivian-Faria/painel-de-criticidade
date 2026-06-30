@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "30/06/2026 14:59:45",
+  "atualizado_em": "30/06/2026 15:02:15",
   "data_ref": "30/06/2026",
-  "total": 253,
+  "total": 255,
   "pedidos": [
     {
       "cod": "#8889 (#8125)",
@@ -10189,7 +10189,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 44.76
+        "desde_pronto": 47.26
       },
       "status": {
         "cad_pronto": "critico",
@@ -10494,42 +10494,42 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Bruna)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": null,
         "pronto_col": null,
-        "col_conc": null,
+        "col_conc": 0.0,
         "aguard_saida": null,
-        "desde_cadastro": 43.76,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "pendente",
-        "col_conc": "pendente"
+        "col_conc": "ok"
       },
       "datas": {
         "cadastro": "30/06/2026 14:16",
         "pronto": "-",
-        "coleta": "-",
+        "coleta": "30/06/2026 15:01",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "30/06/2026 15:01"
       },
       "horas": {
         "cadastro": "14:16:00",
         "pronto": null,
-        "coleta": null,
-        "conclusao": null,
+        "coleta": "15:01:00",
+        "conclusao": "15:01:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-30T14:16:00",
         "pronto": null,
-        "coleta": null,
-        "conclusao": null
+        "coleta": "2026-06-30T15:01:00",
+        "conclusao": "2026-06-30T15:01:00"
       },
       "dt_retorno": null
     },
@@ -10999,7 +10999,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 8.76
+        "desde_pronto": 11.26
       },
       "status": {
         "cad_pronto": "critico",
@@ -11089,7 +11089,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 14.76
+        "desde_pronto": 17.26
       },
       "status": {
         "cad_pronto": "na",
@@ -11179,7 +11179,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 5.76
+        "desde_pronto": 8.26
       },
       "status": {
         "cad_pronto": "critico",
@@ -11224,7 +11224,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 5.76
+        "desde_pronto": 8.26
       },
       "status": {
         "cad_pronto": "critico",
@@ -11268,7 +11268,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 11.76,
+        "desde_cadastro": 14.26,
         "desde_pronto": null
       },
       "status": {
@@ -11314,7 +11314,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.76
+        "desde_pronto": 4.26
       },
       "status": {
         "cad_pronto": "ok",
@@ -11358,7 +11358,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 3.76,
+        "desde_cadastro": 6.26,
         "desde_pronto": null
       },
       "status": {
@@ -11382,6 +11382,96 @@
       },
       "ts": {
         "cadastro": "2026-06-30T14:56:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#2592 (#3732)",
+      "hub": "-",
+      "estabelec": "Savassi Brasileira",
+      "cliente": "Retirada (Max De Paula Nunes)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 4.26,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "30/06/2026 14:58",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "14:58:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-30T14:58:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#20691 (#2627)",
+      "hub": "DS Sion",
+      "estabelec": "Viviane Sales Cake's - Bolos & Doces",
+      "cliente": "Retirada (Luiz Fernando Da Silva)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 3.26,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "30/06/2026 14:59",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "14:59:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-30T14:59:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
