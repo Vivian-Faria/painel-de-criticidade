@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "30/06/2026 17:10:38",
+  "atualizado_em": "30/06/2026 17:13:15",
   "data_ref": "30/06/2026",
-  "total": 315,
+  "total": 316,
   "pedidos": [
     {
       "cod": "#8889 (#8125)",
@@ -11403,7 +11403,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 132.64,
+        "desde_cadastro": 135.27,
         "desde_pronto": null
       },
       "status": {
@@ -13022,9 +13022,9 @@
         "cad_pronto": 3.0,
         "pronto_col": 47.0,
         "col_conc": null,
-        "aguard_saida": 0.64,
+        "aguard_saida": 3.27,
         "desde_cadastro": null,
-        "desde_pronto": 47.64
+        "desde_pronto": 50.27
       },
       "status": {
         "cad_pronto": "na",
@@ -13111,7 +13111,7 @@
       "tempos": {
         "cad_pronto": 2.0,
         "pronto_col": 20.0,
-        "col_conc": 3.0,
+        "col_conc": 25.0,
         "aguard_saida": null,
         "desde_cadastro": null,
         "desde_pronto": null
@@ -13119,27 +13119,27 @@
       "status": {
         "cad_pronto": "na",
         "pronto_col": "critico",
-        "col_conc": "ok"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "30/06/2026 16:25",
         "pronto": "30/06/2026 16:27",
         "coleta": "30/06/2026 16:47",
         "retorno": "-",
-        "conclusao": "30/06/2026 16:50"
+        "conclusao": "30/06/2026 17:12"
       },
       "horas": {
         "cadastro": "16:25:00",
         "pronto": "16:27:00",
         "coleta": "16:47:00",
-        "conclusao": "16:50:00",
+        "conclusao": "17:12:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-30T16:25:00",
         "pronto": "2026-06-30T16:27:00",
         "coleta": "2026-06-30T16:47:00",
-        "conclusao": "2026-06-30T16:50:00"
+        "conclusao": "2026-06-30T17:12:00"
       },
       "dt_retorno": null
     },
@@ -13519,7 +13519,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 25.64
+        "desde_pronto": 28.27
       },
       "status": {
         "cad_pronto": "critico",
@@ -13833,7 +13833,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 25.64,
+        "desde_cadastro": 28.27,
         "desde_pronto": null
       },
       "status": {
@@ -13879,7 +13879,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 15.64
+        "desde_pronto": 18.27
       },
       "status": {
         "cad_pronto": "critico",
@@ -14014,7 +14014,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.64
+        "desde_pronto": 5.27
       },
       "status": {
         "cad_pronto": "critico",
@@ -14058,7 +14058,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 10.64,
+        "desde_cadastro": 13.27,
         "desde_pronto": null
       },
       "status": {
@@ -14103,7 +14103,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 9.64,
+        "desde_cadastro": 12.27,
         "desde_pronto": null
       },
       "status": {
@@ -14139,6 +14139,51 @@
       "estabelec": "Mr Duck Cookies - Belo Horizonte",
       "cliente": "Retirada (Felipe Braz)",
       "categoria": "loja",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "alerta",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 3.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 0.27
+      },
+      "status": {
+        "cad_pronto": "alerta",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "30/06/2026 17:10",
+        "pronto": "30/06/2026 17:13",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "17:10:00",
+        "pronto": "17:13:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-30T17:10:00",
+        "pronto": "2026-06-30T17:13:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#62345 (#9270)",
+      "hub": "-",
+      "estabelec": "Mayu",
+      "cliente": "Retirada (Amanda Morato)",
+      "categoria": "cozinha",
       "etapa_atual": "em_preparo",
       "status_geral": "ok",
       "inativo": false,
@@ -14148,30 +14193,30 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 0.64,
+        "desde_cadastro": 1.27,
         "desde_pronto": null
       },
       "status": {
-        "cad_pronto": "pendente",
-        "pronto_col": "na",
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
         "col_conc": "pendente"
       },
       "datas": {
-        "cadastro": "30/06/2026 17:10",
+        "cadastro": "30/06/2026 17:12",
         "pronto": "-",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
-        "cadastro": "17:10:00",
+        "cadastro": "17:12:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
-        "cadastro": "2026-06-30T17:10:00",
+        "cadastro": "2026-06-30T17:12:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
