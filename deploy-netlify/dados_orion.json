@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "30/06/2026 16:03:55",
+  "atualizado_em": "30/06/2026 16:06:26",
   "data_ref": "30/06/2026",
-  "total": 284,
+  "total": 285,
   "pedidos": [
     {
       "cod": "#8889 (#8125)",
@@ -11403,7 +11403,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 65.92,
+        "desde_cadastro": 68.44,
         "desde_pronto": null
       },
       "status": {
@@ -12032,8 +12032,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 6.92,
-        "desde_cadastro": 37.92,
+        "aguard_saida": 9.44,
+        "desde_cadastro": 40.44,
         "desde_pronto": null
       },
       "status": {
@@ -12079,7 +12079,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 33.92
+        "desde_pronto": 36.44
       },
       "status": {
         "cad_pronto": "critico",
@@ -12122,8 +12122,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 6.92,
-        "desde_cadastro": 34.92,
+        "aguard_saida": 9.44,
+        "desde_cadastro": 37.44,
         "desde_pronto": null
       },
       "status": {
@@ -12437,8 +12437,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 6.92,
-        "desde_cadastro": 23.92,
+        "aguard_saida": 9.44,
+        "desde_cadastro": 26.44,
         "desde_pronto": null
       },
       "status": {
@@ -12484,7 +12484,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 13.92
+        "desde_pronto": 16.44
       },
       "status": {
         "cad_pronto": "critico",
@@ -12519,42 +12519,42 @@
       "estabelec": "Savassi Brasileira",
       "cliente": "Entrega (Barbara Fernanda)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_saida",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
-      "alerta_retorno": true,
+      "alerta_retorno": false,
       "tempos": {
         "cad_pronto": null,
         "pronto_col": null,
-        "col_conc": null,
-        "aguard_saida": 15.92,
-        "desde_cadastro": 21.92,
+        "col_conc": 17.0,
+        "aguard_saida": null,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "pendente",
-        "col_conc": "pendente"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "30/06/2026 15:42",
         "pronto": "-",
         "coleta": "30/06/2026 15:48",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "30/06/2026 16:05"
       },
       "horas": {
         "cadastro": "15:42:00",
         "pronto": null,
         "coleta": "15:48:00",
-        "conclusao": null,
+        "conclusao": "16:05:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-30T15:42:00",
         "pronto": null,
         "coleta": "2026-06-30T15:48:00",
-        "conclusao": null
+        "conclusao": "2026-06-30T16:05:00"
       },
       "dt_retorno": null
     },
@@ -12572,8 +12572,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 6.92,
-        "desde_cadastro": 19.92,
+        "aguard_saida": 9.44,
+        "desde_cadastro": 22.44,
         "desde_pronto": null
       },
       "status": {
@@ -12664,7 +12664,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 12.92
+        "desde_pronto": 15.44
       },
       "status": {
         "cad_pronto": "alerta",
@@ -12709,7 +12709,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 0.92
+        "desde_pronto": 3.44
       },
       "status": {
         "cad_pronto": "critico",
@@ -12754,7 +12754,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 0.92
+        "desde_pronto": 3.44
       },
       "status": {
         "cad_pronto": "critico",
@@ -12778,6 +12778,51 @@
       "ts": {
         "cadastro": "2026-06-30T15:59:00",
         "pronto": "2026-06-30T16:03:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#2600 (#2758)",
+      "hub": "-",
+      "estabelec": "Savassi Brasileira",
+      "cliente": "Entrega (Nicole Santos)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.44,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "30/06/2026 16:04",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:04:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-30T16:04:00",
+        "pronto": null,
         "coleta": null,
         "conclusao": null
       },
