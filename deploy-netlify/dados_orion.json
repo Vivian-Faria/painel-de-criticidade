@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "30/06/2026 16:45:30",
+  "atualizado_em": "30/06/2026 16:48:02",
   "data_ref": "30/06/2026",
-  "total": 305,
+  "total": 308,
   "pedidos": [
     {
       "cod": "#8889 (#8125)",
@@ -11403,7 +11403,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 107.51,
+        "desde_cadastro": 110.04,
         "desde_pronto": null
       },
       "status": {
@@ -13024,7 +13024,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 22.51
+        "desde_pronto": 25.04
       },
       "status": {
         "cad_pronto": "na",
@@ -13104,41 +13104,41 @@
       "estabelec": "Varanda 1389",
       "cliente": "Retirada (Bernardo Albie)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_coleta",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_saida",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 2.0,
-        "pronto_col": null,
+        "pronto_col": 20.0,
         "col_conc": null,
-        "aguard_saida": null,
+        "aguard_saida": 1.04,
         "desde_cadastro": null,
-        "desde_pronto": 18.51
+        "desde_pronto": 21.04
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
+        "pronto_col": "critico",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "30/06/2026 16:25",
         "pronto": "30/06/2026 16:27",
-        "coleta": "-",
+        "coleta": "30/06/2026 16:47",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "16:25:00",
         "pronto": "16:27:00",
-        "coleta": null,
+        "coleta": "16:47:00",
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-30T16:25:00",
         "pronto": "2026-06-30T16:27:00",
-        "coleta": null,
+        "coleta": "2026-06-30T16:47:00",
         "conclusao": null
       },
       "dt_retorno": null
@@ -13202,9 +13202,9 @@
         "cad_pronto": 2.0,
         "pronto_col": 11.0,
         "col_conc": null,
-        "aguard_saida": 2.51,
+        "aguard_saida": 5.04,
         "desde_cadastro": null,
-        "desde_pronto": 13.51
+        "desde_pronto": 16.04
       },
       "status": {
         "cad_pronto": "na",
@@ -13294,7 +13294,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 5.51
+        "desde_pronto": 8.04
       },
       "status": {
         "cad_pronto": "critico",
@@ -13337,9 +13337,9 @@
         "cad_pronto": 5.0,
         "pronto_col": 3.0,
         "col_conc": null,
-        "aguard_saida": 6.51,
+        "aguard_saida": 9.04,
         "desde_cadastro": null,
-        "desde_pronto": 9.51
+        "desde_pronto": 12.04
       },
       "status": {
         "cad_pronto": "na",
@@ -13429,7 +13429,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 9.51
+        "desde_pronto": 12.04
       },
       "status": {
         "cad_pronto": "critico",
@@ -13519,7 +13519,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 0.51
+        "desde_pronto": 3.04
       },
       "status": {
         "cad_pronto": "critico",
@@ -13564,7 +13564,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 4.51
+        "desde_pronto": 7.04
       },
       "status": {
         "cad_pronto": "ok",
@@ -13608,7 +13608,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.51,
+        "desde_cadastro": 8.04,
         "desde_pronto": null
       },
       "status": {
@@ -13654,7 +13654,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 0.51
+        "desde_pronto": 3.04
       },
       "status": {
         "cad_pronto": "critico",
@@ -13698,7 +13698,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.51,
+        "desde_cadastro": 5.04,
         "desde_pronto": null
       },
       "status": {
@@ -13722,6 +13722,141 @@
       },
       "ts": {
         "cadastro": "2026-06-30T16:43:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#17168 (#3836)",
+      "hub": "DS Sion",
+      "estabelec": "E! Doces • Sobremesas - Sion",
+      "cliente": "Retirada (Estefany P Ferreira)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 4.04,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "30/06/2026 16:44",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:44:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-30T16:44:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#1866 (#4306)",
+      "hub": "-",
+      "estabelec": "Varanda 1389",
+      "cliente": "Retirada (João Frnacisco Brittes W. Pires)",
+      "categoria": "cozinha",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 2.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": 2.04
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "30/06/2026 16:44",
+        "pronto": "30/06/2026 16:46",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:44:00",
+        "pronto": "16:46:00",
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-30T16:44:00",
+        "pronto": "2026-06-30T16:46:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#3992 (#0463)",
+      "hub": "DS Sion",
+      "estabelec": "Amor e Açaí - Savassi",
+      "cliente": "Retirada (Ana Carolina Medeiros)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.04,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "30/06/2026 16:47",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:47:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-30T16:47:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
