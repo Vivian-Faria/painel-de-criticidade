@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "30/06/2026 19:08:41",
+  "atualizado_em": "30/06/2026 19:11:33",
   "data_ref": "30/06/2026",
-  "total": 383,
+  "total": 385,
   "pedidos": [
     {
       "cod": "#8889 (#8125)",
@@ -11403,7 +11403,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 250.68,
+        "desde_cadastro": 253.56,
         "desde_pronto": null
       },
       "status": {
@@ -13788,7 +13788,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 143.68,
+        "desde_cadastro": 146.56,
         "desde_pronto": null
       },
       "status": {
@@ -15497,9 +15497,9 @@
         "cad_pronto": 14.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 29.68,
+        "aguard_saida": 32.56,
         "desde_cadastro": null,
-        "desde_pronto": 30.68
+        "desde_pronto": 33.56
       },
       "status": {
         "cad_pronto": "na",
@@ -15858,7 +15858,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 33.68,
+        "desde_cadastro": 36.56,
         "desde_pronto": null
       },
       "status": {
@@ -15948,7 +15948,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 30.68,
+        "desde_cadastro": 33.56,
         "desde_pronto": null
       },
       "status": {
@@ -16173,7 +16173,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 23.68,
+        "desde_cadastro": 26.56,
         "desde_pronto": null
       },
       "status": {
@@ -16218,7 +16218,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 22.68,
+        "desde_cadastro": 25.56,
         "desde_pronto": null
       },
       "status": {
@@ -16257,14 +16257,14 @@
       "etapa_atual": "aguardando_saida",
       "status_geral": "ok",
       "inativo": false,
-      "alerta_retorno": false,
+      "alerta_retorno": true,
       "tempos": {
         "cad_pronto": 7.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 14.68,
+        "aguard_saida": 17.56,
         "desde_cadastro": null,
-        "desde_pronto": 15.68
+        "desde_pronto": 18.56
       },
       "status": {
         "cad_pronto": "na",
@@ -16399,7 +16399,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 10.68
+        "desde_pronto": 13.56
       },
       "status": {
         "cad_pronto": "critico",
@@ -16434,42 +16434,42 @@
       "estabelec": "Varanda 1389",
       "cliente": "Retirada (Tulio Henrique)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_saida",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
-      "alerta_retorno": true,
+      "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 1.0,
         "pronto_col": 0.0,
-        "col_conc": null,
-        "aguard_saida": 17.68,
+        "col_conc": 19.0,
+        "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 17.68
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "ok",
-        "col_conc": "pendente"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "30/06/2026 18:50",
         "pronto": "30/06/2026 18:51",
         "coleta": "30/06/2026 18:51",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "30/06/2026 19:10"
       },
       "horas": {
         "cadastro": "18:50:00",
         "pronto": "18:51:00",
         "coleta": "18:51:00",
-        "conclusao": null,
+        "conclusao": "19:10:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-30T18:50:00",
         "pronto": "2026-06-30T18:51:00",
         "coleta": "2026-06-30T18:51:00",
-        "conclusao": null
+        "conclusao": "2026-06-30T19:10:00"
       },
       "dt_retorno": null
     },
@@ -16479,17 +16479,17 @@
       "estabelec": "Mayu",
       "cliente": "Retirada (Marcella Silva)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "aguardando_coleta",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 21.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 18.68,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 0.56
       },
       "status": {
         "cad_pronto": "na",
@@ -16498,21 +16498,21 @@
       },
       "datas": {
         "cadastro": "30/06/2026 18:50",
-        "pronto": "-",
+        "pronto": "30/06/2026 19:11",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "18:50:00",
-        "pronto": null,
+        "pronto": "19:11:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-30T18:50:00",
-        "pronto": null,
+        "pronto": "2026-06-30T19:11:00",
         "coleta": null,
         "conclusao": null
       },
@@ -16569,42 +16569,42 @@
       "estabelec": "Varanda 1389",
       "cliente": "Retirada (Daniel Guedes)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_saida",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
-      "alerta_retorno": true,
+      "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 1.0,
         "pronto_col": 1.0,
-        "col_conc": null,
-        "aguard_saida": 15.68,
+        "col_conc": 17.0,
+        "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 16.68
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "ok",
-        "col_conc": "pendente"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "30/06/2026 18:51",
         "pronto": "30/06/2026 18:52",
         "coleta": "30/06/2026 18:53",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "30/06/2026 19:10"
       },
       "horas": {
         "cadastro": "18:51:00",
         "pronto": "18:52:00",
         "coleta": "18:53:00",
-        "conclusao": null,
+        "conclusao": "19:10:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-30T18:51:00",
         "pronto": "2026-06-30T18:52:00",
         "coleta": "2026-06-30T18:53:00",
-        "conclusao": null
+        "conclusao": "2026-06-30T19:10:00"
       },
       "dt_retorno": null
     },
@@ -16617,14 +16617,14 @@
       "etapa_atual": "aguardando_saida",
       "status_geral": "ok",
       "inativo": false,
-      "alerta_retorno": false,
+      "alerta_retorno": true,
       "tempos": {
         "cad_pronto": 4.0,
         "pronto_col": 0.0,
         "col_conc": null,
-        "aguard_saida": 12.68,
+        "aguard_saida": 15.56,
         "desde_cadastro": null,
-        "desde_pronto": 12.68
+        "desde_pronto": 15.56
       },
       "status": {
         "cad_pronto": "na",
@@ -16659,42 +16659,42 @@
       "estabelec": "Varanda 1389",
       "cliente": "Retirada (Karem Rodrigues)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_saida",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 2.0,
         "pronto_col": 0.0,
-        "col_conc": null,
-        "aguard_saida": 14.68,
+        "col_conc": 16.0,
+        "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 14.68
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "ok",
-        "col_conc": "pendente"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "30/06/2026 18:52",
         "pronto": "30/06/2026 18:54",
         "coleta": "30/06/2026 18:54",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "30/06/2026 19:10"
       },
       "horas": {
         "cadastro": "18:52:00",
         "pronto": "18:54:00",
         "coleta": "18:54:00",
-        "conclusao": null,
+        "conclusao": "19:10:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-30T18:52:00",
         "pronto": "2026-06-30T18:54:00",
         "coleta": "2026-06-30T18:54:00",
-        "conclusao": null
+        "conclusao": "2026-06-30T19:10:00"
       },
       "dt_retorno": null
     },
@@ -16704,42 +16704,42 @@
       "estabelec": "Savassi Brasileira",
       "cliente": "Entrega (Pedro Henrique)",
       "categoria": "cozinha",
-      "etapa_atual": "em_preparo",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": null,
         "pronto_col": null,
-        "col_conc": null,
+        "col_conc": 0.0,
         "aguard_saida": null,
-        "desde_cadastro": 13.68,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "pendente",
-        "col_conc": "pendente"
+        "col_conc": "ok"
       },
       "datas": {
         "cadastro": "30/06/2026 18:55",
         "pronto": "-",
-        "coleta": "-",
+        "coleta": "30/06/2026 19:11",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "30/06/2026 19:11"
       },
       "horas": {
         "cadastro": "18:55:00",
         "pronto": null,
-        "coleta": null,
-        "conclusao": null,
+        "coleta": "19:11:00",
+        "conclusao": "19:11:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-30T18:55:00",
         "pronto": null,
-        "coleta": null,
-        "conclusao": null
+        "coleta": "2026-06-30T19:11:00",
+        "conclusao": "2026-06-30T19:11:00"
       },
       "dt_retorno": null
     },
@@ -16758,7 +16758,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 12.68,
+        "desde_cadastro": 15.56,
         "desde_pronto": null
       },
       "status": {
@@ -16803,7 +16803,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 12.68,
+        "desde_cadastro": 15.56,
         "desde_pronto": null
       },
       "status": {
@@ -16847,9 +16847,9 @@
         "cad_pronto": 1.0,
         "pronto_col": 0.0,
         "col_conc": null,
-        "aguard_saida": 6.68,
+        "aguard_saida": 9.56,
         "desde_cadastro": null,
-        "desde_pronto": 6.68
+        "desde_pronto": 9.56
       },
       "status": {
         "cad_pronto": "na",
@@ -16893,7 +16893,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.68,
+        "desde_cadastro": 10.56,
         "desde_pronto": null
       },
       "status": {
@@ -16938,7 +16938,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.68,
+        "desde_cadastro": 8.56,
         "desde_pronto": null
       },
       "status": {
@@ -16984,7 +16984,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.68
+        "desde_pronto": 4.56
       },
       "status": {
         "cad_pronto": "critico",
@@ -17019,40 +17019,40 @@
       "estabelec": "Cremella Confeitaria - Cookies, Doces & Bolos",
       "cliente": "Retirada (Thales Garavini)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 7.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.68,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 0.56
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "30/06/2026 19:04",
-        "pronto": "-",
+        "pronto": "30/06/2026 19:11",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "19:04:00",
-        "pronto": null,
+        "pronto": "19:11:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-30T19:04:00",
-        "pronto": null,
+        "pronto": "2026-06-30T19:11:00",
         "coleta": null,
         "conclusao": null
       },
@@ -17072,9 +17072,9 @@
         "cad_pronto": 2.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 1.68,
+        "aguard_saida": 4.56,
         "desde_cadastro": null,
-        "desde_pronto": 2.68
+        "desde_pronto": 5.56
       },
       "status": {
         "cad_pronto": "na",
@@ -17109,40 +17109,40 @@
       "estabelec": "Mr Duck Cookies - Belo Horizonte",
       "cliente": "Retirada (Maria Eduarda)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 4.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 3.68,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 2.56
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "30/06/2026 19:05",
-        "pronto": "-",
+        "pronto": "30/06/2026 19:09",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "19:05:00",
-        "pronto": null,
+        "pronto": "19:09:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-30T19:05:00",
-        "pronto": null,
+        "pronto": "2026-06-30T19:09:00",
         "coleta": null,
         "conclusao": null
       },
@@ -17163,7 +17163,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 3.68,
+        "desde_cadastro": 6.56,
         "desde_pronto": null
       },
       "status": {
@@ -17208,7 +17208,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.68,
+        "desde_cadastro": 5.56,
         "desde_pronto": null
       },
       "status": {
@@ -17232,6 +17232,96 @@
       },
       "ts": {
         "cadastro": "2026-06-30T19:06:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#1876 (#1056)",
+      "hub": "-",
+      "estabelec": "Varanda 1389",
+      "cliente": "Retirada (Thais Braga)",
+      "categoria": "cozinha",
+      "etapa_atual": "aguardando_saida",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 1.0,
+        "pronto_col": 0.0,
+        "col_conc": null,
+        "aguard_saida": 2.56,
+        "desde_cadastro": null,
+        "desde_pronto": 2.56
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "ok",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "30/06/2026 19:08",
+        "pronto": "30/06/2026 19:09",
+        "coleta": "30/06/2026 19:09",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "19:08:00",
+        "pronto": "19:09:00",
+        "coleta": "19:09:00",
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-30T19:08:00",
+        "pronto": "2026-06-30T19:09:00",
+        "coleta": "2026-06-30T19:09:00",
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#1877 (#5548)",
+      "hub": "-",
+      "estabelec": "Varanda 1389",
+      "cliente": "Retirada (Ana Vera)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.56,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "30/06/2026 19:10",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "19:10:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-30T19:10:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
