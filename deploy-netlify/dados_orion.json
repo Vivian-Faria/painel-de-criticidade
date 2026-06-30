@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "30/06/2026 15:12:08",
+  "atualizado_em": "30/06/2026 15:14:35",
   "data_ref": "30/06/2026",
-  "total": 257,
+  "total": 258,
   "pedidos": [
     {
       "cod": "#8889 (#8125)",
@@ -10189,7 +10189,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 57.14
+        "desde_pronto": 59.6
       },
       "status": {
         "cad_pronto": "critico",
@@ -11214,7 +11214,7 @@
       "estabelec": "E! Doces • Sobremesas - Sion",
       "cliente": "Retirada (Bárbara Guimarães)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -11224,7 +11224,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 18.14
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -11236,20 +11236,20 @@
         "pronto": "30/06/2026 14:54",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "30/06/2026 15:13"
       },
       "horas": {
         "cadastro": "14:48:00",
         "pronto": "14:54:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "15:13:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-30T14:48:00",
         "pronto": "2026-06-30T14:54:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-30T15:13:00"
       },
       "dt_retorno": null
     },
@@ -11268,7 +11268,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 24.14,
+        "desde_cadastro": 26.6,
         "desde_pronto": null
       },
       "status": {
@@ -11314,7 +11314,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 14.14
+        "desde_pronto": 16.6
       },
       "status": {
         "cad_pronto": "ok",
@@ -11359,7 +11359,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 7.14
+        "desde_pronto": 9.6
       },
       "status": {
         "cad_pronto": "critico",
@@ -11403,7 +11403,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 14.14,
+        "desde_cadastro": 16.6,
         "desde_pronto": null
       },
       "status": {
@@ -11449,7 +11449,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 7.14
+        "desde_pronto": 9.6
       },
       "status": {
         "cad_pronto": "critico",
@@ -11493,7 +11493,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.14,
+        "desde_cadastro": 10.6,
         "desde_pronto": null
       },
       "status": {
@@ -11538,7 +11538,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.14,
+        "desde_cadastro": 9.6,
         "desde_pronto": null
       },
       "status": {
@@ -11562,6 +11562,51 @@
       },
       "ts": {
         "cadastro": "2026-06-30T15:05:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#10663 (#9235)",
+      "hub": "DS Sion",
+      "estabelec": "Mr Duck Cookies - Belo Horizonte",
+      "cliente": "Retirada (Maria Clara)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.6,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "30/06/2026 15:12",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "15:12:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-30T15:12:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
