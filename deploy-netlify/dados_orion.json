@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "30/06/2026 17:08:00",
+  "atualizado_em": "30/06/2026 17:10:38",
   "data_ref": "30/06/2026",
-  "total": 314,
+  "total": 315,
   "pedidos": [
     {
       "cod": "#8889 (#8125)",
@@ -11403,7 +11403,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 130.0,
+        "desde_cadastro": 132.64,
         "desde_pronto": null
       },
       "status": {
@@ -13014,41 +13014,41 @@
       "estabelec": "Varanda 1389",
       "cliente": "Retirada (Marcelinho Guerra)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_coleta",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_saida",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 3.0,
-        "pronto_col": null,
+        "pronto_col": 47.0,
         "col_conc": null,
-        "aguard_saida": null,
+        "aguard_saida": 0.64,
         "desde_cadastro": null,
-        "desde_pronto": 45.0
+        "desde_pronto": 47.64
       },
       "status": {
         "cad_pronto": "na",
-        "pronto_col": "pendente",
+        "pronto_col": "critico",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "30/06/2026 16:20",
         "pronto": "30/06/2026 16:23",
-        "coleta": "-",
+        "coleta": "30/06/2026 17:10",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "16:20:00",
         "pronto": "16:23:00",
-        "coleta": null,
+        "coleta": "17:10:00",
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-30T16:20:00",
         "pronto": "2026-06-30T16:23:00",
-        "coleta": null,
+        "coleta": "2026-06-30T17:10:00",
         "conclusao": null
       },
       "dt_retorno": null
@@ -13519,7 +13519,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 23.0
+        "desde_pronto": 25.64
       },
       "status": {
         "cad_pronto": "critico",
@@ -13833,7 +13833,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 23.0,
+        "desde_cadastro": 25.64,
         "desde_pronto": null
       },
       "status": {
@@ -13879,7 +13879,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 13.0
+        "desde_pronto": 15.64
       },
       "status": {
         "cad_pronto": "critico",
@@ -14004,40 +14004,40 @@
       "estabelec": "Sorveteria Doce Cascão - Savassi",
       "cliente": "Retirada (Dennya Ferreira)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 8.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.0,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 2.64
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "critico",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "30/06/2026 17:00",
-        "pronto": "-",
+        "pronto": "30/06/2026 17:08",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "17:00:00",
-        "pronto": null,
+        "pronto": "17:08:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-30T17:00:00",
-        "pronto": null,
+        "pronto": "2026-06-30T17:08:00",
         "coleta": null,
         "conclusao": null
       },
@@ -14058,7 +14058,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 8.0,
+        "desde_cadastro": 10.64,
         "desde_pronto": null
       },
       "status": {
@@ -14103,7 +14103,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.0,
+        "desde_cadastro": 9.64,
         "desde_pronto": null
       },
       "status": {
@@ -14127,6 +14127,51 @@
       },
       "ts": {
         "cadastro": "2026-06-30T17:01:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#10669 (#5155)",
+      "hub": "DS Sion",
+      "estabelec": "Mr Duck Cookies - Belo Horizonte",
+      "cliente": "Retirada (Felipe Braz)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 0.64,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "30/06/2026 17:10",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "17:10:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-30T17:10:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
