@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "30/06/2026 10:03:06",
+  "atualizado_em": "30/06/2026 10:08:32",
   "data_ref": "30/06/2026",
-  "total": 19,
+  "total": 20,
   "pedidos": [
     {
       "cod": "#8889 (#8125)",
@@ -558,7 +558,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 575.11,
+        "desde_cadastro": 580.54,
         "desde_pronto": null
       },
       "status": {
@@ -648,7 +648,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 567.11,
+        "desde_cadastro": 572.54,
         "desde_pronto": null
       },
       "status": {
@@ -777,14 +777,14 @@
       "etapa_atual": "aguardando_saida",
       "status_geral": "ok",
       "inativo": true,
-      "alerta_retorno": false,
+      "alerta_retorno": true,
       "tempos": {
         "cad_pronto": 6.0,
         "pronto_col": -3.0,
         "col_conc": null,
-        "aguard_saida": 14.11,
+        "aguard_saida": 19.54,
         "desde_cadastro": null,
-        "desde_pronto": 11.11
+        "desde_pronto": 16.54
       },
       "status": {
         "cad_pronto": "na",
@@ -819,41 +819,86 @@
       "estabelec": "Varanda 1389",
       "cliente": "Retirada (Márcio Martins Cardoso Cardoso)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_saida",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
-      "inativo": true,
+      "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 6.0,
         "pronto_col": 1.0,
-        "col_conc": null,
-        "aguard_saida": 5.11,
+        "col_conc": 6.0,
+        "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 6.11
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "ok",
-        "col_conc": "pendente"
+        "col_conc": "ok"
       },
       "datas": {
         "cadastro": "30/06/2026 09:51",
         "pronto": "30/06/2026 09:57",
         "coleta": "30/06/2026 09:58",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "30/06/2026 10:04"
       },
       "horas": {
         "cadastro": "09:51:00",
         "pronto": "09:57:00",
         "coleta": "09:58:00",
-        "conclusao": null,
+        "conclusao": "10:04:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-30T09:51:00",
         "pronto": "2026-06-30T09:57:00",
         "coleta": "2026-06-30T09:58:00",
+        "conclusao": "2026-06-30T10:04:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#709 (#0087)",
+      "hub": "DS Sion",
+      "estabelec": "Pudim do Bart",
+      "cliente": "Retirada (Matheus Piazarollo)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 5.54,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "30/06/2026 10:03",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "10:03:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-30T10:03:00",
+        "pronto": null,
+        "coleta": null,
         "conclusao": null
       },
       "dt_retorno": null
