@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "30/06/2026 18:07:34",
+  "atualizado_em": "30/06/2026 18:10:11",
   "data_ref": "30/06/2026",
-  "total": 336,
+  "total": 337,
   "pedidos": [
     {
       "cod": "#8889 (#8125)",
@@ -11403,7 +11403,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 189.58,
+        "desde_cadastro": 192.19,
         "desde_pronto": null
       },
       "status": {
@@ -13788,7 +13788,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 82.58,
+        "desde_cadastro": 85.19,
         "desde_pronto": null
       },
       "status": {
@@ -14687,9 +14687,9 @@
         "cad_pronto": 13.0,
         "pronto_col": 3.0,
         "col_conc": null,
-        "aguard_saida": 3.58,
+        "aguard_saida": 6.19,
         "desde_cadastro": null,
-        "desde_pronto": 6.58
+        "desde_pronto": 9.19
       },
       "status": {
         "cad_pronto": "na",
@@ -14823,7 +14823,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 16.58,
+        "desde_cadastro": 19.19,
         "desde_pronto": null
       },
       "status": {
@@ -14904,42 +14904,42 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Luiza Lima)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_saida",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 10.0,
         "pronto_col": 1.0,
-        "col_conc": null,
-        "aguard_saida": 1.58,
+        "col_conc": 2.0,
+        "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.58
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "ok",
-        "col_conc": "pendente"
+        "col_conc": "ok"
       },
       "datas": {
         "cadastro": "30/06/2026 17:55",
         "pronto": "30/06/2026 18:05",
         "coleta": "30/06/2026 18:06",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "30/06/2026 18:08"
       },
       "horas": {
         "cadastro": "17:55:00",
         "pronto": "18:05:00",
         "coleta": "18:06:00",
-        "conclusao": null,
+        "conclusao": "18:08:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-30T17:55:00",
         "pronto": "2026-06-30T18:05:00",
         "coleta": "2026-06-30T18:06:00",
-        "conclusao": null
+        "conclusao": "2026-06-30T18:08:00"
       },
       "dt_retorno": null
     },
@@ -14949,7 +14949,7 @@
       "estabelec": "Mr Duck Cookies - Belo Horizonte",
       "cliente": "Retirada (Laura Felisberto)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -14959,7 +14959,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 6.58
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -14971,20 +14971,20 @@
         "pronto": "30/06/2026 18:01",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "30/06/2026 18:07"
       },
       "horas": {
         "cadastro": "17:56:00",
         "pronto": "18:01:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "18:07:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-30T17:56:00",
         "pronto": "2026-06-30T18:01:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-30T18:07:00"
       },
       "dt_retorno": null
     },
@@ -15003,7 +15003,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 7.58,
+        "desde_cadastro": 10.19,
         "desde_pronto": null
       },
       "status": {
@@ -15047,9 +15047,9 @@
         "cad_pronto": 2.0,
         "pronto_col": 0.0,
         "col_conc": null,
-        "aguard_saida": 1.58,
+        "aguard_saida": 4.19,
         "desde_cadastro": null,
-        "desde_pronto": 1.58
+        "desde_pronto": 4.19
       },
       "status": {
         "cad_pronto": "na",
@@ -15084,41 +15084,86 @@
       "estabelec": "Sorveteria Doce Cascão - Savassi",
       "cliente": "Retirada (Letícia Lopes)",
       "categoria": "loja",
-      "etapa_atual": "em_preparo",
-      "status_geral": "ok",
+      "etapa_atual": "aguardando_coleta",
+      "status_geral": "alerta",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
-        "cad_pronto": null,
+        "cad_pronto": 3.0,
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 2.58,
-        "desde_pronto": null
+        "desde_cadastro": null,
+        "desde_pronto": 2.19
       },
       "status": {
-        "cad_pronto": "pendente",
+        "cad_pronto": "alerta",
         "pronto_col": "na",
         "col_conc": "pendente"
       },
       "datas": {
         "cadastro": "30/06/2026 18:05",
-        "pronto": "-",
+        "pronto": "30/06/2026 18:08",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
         "cadastro": "18:05:00",
-        "pronto": null,
+        "pronto": "18:08:00",
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-30T18:05:00",
-        "pronto": null,
+        "pronto": "2026-06-30T18:08:00",
         "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#1869 (#8198)",
+      "hub": "-",
+      "estabelec": "Varanda 1389",
+      "cliente": "Retirada (Ana Clara)",
+      "categoria": "cozinha",
+      "etapa_atual": "aguardando_saida",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 2.0,
+        "pronto_col": 0.0,
+        "col_conc": null,
+        "aguard_saida": 1.19,
+        "desde_cadastro": null,
+        "desde_pronto": 1.19
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "ok",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "30/06/2026 18:07",
+        "pronto": "30/06/2026 18:09",
+        "coleta": "30/06/2026 18:09",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "18:07:00",
+        "pronto": "18:09:00",
+        "coleta": "18:09:00",
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-30T18:07:00",
+        "pronto": "2026-06-30T18:09:00",
+        "coleta": "2026-06-30T18:09:00",
         "conclusao": null
       },
       "dt_retorno": null
