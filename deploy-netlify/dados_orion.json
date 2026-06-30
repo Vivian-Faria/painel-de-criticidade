@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "30/06/2026 10:14:05",
+  "atualizado_em": "30/06/2026 10:20:32",
   "data_ref": "30/06/2026",
-  "total": 21,
+  "total": 23,
   "pedidos": [
     {
       "cod": "#8889 (#8125)",
@@ -558,7 +558,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 586.1,
+        "desde_cadastro": 592.54,
         "desde_pronto": null
       },
       "status": {
@@ -648,7 +648,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 578.1,
+        "desde_cadastro": 584.54,
         "desde_pronto": null
       },
       "status": {
@@ -782,9 +782,9 @@
         "cad_pronto": 6.0,
         "pronto_col": -3.0,
         "col_conc": null,
-        "aguard_saida": 25.1,
+        "aguard_saida": 31.54,
         "desde_cadastro": null,
-        "desde_pronto": 22.1
+        "desde_pronto": 28.54
       },
       "status": {
         "cad_pronto": "na",
@@ -820,13 +820,13 @@
       "cliente": "Retirada (Márcio Martins Cardoso Cardoso)",
       "categoria": "cozinha",
       "etapa_atual": "concluido",
-      "status_geral": "ok",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": 6.0,
         "pronto_col": 1.0,
-        "col_conc": 6.0,
+        "col_conc": 18.0,
         "aguard_saida": null,
         "desde_cadastro": null,
         "desde_pronto": null
@@ -834,27 +834,27 @@
       "status": {
         "cad_pronto": "na",
         "pronto_col": "ok",
-        "col_conc": "ok"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "30/06/2026 09:51",
         "pronto": "30/06/2026 09:57",
         "coleta": "30/06/2026 09:58",
         "retorno": "-",
-        "conclusao": "30/06/2026 10:04"
+        "conclusao": "30/06/2026 10:16"
       },
       "horas": {
         "cadastro": "09:51:00",
         "pronto": "09:57:00",
         "coleta": "09:58:00",
-        "conclusao": "10:04:00",
+        "conclusao": "10:16:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-30T09:51:00",
         "pronto": "2026-06-30T09:57:00",
         "coleta": "2026-06-30T09:58:00",
-        "conclusao": "2026-06-30T10:04:00"
+        "conclusao": "2026-06-30T10:16:00"
       },
       "dt_retorno": null
     },
@@ -864,7 +864,7 @@
       "estabelec": "Pudim do Bart",
       "cliente": "Retirada (Matheus Piazarollo)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -874,7 +874,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.1
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -886,20 +886,20 @@
         "pronto": "30/06/2026 10:12",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "30/06/2026 10:20"
       },
       "horas": {
         "cadastro": "10:03:00",
         "pronto": "10:12:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "10:20:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-30T10:03:00",
         "pronto": "2026-06-30T10:12:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-30T10:20:00"
       },
       "dt_retorno": null
     },
@@ -918,7 +918,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 1.1,
+        "desde_cadastro": 7.54,
         "desde_pronto": null
       },
       "status": {
@@ -944,6 +944,96 @@
         "cadastro": "2026-06-30T10:13:00",
         "pronto": null,
         "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#4348 (#3386)",
+      "hub": "DS Sion",
+      "estabelec": "Cremella Confeitaria - Cookies, Doces & Bolos",
+      "cliente": "Retirada (Paula Abreu )",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 5.54,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "30/06/2026 10:15",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "10:15:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-30T10:15:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#1785 (#2314)",
+      "hub": "-",
+      "estabelec": "Varanda 1389",
+      "cliente": "Retirada (Guilherme Bacellar)",
+      "categoria": "cozinha",
+      "etapa_atual": "aguardando_saida",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 1.0,
+        "pronto_col": 0.0,
+        "col_conc": null,
+        "aguard_saida": 1.54,
+        "desde_cadastro": null,
+        "desde_pronto": 1.54
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "ok",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "30/06/2026 10:18",
+        "pronto": "30/06/2026 10:19",
+        "coleta": "30/06/2026 10:19",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "10:18:00",
+        "pronto": "10:19:00",
+        "coleta": "10:19:00",
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-30T10:18:00",
+        "pronto": "2026-06-30T10:19:00",
+        "coleta": "2026-06-30T10:19:00",
         "conclusao": null
       },
       "dt_retorno": null
