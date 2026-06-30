@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "30/06/2026 17:49:20",
+  "atualizado_em": "30/06/2026 17:51:55",
   "data_ref": "30/06/2026",
-  "total": 326,
+  "total": 328,
   "pedidos": [
     {
       "cod": "#8889 (#8125)",
@@ -11403,7 +11403,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 171.35,
+        "desde_cadastro": 173.92,
         "desde_pronto": null
       },
       "status": {
@@ -13788,7 +13788,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 64.35,
+        "desde_cadastro": 66.92,
         "desde_pronto": null
       },
       "status": {
@@ -14327,9 +14327,9 @@
         "cad_pronto": 14.0,
         "pronto_col": 3.0,
         "col_conc": null,
-        "aguard_saida": 9.35,
+        "aguard_saida": 11.92,
         "desde_cadastro": null,
-        "desde_pronto": 12.35
+        "desde_pronto": 14.92
       },
       "status": {
         "cad_pronto": "na",
@@ -14418,7 +14418,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 23.35,
+        "desde_cadastro": 25.92,
         "desde_pronto": null
       },
       "status": {
@@ -14499,7 +14499,7 @@
       "estabelec": "Mr Duck Cookies - Belo Horizonte",
       "cliente": "Retirada (Rodrigo Guerra)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -14509,7 +14509,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 12.35
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -14521,20 +14521,20 @@
         "pronto": "30/06/2026 17:37",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "30/06/2026 17:50"
       },
       "horas": {
         "cadastro": "17:28:00",
         "pronto": "17:37:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "17:50:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-30T17:28:00",
         "pronto": "2026-06-30T17:37:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-30T17:50:00"
       },
       "dt_retorno": null
     },
@@ -14670,6 +14670,96 @@
         "pronto": null,
         "coleta": "2026-06-30T17:40:00",
         "conclusao": "2026-06-30T17:44:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#300217 (#590001)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Danyelle)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 3.92,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "30/06/2026 17:48",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "17:48:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-30T17:48:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#9395 (#1947)",
+      "hub": "DS Sion",
+      "estabelec": "La Cake - Doceria, Bolos e Sobremesas",
+      "cliente": "Retirada (Débora Araújo)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.92,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "30/06/2026 17:50",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "17:50:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-30T17:50:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
       },
       "dt_retorno": null
     }
