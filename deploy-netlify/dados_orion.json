@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "30/06/2026 14:29:46",
+  "atualizado_em": "30/06/2026 14:32:12",
   "data_ref": "30/06/2026",
-  "total": 239,
+  "total": 241,
   "pedidos": [
     {
       "cod": "#8889 (#8125)",
@@ -8611,7 +8611,7 @@
       "tempos": {
         "cad_pronto": 3.0,
         "pronto_col": 28.0,
-        "col_conc": 28.0,
+        "col_conc": 34.0,
         "aguard_saida": null,
         "desde_cadastro": null,
         "desde_pronto": null
@@ -8626,20 +8626,20 @@
         "pronto": "30/06/2026 13:29",
         "coleta": "30/06/2026 13:57",
         "retorno": "-",
-        "conclusao": "30/06/2026 14:25"
+        "conclusao": "30/06/2026 14:31"
       },
       "horas": {
         "cadastro": "13:26:00",
         "pronto": "13:29:00",
         "coleta": "13:57:00",
-        "conclusao": "14:25:00",
+        "conclusao": "14:31:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-30T13:26:00",
         "pronto": "2026-06-30T13:29:00",
         "coleta": "2026-06-30T13:57:00",
-        "conclusao": "2026-06-30T14:25:00"
+        "conclusao": "2026-06-30T14:31:00"
       },
       "dt_retorno": null
     },
@@ -9199,7 +9199,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 44.78
+        "desde_pronto": 47.21
       },
       "status": {
         "cad_pronto": "alerta",
@@ -9377,9 +9377,9 @@
         "cad_pronto": 38.0,
         "pronto_col": 3.0,
         "col_conc": null,
-        "aguard_saida": 3.78,
+        "aguard_saida": 6.21,
         "desde_cadastro": null,
-        "desde_pronto": 6.78
+        "desde_pronto": 9.21
       },
       "status": {
         "cad_pronto": "na",
@@ -9414,42 +9414,42 @@
       "estabelec": "Burger X",
       "cliente": "Retirada (Tainá)",
       "categoria": "cozinha",
-      "etapa_atual": "aguardando_saida",
-      "status_geral": "ok",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
       "tempos": {
         "cad_pronto": null,
         "pronto_col": null,
-        "col_conc": null,
-        "aguard_saida": 12.78,
-        "desde_cadastro": 42.78,
+        "col_conc": 13.0,
+        "aguard_saida": null,
+        "desde_cadastro": null,
         "desde_pronto": null
       },
       "status": {
         "cad_pronto": "na",
         "pronto_col": "pendente",
-        "col_conc": "pendente"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "30/06/2026 13:47",
         "pronto": "-",
         "coleta": "30/06/2026 14:17",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "30/06/2026 14:30"
       },
       "horas": {
         "cadastro": "13:47:00",
         "pronto": null,
         "coleta": "14:17:00",
-        "conclusao": null,
+        "conclusao": "14:30:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-30T13:47:00",
         "pronto": null,
         "coleta": "2026-06-30T14:17:00",
-        "conclusao": null
+        "conclusao": "2026-06-30T14:30:00"
       },
       "dt_retorno": null
     },
@@ -9781,7 +9781,7 @@
       "tempos": {
         "cad_pronto": 1.0,
         "pronto_col": 4.0,
-        "col_conc": 6.0,
+        "col_conc": 31.0,
         "aguard_saida": null,
         "desde_cadastro": null,
         "desde_pronto": null
@@ -9789,27 +9789,27 @@
       "status": {
         "cad_pronto": "na",
         "pronto_col": "critico",
-        "col_conc": "ok"
+        "col_conc": "critico"
       },
       "datas": {
         "cadastro": "30/06/2026 13:54",
         "pronto": "30/06/2026 13:55",
         "coleta": "30/06/2026 13:59",
         "retorno": "-",
-        "conclusao": "30/06/2026 14:05"
+        "conclusao": "30/06/2026 14:30"
       },
       "horas": {
         "cadastro": "13:54:00",
         "pronto": "13:55:00",
         "coleta": "13:59:00",
-        "conclusao": "14:05:00",
+        "conclusao": "14:30:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-30T13:54:00",
         "pronto": "2026-06-30T13:55:00",
         "coleta": "2026-06-30T13:59:00",
-        "conclusao": "2026-06-30T14:05:00"
+        "conclusao": "2026-06-30T14:30:00"
       },
       "dt_retorno": null
     },
@@ -10134,7 +10134,7 @@
       "estabelec": "3f - Fast Fitness Food - Savassi",
       "cliente": "Retirada (Anne Heiderich)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -10144,7 +10144,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 18.78
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -10156,20 +10156,20 @@
         "pronto": "30/06/2026 14:11",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "30/06/2026 14:30"
       },
       "horas": {
         "cadastro": "14:06:00",
         "pronto": "14:11:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "14:30:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-30T14:06:00",
         "pronto": "2026-06-30T14:11:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-30T14:30:00"
       },
       "dt_retorno": null
     },
@@ -10189,7 +10189,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 14.78
+        "desde_pronto": 17.21
       },
       "status": {
         "cad_pronto": "critico",
@@ -10279,7 +10279,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 11.78
+        "desde_pronto": 14.21
       },
       "status": {
         "cad_pronto": "critico",
@@ -10324,7 +10324,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 17.78
+        "desde_pronto": 20.21
       },
       "status": {
         "cad_pronto": "na",
@@ -10459,7 +10459,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.78
+        "desde_pronto": 6.21
       },
       "status": {
         "cad_pronto": "critico",
@@ -10503,7 +10503,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 13.78,
+        "desde_cadastro": 16.21,
         "desde_pronto": null
       },
       "status": {
@@ -10594,7 +10594,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 3.78
+        "desde_pronto": 6.21
       },
       "status": {
         "cad_pronto": "critico",
@@ -10639,7 +10639,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 4.78
+        "desde_pronto": 7.21
       },
       "status": {
         "cad_pronto": "na",
@@ -10684,7 +10684,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.78
+        "desde_pronto": 4.21
       },
       "status": {
         "cad_pronto": "alerta",
@@ -10727,8 +10727,8 @@
         "cad_pronto": null,
         "pronto_col": null,
         "col_conc": null,
-        "aguard_saida": 0.78,
-        "desde_cadastro": 3.78,
+        "aguard_saida": 3.21,
+        "desde_cadastro": 6.21,
         "desde_pronto": null
       },
       "status": {
@@ -10754,6 +10754,96 @@
         "cadastro": "2026-06-30T14:26:00",
         "pronto": null,
         "coleta": "2026-06-30T14:29:00",
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#356 (#570002)",
+      "hub": "DS Sion",
+      "estabelec": "K&l Doceria Sion",
+      "cliente": "Retirada (Debora)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.21,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "30/06/2026 14:30",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "14:30:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-30T14:30:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#4352 (#4348)",
+      "hub": "DS Sion",
+      "estabelec": "Cremella Confeitaria - Cookies, Doces & Bolos",
+      "cliente": "Retirada (Cristina Fontes)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.21,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "30/06/2026 14:31",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "14:31:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-30T14:31:00",
+        "pronto": null,
+        "coleta": null,
         "conclusao": null
       },
       "dt_retorno": null
