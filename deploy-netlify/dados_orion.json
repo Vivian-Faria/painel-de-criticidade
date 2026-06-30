@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "30/06/2026 17:18:24",
+  "atualizado_em": "30/06/2026 17:20:57",
   "data_ref": "30/06/2026",
-  "total": 317,
+  "total": 320,
   "pedidos": [
     {
       "cod": "#8889 (#8125)",
@@ -11403,7 +11403,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 140.41,
+        "desde_cadastro": 142.96,
         "desde_pronto": null
       },
       "status": {
@@ -13022,9 +13022,9 @@
         "cad_pronto": 3.0,
         "pronto_col": 47.0,
         "col_conc": null,
-        "aguard_saida": 8.41,
+        "aguard_saida": 10.96,
         "desde_cadastro": null,
-        "desde_pronto": 55.41
+        "desde_pronto": 57.96
       },
       "status": {
         "cad_pronto": "na",
@@ -13519,7 +13519,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 33.41
+        "desde_pronto": 35.96
       },
       "status": {
         "cad_pronto": "critico",
@@ -13833,7 +13833,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 33.41,
+        "desde_cadastro": 35.96,
         "desde_pronto": null
       },
       "status": {
@@ -14004,7 +14004,7 @@
       "estabelec": "Sorveteria Doce Cascão - Savassi",
       "cliente": "Retirada (Dennya Ferreira)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -14014,7 +14014,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 10.41
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -14026,20 +14026,20 @@
         "pronto": "30/06/2026 17:08",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "30/06/2026 17:19"
       },
       "horas": {
         "cadastro": "17:00:00",
         "pronto": "17:08:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "17:19:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-30T17:00:00",
         "pronto": "2026-06-30T17:08:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-30T17:19:00"
       },
       "dt_retorno": null
     },
@@ -14102,9 +14102,9 @@
         "cad_pronto": 15.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 1.41,
+        "aguard_saida": 3.96,
         "desde_cadastro": null,
-        "desde_pronto": 2.41
+        "desde_pronto": 4.96
       },
       "status": {
         "cad_pronto": "na",
@@ -14193,7 +14193,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 6.41,
+        "desde_cadastro": 8.96,
         "desde_pronto": null
       },
       "status": {
@@ -14229,6 +14229,51 @@
       "estabelec": "Estela Damasceno Confeitaria",
       "cliente": "Retirada (Giovanna Brangioni)",
       "categoria": "loja",
+      "etapa_atual": "concluido",
+      "status_geral": "critico",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": 5.0,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": null,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "critico",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "30/06/2026 17:14",
+        "pronto": "30/06/2026 17:19",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "30/06/2026 17:19"
+      },
+      "horas": {
+        "cadastro": "17:14:00",
+        "pronto": "17:19:00",
+        "coleta": null,
+        "conclusao": "17:19:00",
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-30T17:14:00",
+        "pronto": "2026-06-30T17:19:00",
+        "coleta": null,
+        "conclusao": "2026-06-30T17:19:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#2605 (#6049)",
+      "hub": "-",
+      "estabelec": "Savassi Brasileira",
+      "cliente": "Entrega (Alycia Pereira)",
+      "categoria": "cozinha",
       "etapa_atual": "em_preparo",
       "status_geral": "ok",
       "inativo": false,
@@ -14238,7 +14283,52 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 4.41,
+        "desde_cadastro": 3.96,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "30/06/2026 17:17",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "17:17:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-30T17:17:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#12848 (#7222)",
+      "hub": "DS Sion",
+      "estabelec": "Sorveteria Doce Cascão - Savassi",
+      "cliente": "Retirada (Laura Cardoso)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 3.96,
         "desde_pronto": null
       },
       "status": {
@@ -14247,21 +14337,66 @@
         "col_conc": "pendente"
       },
       "datas": {
-        "cadastro": "30/06/2026 17:14",
+        "cadastro": "30/06/2026 17:17",
         "pronto": "-",
         "coleta": "-",
         "retorno": "-",
         "conclusao": "-"
       },
       "horas": {
-        "cadastro": "17:14:00",
+        "cadastro": "17:17:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null,
         "retorno": null
       },
       "ts": {
-        "cadastro": "2026-06-30T17:14:00",
+        "cadastro": "2026-06-30T17:17:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#56 (#4302)",
+      "hub": "DS Sion",
+      "estabelec": "Jessy Confeitaria",
+      "cliente": "Retirada (érica Franco Martins)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.96,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "30/06/2026 17:18",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "17:18:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-30T17:18:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
