@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "30/06/2026 16:57:42",
+  "atualizado_em": "30/06/2026 17:00:13",
   "data_ref": "30/06/2026",
-  "total": 310,
+  "total": 311,
   "pedidos": [
     {
       "cod": "#8889 (#8125)",
@@ -11403,7 +11403,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 119.71,
+        "desde_cadastro": 122.23,
         "desde_pronto": null
       },
       "status": {
@@ -13024,7 +13024,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 34.71
+        "desde_pronto": 37.23
       },
       "status": {
         "cad_pronto": "na",
@@ -13519,7 +13519,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 12.71
+        "desde_pronto": 15.23
       },
       "status": {
         "cad_pronto": "critico",
@@ -13609,7 +13609,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 4.71
+        "desde_pronto": 7.23
       },
       "status": {
         "cad_pronto": "na",
@@ -13699,7 +13699,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 5.71
+        "desde_pronto": 8.23
       },
       "status": {
         "cad_pronto": "critico",
@@ -13756,20 +13756,20 @@
         "pronto": "30/06/2026 16:53",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "30/06/2026 16:55"
+        "conclusao": "30/06/2026 16:58"
       },
       "horas": {
         "cadastro": "16:44:00",
         "pronto": "16:53:00",
         "coleta": null,
-        "conclusao": "16:55:00",
+        "conclusao": "16:58:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-30T16:44:00",
         "pronto": "2026-06-30T16:53:00",
         "coleta": null,
-        "conclusao": "2026-06-30T16:55:00"
+        "conclusao": "2026-06-30T16:58:00"
       },
       "dt_retorno": null
     },
@@ -13786,7 +13786,7 @@
       "tempos": {
         "cad_pronto": 2.0,
         "pronto_col": 4.0,
-        "col_conc": 4.0,
+        "col_conc": 10.0,
         "aguard_saida": null,
         "desde_cadastro": null,
         "desde_pronto": null
@@ -13794,27 +13794,72 @@
       "status": {
         "cad_pronto": "na",
         "pronto_col": "critico",
-        "col_conc": "ok"
+        "col_conc": "alerta"
       },
       "datas": {
         "cadastro": "30/06/2026 16:44",
         "pronto": "30/06/2026 16:46",
         "coleta": "30/06/2026 16:50",
         "retorno": "-",
-        "conclusao": "30/06/2026 16:54"
+        "conclusao": "30/06/2026 17:00"
       },
       "horas": {
         "cadastro": "16:44:00",
         "pronto": "16:46:00",
         "coleta": "16:50:00",
-        "conclusao": "16:54:00",
+        "conclusao": "17:00:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-30T16:44:00",
         "pronto": "2026-06-30T16:46:00",
         "coleta": "2026-06-30T16:50:00",
-        "conclusao": "2026-06-30T16:54:00"
+        "conclusao": "2026-06-30T17:00:00"
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#2602 (#7473)",
+      "hub": "-",
+      "estabelec": "Savassi Brasileira",
+      "cliente": "Entrega (Miranda Barros)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 15.23,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "30/06/2026 16:45",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "16:45:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-06-30T16:45:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
       },
       "dt_retorno": null
     },
@@ -13834,7 +13879,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 2.71
+        "desde_pronto": 5.23
       },
       "status": {
         "cad_pronto": "critico",
@@ -13869,7 +13914,7 @@
       "estabelec": "Adocicado Doces",
       "cliente": "Retirada (Thais Zanforlin Lavarini)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "critico",
       "inativo": false,
       "alerta_retorno": false,
@@ -13879,7 +13924,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 0.71
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "critico",
@@ -13891,20 +13936,20 @@
         "pronto": "30/06/2026 16:57",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "30/06/2026 16:58"
       },
       "horas": {
         "cadastro": "16:51:00",
         "pronto": "16:57:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "16:58:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-06-30T16:51:00",
         "pronto": "2026-06-30T16:57:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-06-30T16:58:00"
       },
       "dt_retorno": null
     },
