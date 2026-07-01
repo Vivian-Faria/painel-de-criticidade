@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "01/07/2026 00:12:23",
+  "atualizado_em": "01/07/2026 00:14:16",
   "data_ref": "01/07/2026",
-  "total": 5,
+  "total": 7,
   "pedidos": [
     {
       "cod": "#2377 (#5207)",
@@ -19,7 +19,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 9.38
+        "desde_pronto": 11.28
       },
       "status": {
         "cad_pronto": "ok",
@@ -62,9 +62,9 @@
         "cad_pronto": 8.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 1.38,
+        "aguard_saida": 3.28,
         "desde_cadastro": null,
-        "desde_pronto": 2.38
+        "desde_pronto": 4.28
       },
       "status": {
         "cad_pronto": "na",
@@ -107,9 +107,9 @@
         "cad_pronto": 7.0,
         "pronto_col": 1.0,
         "col_conc": null,
-        "aguard_saida": 1.38,
+        "aguard_saida": 3.28,
         "desde_cadastro": null,
-        "desde_pronto": 2.38
+        "desde_pronto": 4.28
       },
       "status": {
         "cad_pronto": "na",
@@ -153,7 +153,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.38,
+        "desde_cadastro": 7.28,
         "desde_pronto": null
       },
       "status": {
@@ -198,7 +198,7 @@
         "pronto_col": null,
         "col_conc": null,
         "aguard_saida": null,
-        "desde_cadastro": 5.38,
+        "desde_cadastro": 7.28,
         "desde_pronto": null
       },
       "status": {
@@ -222,6 +222,96 @@
       },
       "ts": {
         "cadastro": "2026-07-01T00:07:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#300264 (#6222)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Sidney Coura)",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 2.28,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "01/07/2026 00:12",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "00:12:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-07-01T00:12:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#300265 (#2714)",
+      "hub": "-",
+      "estabelec": "Burger X",
+      "cliente": "Retirada (Dani Schmidt )",
+      "categoria": "cozinha",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.28,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "na",
+        "pronto_col": "pendente",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "01/07/2026 00:13",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "00:13:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-07-01T00:13:00",
         "pronto": null,
         "coleta": null,
         "conclusao": null
