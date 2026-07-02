@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "02/07/2026 00:10:40",
+  "atualizado_em": "02/07/2026 00:12:42",
   "data_ref": "02/07/2026",
-  "total": 3,
+  "total": 4,
   "pedidos": [
     {
       "cod": "#366 (#570001)",
@@ -19,7 +19,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 8.67
+        "desde_pronto": 10.71
       },
       "status": {
         "cad_pronto": "ok",
@@ -54,7 +54,7 @@
       "estabelec": "Amor e Açaí - Savassi",
       "cliente": "Retirada (Leonardo Mota)",
       "categoria": "loja",
-      "etapa_atual": "aguardando_coleta",
+      "etapa_atual": "concluido",
       "status_geral": "ok",
       "inativo": false,
       "alerta_retorno": false,
@@ -64,7 +64,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 7.67
+        "desde_pronto": null
       },
       "status": {
         "cad_pronto": "ok",
@@ -76,20 +76,20 @@
         "pronto": "02/07/2026 00:03",
         "coleta": "-",
         "retorno": "-",
-        "conclusao": "-"
+        "conclusao": "02/07/2026 00:12"
       },
       "horas": {
         "cadastro": "00:01:00",
         "pronto": "00:03:00",
         "coleta": null,
-        "conclusao": null,
+        "conclusao": "00:12:00",
         "retorno": null
       },
       "ts": {
         "cadastro": "2026-07-02T00:01:00",
         "pronto": "2026-07-02T00:03:00",
         "coleta": null,
-        "conclusao": null
+        "conclusao": "2026-07-02T00:12:00"
       },
       "dt_retorno": null
     },
@@ -109,7 +109,7 @@
         "col_conc": null,
         "aguard_saida": null,
         "desde_cadastro": null,
-        "desde_pronto": 1.67
+        "desde_pronto": 3.71
       },
       "status": {
         "cad_pronto": "ok",
@@ -133,6 +133,51 @@
       "ts": {
         "cadastro": "2026-07-02T00:07:00",
         "pronto": "2026-07-02T00:09:00",
+        "coleta": null,
+        "conclusao": null
+      },
+      "dt_retorno": null
+    },
+    {
+      "cod": "#23714 (#7411)",
+      "hub": "DS Sion",
+      "estabelec": "Estela Damasceno Confeitaria",
+      "cliente": "Retirada (Letícia Barbosa)",
+      "categoria": "loja",
+      "etapa_atual": "em_preparo",
+      "status_geral": "ok",
+      "inativo": false,
+      "alerta_retorno": false,
+      "tempos": {
+        "cad_pronto": null,
+        "pronto_col": null,
+        "col_conc": null,
+        "aguard_saida": null,
+        "desde_cadastro": 1.71,
+        "desde_pronto": null
+      },
+      "status": {
+        "cad_pronto": "pendente",
+        "pronto_col": "na",
+        "col_conc": "pendente"
+      },
+      "datas": {
+        "cadastro": "02/07/2026 00:11",
+        "pronto": "-",
+        "coleta": "-",
+        "retorno": "-",
+        "conclusao": "-"
+      },
+      "horas": {
+        "cadastro": "00:11:00",
+        "pronto": null,
+        "coleta": null,
+        "conclusao": null,
+        "retorno": null
+      },
+      "ts": {
+        "cadastro": "2026-07-02T00:11:00",
+        "pronto": null,
         "coleta": null,
         "conclusao": null
       },
